@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- CSS -->
 	<style>
-	div#memory_board{
-		background:#CCC;
-		border:#999 1px solid;
-		width:320px;
-		height:320px;
-		padding:24px;
-		margin:20px auto;
-	}
-	div#memory_board > div{
-		background: url(tile_bg.jpg) no-repeat;
-		border:#000 1px solid;
-		width:31px;
-		height:31px;
-		float:left;
-		margin:5px;
-		padding:10px;
-		font-size:14px;
-		cursor:pointer;
-		text-align:center;
-	}
-</style>
-<script type="text/javascript" charset="UTF-8"></script><script>
+		div#backdrop {
+			background:#CCC; <!-- set background to gray -->
+			border:#999 1px solid;
+			width:320px;
+			height:320px;
+			padding:24px;
+			margin:20px auto;
+		}
+		div#backdrop > div {
+			background: ;
+			border:#000 1px solid;
+			width:31px;
+			height:31px;
+			float:left;
+			margin:5px;
+			padding:10px;
+			font-size:14px;
+			cursor:pointer;
+			text-align:center;
+		}
+	</style>
 
-function newBoard(){
-	//	tiles_flipped = 0;
-	var output = '';
-	for(var i = 0; i < 25; i++){
-		output += '<div id="tile_'+i+'" onclick="memoryFlipTile(this)"></div>';
+	<!-- SCRIPT -->
+	<script type="text/javascript" charset="UTF-8">
+	function newBoard() {
+		var output = '';
+		for(var i = 0; i < 25; i++) {
+			output += '<div id="tile_'+i+'" onclick="flip(this)"></div>';
+		}
+		document.getElementById('backdrop').innerHTML = output;
 	}
-	document.getElementById('memory_board').innerHTML = output;
-}
-function memoryFlipTile(tile){
-	var tile_background = tile.style.background;
-	//tile.style.background = '#00F';
-	if (tile_background == 'blue') { tile.style.background = 'url(tile_bg.jpg) no-repeat';}
-	else {tile.style.background = 'blue';}
-}
-
-</script>
+	function flip(tile){
+		var tile_background = tile.style.background;
+		if (tile_background == 'blue') {
+			tile.style.background = '';
+		} else {
+			tile.style.background = 'blue';
+		}
+	}
+	</script>
 </head>
+
+	<!-- HTML -->
 <body>
 
-	<div id="memory_board"></div>
-	<script>newBoard();</script>
-
+	<div id="backdrop"></div>
+	<script> newBoard(); </script>
+	
 </body>
 </html>
