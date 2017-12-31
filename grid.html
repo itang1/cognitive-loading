@@ -2,45 +2,50 @@
 <html>
 <head>
 	<style>
-		div#memory_board{
-			background:#CCC;
-			border:#999 1px solid;
-			width:320px;
-			height:320px;
-			padding:24px;
-			margin:0px auto;
-		}
-		div#memory_board > div{
-			background: url(tile_bg.jpg) no-repeat;
-			border:#000 1px solid;
-			width:31px;
-			height:31px;
-			float:left;
-			margin:5px;
-			padding:10px;
-			font-size:14px;
-			cursor:pointer;
-			text-align:center;
-		}
-
-	</style>
-	<script type="text/javascript" src="/8DC02314-09EC-D74A-B3A6-8319176D1B23/main.js" charset="UTF-8"></script><script>
-
-	function newBoard(){
-		var output = '';
-		for(var i = 0; i < 25; i++){
-			output += '<div id="tile_'+i+'" onclick="memoryFlipTile(this)"></div>';
-		}
-		document.getElementById('memory_board').innerHTML = output;
+	div#memory_board{
+		background:#CCC;
+		border:#999 1px solid;
+		width:320px;
+		height:320px;
+		padding:24px;
+		margin:20px auto;
 	}
-	
-	function memoryFlipTile(tile){
-		tile.style.background = '#00F';
+	div#memory_board > div{
+		background: url(tile_bg.jpg) no-repeat;
+		border:#000 1px solid;
+		width:31px;
+		height:31px;
+		float:left;
+		margin:5px;
+		padding:10px;
+		font-size:14px;
+		cursor:pointer;
+		text-align:center;
 	}
+</style>
+<script type="text/javascript" charset="UTF-8"></script><script>
+
+function newBoard(){
+	//	tiles_flipped = 0;
+	var output = '';
+	for(var i = 0; i < 25; i++){
+		output += '<div id="tile_'+i+'" onclick="memoryFlipTile(this)"></div>';
+	}
+	document.getElementById('memory_board').innerHTML = output;
+}
+function memoryFlipTile(tile){
+	var tile_background = tile.style.background;
+	//tile.style.background = '#00F';
+	if (tile_background == 'blue') { tile.style.background = 'url(tile_bg.jpg) no-repeat';}
+	else {tile.style.background = 'blue';}
+}
+
 </script>
 </head>
 <body>
+
 	<div id="memory_board"></div>
 	<script>newBoard();</script>
+
 </body>
 </html>
