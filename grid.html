@@ -49,7 +49,7 @@
 
 	}
 
-	
+
 	function newBoard() {
 		var output = '', j;
 		tile_flipped = 0;
@@ -145,7 +145,7 @@
 			tile.style.background = 'blue';
 		}
 		if (tile_flipped > 5) {
-			verify_result();
+			// verify_result();
 		}
 	}
 	</script>
@@ -156,6 +156,8 @@
 
 	<div id="backdrop"></div>
 	<script> newBoard(); </script>
+
+	<input type="button" class="button" value="Click Me when finished" onclick ="verify_result()">
 
 </body>
 </html>
