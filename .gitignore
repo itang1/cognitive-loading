@@ -1,0 +1,17 @@
+# OS generated files
+.DS_Store
+.dropbox
+Icon*
+
+# Private files
+JackieLane_Thesis_final.pdf
+
+# Non-changing files
+Linger/
+
+# Sample testing files
+testgrid2.html
+testimg1.gif
+memory-game.js
+testgrid2 click tile only.html
+
