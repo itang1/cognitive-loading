@@ -1,0 +1,20 @@
+div#board {
+  background:#CCC; <!-- set background to gray -->
+  border:#999 1px solid;
+  width:320px;
+  height:320px;
+  padding:24px;
+  margin:20px auto;
+}
+div#board > div {
+  background: ;
+  border:#000 1px solid;
+  width:31px;
+  height:31px;
+  float:left;
+  margin:5px;
+  padding:10px;
+  font-size:14px;
+  cursor:pointer;
+  text-align:center;
+}
