@@ -1,0 +1,994 @@
+# practice 1 -
+This sentence is to help you get used to the experimental display.
+
+# practice 2 -
+This sentence is also for practice  and is followed by a judgment.
+! True or False? {TRUE FALSE} {TRUE}
+
+# practice 3 -
+All daisies are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# practice 4 -
+Some trumpets are instruments.
+! True or False? {TRUE FALSE} {FALSE}
+
+# practice 5 -
+At least some trees are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# practice 6 -
+At least some cars are sedans.
+! True or False? {TRUE FALSE} {TRUE}
+
+# practice 7 -
+Some toasters are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# practice 8 - 
+All swords are ancient
+! True or False? {TRUE FALSE} {FALSE}
+
+# VDTRatings1 1 lb_ui_high
+Some alligators are reptiles
+! True or False? {TRUE FALSE} {FALSE}
+
+# VDTRatings1 1 all_ui_high
+All alligators are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 1 lb_false_high
+Some alligators are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 1 all_false_high
+All alligators are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 2 lb_ui_high
+Some anacondas are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 2 all_ui_high
+All anacondas are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 2 lb_false_high
+Some anacondas are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 2 all_false_high
+All anacondas are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 3 lb_ui_high
+Some ants are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 3 all_ui_high
+All ants are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 3 lb_false_high
+Some ants are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 3 all_false_high
+All ants are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 4 lb_ui_high
+Some apples are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 4 all_ui_high
+All apples are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 4 lb_false_high
+Some apples are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 4 all_false_high
+All apples are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 5 lb_ui_high
+Some apricots are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 5 all_ui_high
+All apricots are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 5 lb_false_high
+Some apricots are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 5 all_false_high
+All apricots are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 6 lb_ui_high
+Some Audis are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 6 all_ui_high
+All Audis are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 6 lb_false_high
+Some Audis are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 6 all_false_high
+All Audis are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 7 lb_ui_high
+Some bananas are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 7 all_ui_high
+All bananas are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 7 lb_false_high
+Some bananas are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 7 all_false_high
+All bananas are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 8 lb_ui_high
+Some bazookas are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 8 all_ui_high
+All bazookas are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 8 lb_false_high
+Some bazookas are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 8 all_false_high
+All bazookas are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 9 lb_ui_high
+Some beagles are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 9 all_ui_high
+All beagles are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 9 lb_false_high
+Some beagles are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 9 all_false_high
+All beagles are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 10 lb_ui_high
+Some bears are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 10 all_ui_high
+All bears are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 10 lb_false_high
+Some bears are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 10 all_false_high
+All bears are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 11 lb_ui_high
+Some beeches are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 11 all_ui_high
+All beeches are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 11 lb_false_high
+Some beeches are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 11 all_false_high
+All beeches are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 12 lb_ui_high
+Some bees are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 12 all_ui_high
+All bees are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 12 lb_false_high
+Some bees are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 12 all_false_high
+All bees are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 13 lb_ui_high
+Some beetles are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 13 all_ui_high
+All beetles are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 13 lb_false_high
+Some beetles are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 13 all_false_high
+All beetles are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 14 lb_ui_high
+Some birches are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 14 all_ui_high
+All birches are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 14 lb_false_high
+Some birches are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 14 all_false_high
+All birches are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 15 lb_ui_high
+Some bombs are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 15 all_ui_high
+All bombs are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 15 lb_false_high
+Some bombs are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 15 all_false_high
+All bombs are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 16 lb_ui_high
+Some buffalo are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 16 all_ui_high
+All buffalo are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 16 lb_false_high
+Some buffalo are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 16 all_false_high
+All buffalo are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 17 lb_ui_high
+Some Buicks are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 17 all_ui_high
+All Buicks are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 17 lb_false_high
+Some Buicks are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 17 all_false_high
+All Buicks are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 18 lb_ui_high
+Some canaries are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 18 all_ui_high
+All canaries are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 18 lb_false_high
+Some canaries are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 18 all_false_high
+All canaries are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 19 lb_ui_high
+Some carnations are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 19 all_ui_high
+All carnations are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 19 lb_false_high
+Some carnations are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 19 all_false_high
+All carnations are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 20 lb_ui_high
+Some carp are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 20 all_ui_high
+All carp are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 20 lb_false_high
+Some carp are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 20 all_false_high
+All carp are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 21 lb_ui_high
+Some cedars are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 21 all_ui_high
+All cedars are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 21 lb_false_high
+Some cedars are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 21 all_false_high
+All cedars are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 22 lb_ui_high
+Some chainsaws are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 22 all_ui_high
+All chainsaws are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 22 lb_false_high
+Some chainsaws are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 22 all_false_high
+All chainsaws are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 23 lb_ui_high
+Some chameleons are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 23 all_ui_high
+All chameleons are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 23 lb_false_high
+Some chameleons are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 23 all_false_high
+All chameleons are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 24 lb_ui_high
+Some Chevrolets are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 24 all_ui_high
+All Chevrolets are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 24 lb_false_high
+Some Chevrolets are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 24 all_false_high
+All Chevrolets are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 25 lb_ui_high
+Some chihuahuas are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 25 all_ui_high
+All chihuahuas are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 25 lb_false_high
+Some chihuahuas are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 25 all_false_high
+All chihuahuas are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 26 lb_ui_high
+Some chisels are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 26 all_ui_high
+All chisels are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 26 lb_false_high
+Some chisels are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 26 all_false_high
+All chisels are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 27 lb_ui_high
+Some cockroaches are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 27 all_ui_high
+All cockroaches are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 27 lb_false_high
+Some cockroaches are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 27 all_false_high
+All cockroaches are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 28 lb_ui_high
+Some cod are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 28 all_ui_high
+All cod are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 28 lb_false_high
+Some cod are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 28 all_false_high
+All cod are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 29 lb_ui_high
+Some cows are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 29 all_ui_high
+All cows are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 29 lb_false_high
+Some cows are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 29 all_false_high
+All cows are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 30 lb_ui_high
+Some crickets are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 30 all_ui_high
+All crickets are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 30 lb_false_high
+Some crickets are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 30 all_false_high
+All crickets are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 31 lb_ui_high
+Some crocodiles are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 31 all_ui_high
+All crocodiles are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 31 lb_false_high
+Some crocodiles are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 31 all_false_high
+All crocodiles are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 32 lb_ui_high
+Some crossbows are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 32 all_ui_high
+All crossbows are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 32 lb_false_high
+Some crossbows are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 32 all_false_high
+All crossbows are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 33 lb_ui_high
+Some crowbars are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 33 all_ui_high
+All crowbars are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 33 lb_false_high
+Some crowbars are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 33 all_false_high
+All crowbars are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 34 lb_ui_high
+Some crows are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 34 all_ui_high
+All crows are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 34 lb_false_high
+Some crows are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 34 all_false_high
+All crows are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 35 lb_ui_high
+Some daffodils are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 35 all_ui_high
+All daffodils are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 35 lb_false_high
+Some daffodils are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 35 all_false_high
+All daffodils are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 36 lb_ui_high
+Some daggers are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 36 all_ui_high
+All daggers are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 36 lb_false_high
+Some daggers are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 36 all_false_high
+All daggers are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 37 lb_ui_high
+Some daisies are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 37 all_ui_high
+All daisies are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 37 lb_false_high
+Some daisies are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 37 all_false_high
+All daisies are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 38 lb_ui_high
+Some dalmatians are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 38 all_ui_high
+All dalmatians are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 38 lb_false_high
+Some dalmatians are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 38 all_false_high
+All dalmatians are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 39 lb_ui_high
+Some dandelion are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 39 all_ui_high
+All dandelion are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 39 lb_false_high
+Some dandelion are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 39 all_false_high
+All dandelion are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 40 lb_ui_high
+Some deer are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 40 all_ui_high
+All deer are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 40 lb_false_high
+Some deer are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 40 all_false_high
+All deer are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 41 lb_ui_high
+Some doves are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 41 all_ui_high
+All doves are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 41 lb_false_high
+Some doves are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 41 all_false_high
+All doves are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 42 lb_ui_high
+Some drills are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 42 all_ui_high
+All drills are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 42 lb_false_high
+Some drills are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 42 all_false_high
+All drills are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 43 lb_ui_high
+Some eagles are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 43 all_ui_high
+All eagles are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 43 lb_false_high
+Some eagles are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 43 all_false_high
+All eagles are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 44 lb_ui_high
+Some elephants are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 44 all_ui_high
+All elephants are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 44 lb_false_high
+Some elephants are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 44 all_false_high
+All elephants are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 45 lb_ui_high
+Some elms are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 45 all_ui_high
+All elms are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 45 lb_false_high
+Some elms are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 45 all_false_high
+All elms are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 46 lb_ui_high
+Some Ferraris are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 46 all_ui_high
+All Ferraris are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 46 lb_false_high
+Some Ferraris are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 46 all_false_high
+All Ferraris are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 47 lb_ui_high
+Some firs are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 47 all_ui_high
+All firs are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 47 lb_false_high
+Some firs are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 47 all_false_high
+All firs are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 48 lb_ui_high
+Some flamingoes are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 48 all_ui_high
+All flamingoes are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 48 lb_false_high
+Some flamingoes are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 48 all_false_high
+All flamingoes are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 49 lb_ui_high
+Some fleas are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 49 all_ui_high
+All fleas are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 49 lb_false_high
+Some fleas are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 49 all_false_high
+All fleas are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 50 lb_ui_high
+Some flies are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 50 all_ui_high
+All flies are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 50 lb_false_high
+Some flies are tools
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 50 all_false_high
+All flies are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 51 lb_ui_high
+Some flounders are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 51 all_ui_high
+All flounders are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 51 lb_false_high
+Some flounders are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 51 all_false_high
+All flounders are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 52 lb_ui_high
+Some Fords are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 52 all_ui_high
+All Fords are cars
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 52 lb_false_high
+Some Fords are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 52 all_false_high
+All Fords are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 53 lb_ui_high
+Some foxes are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 53 all_ui_high
+All foxes are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 53 lb_false_high
+Some foxes are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 53 all_false_high
+All foxes are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 54 lb_ui_high
+Some gardenias are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 54 all_ui_high
+All gardenias are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 54 lb_false_high
+Some gardenias are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 54 all_false_high
+All gardenias are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 55 lb_ui_high
+Some geckos are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 55 all_ui_high
+All geckos are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 55 lb_false_high
+Some geckos are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 55 all_false_high
+All geckos are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 56 lb_ui_high
+Some goats are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 56 all_ui_high
+All goats are mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 56 lb_false_high
+Some goats are trees
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 56 all_false_high
+All goats are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 57 lb_ui_high
+Some grapes are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 57 all_ui_high
+All grapes are fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 57 lb_false_high
+Some grapes are insects
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 57 all_false_high
+All grapes are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 58 lb_ui_high
+Some grenades are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 58 all_ui_high
+All grenades are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 58 lb_false_high
+Some grenades are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 58 all_false_high
+All grenades are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 59 lb_ui_high
+Some guns are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 59 all_ui_high
+All guns are weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 59 lb_false_high
+Some guns are birds
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 59 all_false_high
+All guns are reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 60 lb_ui_high
+Some haddock are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 60 all_ui_high
+All haddock are fish
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 60 lb_false_high
+Some haddock are flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 60 all_false_high
+All haddock are dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+# VDTRatings1 1 lb_inf_highSome reptiles are alligators! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 1 all_inf_highAll reptiles are alligators! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 1 lb_inf_highSome reptiles are anacondas! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 1 all_inf_highAll reptiles are anacondas! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 2 lb_inf_highSome insects are ants! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 2 all_inf_highAll insects are ants! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 2 lb_inf_highSome fruit are apples! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 2 all_inf_highAll fruit are apples! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 3 lb_inf_highSome fruit are apricots! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 3 all_inf_highAll fruit are apricots! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 3 lb_inf_highSome cars are Audis! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 3 all_inf_highAll cars are Audis! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 4 lb_inf_highSome fruit are bananas! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 4 all_inf_highAll fruit are bananas! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 4 lb_inf_highSome weapons are bazookas! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 4 all_inf_highAll weapons are bazookas! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 5 lb_inf_highSome dogs are beagles! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 5 all_inf_highAll dogs are beagles! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 5 lb_inf_highSome mammals are bears! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 5 all_inf_highAll mammals are bears! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 6 lb_inf_highSome trees are beeches! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 6 all_inf_highAll trees are beeches! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 6 lb_inf_highSome insects are bees! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 6 all_inf_highAll insects are bees! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 7 lb_inf_highSome insects are beetles! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 7 all_inf_highAll insects are beetles! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 7 lb_inf_highSome trees are birches! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 7 all_inf_highAll trees are birches! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 8 lb_inf_highSome weapons are bombs! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 8 all_inf_highAll weapons are bombs! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 8 lb_inf_highSome mammals are buffalo! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 8 all_inf_highAll mammals are buffalo! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 9 lb_inf_highSome cars are Buicks! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 9 all_inf_highAll cars are Buicks! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 9 lb_inf_highSome birds are canaries! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 9 all_inf_highAll birds are canaries! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 10 lb_inf_highSome flowers are carnations! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 10 all_inf_highAll flowers are carnations! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 10 lb_inf_highSome fish are carp! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 10 all_inf_highAll fish are carp! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 11 lb_inf_highSome trees are cedars! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 11 all_inf_highAll trees are cedars! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 11 lb_inf_highSome tools are chainsaws! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 11 all_inf_highAll tools are chainsaws! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 12 lb_inf_highSome reptiles are chameleons! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 12 all_inf_highAll reptiles are chameleons! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 12 lb_inf_highSome cars are Chevrolets! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 12 all_inf_highAll cars are Chevrolets! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 13 lb_inf_highSome dogs are chihuahuas! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 13 all_inf_highAll dogs are chihuahuas! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 13 lb_inf_highSome tools are chisels! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 13 all_inf_highAll tools are chisels! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 14 lb_inf_highSome insects are cockroaches! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 14 all_inf_highAll insects are cockroaches! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 14 lb_inf_highSome fish are cod! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 14 all_inf_highAll fish are cod! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 15 lb_inf_highSome mammals are cows! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 15 all_inf_highAll mammals are cows! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 15 lb_inf_highSome insects are crickets! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 15 all_inf_highAll insects are crickets! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 16 lb_inf_highSome reptiles are crocodiles! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 16 all_inf_highAll reptiles are crocodiles! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 16 lb_inf_highSome weapons are crossbows! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 16 all_inf_highAll weapons are crossbows! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 17 lb_inf_highSome tools are crowbars! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 17 all_inf_highAll tools are crowbars! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 17 lb_inf_highSome birds are crows! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 17 all_inf_highAll birds are crows! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 18 lb_inf_highSome flowers are daffodils! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 18 all_inf_highAll flowers are daffodils! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 18 lb_inf_highSome weapons are daggers! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 18 all_inf_highAll weapons are daggers! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 19 lb_inf_highSome flowers are daisies! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 19 all_inf_highAll flowers are daisies! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 19 lb_inf_highSome dogs are dalmatians! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 19 all_inf_highAll dogs are dalmatians! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 20 lb_inf_highSome flowers are dandelion! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 20 all_inf_highAll flowers are dandelion! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 20 lb_inf_highSome mammals are deer! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 20 all_inf_highAll mammals are deer! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 21 lb_inf_highSome birds are doves! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 21 all_inf_highAll birds are doves! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 21 lb_inf_highSome tools are drills! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 21 all_inf_highAll tools are drills! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 22 lb_inf_highSome birds are eagles! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 22 all_inf_highAll birds are eagles! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 22 lb_inf_highSome mammals are elephants! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 22 all_inf_highAll mammals are elephants! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 23 lb_inf_highSome trees are elms! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 23 all_inf_highAll trees are elms! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 23 lb_inf_highSome cars are Ferraris! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 23 all_inf_highAll cars are Ferraris! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 24 lb_inf_highSome trees are firs! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 24 all_inf_highAll trees are firs! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 24 lb_inf_highSome birds are flamingoes! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 24 all_inf_highAll birds are flamingoes! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 25 lb_inf_highSome insects are fleas! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 25 all_inf_highAll insects are fleas! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 25 lb_inf_highSome insects are flies! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 25 all_inf_highAll insects are flies! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 26 lb_inf_highSome fish are flounders! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 26 all_inf_highAll fish are flounders! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 26 lb_inf_highSome cars are Fords! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 26 all_inf_highAll cars are Fords! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 27 lb_inf_highSome mammals are foxes! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 27 all_inf_highAll mammals are foxes! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 27 lb_inf_highSome flowers are gardenias! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 27 all_inf_highAll flowers are gardenias! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 28 lb_inf_highSome reptiles are geckos! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 28 all_inf_highAll reptiles are geckos! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 28 lb_inf_highSome mammals are goats! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 28 all_inf_highAll mammals are goats! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 29 lb_inf_highSome fruit are grapes! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 29 all_inf_highAll fruit are grapes! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 29 lb_inf_highSome weapons are grenades! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 29 all_inf_highAll weapons are grenades! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 30 lb_inf_highSome weapons are guns! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 30 all_inf_highAll weapons are guns! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 30 lb_inf_highSome fish are haddock! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 30 all_inf_highAll fish are haddock! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 31 lb_inf_highSome fish are halibut! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 31 all_inf_highAll fish are halibut! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 31 lb_inf_highSome tools are hammers! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 31 all_inf_highAll tools are hammers! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 32 lb_inf_highSome birds are hawks! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 32 all_inf_highAll birds are hawks! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 32 lb_inf_highSome fish are herring! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 32 all_inf_highAll fish are herring! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 33 lb_inf_highSome mammals are horses! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 33 all_inf_highAll mammals are horses! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 33 lb_inf_highSome dogs are hounds! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 33 all_inf_highAll dogs are hounds! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 34 lb_inf_highSome dogs are huskies! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 34 all_inf_highAll dogs are huskies! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 34 lb_inf_highSome reptiles are iguanas! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 34 all_inf_highAll reptiles are iguanas! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 35 lb_inf_highSome fruit are kiwis! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 35 all_inf_highAll fruit are kiwis! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 35 lb_inf_highSome weapons are knives! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 35 all_inf_highAll weapons are knives! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 36 lb_inf_highSome dogs are labradors! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 36 all_inf_highAll dogs are labradors! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 36 lb_inf_highSome flowers are lilacs! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 36 all_inf_highAll flowers are lilacs! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 37 lb_inf_highSome flowers are lilies! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 37 all_inf_highAll flowers are lilies! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 37 lb_inf_highSome reptiles are lizards! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 37 all_inf_highAll reptiles are lizards! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 38 lb_inf_highSome fish are mackerel! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 38 all_inf_highAll fish are mackerel! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 38 lb_inf_highSome tools are mallets! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 38 all_inf_highAll tools are mallets! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 39 lb_inf_highSome fruit are mangoes! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 39 all_inf_highAll fruit are mangoes! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 39 lb_inf_highSome trees are maples! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 39 all_inf_highAll trees are maples! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 40 lb_inf_highSome fruit are melons! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 40 all_inf_highAll fruit are melons! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 40 lb_inf_highSome cars are Mercedes! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 40 all_inf_highAll cars are Mercedes! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 41 lb_inf_highSome weapons are missiles! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 41 all_inf_highAll weapons are missiles! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 41 lb_inf_highSome insects are mosquitos! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 41 all_inf_highAll insects are mosquitos! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 42 lb_inf_highSome insects are moths! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 42 all_inf_highAll insects are moths! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 42 lb_inf_highSome trees are oaks! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 42 all_inf_highAll trees are oaks! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 43 lb_inf_highSome fruit are oranges! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 43 all_inf_highAll fruit are oranges! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 43 lb_inf_highSome flowers are orchids! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 43 all_inf_highAll flowers are orchids! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 44 lb_inf_highSome birds are owls! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 44 all_inf_highAll birds are owls! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 44 lb_inf_highSome birds are parrots! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 44 all_inf_highAll birds are parrots! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 45 lb_inf_highSome fruit are peaches! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 45 all_inf_highAll fruit are peaches! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 45 lb_inf_highSome fruit are pears! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 45 all_inf_highAll fruit are pears! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 46 lb_inf_highSome flowers are petunias! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 46 all_inf_highAll flowers are petunias! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 46 lb_inf_highSome tools are pick-axes! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 46 all_inf_highAll tools are pick-axes! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 47 lb_inf_highSome birds are pigeons! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 47 all_inf_highAll birds are pigeons! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 47 lb_inf_highSome mammals are pigs! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 47 all_inf_highAll mammals are pigs! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 48 lb_inf_highSome fruit are pineapples! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 48 all_inf_highAll fruit are pineapples! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 48 lb_inf_highSome trees are pines! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 48 all_inf_highAll trees are pines! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 49 lb_inf_highSome fish are piranhas! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 49 all_inf_highAll fish are piranhas! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 49 lb_inf_highSome weapons are pistols! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 49 all_inf_highAll weapons are pistols! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 50 lb_inf_highSome tools are pliers! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 50 all_inf_highAll tools are pliers! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 50 lb_inf_highSome flowers are poinsettias! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 50 all_inf_highAll flowers are poinsettias! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 51 lb_inf_highSome dogs are poodles! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 51 all_inf_highAll dogs are poodles! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 51 lb_inf_highSome cars are Porsches! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 51 all_inf_highAll cars are Porsches! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 52 lb_inf_highSome dogs are pugs! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 52 all_inf_highAll dogs are pugs! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 52 lb_inf_highSome reptiles are pythons! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 52 all_inf_highAll reptiles are pythons! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 53 lb_inf_highSome mammals are rabbits! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 53 all_inf_highAll mammals are rabbits! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 53 lb_inf_highSome fruit are raspberries! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 53 all_inf_highAll fruit are raspberries! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 54 lb_inf_highSome reptiles are rattlesnakes! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 54 all_inf_highAll reptiles are rattlesnakes! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 54 lb_inf_highSome trees are redwoods! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 54 all_inf_highAll trees are redwoods! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 55 lb_inf_highSome dogs are retrievers! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 55 all_inf_highAll dogs are retrievers! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 55 lb_inf_highSome weapons are rifles! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 55 all_inf_highAll weapons are rifles! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 56 lb_inf_highSome birds are robins! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 56 all_inf_highAll birds are robins! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 56 lb_inf_highSome flowers are roses! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 56 all_inf_highAll flowers are roses! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 57 lb_inf_highSome dogs are rottweilers! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 57 all_inf_highAll dogs are rottweilers! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 57 lb_inf_highSome fish are salmon! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 57 all_inf_highAll fish are salmon! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 58 lb_inf_highSome tools are saws! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 58 all_inf_highAll tools are saws! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 58 lb_inf_highSome tools are screwdrivers! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 58 all_inf_highAll tools are screwdrivers! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 59 lb_inf_highSome birds are seagulls! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 59 all_inf_highAll birds are seagulls! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 59 lb_inf_highSome mammals are sheep! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 59 all_inf_highAll mammals are sheep! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 60 lb_inf_highSome reptiles are snakes! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 60 all_inf_highAll reptiles are snakes! True or False? {TRUE FALSE} {FALSE}# VDTRatings1 60 lb_inf_highSome dogs are spaniels! True or False? {TRUE FALSE} {TRUE}# VDTRatings1 60 all_inf_highAll dogs are spaniels! True or False? {TRUE FALSE} {FALSE}
+
+

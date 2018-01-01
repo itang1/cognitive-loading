@@ -1,0 +1,80 @@
+instruct {Welcome.  In this experiment, you'll be reading individual statements on the computer screen and judging whether they are true or false.  You will first see a cross in the center of the screen. The cross will disappear and the words of the statement will appear one at a time in the center of the screen.  After each statement, you will be asked to judge whether it is true or false.  In order to respond, you will hit the "F" key if you think the statement is true and "J" if you think it is false.  You will be reminded which key is "true" and which is "false."  You should respond as quickly and accurately as possible.
+
+If you are unsure of the answer, try to pick the best possible answer.
+
+To be able to answer quickly, you should keep your index fingers resting on the "J" and "F" keys and your thumbs on the space bar.  This way you won't have to look down at the keys to answer.
+
+}
+
+instruct {You can take breaks as you need them, but please try to do so before you've started reading a new item, when the screen is blank.
+
+If you have any questions about the procedure, ask the experimenter now. 
+
+}
+
+command {Let's try some practice...}
+
+createItem {# practice 1 -
+This sentence is to help you get used to the experimental display.
+}
+presentItem practice:1:-
+
+command {Here comes another sentence...}
+
+createItem {# practice 2 -
+This sentence is also for practice, and is followed by a judgment.
+! True or False: You are following this so far? {TRUE FALSE} {TRUE}
+}
+presentItem practice:2:-
+
+instruct {The next few practice items will be more like real experimental statements.}
+
+command {Here we go...}
+
+createItem {# practice 4 -
+All daisies are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+}
+presentItem practice:4:-
+
+instruct {The answer to this question was 'True', because every daisy is a kind of flower.}
+
+createItem {# practice 5 -
+All trees are birds.
+! True or False? {TRUE FALSE} {FALSE}
+}
+presentItem practice:5:-
+
+instruct {In this case, the answer is 'False', because there are no trees which are also birds.}
+
+command {Here is another practice item.}
+
+createItem {# practice 6 -
+Some cars are sedans.
+! True or False? {TRUE FALSE} {TRUE}
+}
+presentItem practice:6:-
+
+instruct {Some cars are sedans.
+
+In this case, the answer is 'True'.}
+
+command {Here is another practice item.}
+
+createItem {# practice 7 -
+Not_all toasters are appliances.
+! True or False? {TRUE FALSE} {FALSE}
+}
+presentItem practice:7:-
+
+instruct {Not all toasters are appliances.
+
+In this case, the answer is 'False'.}
+
+instruct {That's it for the practice.
+
+If you have any questions, ask the experimenter now.
+
+When you are ready to continue, let the experimenter know.}
+
+command {Here we go...}

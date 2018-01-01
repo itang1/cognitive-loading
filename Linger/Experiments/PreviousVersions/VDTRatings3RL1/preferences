@@ -1,0 +1,499 @@
+set CollectRatings 1
+# The maximum value of the rating scale:
+set RatingChoices 7
+# The message presented along with ratings:
+set RatingMessage "How likely is it for a knowledgeable speaker to utter this sentence?"
+# The label at the low end of the rating scale:
+set RatingEasy "Very unlikely"
+# The label at the high end of the rating scale:
+set RatingHard "Very likely"
+
+	set Experiment dualTaskGrid
+##FOR GRID TASK
+set TestLang 0
+set MaxChars 120
+
+#JK set RightAnswer "Right!"
+set RightAnswer ""
+#JK set WrongAnswer "Wrong!"
+set WrongAnswer ""
+set FeedbackDelay 1000
+
+set GridSize 60
+set BigGridSize 60
+set GridXOffset 0
+set GridYOffset -50
+set GridOutline black
+set GridFill    blue
+
+# Params are COLS ROWS MIN_ON MAX_ON
+set GridParams(-)     {4 4 3 3}
+
+set GridParams(s_u1_low) {3 3 1 1}
+set GridParams(s_u2_low) {3 3 1 1}
+set GridParams(s_u3_low) {3 3 1 1}
+set GridParams(s_u4_low) {3 3 1 1}
+set GridParams(s_u5_low) {3 3 1 1}
+set GridParams(s_t_low) {3 3 1 1}
+set GridParams(s_f_low) {3 3 1 1}
+set GridParams(a_u_low) {3 3 1 1}
+set GridParams(a_t_low) {3 3 1 1}
+set GridParams(a_f_low) {3 3 1 1}
+
+set GridParams(s_u1_high) {4 4 5 5}
+set GridParams(s_u2_high) {4 4 5 5}
+set GridParams(s_u3_high) {4 4 5 5}
+set GridParams(s_u4_high) {4 4 5 5}
+set GridParams(s_u5_high) {4 4 5 5}
+set GridParams(s_t_high) {4 4 5 5}
+set GridParams(s_f_high) {4 4 5 5}
+set GridParams(a_u_high) {4 4 5 5}
+set GridParams(a_t_high) {4 4 5 5}
+set GridParams(a_f_high) {4 4 5 5}
+
+#Conditions in which grids should be shown.
+# the grid is always shown so this is no longer meaningful
+set case1 -
+set case2 some_superset
+set case3 -
+
+set NumCorrect 0
+set NumTotal 0
+
+# for centerautopaced
+set CenterLeftAligned  1
+set CenterLeftShift 150
+set AutoPacedDelay 1100
+set AutoPacedInitDelay 0
+set MinInfo 100
+set PreDelay 100 
+
+# Whether the options are shuffled for multiple choice questions:
+set MultiChoiceRandChoices 0
+
+# Determines the horizontal spacing between multiple choice columns:
+set MultiChoiceHGap 50
+
+set MultiKeys    {{F f} {J j}}
+#set RightAnswer  ""
+#set WrongAnswer "Oops.  Wrong answer."
+set TextFont      "-family {courier new} -size 24 -weight bold"
+
+
+
+
+################new proc
+
+#  proc centerAutoPacedReadingItem item {
+#    global Sentence PreDelay 
+#    feedback 1 "centerAutoPacedReadingItem $item"
+#    parseSentence $Sentence($item)
+#    crossHairOn
+#    after $PreDelay
+#    crossHairOff
+#    centerAutoPacedPresentSentence $item
+#    askQuestions $item TextFont center
+#    command {}
+#  }
+
+  ##############
+
+
+proc command  message {keyedMessage $message BigFont left}
+
+proc changeScore correct {
+  global NumCorrect NumTotal
+  set NumCorrect [expr $NumCorrect + $correct]
+  incr NumTotal
+}
+
+proc randRange {min max} {
+  return [expr [randInt [expr $max - $min + 1]] + $min]
+}
+
+# proc chooseCells {n min max alreadyChosen} {
+#   foreach c $alreadyChosen {set chosen($c) 1}
+#   set newlyChosen {}
+#   set cells [randRange $min $max]
+#   set numChosen [llength $alreadyChosen]
+#   if {$numChosen + $cells > $n} {
+#     warning "Not enough cells"
+#     set cells [expr $n - $numChosen]
+#   }
+#   for {set i 0} {$i < $cells} {} {
+#     set c [randInt $n]
+#     if {![info exists chosen($c)]} {
+#       set chosen($c) 1
+#       lappend newlyChosen $c
+#       incr i
+#     }
+#   }
+#   return $newlyChosen
+# }
+
+proc cellCoords {c cols} {
+  set y [expr $c / $cols]
+  set x [expr $c - $y * $cols]
+  return "$x $y"
+}
+
+proc cellCode {x y cols} {
+  return [expr $cols * $y + $x]
+}
+
+proc markNeighbors {cols rows cells on} {
+  upvar neighbors neighbors
+  foreach c $cells {
+    set coords [cellCoords $c $cols]
+    set x [lindex $coords 0]
+    set y [lindex $coords 1]
+    set pairs {}
+    lappend pairs "[expr $x - 1] $y"
+    lappend pairs "[expr $x + 1] $y"
+    lappend pairs "$x [expr $y - 1]"
+    lappend pairs "$x [expr $y + 1]"
+    foreach pair $pairs {
+      set i [lindex $pair 0]
+      set j [lindex $pair 1]
+      if {$i >= 0 && $i < $cols && $j >= 0 && $j < $rows} {
+        if {$on} {
+          set neighbors([cellCode $i $j $cols]) 1
+        } else {
+          catch {unset neighbors([cellCode $i $j $cols])}
+        }
+      }
+    }
+  }
+}
+
+# This only chooses cells that haven't been chosen before and are neighbors of
+# ones that have been chosen.  The first cell is chosen randomly.
+#proc chooseCell {cols rows alreadyChosen justChosen} {
+#  array set neighbors {}
+#  markNeighbors $cols $rows $alreadyChosen 1
+#  markNeighbors $cols $rows $justChosen 0
+#  foreach c $alreadyChosen {catch {unset neighbors($c)}}
+#  set candidates [array names neighbors]
+#  puts "chosen     = $alreadyChosen"
+#  puts "justChosen = $justChosen"
+#  puts "candidates = $candidates"
+#  if {[llength $candidates] == 0} {return -1}
+#  return [chooseRand $candidates]
+#}
+
+proc chooseCells {cols rows min max alreadyChosen} {
+  set n [randRange $min $max]
+  set new {}
+  for {set i 0} {$i < $n} {incr i} {
+    set c [randInt [expr $rows * $cols]]
+    while {[lsearch $alreadyChosen $c] != -1} {
+      set c [randInt [expr $rows * $cols]]
+    }
+    lappend new $c
+    lappend alreadyChosen $c
+  }
+  return $new
+}
+
+proc drawGrid {w cols rows cellsOn increment} {
+  global GridXOffset GridYOffset GridSize GridOutline GridFill X Y BgColor  
+  set MinX [expr ([winfo width .c] - $cols * $GridSize) / 2]
+  set MinY [expr ([winfo height .c] - $rows * $GridSize) / 2]
+  set c 0
+  for {set i 0} {$i < $rows} {incr i} {
+    for {set j 0} {$j < $cols} {incr j} {
+      set x [expr $MinX + $j * $GridSize]
+      set y [expr $MinY - $i * $GridSize + 150]
+#      set x [expr $GridXOffset + $j * $GridSize + $increment]
+#      set y [expr $Y($w) - $GridYOffset - $i * $GridSize]
+      .c create rectangle $x $y [expr $x + $GridSize + 1] \
+          [expr $y - $GridSize - 1] -outline $GridOutline -fill white \
+          -tags "w$w-g$c w$w-g"
+      incr c
+    }
+ 
+ 
+  }
+  foreach c $cellsOn {
+    .c itemconfigure w$w-g$c -fill $GridFill
+  }
+ 
+  set x [expr $GridXOffset + $increment]
+  set y [expr - $GridYOffset]
+  .c create rectangle $x $y [expr $x + $GridSize * $cols + 1] \
+      [expr $y - $GridSize * ($rows + 1) - 1] -outline $BgColor \
+     -fill $BgColor -tag w$w-m
+}
+
+proc dualTaskGridPresentSentence item {
+  global Tag NumWords GoKey SkipKey StopTime ResultFile Subject Abort Word \
+      ClockRes TextColor MaskColor BgColor TestLang GridParams CellsOn
+
+  set AngleSum 0
+  set condition [lindex [split $item :] 2]
+  set cellsOn {}
+  set increment 0 
+  for {set w 0} {$w < 1} {incr w} {
+    set params $GridParams($condition)
+    set cols [lindex $params 0]
+    set rows [lindex $params 1]
+    set minOn [lindex $params 2]
+    set maxOn [lindex $params 3]
+    set cells($w) [chooseCells $cols $rows $minOn $maxOn $cellsOn]
+    puts $cells($w)
+    drawGrid $w $cols $rows $cells($w) $increment
+    eval lappend cellsOn $cells($w)
+    set increment [expr $increment + 400]
+  }
+  set CellsOn [lsort -integer -unique $cellsOn]
+  puts "cellsOn: $CellsOn"
+
+  update
+ 
+
+  bind . <KeyPress-$GoKey> {
+      set Waiting 0
+  }
+
+  
+  for {set w 0} {$w < 1} {incr w} {
+   
+   .c lower w$w-m
+   update
+    
+  }
+ 
+after 1800
+
+  clearWindow
+
+}
+
+proc toggleCell c {
+  global Active GridFill Activated
+  if {$Active($c)} {
+    set Active($c) 0
+    .c itemconfig g$c -fill white
+    incr Activated -1
+  } else {
+    set Active($c) 1
+    .c itemconfig g$c -fill $GridFill
+    incr Activated
+  }
+}
+
+proc askForGridCells item {
+  global UpShift Answer ResultFile Subject StartTime StopTime \
+    ClockRes FeedbackDelay GoKey SkipKey BigGridSize Active Activated \
+    TextColor tcl_platform BgColor CellsOn GridParams GridOutline
+
+  set condition [lindex [split $item :] 2]
+  set params $GridParams($condition)
+  set cols [lindex $params 0]
+  set rows [lindex $params 1]
+  set MidX [expr [winfo width .c] / 2]
+  set MinX [expr ([winfo width .c] - $cols * $BigGridSize) / 2]
+  set MinY [expr ([winfo height .c] - $rows * $BigGridSize) / 2]
+  set c 0
+  for {set i 0} {$i < $rows} {incr i} {
+    for {set j 0} {$j < $cols} {incr j} {
+      set x [expr $MinX + $j * $BigGridSize]
+      set y [expr $MinY - $i * $BigGridSize + 150]
+      .c create rectangle $x $y [expr $x + $BigGridSize + 1] \
+        [expr $y - $BigGridSize - 1] -fill white -outline $GridOutline -tag g$c
+      set Active($c) 0
+      .c bind g$c <Button> "toggleCell $c"
+      incr c
+    }
+  }
+  set Activated 0
+  set totalCells $c
+  .c create text $MidX [expr [winfo height .c] - 100] \
+     -font ContinueFont -fill $TextColor -anchor s \
+     -text "Select the cells that were highlighted in the original grid. Hit the spacebar when you are done."
+  if {$tcl_platform(platform) == "windows"} {
+    . configure -cursor center_ptr
+  } else {
+    . configure -cursor "center_ptr black"
+  }
+
+  set Waiting 1
+  bind . <KeyPress-$GoKey> {
+    set StopTime $KeyTime
+    if {[timeElapsed $StartTime $StopTime] > ($MinRelease * $ClockRes)} {
+      set Waiting 0
+    }
+  }
+  preventRepeat $GoKey
+  bind . <KeyPress-$SkipKey> {set Abort 1; set Waiting 0}
+  preventRepeat $SkipKey
+
+  set StartTime [clock clicks]
+  vwait Waiting
+  set delay [expr [timeElapsed $StartTime $StopTime] / $ClockRes]
+  bind . <KeyPress-$GoKey> {}
+  bind . <KeyPress-$SkipKey> {}
+
+  if {$tcl_platform(platform) == "windows"} {
+    . configure -cursor crosshair
+  } else {
+    . configure -cursor "crosshair $BgColor"
+  }
+  clearWindow
+  update
+
+  set totalOn [llength $CellsOn]
+  set misses 0
+  set falseAlarms $Activated
+  foreach c $CellsOn {
+    if {!$Active($c)} {
+      incr misses
+    } else {
+      incr falseAlarms -1
+    }
+  }
+  if {$misses > $falseAlarms} {
+    set errors $misses
+  } else {
+    set errors $falseAlarms
+  }
+  puts "misses: $misses"
+  puts "falseAlarms: $falseAlarms"
+  puts "errors: $errors"
+
+  if {$errors == 0} {
+    timedMessage "Right!" $FeedbackDelay BigFont center
+    changeScore 1
+  } elseif {$errors == 1} {
+    timedMessage "Almost" $FeedbackDelay BigFont center
+    changeScore 0.5
+  } else {
+    timedMessage "Not Quite" $FeedbackDelay BigFont center
+    changeScore 0
+  }
+
+  destroy .entry
+  if {$ResultFile != {} && $item != {}} {
+    puts $ResultFile "$Subject [split $item :] !GRID $errors $totalOn $delay"
+    flush $ResultFile
+  }
+}
+
+proc presentQuestion {question item font justify} {
+  global TextColor RightShift UpShift Answer YesKey NoKey StopTime \
+      ResultFile Subject PadY QuestionKeys SkipKey MultiChoiceMark ClockRes
+  if {[string index $question 0] == $MultiChoiceMark} {
+    return [presentMultiChoice $question $item $font $justify]
+  }
+  set len [llength $question]
+  set tag [string range [lindex $question 0] 1 end]
+  set correct [lindex $question end]
+  set question [lrange $question 1 [expr $len - 2]]
+  if {$justify == "center"} {
+    .c create text [expr [winfo width .c] / 2] \
+        [expr [winfo height .c] / 2 - $UpShift] \
+        -text $question -anchor n -fill $TextColor -font $font
+  } else {
+    .c create text $RightShift [expr [winfo height .c] / 2 - $UpShift] \
+        -text $question -anchor nw -fill $TextColor -font $font
+  }
+  .c create text [expr [winfo width .c] / 2] \
+      [expr [winfo height .c] - $PadY - 40] \
+      -text $QuestionKeys -font BigFont -fill $TextColor -anchor s
+  bind . <Key-$YesKey> {set StopTime $KeyTime; set Answer $Yes}
+  preventRepeat $YesKey
+  bind . <Key-$NoKey>  {set StopTime $KeyTime; set Answer $No}
+  preventRepeat $NoKey
+  update
+  set StartTime [clock clicks]
+  bind . <Key-$SkipKey> "set StopTime $StartTime; set Answer $correct"
+  set Answer {}
+  vwait Answer
+
+  bind . <Key-$YesKey>   {}
+  bind . <Key-$NoKey>    {}
+  bind . <Key-$SkipKey>  {}
+  set delay [expr [timeElapsed $StartTime $StopTime] / $ClockRes]
+  clearWindow
+  if {$Answer == $correct} {set code 1} else {set code 0}
+  giveFeedback $code
+  if {$code == 1} {changeScore 1} else {changeScore 0}
+  if {$ResultFile != {} && $item != {}} {
+    puts $ResultFile "$Subject [split $item :] ?$tag $Answer $code $delay"
+    flush $ResultFile
+  }
+}
+
+proc dualTaskGridItem item {
+  global Sentence PreDelay NumCorrect NumTotal FeedbackDelay TestLang \ GridParams case1 case2 case3
+
+  startDelay D1 $PreDelay
+  parseSentence $Sentence($item)
+  waitOnDelay D1
+
+  set condition [lindex [split $item :] 2]
+  set itemNum [lindex [split $item :] 1]
+#  if { $condition != $case1 } {dualTaskGridPresentSentence $item}
+  dualTaskGridPresentSentence $item
+
+
+    centerAutoPacedReadingItem $item
+
+#  if { $condition != $case1 } {askForGridCells $item}
+  askForGridCells $item
+
+  if {$TestLang} {askQuestions $item TextFont center}
+
+###is this what displays percentage after grid feedback?
+#JK  timedMessage [format "%d%%" [expr int(($NumCorrect * 100) / $NumTotal)]] \
+#JK    $FeedbackDelay BigFont center
+    
+    set NumCorrect 0
+    set NumTotal 0 
+
+  command {}
+}
+
+
+proc dualTaskGrid list {
+  standardExperiment dualTaskGridItem $list
+}
+
+proc dualTaskGridPracticeItem item {
+#JK  global Sentence PreDelay NumCorrect NumTotal FeedbackDelay TestLang \ GridParams case1 case2 case3
+
+#JK  startDelay D1 $PreDelay
+#JK  parseSentence $Sentence($item)
+#JK  waitOnDelay D1
+    global Sentence NumCorrect NumTotal TestLang 
+    feedback 1 "blockReadingItem $item"
+    blockPresentText $item $Sentence($item)
+    askQuestions $item TextFont center
+
+   centerAutoPacedReadingItem $item
+
+  if {$TestLang} {askQuestions $item TextFont center}
+
+#  timedMessage [format "%d%%" [expr int(($NumCorrect * 100) / $NumTotal)]] \
+#    $FeedbackDelay BigFont center
+    
+    set NumCorrect 0
+    set NumTotal 0 
+
+ command {}
+
+}
+
+
+proc dualTaskGridPractice list {
+  standardExperiment dualTaskGridPracticeItem $list
+}
+
+
+
+
+
+
+
+
+

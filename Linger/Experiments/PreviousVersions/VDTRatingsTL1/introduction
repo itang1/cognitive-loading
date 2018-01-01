@@ -1,0 +1,60 @@
+instruct {Welcome.  In this experiment, you'll be reading individual statements on the computer screen and judging whether they are true or false.  You will first see a cross in the center of the screen. The cross will disappear and the statement will appear in the center of the screen. Your task is to judge whether the statement is true or false. In order to respond, hit the "1" key if you think the statement is true and "2" if you think it is false. If you are unsure of the answer, try to pick the best possible answer. You will be reminded which key is "true" and which is "false."  
+
+
+To be able to answer quickly and accurately, you should keep your fingers resting on the "1" and "2" keys.  This way you won't have to look down at the keys to answer.
+
+}
+
+instruct {There is one more wrinkle.  While you judge each sentence, you will be asked to remember a visual pattern in a grid of squares.  First, you will see the grid with some of the squares turned blue.  You should make an effort to remember which squares are blue.  Next you will see the sentence that you are to judge true or false.  Finally, you will be shown a blank grid and asked to click on the squares that were blue in the pattern. You will be given feedback on how well you did on the grid.  
+
+
+You can take breaks as you need them, but please try to do so after you've entered a grid pattern, before you go on to the next item, when the screen is blank.
+
+
+If you have any questions about the procedure, ask the experimenter now. 
+
+}
+
+command {Let's try some practice...}
+
+centerAutoPacedReadingItem practice:1:-
+
+instruct {All tables are furniture. 
+
+The answer to this question was 'True', because every table is a kind of furniture.}
+
+centerAutoPacedReadingItem practice:2:-
+
+instruct {Some toasters are mammals.
+
+In this case, the answer is 'False', because no toasters are mammals.}
+
+centerAutoPacedReadingItem practice:3:-
+
+instruct {All vegetables are carrots.
+
+In this case, the answer is 'False', because there are vegetables that are not carrots.}
+
+instruct {For the remaining items, you will see a grid pattern, then you judge a sentence, and then you will be asked to recall the grid pattern you saw.}
+
+command { Here we go...}
+
+presentItem practice:4:-
+
+instruct {Some jewelry are rings.
+
+In this case, the answer is 'True'.}
+
+presentItem practice:5:-
+
+instruct {All schools are books.
+
+In this case, the answer is 'False', because no schools are books.}
+
+instruct {That's it for the practice. 
+
+If you have any questions, ask the experimenter now.
+
+When you are ready to continue, let the experimenter know.}
+
+command {Here we go...}

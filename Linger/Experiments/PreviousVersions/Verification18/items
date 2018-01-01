@@ -1,0 +1,3456 @@
+# verif18 1 some_subset
+Some carrots are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 1 some_superset
+Some vegetables are carrots.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 1 some_wrongsubset
+Some carrots are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 1 all_subset
+All carrots are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 1 all_superset
+All vegetables are carrots.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 1 all_wrongsubset
+All carrots are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 1 notal_subset
+Not_all carrots are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 1 notal_superset
+Not_all vegetables are carrots.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 1 notal_wrongsubset
+Not_all carrots are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 1 none_subset
+No carrots are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 1 none_superset
+No vegetables are carrots.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 1 none_wrongsubset
+No carrots are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 2 some_subset
+Some tuna are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 2 some_superset
+Some fish are tuna.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 2 some_wrongsubset
+Some tuna are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 2 all_subset
+All tuna are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 2 all_superset
+All fish are tuna.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 2 all_wrongsubset
+All tuna are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 2 notal_subset
+Not_all tuna are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 2 notal_superset
+Not_all fish are tuna.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 2 notal_wrongsubset
+Not_all tuna are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 2 none_subset
+No tuna are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 2 none_superset
+No fish are tuna.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 2 none_wrongsubset
+No tuna are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 3 some_subset
+Some peaches are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 3 some_superset
+Some fruits are peaches.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 3 some_wrongsubset
+Some peaches are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 3 all_subset
+All peaches are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 3 all_superset
+All fruits are peaches.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 3 all_wrongsubset
+All peaches are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 3 notal_subset
+Not_all peaches are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 3 notal_superset
+Not_all fruits are peaches.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 3 notal_wrongsubset
+Not_all peaches are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 3 none_subset
+No peaches are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 3 none_superset
+No fruits are peaches.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 3 none_wrongsubset
+No peaches are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 4 some_subset
+Some grapes are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 4 some_superset
+Some fruits are grapes.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 4 some_wrongsubset
+Some grapes are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 4 all_subset
+All grapes are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 4 all_superset
+All fruits are grapes.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 4 all_wrongsubset
+All grapes are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 4 notal_subset
+Not_all grapes are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 4 notal_superset
+Not_all fruits are grapes.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 4 notal_wrongsubset
+Not_all grapes are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 4 none_subset
+No grapes are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 4 none_superset
+No fruits are grapes.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 4 none_wrongsubset
+No grapes are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 5 some_subset
+Some daisies are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 5 some_superset
+Some flowers are daisies.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 5 some_wrongsubset
+Some daisies are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 5 all_subset
+All daisies are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 5 all_superset
+All flowers are daisies.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 5 all_wrongsubset
+All daisies are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 5 notal_subset
+Not_all daisies are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 5 notal_superset
+Not_all flowers are daisies.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 5 notal_wrongsubset
+Not_all daisies are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 5 none_subset
+No daisies are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 5 none_superset
+No flowers are daisies.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 5 none_wrongsubset
+No daisies are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 6 some_subset
+Some lizards are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 6 some_superset
+Some reptiles are lizards.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 6 some_wrongsubset
+Some lizards are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 6 all_subset
+All lizards are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 6 all_superset
+All reptiles are lizards.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 6 all_wrongsubset
+All lizards are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 6 notal_subset
+Not_all lizards are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 6 notal_superset
+Not_all reptiles are lizards.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 6 notal_wrongsubset
+Not_all lizards are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 6 none_subset
+No lizards are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 6 none_superset
+No reptiles are lizards.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 6 none_wrongsubset
+No lizards are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 7 some_subset
+Some tortoises are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 7 some_superset
+Some reptiles are tortoises.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 7 some_wrongsubset
+Some tortoises are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 7 all_subset
+All tortoises are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 7 all_superset
+All reptiles are tortoises.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 7 all_wrongsubset
+All tortoises are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 7 notal_subset
+Not_all tortoises are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 7 notal_superset
+Not_all reptiles are tortoises.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 7 notal_wrongsubset
+Not_all tortoises are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 7 none_subset
+No tortoises are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 7 none_superset
+No reptiles are tortoises.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 7 none_wrongsubset
+No tortoises are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 8 some_subset
+Some moths are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 8 some_superset
+Some insects are moths.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 8 some_wrongsubset
+Some moths are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 8 all_subset
+All moths are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 8 all_superset
+All insects are moths.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 8 all_wrongsubset
+All moths are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 8 notal_subset
+Not_all moths are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 8 notal_superset
+Not_all insects are moths.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 8 notal_wrongsubset
+Not_all moths are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 8 none_subset
+No moths are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 8 none_superset
+No insects are moths.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 8 none_wrongsubset
+No moths are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 9 some_subset
+Some pigs are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 9 some_superset
+Some mammals are pigs.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 9 some_wrongsubset
+Some pigs are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 9 all_subset
+All pigs are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 9 all_superset
+All mammals are pigs.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 9 all_wrongsubset
+All pigs are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 9 notal_subset
+Not_all pigs are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 9 notal_superset
+Not_all mammals are pigs.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 9 notal_wrongsubset
+Not_all pigs are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 9 none_subset
+No pigs are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 9 none_superset
+No mammals are pigs.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 9 none_wrongsubset
+No pigs are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 10 some_subset
+Some roses are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 10 some_superset
+Some flowers are roses.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 10 some_wrongsubset
+Some roses are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 10 all_subset
+All roses are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 10 all_superset
+All flowers are roses.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 10 all_wrongsubset
+All roses are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 10 notal_subset
+Not_all roses are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 10 notal_superset
+Not_all flowers are roses.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 10 notal_wrongsubset
+Not_all roses are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 10 none_subset
+No roses are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 10 none_superset
+No flowers are roses.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 10 none_wrongsubset
+No roses are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 11 some_subset
+Some monkeys are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 11 some_superset
+Some mammals are monkeys.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 11 some_wrongsubset
+Some monkeys are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 11 all_subset
+All monkeys are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 11 all_superset
+All mammals are monkeys.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 11 all_wrongsubset
+All monkeys are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 11 notal_subset
+Not_all monkeys are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 11 notal_superset
+Not_all mammals are monkeys.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 11 notal_wrongsubset
+Not_all monkeys are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 11 none_subset
+No monkeys are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 11 none_superset
+No mammals are monkeys.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 11 none_wrongsubset
+No monkeys are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 12 some_subset
+Some cherries are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 12 some_superset
+Some fruits are cherries.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 12 some_wrongsubset
+Some cherries are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 12 all_subset
+All cherries are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 12 all_superset
+All fruits are cherries.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 12 all_wrongsubset
+All cherries are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 12 notal_subset
+Not_all cherries are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 12 notal_superset
+Not_all fruits are cherries.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 12 notal_wrongsubset
+Not_all cherries are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 12 none_subset
+No cherries are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 12 none_superset
+No fruits are cherries.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 12 none_wrongsubset
+No cherries are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 13 some_subset
+Some crawfish are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 13 some_superset
+Some shellfish are crawfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 13 some_wrongsubset
+Some crawfish are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 13 all_subset
+All crawfish are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 13 all_superset
+All shellfish are crawfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 13 all_wrongsubset
+All crawfish are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 13 notal_subset
+Not_all crawfish are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 13 notal_superset
+Not_all shellfish are crawfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 13 notal_wrongsubset
+Not_all crawfish are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 13 none_subset
+No crawfish are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 13 none_superset
+No shellfish are crawfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 13 none_wrongsubset
+No crawfish are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 14 some_subset
+Some pears are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 14 some_superset
+Some fruits are pears.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 14 some_wrongsubset
+Some pears are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 14 all_subset
+All pears are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 14 all_superset
+All fruits are pears.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 14 all_wrongsubset
+All pears are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 14 notal_subset
+Not_all pears are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 14 notal_superset
+Not_all fruits are pears.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 14 notal_wrongsubset
+Not_all pears are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 14 none_subset
+No pears are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 14 none_superset
+No fruits are pears.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 14 none_wrongsubset
+No pears are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 15 some_subset
+Some cockroaches are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 15 some_superset
+Some insects are cockroaches.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 15 some_wrongsubset
+Some cockroaches are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 15 all_subset
+All cockroaches are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 15 all_superset
+All insects are cockroaches.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 15 all_wrongsubset
+All cockroaches are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 15 notal_subset
+Not_all cockroaches are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 15 notal_superset
+Not_all insects are cockroaches.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 15 notal_wrongsubset
+Not_all cockroaches are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 15 none_subset
+No cockroaches are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 15 none_superset
+No insects are cockroaches.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 15 none_wrongsubset
+No cockroaches are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 16 some_subset
+Some plums are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 16 some_superset
+Some fruits are plums.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 16 some_wrongsubset
+Some plums are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 16 all_subset
+All plums are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 16 all_superset
+All fruits are plums.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 16 all_wrongsubset
+All plums are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 16 notal_subset
+Not_all plums are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 16 notal_superset
+Not_all fruits are plums.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 16 notal_wrongsubset
+Not_all plums are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 16 none_subset
+No plums are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 16 none_superset
+No fruits are plums.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 16 none_wrongsubset
+No plums are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 17 some_subset
+Some mosquitoes are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 17 some_superset
+Some insects are mosquitoes.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 17 some_wrongsubset
+Some mosquitoes are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 17 all_subset
+All mosquitoes are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 17 all_superset
+All insects are mosquitoes.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 17 all_wrongsubset
+All mosquitoes are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 17 notal_subset
+Not_all mosquitoes are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 17 notal_superset
+Not_all insects are mosquitoes.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 17 notal_wrongsubset
+Not_all mosquitoes are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 17 none_subset
+No mosquitoes are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 17 none_superset
+No insects are mosquitoes.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 17 none_wrongsubset
+No mosquitoes are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 18 some_subset
+Some parrots are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 18 some_superset
+Some birds are parrots.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 18 some_wrongsubset
+Some parrots are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 18 all_subset
+All parrots are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 18 all_superset
+All birds are parrots.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 18 all_wrongsubset
+All parrots are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 18 notal_subset
+Not_all parrots are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 18 notal_superset
+Not_all birds are parrots.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 18 notal_wrongsubset
+Not_all parrots are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 18 none_subset
+No parrots are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 18 none_superset
+No birds are parrots.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 18 none_wrongsubset
+No parrots are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 19 some_subset
+Some iguanas are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 19 some_superset
+Some reptiles are iguanas.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 19 some_wrongsubset
+Some iguanas are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 19 all_subset
+All iguanas are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 19 all_superset
+All reptiles are iguanas.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 19 all_wrongsubset
+All iguanas are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 19 notal_subset
+Not_all iguanas are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 19 notal_superset
+Not_all reptiles are iguanas.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 19 notal_wrongsubset
+Not_all iguanas are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 19 none_subset
+No iguanas are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 19 none_superset
+No reptiles are iguanas.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 19 none_wrongsubset
+No iguanas are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 20 some_subset
+Some sharks are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 20 some_superset
+Some fish are sharks.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 20 some_wrongsubset
+Some sharks are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 20 all_subset
+All sharks are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 20 all_superset
+All fish are sharks.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 20 all_wrongsubset
+All sharks are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 20 notal_subset
+Not_all sharks are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 20 notal_superset
+Not_all fish are sharks.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 20 notal_wrongsubset
+Not_all sharks are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 20 none_subset
+No sharks are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 20 none_superset
+No fish are sharks.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 20 none_wrongsubset
+No sharks are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 21 some_subset
+Some potatoes are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 21 some_superset
+Some vegetables are potatoes.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 21 some_wrongsubset
+Some potatoes are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 21 all_subset
+All potatoes are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 21 all_superset
+All vegetables are potatoes.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 21 all_wrongsubset
+All potatoes are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 21 notal_subset
+Not_all potatoes are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 21 notal_superset
+Not_all vegetables are potatoes.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 21 notal_wrongsubset
+Not_all potatoes are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 21 none_subset
+No potatoes are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 21 none_superset
+No vegetables are potatoes.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 21 none_wrongsubset
+No potatoes are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 22 some_subset
+Some scallops are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 22 some_superset
+Some shellfish are scallops.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 22 some_wrongsubset
+Some scallops are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 22 all_subset
+All scallops are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 22 all_superset
+All shellfish are scallops.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 22 all_wrongsubset
+All scallops are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 22 notal_subset
+Not_all scallops are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 22 notal_superset
+Not_all shellfish are scallops.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 22 notal_wrongsubset
+Not_all scallops are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 22 none_subset
+No scallops are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 22 none_superset
+No shellfish are scallops.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 22 none_wrongsubset
+No scallops are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 23 some_subset
+Some peacocks are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 23 some_superset
+Some birds are peacocks.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 23 some_wrongsubset
+Some peacocks are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 23 all_subset
+All peacocks are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 23 all_superset
+All birds are peacocks.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 23 all_wrongsubset
+All peacocks are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 23 notal_subset
+Not_all peacocks are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 23 notal_superset
+Not_all birds are peacocks.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 23 notal_wrongsubset
+Not_all peacocks are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 23 none_subset
+No peacocks are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 23 none_superset
+No birds are peacocks.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 23 none_wrongsubset
+No peacocks are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 24 some_subset
+Some bears are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 24 some_superset
+Some mammals are bears.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 24 some_wrongsubset
+Some bears are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 24 all_subset
+All bears are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 24 all_superset
+All mammals are bears.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 24 all_wrongsubset
+All bears are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 24 notal_subset
+Not_all bears are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 24 notal_superset
+Not_all mammals are bears.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 24 notal_wrongsubset
+Not_all bears are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 24 none_subset
+No bears are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 24 none_superset
+No mammals are bears.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 24 none_wrongsubset
+No bears are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 25 some_subset
+Some geckos are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 25 some_superset
+Some reptiles are geckos.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 25 some_wrongsubset
+Some geckos are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 25 all_subset
+All geckos are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 25 all_superset
+All reptiles are geckos.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 25 all_wrongsubset
+All geckos are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 25 notal_subset
+Not_all geckos are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 25 notal_superset
+Not_all reptiles are geckos.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 25 notal_wrongsubset
+Not_all geckos are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 25 none_subset
+No geckos are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 25 none_superset
+No reptiles are geckos.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 25 none_wrongsubset
+No geckos are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 26 some_subset
+Some sparrows are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 26 some_superset
+Some birds are sparrows.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 26 some_wrongsubset
+Some sparrows are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 26 all_subset
+All sparrows are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 26 all_superset
+All birds are sparrows.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 26 all_wrongsubset
+All sparrows are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 26 notal_subset
+Not_all sparrows are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 26 notal_superset
+Not_all birds are sparrows.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 26 notal_wrongsubset
+Not_all sparrows are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 26 none_subset
+No sparrows are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 26 none_superset
+No birds are sparrows.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 26 none_wrongsubset
+No sparrows are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 27 some_subset
+Some lobsters are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 27 some_superset
+Some shellfish are lobsters.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 27 some_wrongsubset
+Some lobsters are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 27 all_subset
+All lobsters are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 27 all_superset
+All shellfish are lobsters.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 27 all_wrongsubset
+All lobsters are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 27 notal_subset
+Not_all lobsters are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 27 notal_superset
+Not_all shellfish are lobsters.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 27 notal_wrongsubset
+Not_all lobsters are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 27 none_subset
+No lobsters are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 27 none_superset
+No shellfish are lobsters.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 27 none_wrongsubset
+No lobsters are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 28 some_subset
+Some clams are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 28 some_superset
+Some shellfish are clams.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 28 some_wrongsubset
+Some clams are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 28 all_subset
+All clams are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 28 all_superset
+All shellfish are clams.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 28 all_wrongsubset
+All clams are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 28 notal_subset
+Not_all clams are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 28 notal_superset
+Not_all shellfish are clams.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 28 notal_wrongsubset
+Not_all clams are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 28 none_subset
+No clams are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 28 none_superset
+No shellfish are clams.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 28 none_wrongsubset
+No clams are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 29 some_subset
+Some shrimp are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 29 some_superset
+Some shellfish are shrimp.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 29 some_wrongsubset
+Some shrimp are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 29 all_subset
+All shrimp are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 29 all_superset
+All shellfish are shrimp.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 29 all_wrongsubset
+All shrimp are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 29 notal_subset
+Not_all shrimp are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 29 notal_superset
+Not_all shellfish are shrimp.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 29 notal_wrongsubset
+Not_all shrimp are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 29 none_subset
+No shrimp are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 29 none_superset
+No shellfish are shrimp.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 29 none_wrongsubset
+No shrimp are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 30 some_subset
+Some pigeons are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 30 some_superset
+Some birds are pigeons.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 30 some_wrongsubset
+Some pigeons are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 30 all_subset
+All pigeons are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 30 all_superset
+All birds are pigeons.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 30 all_wrongsubset
+All pigeons are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 30 notal_subset
+Not_all pigeons are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 30 notal_superset
+Not_all birds are pigeons.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 30 notal_wrongsubset
+Not_all pigeons are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 30 none_subset
+No pigeons are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 30 none_superset
+No birds are pigeons.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 30 none_wrongsubset
+No pigeons are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 31 some_subset
+Some poppies are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 31 some_superset
+Some flowers are poppies.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 31 some_wrongsubset
+Some poppies are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 31 all_subset
+All poppies are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 31 all_superset
+All flowers are poppies.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 31 all_wrongsubset
+All poppies are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 31 notal_subset
+Not_all poppies are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 31 notal_superset
+Not_all flowers are poppies.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 31 notal_wrongsubset
+Not_all poppies are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 31 none_subset
+No poppies are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 31 none_superset
+No flowers are poppies.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 31 none_wrongsubset
+No poppies are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 32 some_subset
+Some horses are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 32 some_superset
+Some mammals are horses.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 32 some_wrongsubset
+Some horses are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 32 all_subset
+All horses are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 32 all_superset
+All mammals are horses.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 32 all_wrongsubset
+All horses are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 32 notal_subset
+Not_all horses are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 32 notal_superset
+Not_all mammals are horses.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 32 notal_wrongsubset
+Not_all horses are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 32 none_subset
+No horses are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 32 none_superset
+No mammals are horses.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 32 none_wrongsubset
+No horses are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 33 some_subset
+Some beets are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 33 some_superset
+Some vegetables are beets.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 33 some_wrongsubset
+Some beets are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 33 all_subset
+All beets are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 33 all_superset
+All vegetables are beets.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 33 all_wrongsubset
+All beets are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 33 notal_subset
+Not_all beets are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 33 notal_superset
+Not_all vegetables are beets.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 33 notal_wrongsubset
+Not_all beets are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 33 none_subset
+No beets are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 33 none_superset
+No vegetables are beets.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 33 none_wrongsubset
+No beets are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 34 some_subset
+Some flies are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 34 some_superset
+Some insects are flies.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 34 some_wrongsubset
+Some flies are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 34 all_subset
+All flies are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 34 all_superset
+All insects are flies.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 34 all_wrongsubset
+All flies are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 34 notal_subset
+Not_all flies are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 34 notal_superset
+Not_all insects are flies.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 34 notal_wrongsubset
+Not_all flies are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 34 none_subset
+No flies are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 34 none_superset
+No insects are flies.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 34 none_wrongsubset
+No flies are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 35 some_subset
+Some piranha are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 35 some_superset
+Some fish are piranha.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 35 some_wrongsubset
+Some piranha are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 35 all_subset
+All piranha are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 35 all_superset
+All fish are piranha.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 35 all_wrongsubset
+All piranha are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 35 notal_subset
+Not_all piranha are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 35 notal_superset
+Not_all fish are piranha.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 35 notal_wrongsubset
+Not_all piranha are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 35 none_subset
+No piranha are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 35 none_superset
+No fish are piranha.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 35 none_wrongsubset
+No piranha are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 36 some_subset
+Some onions are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 36 some_superset
+Some vegetables are onions.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 36 some_wrongsubset
+Some onions are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 36 all_subset
+All onions are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 36 all_superset
+All vegetables are onions.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 36 all_wrongsubset
+All onions are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 36 notal_subset
+Not_all onions are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 36 notal_superset
+Not_all vegetables are onions.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 36 notal_wrongsubset
+Not_all onions are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 36 none_subset
+No onions are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 36 none_superset
+No vegetables are onions.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 36 none_wrongsubset
+No onions are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 37 some_subset
+Some artichokes are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 37 some_superset
+Some vegetables are artichokes.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 37 some_wrongsubset
+Some artichokes are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 37 all_subset
+All artichokes are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 37 all_superset
+All vegetables are artichokes.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 37 all_wrongsubset
+All artichokes are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 37 notal_subset
+Not_all artichokes are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 37 notal_superset
+Not_all vegetables are artichokes.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 37 notal_wrongsubset
+Not_all artichokes are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 37 none_subset
+No artichokes are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 37 none_superset
+No vegetables are artichokes.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 37 none_wrongsubset
+No artichokes are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 38 some_subset
+Some oranges are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 38 some_superset
+Some fruits are oranges.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 38 some_wrongsubset
+Some oranges are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 38 all_subset
+All oranges are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 38 all_superset
+All fruits are oranges.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 38 all_wrongsubset
+All oranges are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 38 notal_subset
+Not_all oranges are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 38 notal_superset
+Not_all fruits are oranges.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 38 notal_wrongsubset
+Not_all oranges are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 38 none_subset
+No oranges are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 38 none_superset
+No fruits are oranges.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 38 none_wrongsubset
+No oranges are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 39 some_subset
+Some crabs are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 39 some_superset
+Some shellfish are crabs.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 39 some_wrongsubset
+Some crabs are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 39 all_subset
+All crabs are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 39 all_superset
+All shellfish are crabs.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 39 all_wrongsubset
+All crabs are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 39 notal_subset
+Not_all crabs are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 39 notal_superset
+Not_all shellfish are crabs.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 39 notal_wrongsubset
+Not_all crabs are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 39 none_subset
+No crabs are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 39 none_superset
+No shellfish are crabs.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 39 none_wrongsubset
+No crabs are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 40 some_subset
+Some owls are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 40 some_superset
+Some birds are owls.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 40 some_wrongsubset
+Some owls are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 40 all_subset
+All owls are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 40 all_superset
+All birds are owls.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 40 all_wrongsubset
+All owls are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 40 notal_subset
+Not_all owls are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 40 notal_superset
+Not_all birds are owls.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 40 notal_wrongsubset
+Not_all owls are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 40 none_subset
+No owls are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 40 none_superset
+No birds are owls.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 40 none_wrongsubset
+No owls are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 41 some_subset
+Some carnations are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 41 some_superset
+Some flowers are carnations.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 41 some_wrongsubset
+Some carnations are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 41 all_subset
+All carnations are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 41 all_superset
+All flowers are carnations.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 41 all_wrongsubset
+All carnations are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 41 notal_subset
+Not_all carnations are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 41 notal_superset
+Not_all flowers are carnations.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 41 notal_wrongsubset
+Not_all carnations are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 41 none_subset
+No carnations are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 41 none_superset
+No flowers are carnations.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 41 none_wrongsubset
+No carnations are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 42 some_subset
+Some trout are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 42 some_superset
+Some fish are trout.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 42 some_wrongsubset
+Some trout are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 42 all_subset
+All trout are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 42 all_superset
+All fish are trout.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 42 all_wrongsubset
+All trout are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 42 notal_subset
+Not_all trout are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 42 notal_superset
+Not_all fish are trout.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 42 notal_wrongsubset
+Not_all trout are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 42 none_subset
+No trout are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 42 none_superset
+No fish are trout.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 42 none_wrongsubset
+No trout are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 43 some_subset
+Some apples are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 43 some_superset
+Some fruits are apples.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 43 some_wrongsubset
+Some apples are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 43 all_subset
+All apples are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 43 all_superset
+All fruits are apples.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 43 all_wrongsubset
+All apples are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 43 notal_subset
+Not_all apples are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 43 notal_superset
+Not_all fruits are apples.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 43 notal_wrongsubset
+Not_all apples are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 43 none_subset
+No apples are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 43 none_superset
+No fruits are apples.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 43 none_wrongsubset
+No apples are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 44 some_subset
+Some snakes are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 44 some_superset
+Some reptiles are snakes.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 44 some_wrongsubset
+Some snakes are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 44 all_subset
+All snakes are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 44 all_superset
+All reptiles are snakes.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 44 all_wrongsubset
+All snakes are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 44 notal_subset
+Not_all snakes are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 44 notal_superset
+Not_all reptiles are snakes.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 44 notal_wrongsubset
+Not_all snakes are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 44 none_subset
+No snakes are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 44 none_superset
+No reptiles are snakes.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 44 none_wrongsubset
+No snakes are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 45 some_subset
+Some sardines are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 45 some_superset
+Some fish are sardines.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 45 some_wrongsubset
+Some sardines are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 45 all_subset
+All sardines are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 45 all_superset
+All fish are sardines.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 45 all_wrongsubset
+All sardines are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 45 notal_subset
+Not_all sardines are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 45 notal_superset
+Not_all fish are sardines.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 45 notal_wrongsubset
+Not_all sardines are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 45 none_subset
+No sardines are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 45 none_superset
+No fish are sardines.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 45 none_wrongsubset
+No sardines are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 46 some_subset
+Some alligators are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 46 some_superset
+Some reptiles are alligators.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 46 some_wrongsubset
+Some alligators are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 46 all_subset
+All alligators are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 46 all_superset
+All reptiles are alligators.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 46 all_wrongsubset
+All alligators are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 46 notal_subset
+Not_all alligators are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 46 notal_superset
+Not_all reptiles are alligators.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 46 notal_wrongsubset
+Not_all alligators are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 46 none_subset
+No alligators are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 46 none_superset
+No reptiles are alligators.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 46 none_wrongsubset
+No alligators are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 47 some_subset
+Some wasps are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 47 some_superset
+Some insects are wasps.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 47 some_wrongsubset
+Some wasps are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 47 all_subset
+All wasps are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 47 all_superset
+All insects are wasps.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 47 all_wrongsubset
+All wasps are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 47 notal_subset
+Not_all wasps are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 47 notal_superset
+Not_all insects are wasps.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 47 notal_wrongsubset
+Not_all wasps are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 47 none_subset
+No wasps are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 47 none_superset
+No insects are wasps.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 47 none_wrongsubset
+No wasps are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 48 some_subset
+Some crows are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 48 some_superset
+Some birds are crows.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 48 some_wrongsubset
+Some crows are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 48 all_subset
+All crows are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 48 all_superset
+All birds are crows.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 48 all_wrongsubset
+All crows are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 48 notal_subset
+Not_all crows are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 48 notal_superset
+Not_all birds are crows.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 48 notal_wrongsubset
+Not_all crows are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 48 none_subset
+No crows are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 48 none_superset
+No birds are crows.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 48 none_wrongsubset
+No crows are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 49 some_subset
+Some anchovies are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 49 some_superset
+Some fish are anchovies.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 49 some_wrongsubset
+Some anchovies are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 49 all_subset
+All anchovies are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 49 all_superset
+All fish are anchovies.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 49 all_wrongsubset
+All anchovies are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 49 notal_subset
+Not_all anchovies are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 49 notal_superset
+Not_all fish are anchovies.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 49 notal_wrongsubset
+Not_all anchovies are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 49 none_subset
+No anchovies are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 49 none_superset
+No fish are anchovies.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 49 none_wrongsubset
+No anchovies are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 50 some_subset
+Some dogs are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 50 some_superset
+Some mammals are dogs.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 50 some_wrongsubset
+Some dogs are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 50 all_subset
+All dogs are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 50 all_superset
+All mammals are dogs.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 50 all_wrongsubset
+All dogs are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 50 notal_subset
+Not_all dogs are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 50 notal_superset
+Not_all mammals are dogs.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 50 notal_wrongsubset
+Not_all dogs are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 50 none_subset
+No dogs are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 50 none_superset
+No mammals are dogs.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 50 none_wrongsubset
+No dogs are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 51 some_subset
+Some crocodiles are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 51 some_superset
+Some reptiles are crocodiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 51 some_wrongsubset
+Some crocodiles are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 51 all_subset
+All crocodiles are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 51 all_superset
+All reptiles are crocodiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 51 all_wrongsubset
+All crocodiles are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 51 notal_subset
+Not_all crocodiles are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 51 notal_superset
+Not_all reptiles are crocodiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 51 notal_wrongsubset
+Not_all crocodiles are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 51 none_subset
+No crocodiles are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 51 none_superset
+No reptiles are crocodiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 51 none_wrongsubset
+No crocodiles are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 52 some_subset
+Some beetles are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 52 some_superset
+Some insects are beetles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 52 some_wrongsubset
+Some beetles are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 52 all_subset
+All beetles are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 52 all_superset
+All insects are beetles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 52 all_wrongsubset
+All beetles are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 52 notal_subset
+Not_all beetles are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 52 notal_superset
+Not_all insects are beetles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 52 notal_wrongsubset
+Not_all beetles are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 52 none_subset
+No beetles are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 52 none_superset
+No insects are beetles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 52 none_wrongsubset
+No beetles are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 53 some_subset
+Some caterpillars are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 53 some_superset
+Some insects are caterpillars.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 53 some_wrongsubset
+Some caterpillars are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 53 all_subset
+All caterpillars are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 53 all_superset
+All insects are caterpillars.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 53 all_wrongsubset
+All caterpillars are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 53 notal_subset
+Not_all caterpillars are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 53 notal_superset
+Not_all insects are caterpillars.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 53 notal_wrongsubset
+Not_all caterpillars are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 53 none_subset
+No caterpillars are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 53 none_superset
+No insects are caterpillars.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 53 none_wrongsubset
+No caterpillars are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 54 some_subset
+Some elephants are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 54 some_superset
+Some mammals are elephants.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 54 some_wrongsubset
+Some elephants are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 54 all_subset
+All elephants are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 54 all_superset
+All mammals are elephants.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 54 all_wrongsubset
+All elephants are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 54 notal_subset
+Not_all elephants are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 54 notal_superset
+Not_all mammals are elephants.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 54 notal_wrongsubset
+Not_all elephants are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 54 none_subset
+No elephants are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 54 none_superset
+No mammals are elephants.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 54 none_wrongsubset
+No elephants are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 55 some_subset
+Some salmon are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 55 some_superset
+Some fish are salmon.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 55 some_wrongsubset
+Some salmon are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 55 all_subset
+All salmon are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 55 all_superset
+All fish are salmon.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 55 all_wrongsubset
+All salmon are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 55 notal_subset
+Not_all salmon are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 55 notal_superset
+Not_all fish are salmon.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 55 notal_wrongsubset
+Not_all salmon are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 55 none_subset
+No salmon are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 55 none_superset
+No fish are salmon.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 55 none_wrongsubset
+No salmon are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 56 some_subset
+Some cod are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 56 some_superset
+Some fish are cod.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 56 some_wrongsubset
+Some cod are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 56 all_subset
+All cod are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 56 all_superset
+All fish are cod.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 56 all_wrongsubset
+All cod are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 56 notal_subset
+Not_all cod are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 56 notal_superset
+Not_all fish are cod.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 56 notal_wrongsubset
+Not_all cod are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 56 none_subset
+No cod are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 56 none_superset
+No fish are cod.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 56 none_wrongsubset
+No cod are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 57 some_subset
+Some sheep are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 57 some_superset
+Some mammals are sheep.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 57 some_wrongsubset
+Some sheep are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 57 all_subset
+All sheep are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 57 all_superset
+All mammals are sheep.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 57 all_wrongsubset
+All sheep are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 57 notal_subset
+Not_all sheep are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 57 notal_superset
+Not_all mammals are sheep.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 57 notal_wrongsubset
+Not_all sheep are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 57 none_subset
+No sheep are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 57 none_superset
+No mammals are sheep.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 57 none_wrongsubset
+No sheep are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 58 some_subset
+Some bananas are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 58 some_superset
+Some fruits are bananas.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 58 some_wrongsubset
+Some bananas are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 58 all_subset
+All bananas are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 58 all_superset
+All fruits are bananas.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 58 all_wrongsubset
+All bananas are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 58 notal_subset
+Not_all bananas are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 58 notal_superset
+Not_all fruits are bananas.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 58 notal_wrongsubset
+Not_all bananas are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 58 none_subset
+No bananas are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 58 none_superset
+No fruits are bananas.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 58 none_wrongsubset
+No bananas are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 59 some_subset
+Some canaries are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 59 some_superset
+Some birds are canaries.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 59 some_wrongsubset
+Some canaries are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 59 all_subset
+All canaries are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 59 all_superset
+All birds are canaries.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 59 all_wrongsubset
+All canaries are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 59 notal_subset
+Not_all canaries are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 59 notal_superset
+Not_all birds are canaries.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 59 notal_wrongsubset
+Not_all canaries are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 59 none_subset
+No canaries are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 59 none_superset
+No birds are canaries.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 59 none_wrongsubset
+No canaries are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 60 some_subset
+Some oysters are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 60 some_superset
+Some shellfish are oysters.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 60 some_wrongsubset
+Some oysters are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 60 all_subset
+All oysters are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 60 all_superset
+All shellfish are oysters.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 60 all_wrongsubset
+All oysters are fruits.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 60 notal_subset
+Not_all oysters are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 60 notal_superset
+Not_all shellfish are oysters.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 60 notal_wrongsubset
+Not_all oysters are fruits.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 60 none_subset
+No oysters are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 60 none_superset
+No shellfish are oysters.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 60 none_wrongsubset
+No oysters are fruits.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 61 some_subset
+Some cats are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 61 some_superset
+Some mammals are cats.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 61 some_wrongsubset
+Some cats are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 61 all_subset
+All cats are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 61 all_superset
+All mammals are cats.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 61 all_wrongsubset
+All cats are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 61 notal_subset
+Not_all cats are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 61 notal_superset
+Not_all mammals are cats.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 61 notal_wrongsubset
+Not_all cats are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 61 none_subset
+No cats are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 61 none_superset
+No mammals are cats.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 61 none_wrongsubset
+No cats are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 62 some_subset
+Some dandelions are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 62 some_superset
+Some flowers are dandelions.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 62 some_wrongsubset
+Some dandelions are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 62 all_subset
+All dandelions are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 62 all_superset
+All flowers are dandelions.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 62 all_wrongsubset
+All dandelions are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 62 notal_subset
+Not_all dandelions are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 62 notal_superset
+Not_all flowers are dandelions.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 62 notal_wrongsubset
+Not_all dandelions are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 62 none_subset
+No dandelions are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 62 none_superset
+No flowers are dandelions.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 62 none_wrongsubset
+No dandelions are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 63 some_subset
+Some lettuce are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 63 some_superset
+Some vegetables are lettuce.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 63 some_wrongsubset
+Some lettuce are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 63 all_subset
+All lettuce are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 63 all_superset
+All vegetables are lettuce.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 63 all_wrongsubset
+All lettuce are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 63 notal_subset
+Not_all lettuce are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 63 notal_superset
+Not_all vegetables are lettuce.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 63 notal_wrongsubset
+Not_all lettuce are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 63 none_subset
+No lettuce are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 63 none_superset
+No vegetables are lettuce.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 63 none_wrongsubset
+No lettuce are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 64 some_subset
+Some lilacs are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 64 some_superset
+Some flowers are lilacs.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 64 some_wrongsubset
+Some lilacs are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 64 all_subset
+All lilacs are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 64 all_superset
+All flowers are lilacs.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 64 all_wrongsubset
+All lilacs are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 64 notal_subset
+Not_all lilacs are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 64 notal_superset
+Not_all flowers are lilacs.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 64 notal_wrongsubset
+Not_all lilacs are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 64 none_subset
+No lilacs are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 64 none_superset
+No flowers are lilacs.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 64 none_wrongsubset
+No lilacs are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 65 some_subset
+Some lilies are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 65 some_superset
+Some flowers are lilies.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 65 some_wrongsubset
+Some lilies are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 65 all_subset
+All lilies are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 65 all_superset
+All flowers are lilies.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 65 all_wrongsubset
+All lilies are fish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 65 notal_subset
+Not_all lilies are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 65 notal_superset
+Not_all flowers are lilies.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 65 notal_wrongsubset
+Not_all lilies are fish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 65 none_subset
+No lilies are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 65 none_superset
+No flowers are lilies.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 65 none_wrongsubset
+No lilies are fish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 66 some_subset
+Some mussels are shellfish.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 66 some_superset
+Some shellfish are mussels.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 66 some_wrongsubset
+Some mussels are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 66 all_subset
+All mussels are shellfish.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 66 all_superset
+All shellfish are mussels.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 66 all_wrongsubset
+All mussels are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 66 notal_subset
+Not_all mussels are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 66 notal_superset
+Not_all shellfish are mussels.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 66 notal_wrongsubset
+Not_all mussels are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 66 none_subset
+No mussels are shellfish.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 66 none_superset
+No shellfish are mussels.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 66 none_wrongsubset
+No mussels are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 67 some_subset
+Some broccoli are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 67 some_superset
+Some vegetables are broccoli.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 67 some_wrongsubset
+Some broccoli are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 67 all_subset
+All broccoli are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 67 all_superset
+All vegetables are broccoli.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 67 all_wrongsubset
+All broccoli are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 67 notal_subset
+Not_all broccoli are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 67 notal_superset
+Not_all vegetables are broccoli.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 67 notal_wrongsubset
+Not_all broccoli are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 67 none_subset
+No broccoli are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 67 none_superset
+No vegetables are broccoli.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 67 none_wrongsubset
+No broccoli are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 68 some_subset
+Some tulips are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 68 some_superset
+Some flowers are tulips.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 68 some_wrongsubset
+Some tulips are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 68 all_subset
+All tulips are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 68 all_superset
+All flowers are tulips.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 68 all_wrongsubset
+All tulips are mammals.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 68 notal_subset
+Not_all tulips are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 68 notal_superset
+Not_all flowers are tulips.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 68 notal_wrongsubset
+Not_all tulips are mammals.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 68 none_subset
+No tulips are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 68 none_superset
+No flowers are tulips.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 68 none_wrongsubset
+No tulips are mammals.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 69 some_subset
+Some turtles are reptiles.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 69 some_superset
+Some reptiles are turtles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 69 some_wrongsubset
+Some turtles are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 69 all_subset
+All turtles are reptiles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 69 all_superset
+All reptiles are turtles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 69 all_wrongsubset
+All turtles are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 69 notal_subset
+Not_all turtles are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 69 notal_superset
+Not_all reptiles are turtles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 69 notal_wrongsubset
+Not_all turtles are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 69 none_subset
+No turtles are reptiles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 69 none_superset
+No reptiles are turtles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 69 none_wrongsubset
+No turtles are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 70 some_subset
+Some asparagus are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 70 some_superset
+Some vegetables are asparagus.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 70 some_wrongsubset
+Some asparagus are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 70 all_subset
+All asparagus are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 70 all_superset
+All vegetables are asparagus.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 70 all_wrongsubset
+All asparagus are flowers.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 70 notal_subset
+Not_all asparagus are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 70 notal_superset
+Not_all vegetables are asparagus.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 70 notal_wrongsubset
+Not_all asparagus are flowers.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 70 none_subset
+No asparagus are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 70 none_superset
+No vegetables are asparagus.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 70 none_wrongsubset
+No asparagus are flowers.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 71 some_subset
+Some eagles are birds.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 71 some_superset
+Some birds are eagles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 71 some_wrongsubset
+Some eagles are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 71 all_subset
+All eagles are birds.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 71 all_superset
+All birds are eagles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 71 all_wrongsubset
+All eagles are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 71 notal_subset
+Not_all eagles are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 71 notal_superset
+Not_all birds are eagles.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 71 notal_wrongsubset
+Not_all eagles are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 71 none_subset
+No eagles are birds.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 71 none_superset
+No birds are eagles.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 71 none_wrongsubset
+No eagles are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 72 some_subset
+Some ants are insects.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 72 some_superset
+Some insects are ants.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 72 some_wrongsubset
+Some ants are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 72 all_subset
+All ants are insects.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 72 all_superset
+All insects are ants.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 72 all_wrongsubset
+All ants are vegetables.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 72 notal_subset
+Not_all ants are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 72 notal_superset
+Not_all insects are ants.
+! True or False? {TRUE FALSE} {TRUE}
+
+# verif18 72 notal_wrongsubset
+Not_all ants are vegetables.
+! True or False? {TRUE FALSE} {TRUE FALSE}
+
+# verif18 72 none_subset
+No ants are insects.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 72 none_superset
+No insects are ants.
+! True or False? {TRUE FALSE} {FALSE}
+
+# verif18 72 none_wrongsubset
+No ants are vegetables.
+! True or False? {TRUE FALSE} {TRUE}
+

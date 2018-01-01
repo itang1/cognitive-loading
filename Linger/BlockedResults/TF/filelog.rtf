@@ -1,0 +1,81 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww21140\viewh11860\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 #Everyone (good, bad, marginal)\
+awk -f orderassigner.awk TF_Master | grep s_u | grep first | colex 1 4 6 9 | tr "_" " " | awk '\{print $1, $4, ($5=="N")\}' | anova\
+(compares performance on first verif task b/w load conditions)\
+\
+SOURCE: grand mean\
+A        n    N       MEAN         SD         SE\
+        740   25     0.1787     0.1946     0.0389\
+\
+SOURCE: A \
+A        n    N       MEAN         SD         SE\
+high    290   10     0.1400     0.1593     0.0504\
+low     450   15     0.2044     0.2163     0.0559\
+\
+FACTOR  :     RANDOM          A       DATA \
+LEVELS  :         25          2         25 \
+TYPE    :     RANDOM    BETWEEN       DATA \
+\
+SOURCE                SS     df             MS         F      p\
+===============================================================\
+mean	          0.7980      1         0.7980    20.771  0.000 ***\
+R/A	          0.8837     23         0.0384\
+\
+A      	          0.0249      1         0.0249     0.649  0.429 \
+R/A	          0.8837     23         0.0384\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 #After removing badsubs \
+awk -f orderassigner.awk TF_Master | awk -f removebadsubs.awk | grep s_u | grep first | colex 1 4 6 9 | tr "_" " " | awk '\{print $1, $4, ($5=="N")\}' | anova\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+SOURCE: grand mean\
+A        n    N       MEAN         SD         SE\
+        480   16     0.2146     0.1768     0.0442\
+\
+SOURCE: A \
+A        n    N       MEAN         SD         SE\
+high    240    8     0.1750     0.1601     0.0566\
+low     240    8     0.2542     0.1943     0.0687\
+\
+FACTOR  :     RANDOM          A       DATA \
+LEVELS  :         16          2         16 \
+TYPE    :     RANDOM    BETWEEN       DATA \
+\
+SOURCE                SS     df             MS         F      p\
+===============================================================\
+mean	          0.7367      1         0.7367    23.244  0.000 ***\
+R/A	          0.4438     14         0.0317\
+\
+A      	          0.0251      1         0.0251     0.791  0.389 \
+R/A	          0.4438     14         0.0317\
+\
+#After removing badsubs + marginal subs\
+awk -f orderassigner.awk TF_Master | awk -f removebadsubs.awk | grep s_u | grep first | colex 1 4 6 9 | tr "_" " " | awk '\{print $1, $4, ($5=="N")\}' | anova\
+\
+SOURCE: grand mean\
+A        n    N       MEAN         SD         SE\
+        360   12     0.1667     0.1407     0.0406\
+\
+SOURCE: A \
+A        n    N       MEAN         SD         SE\
+high    240    8     0.1750     0.1601     0.0566\
+low     120    4     0.1500     0.1106     0.0553\
+\
+FACTOR  :     RANDOM          A       DATA \
+LEVELS  :         12          2         12 \
+TYPE    :     RANDOM    BETWEEN       DATA \
+\
+SOURCE                SS     df             MS         F      p\
+===============================================================\
+mean	          0.3333      1         0.3333    15.424  0.003 **\
+R/A	          0.2161     10         0.0216\
+\
+A      	          0.0017      1         0.0017     0.077  0.787 \
+R/A	          0.2161     10         0.0216\
+}

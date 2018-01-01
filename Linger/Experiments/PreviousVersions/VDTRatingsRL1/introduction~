@@ -1,0 +1,79 @@
+instruct {Welcome.  In this experiment, you'll be reading individual statements on the computer screen and judging whether they are true or false.  You will first see a cross in the center of the screen. The cross will disappear and the words of the statement will appear one at a time in the center of the screen.  After each statement, you will be asked to judge whether it is true or false.  In order to respond, you will hit the "F" key if you think the statement is true and "J" if you think it is false.  If you are unsure of the answer, try to pick the best possible answer.  You will be reminded which key is "true" and which is "false."  
+
+
+YOU SHOULD RESPOND AS QUICKLY AS YOU CAN WHILE STILL BEING ACCURATE.  Speed matters.  To be able to answer quickly, you should keep your index fingers resting on the "J" and "F" keys and your thumbs on the space bar.  This way you won't have to look down at the keys to answer.
+
+}
+
+instruct {There is one more wrinkle.  While you judge each sentence, you will be asked to remember a visual pattern in a grid of squares.  First, you will see the grid with some of the squares turned blue.  You should make an effort to remember which squares are blue.  Next you will see the sentence that you are to judge true or false.  Finally, you will be shown a blank grid and asked to click on the squares that were blue in the pattern (this part is not timed).  
+
+
+You can take breaks as you need them, but please try to do after you've entered a grid pattern, before you go on to the next item, when the screen is blank.
+
+
+If you have any questions about the procedure, ask the experimenter now. 
+
+}
+
+command {Let's try some practice...}
+
+dualTaskGridPracticeItem practice:1:-
+#presentItem practice:1:-
+
+command {Here comes another sentence...}
+
+dualTaskGridPracticeItem practice:2:-
+
+instruct {The remaining practice items will be more like real experimental statements.}
+
+command {Here we go...}
+
+dualTaskGridPracticeItem practice:3:-
+
+instruct {The answer to this question was 'True', because every daisy is a kind of flower.}
+
+dualTaskGridPracticeItem practice:4:-
+
+instruct {Some but not all trumpets are tarnished
+
+In this case, the answer is 'True', because there are some tarnished trumpets and some untarnished trumpets.}
+
+instruct {For the remaining items, you will see a grid pattern, then you judge a sentence as quickly as you can, and then you will be asked to recall the grid pattern you saw.}
+
+command { Here we go...}
+
+dualTaskGridItem practice:5:-
+
+instruct {At least some trees are birds.
+
+In this case, the answer is 'False', because there are no trees which are also birds.}
+
+command {Here is another practice item.}
+
+dualTaskGridItem practice:6:-
+
+instruct {Some cars are sedans.
+
+In this case, the answer is 'True'.}
+
+command {Here is another practice item.}
+
+dualTaskGridItem practice:7:-
+
+instruct {Some but not all toasters are mammals.
+
+In this case, the answer is 'False' because no toasters are mammals.}
+
+dualTaskGridItem practice:8:-
+
+instruct {All swords are ancient.
+
+In this case, the answer is 'False' because some swords are modern.}
+
+instruct {That's it for the practice.  Remember to make your judgments to the sentences as quickly as you can. 
+
+If you have any questions, ask the experimenter now.
+
+When you are ready to continue, let the experimenter know.}
+
+command {Here we go...}

@@ -1,0 +1,3 @@
+It looks like it counts each square you put down incorrectly as a miss
+until you put down more squares than there are targets in which case
+it counts false alarms.

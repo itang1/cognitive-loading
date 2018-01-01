@@ -1,0 +1,959 @@
+#VDTRatings1 1 some_UI
+Some,alligators,are,reptiles
+! True or False? {TRUE FALSE} {FALSE}
+
+#VDTRatings1 1 all_UI
+All,alligators,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 some_F
+Some,alligators,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 all_F
+All,alligators,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 some_UI
+Some,anacondas,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 all_UI
+All,anacondas,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 some_F
+Some,anacondas,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 all_F
+All,anacondas,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 some_UI
+Some,ants,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 all_UI
+All,ants,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 some_F
+Some,ants,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 all_F
+All,ants,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 4 some_UI
+Some,apples,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 4 all_UI
+All,apples,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 4 some_F
+Some,apples,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 4 all_F
+All,apples,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 5 some_UI
+Some,apricots,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 5 all_UI
+All,apricots,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 5 some_F
+Some,apricots,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 5 all_F
+All,apricots,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 6 some_UI
+Some,Audis,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 6 all_UI
+All,Audis,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 6 some_F
+Some,Audis,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 6 all_F
+All,Audis,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 7 some_UI
+Some,bananas,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 7 all_UI
+All,bananas,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 7 some_F
+Some,bananas,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 7 all_F
+All,bananas,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 8 some_UI
+Some,bazookas,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 8 all_UI
+All,bazookas,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 8 some_F
+Some,bazookas,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 8 all_F
+All,bazookas,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 9 some_UI
+Some,beagles,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 9 all_UI
+All,beagles,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 9 some_F
+Some,beagles,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 9 all_F
+All,beagles,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_UI
+Some,bears,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_UI
+All,bears,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_F
+Some,bears,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_F
+All,bears,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_UI
+Some,beeches,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_UI
+All,beeches,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_F
+Some,beeches,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_F
+All,beeches,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_UI
+Some,bees,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_UI
+All,bees,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_F
+Some,bees,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_F
+All,bees,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_UI
+Some,beetles,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_UI
+All,beetles,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_F
+Some,beetles,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_F
+All,beetles,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_UI
+Some,birches,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_UI
+All,birches,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_F
+Some,birches,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_F
+All,birches,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_UI
+Some,bombs,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_UI
+All,bombs,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_F
+Some,bombs,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_F
+All,bombs,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_UI
+Some,buffalo,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_UI
+All,buffalo,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_F
+Some,buffalo,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_F
+All,buffalo,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_UI
+Some,Buicks,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_UI
+All,Buicks,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_F
+Some,Buicks,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_F
+All,Buicks,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_UI
+Some,canaries,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_UI
+All,canaries,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_F
+Some,canaries,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_F
+All,canaries,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_UI
+Some,carnations,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_UI
+All,carnations,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,some_F
+Some,carnations,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 1 ,all_F
+All,carnations,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_UI
+Some,carp,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_UI
+All,carp,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_F
+Some,carp,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_F
+All,carp,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_UI
+Some,cedars,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_UI
+All,cedars,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_F
+Some,cedars,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_F
+All,cedars,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_UI
+Some,chainsaws,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_UI
+All,chainsaws,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_F
+Some,chainsaws,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_F
+All,chainsaws,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_UI
+Some,chameleons,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_UI
+All,chameleons,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_F
+Some,chameleons,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_F
+All,chameleons,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_UI
+Some,Chevrolets,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_UI
+All,Chevrolets,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_F
+Some,Chevrolets,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_F
+All,Chevrolets,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_UI
+Some,chihuahuas,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_UI
+All,chihuahuas,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_F
+Some,chihuahuas,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_F
+All,chihuahuas,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_UI
+Some,chisels,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_UI
+All,chisels,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_F
+Some,chisels,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_F
+All,chisels,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_UI
+Some,cockroaches,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_UI
+All,cockroaches,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_F
+Some,cockroaches,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_F
+All,cockroaches,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_UI
+Some,cod,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_UI
+All,cod,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_F
+Some,cod,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_F
+All,cod,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_UI
+Some,cows,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_UI
+All,cows,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,some_F
+Some,cows,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 2 ,all_F
+All,cows,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_UI
+Some,crickets,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_UI
+All,crickets,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_F
+Some,crickets,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_F
+All,crickets,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_UI
+Some,crocodiles,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_UI
+All,crocodiles,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_F
+Some,crocodiles,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_F
+All,crocodiles,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_UI
+Some,crossbows,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_UI
+All,crossbows,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_F
+Some,crossbows,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_F
+All,crossbows,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_UI
+Some,crowbars,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_UI
+All,crowbars,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_F
+Some,crowbars,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_F
+All,crowbars,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_UI
+Some,crows,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_UI
+All,crows,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_F
+Some,crows,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_F
+All,crows,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_UI
+Some,daffodils,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_UI
+All,daffodils,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_F
+Some,daffodils,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_F
+All,daffodils,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_UI
+Some,daggers,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_UI
+All,daggers,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_F
+Some,daggers,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_F
+All,daggers,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_UI
+Some,daisies,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_UI
+All,daisies,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_F
+Some,daisies,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_F
+All,daisies,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_UI
+Some,dalmatians,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,all_UI
+All,dalmatians,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#VDTRatings1 3 ,some_F
+Some,dalmatians,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#38,all_F,
+All,dalmatians,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#39,some_UI,
+Some,dandelion,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#39,all_UI,
+All,dandelion,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#39,some_F,
+Some,dandelion,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#39,all_F,
+All,dandelion,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#40,some_UI,
+Some,deer,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#40,all_UI,
+All,deer,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#40,some_F,
+Some,deer,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#40,all_F,
+All,deer,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#41,some_UI,
+Some,doves,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#41,all_UI,
+All,doves,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#41,some_F,
+Some,doves,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#41,all_F,
+All,doves,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#42,some_UI,
+Some,drills,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#42,all_UI,
+All,drills,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#42,some_F,
+Some,drills,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#42,all_F,
+All,drills,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#43,some_UI,
+Some,eagles,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#43,all_UI,
+All,eagles,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#43,some_F,
+Some,eagles,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#43,all_F,
+All,eagles,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#44,some_UI,
+Some,elephants,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#44,all_UI,
+All,elephants,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#44,some_F,
+Some,elephants,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#44,all_F,
+All,elephants,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#45,some_UI,
+Some,elms,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#45,all_UI,
+All,elms,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#45,some_F,
+Some,elms,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#45,all_F,
+All,elms,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#46,some_UI,
+Some,Ferraris,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#46,all_UI,
+All,Ferraris,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#46,some_F,
+Some,Ferraris,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#46,all_F,
+All,Ferraris,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#47,some_UI,
+Some,firs,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#47,all_UI,
+All,firs,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#47,some_F,
+Some,firs,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#47,all_F,
+All,firs,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#48,some_UI,
+Some,flamingoes,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#48,all_UI,
+All,flamingoes,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#48,some_F,
+Some,flamingoes,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#48,all_F,
+All,flamingoes,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#49,some_UI,
+Some,fleas,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#49,all_UI,
+All,fleas,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#49,some_F,
+Some,fleas,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#49,all_F,
+All,fleas,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#50,some_UI,
+Some,flies,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#50,all_UI,
+All,flies,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#50,some_F,
+Some,flies,are,tools
+! True or False? {TRUE FALSE} {TRUE}
+
+#50,all_F,
+All,flies,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#51,some_UI,
+Some,flounders,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#51,all_UI,
+All,flounders,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#51,some_F,
+Some,flounders,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#51,all_F,
+All,flounders,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#52,some_UI,
+Some,Fords,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#52,all_UI,
+All,Fords,are,cars
+! True or False? {TRUE FALSE} {TRUE}
+
+#52,some_F,
+Some,Fords,are,dogs
+! True or False? {TRUE FALSE} {TRUE}
+
+#52,all_F,
+All,Fords,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#53,some_UI,
+Some,foxes,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#53,all_UI,
+All,foxes,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#53,some_F,
+Some,foxes,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#53,all_F,
+All,foxes,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#54,some_UI,
+Some,gardenias,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#54,all_UI,
+All,gardenias,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#54,some_F,
+Some,gardenias,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#54,all_F,
+All,gardenias,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#55,some_UI,
+Some,geckos,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#55,all_UI,
+All,geckos,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#55,some_F,
+Some,geckos,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#55,all_F,
+All,geckos,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#56,some_UI,
+Some,goats,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#56,all_UI,
+All,goats,are,mammals
+! True or False? {TRUE FALSE} {TRUE}
+
+#56,some_F,
+Some,goats,are,trees
+! True or False? {TRUE FALSE} {TRUE}
+
+#56,all_F,
+All,goats,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#57,some_UI,
+Some,grapes,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#57,all_UI,
+All,grapes,are,fruit
+! True or False? {TRUE FALSE} {TRUE}
+
+#57,some_F,
+Some,grapes,are,insects
+! True or False? {TRUE FALSE} {TRUE}
+
+#57,all_F,
+All,grapes,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#58,some_UI,
+Some,grenades,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#58,all_UI,
+All,grenades,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#58,some_F,
+Some,grenades,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#58,all_F,
+All,grenades,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#59,some_UI,
+Some,guns,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#59,all_UI,
+All,guns,are,weapons
+! True or False? {TRUE FALSE} {TRUE}
+
+#59,some_F,
+Some,guns,are,birds
+! True or False? {TRUE FALSE} {TRUE}
+
+#59,all_F,
+All,guns,are,reptiles
+! True or False? {TRUE FALSE} {TRUE}
+
+#60,some_UI,
+Some,haddock,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#60,all_UI,
+All,haddock,are,fish
+! True or False? {TRUE FALSE} {TRUE}
+
+#60,some_F,
+Some,haddock,are,flowers
+! True or False? {TRUE FALSE} {TRUE}
+
+#60,all_F,
+All,haddock,are,dogs
+! True or False? {TRUE FALSE} {TRUE}

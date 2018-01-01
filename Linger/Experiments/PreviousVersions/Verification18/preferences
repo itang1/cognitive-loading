@@ -1,0 +1,34 @@
+set Experiment centerAutoPacedReading
+set CenterLeftAligned  1
+set CenterLeftShift 50
+set AutoPacedDelay 250
+set AutoPacedInitDelay 100
+set MinInfo 100
+set PreDelay 100 
+
+# Whether the options are shuffled for multiple choice questions:
+set MultiChoiceRandChoices 0
+
+# Determines the horizontal spacing between multiple choice columns:
+set MultiChoiceHGap 50
+
+set MultiKeys    {{F f} {J j}}
+set RightAnswer  ""
+set WrongAnswer "Oops.  Wrong answer."
+set TextFont      "-family {courier new} -size 24 -weight bold"
+set QuestionKeys "\"F\" for True.    \"J\" for False."
+
+################new proc
+
+proc centerAutoPacedReadingItem item {
+  global Sentence PreDelay 
+  feedback 1 "centerAutoPacedReadingItem $item"
+  parseSentence $Sentence($item)
+  crossHairOn
+  after $PreDelay
+  crossHairOff
+  centerAutoPacedPresentSentence $item
+  askQuestions $item TextFont center
+  command {}
+}
+

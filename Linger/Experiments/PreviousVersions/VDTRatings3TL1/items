@@ -1,0 +1,4819 @@
+# practice 1 -
+All_tables_are_furniture.
+? True or False? Y
+
+# practice 2 -
+Some_toasters_are_mammals.
+? True or False? N
+
+# practice 3 - 
+ALl_vegetables_are_carrots.
+? True or False? N
+
+# practice 4 - 
+Some_jewelry_are_rings.
+? True or False? Y
+
+# practice 5 - 
+All_schools_are_books.
+? True or False? N
+
+# VDTRatingsTL1 1 s_u1_low
+Some_drills_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 1 s_u1_high
+Some_drills_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 1 s_u2_low
+Some_drills_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 1 s_u2_high
+Some_drills_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 1 s_u3_low
+Some_drills_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 1 s_u3_high
+Some_drills_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 1 s_u4_low
+Some_drills_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 1 s_u4_high
+Some_drills_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 1 s_u5_low
+Some_drills_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 1 s_u5_high
+Some_drills_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 1 s_t_low
+Some_tools_are_drills.
+? True or False? Y
+
+# VDTRatingsTL1 1 s_t_high
+Some_tools_are_drills.
+? True or False? Y
+
+# VDTRatingsTL1 1 s_f_low
+Some_drills_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 1 s_f_high
+Some_drills_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 1 a_u_low
+All_drills_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 1 a_u_high
+All_drills_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 1 a_t_low
+All_tools_are_drills.
+? True or False? N
+
+# VDTRatingsTL1 1 a_t_high
+All_tools_are_drills.
+? True or False? N
+
+# VDTRatingsTL1 1 a_f_low
+All_drills_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 1 a_f_high
+All_drills_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 2 s_u1_low
+Some_halibut_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 2 s_u1_high
+Some_halibut_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 2 s_u2_low
+Some_halibut_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 2 s_u2_high
+Some_halibut_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 2 s_u3_low
+Some_halibut_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 2 s_u3_high
+Some_halibut_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 2 s_u4_low
+Some_halibut_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 2 s_u4_high
+Some_halibut_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 2 s_u5_low
+Some_halibut_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 2 s_u5_high
+Some_halibut_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 2 s_t_low
+Some_fish_are_halibut.
+? True or False? Y
+
+# VDTRatingsTL1 2 s_t_high
+Some_fish_are_halibut.
+? True or False? Y
+
+# VDTRatingsTL1 2 s_f_low
+Some_halibut_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 2 s_f_high
+Some_halibut_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 2 a_u_low
+All_halibut_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 2 a_u_high
+All_halibut_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 2 a_t_low
+All_fish_are_halibut.
+? True or False? N
+
+# VDTRatingsTL1 2 a_t_high
+All_fish_are_halibut.
+? True or False? N
+
+# VDTRatingsTL1 2 a_f_low
+All_halibut_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 2 a_f_high
+All_halibut_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 3 s_u1_low
+Some_moths_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 3 s_u1_high
+Some_moths_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 3 s_u2_low
+Some_moths_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 3 s_u2_high
+Some_moths_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 3 s_u3_low
+Some_moths_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 3 s_u3_high
+Some_moths_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 3 s_u4_low
+Some_moths_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 3 s_u4_high
+Some_moths_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 3 s_u5_low
+Some_moths_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 3 s_u5_high
+Some_moths_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 3 s_t_low
+Some_insects_are_moths.
+? True or False? Y
+
+# VDTRatingsTL1 3 s_t_high
+Some_insects_are_moths.
+? True or False? Y
+
+# VDTRatingsTL1 3 s_f_low
+Some_moths_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 3 s_f_high
+Some_moths_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 3 a_u_low
+All_moths_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 3 a_u_high
+All_moths_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 3 a_t_low
+All_insects_are_moths.
+? True or False? N
+
+# VDTRatingsTL1 3 a_t_high
+All_insects_are_moths.
+? True or False? N
+
+# VDTRatingsTL1 3 a_f_low
+All_moths_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 3 a_f_high
+All_moths_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 4 s_u1_low
+Some_pigs_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 4 s_u1_high
+Some_pigs_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 4 s_u2_low
+Some_pigs_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 4 s_u2_high
+Some_pigs_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 4 s_u3_low
+Some_pigs_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 4 s_u3_high
+Some_pigs_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 4 s_u4_low
+Some_pigs_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 4 s_u4_high
+Some_pigs_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 4 s_u5_low
+Some_pigs_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 4 s_u5_high
+Some_pigs_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 4 s_t_low
+Some_mammals_are_pigs.
+? True or False? Y
+
+# VDTRatingsTL1 4 s_t_high
+Some_mammals_are_pigs.
+? True or False? Y
+
+# VDTRatingsTL1 4 s_f_low
+Some_pigs_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 4 s_f_high
+Some_pigs_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 4 a_u_low
+All_pigs_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 4 a_u_high
+All_pigs_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 4 a_t_low
+All_mammals_are_pigs.
+? True or False? N
+
+# VDTRatingsTL1 4 a_t_high
+All_mammals_are_pigs.
+? True or False? N
+
+# VDTRatingsTL1 4 a_f_low
+All_pigs_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 4 a_f_high
+All_pigs_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 5 s_u1_low
+Some_haddock_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 5 s_u1_high
+Some_haddock_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 5 s_u2_low
+Some_haddock_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 5 s_u2_high
+Some_haddock_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 5 s_u3_low
+Some_haddock_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 5 s_u3_high
+Some_haddock_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 5 s_u4_low
+Some_haddock_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 5 s_u4_high
+Some_haddock_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 5 s_u5_low
+Some_haddock_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 5 s_u5_high
+Some_haddock_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 5 s_t_low
+Some_fish_are_haddock.
+? True or False? Y
+
+# VDTRatingsTL1 5 s_t_high
+Some_fish_are_haddock.
+? True or False? Y
+
+# VDTRatingsTL1 5 s_f_low
+Some_haddock_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 5 s_f_high
+Some_haddock_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 5 a_u_low
+All_haddock_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 5 a_u_high
+All_haddock_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 5 a_t_low
+All_fish_are_haddock.
+? True or False? N
+
+# VDTRatingsTL1 5 a_t_high
+All_fish_are_haddock.
+? True or False? N
+
+# VDTRatingsTL1 5 a_f_low
+All_haddock_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 5 a_f_high
+All_haddock_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 6 s_u1_low
+Some_deer_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 6 s_u1_high
+Some_deer_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 6 s_u2_low
+Some_deer_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 6 s_u2_high
+Some_deer_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 6 s_u3_low
+Some_deer_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 6 s_u3_high
+Some_deer_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 6 s_u4_low
+Some_deer_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 6 s_u4_high
+Some_deer_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 6 s_u5_low
+Some_deer_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 6 s_u5_high
+Some_deer_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 6 s_t_low
+Some_mammals_are_deer.
+? True or False? Y
+
+# VDTRatingsTL1 6 s_t_high
+Some_mammals_are_deer.
+? True or False? Y
+
+# VDTRatingsTL1 6 s_f_low
+Some_deer_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 6 s_f_high
+Some_deer_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 6 a_u_low
+All_deer_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 6 a_u_high
+All_deer_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 6 a_t_low
+All_mammals_are_deer.
+? True or False? N
+
+# VDTRatingsTL1 6 a_t_high
+All_mammals_are_deer.
+? True or False? N
+
+# VDTRatingsTL1 6 a_f_low
+All_deer_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 6 a_f_high
+All_deer_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 7 s_u1_low
+Some_hounds_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 7 s_u1_high
+Some_hounds_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 7 s_u2_low
+Some_hounds_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 7 s_u2_high
+Some_hounds_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 7 s_u3_low
+Some_hounds_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 7 s_u3_high
+Some_hounds_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 7 s_u4_low
+Some_hounds_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 7 s_u4_high
+Some_hounds_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 7 s_u5_low
+Some_hounds_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 7 s_u5_high
+Some_hounds_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 7 s_t_low
+Some_dogs_are_hounds.
+? True or False? Y
+
+# VDTRatingsTL1 7 s_t_high
+Some_dogs_are_hounds.
+? True or False? Y
+
+# VDTRatingsTL1 7 s_f_low
+Some_hounds_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 7 s_f_high
+Some_hounds_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 7 a_u_low
+All_hounds_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 7 a_u_high
+All_hounds_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 7 a_t_low
+All_dogs_are_hounds.
+? True or False? N
+
+# VDTRatingsTL1 7 a_t_high
+All_dogs_are_hounds.
+? True or False? N
+
+# VDTRatingsTL1 7 a_f_low
+All_hounds_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 7 a_f_high
+All_hounds_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 8 s_u1_low
+Some_mackerel_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 8 s_u1_high
+Some_mackerel_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 8 s_u2_low
+Some_mackerel_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 8 s_u2_high
+Some_mackerel_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 8 s_u3_low
+Some_mackerel_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 8 s_u3_high
+Some_mackerel_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 8 s_u4_low
+Some_mackerel_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 8 s_u4_high
+Some_mackerel_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 8 s_u5_low
+Some_mackerel_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 8 s_u5_high
+Some_mackerel_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 8 s_t_low
+Some_fish_are_mackerel.
+? True or False? Y
+
+# VDTRatingsTL1 8 s_t_high
+Some_fish_are_mackerel.
+? True or False? Y
+
+# VDTRatingsTL1 8 s_f_low
+Some_mackerel_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 8 s_f_high
+Some_mackerel_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 8 a_u_low
+All_mackerel_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 8 a_u_high
+All_mackerel_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 8 a_t_low
+All_fish_are_mackerel.
+? True or False? N
+
+# VDTRatingsTL1 8 a_t_high
+All_fish_are_mackerel.
+? True or False? N
+
+# VDTRatingsTL1 8 a_f_low
+All_mackerel_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 8 a_f_high
+All_mackerel_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 9 s_u1_low
+Some_flamingoes_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 9 s_u1_high
+Some_flamingoes_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 9 s_u2_low
+Some_flamingoes_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 9 s_u2_high
+Some_flamingoes_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 9 s_u3_low
+Some_flamingoes_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 9 s_u3_high
+Some_flamingoes_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 9 s_u4_low
+Some_flamingoes_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 9 s_u4_high
+Some_flamingoes_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 9 s_u5_low
+Some_flamingoes_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 9 s_u5_high
+Some_flamingoes_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 9 s_t_low
+Some_birds_are_flamingoes.
+? True or False? Y
+
+# VDTRatingsTL1 9 s_t_high
+Some_birds_are_flamingoes.
+? True or False? Y
+
+# VDTRatingsTL1 9 s_f_low
+Some_flamingoes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 9 s_f_high
+Some_flamingoes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 9 a_u_low
+All_flamingoes_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 9 a_u_high
+All_flamingoes_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 9 a_t_low
+All_birds_are_flamingoes.
+? True or False? N
+
+# VDTRatingsTL1 9 a_t_high
+All_birds_are_flamingoes.
+? True or False? N
+
+# VDTRatingsTL1 9 a_f_low
+All_flamingoes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 9 a_f_high
+All_flamingoes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 10 s_u1_low
+Some_spaniels_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 10 s_u1_high
+Some_spaniels_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 10 s_u2_low
+Some_spaniels_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 10 s_u2_high
+Some_spaniels_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 10 s_u3_low
+Some_spaniels_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 10 s_u3_high
+Some_spaniels_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 10 s_u4_low
+Some_spaniels_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 10 s_u4_high
+Some_spaniels_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 10 s_u5_low
+Some_spaniels_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 10 s_u5_high
+Some_spaniels_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 10 s_t_low
+Some_dogs_are_spaniels.
+? True or False? Y
+
+# VDTRatingsTL1 10 s_t_high
+Some_dogs_are_spaniels.
+? True or False? Y
+
+# VDTRatingsTL1 10 s_f_low
+Some_spaniels_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 10 s_f_high
+Some_spaniels_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 10 a_u_low
+All_spaniels_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 10 a_u_high
+All_spaniels_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 10 a_t_low
+All_dogs_are_spaniels.
+? True or False? N
+
+# VDTRatingsTL1 10 a_t_high
+All_dogs_are_spaniels.
+? True or False? N
+
+# VDTRatingsTL1 10 a_f_low
+All_spaniels_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 10 a_f_high
+All_spaniels_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 11 s_u1_low
+Some_bears_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 11 s_u1_high
+Some_bears_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 11 s_u2_low
+Some_bears_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 11 s_u2_high
+Some_bears_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 11 s_u3_low
+Some_bears_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 11 s_u3_high
+Some_bears_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 11 s_u4_low
+Some_bears_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 11 s_u4_high
+Some_bears_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 11 s_u5_low
+Some_bears_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 11 s_u5_high
+Some_bears_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 11 s_t_low
+Some_mammals_are_bears.
+? True or False? Y
+
+# VDTRatingsTL1 11 s_t_high
+Some_mammals_are_bears.
+? True or False? Y
+
+# VDTRatingsTL1 11 s_f_low
+Some_bears_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 11 s_f_high
+Some_bears_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 11 a_u_low
+All_bears_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 11 a_u_high
+All_bears_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 11 a_t_low
+All_mammals_are_bears.
+? True or False? N
+
+# VDTRatingsTL1 11 a_t_high
+All_mammals_are_bears.
+? True or False? N
+
+# VDTRatingsTL1 11 a_f_low
+All_bears_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 11 a_f_high
+All_bears_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 12 s_u1_low
+Some_piranhas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 12 s_u1_high
+Some_piranhas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 12 s_u2_low
+Some_piranhas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 12 s_u2_high
+Some_piranhas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 12 s_u3_low
+Some_piranhas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 12 s_u3_high
+Some_piranhas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 12 s_u4_low
+Some_piranhas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 12 s_u4_high
+Some_piranhas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 12 s_u5_low
+Some_piranhas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 12 s_u5_high
+Some_piranhas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 12 s_t_low
+Some_fish_are_piranhas.
+? True or False? Y
+
+# VDTRatingsTL1 12 s_t_high
+Some_fish_are_piranhas.
+? True or False? Y
+
+# VDTRatingsTL1 12 s_f_low
+Some_piranhas_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 12 s_f_high
+Some_piranhas_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 12 a_u_low
+All_piranhas_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 12 a_u_high
+All_piranhas_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 12 a_t_low
+All_fish_are_piranhas.
+? True or False? N
+
+# VDTRatingsTL1 12 a_t_high
+All_fish_are_piranhas.
+? True or False? N
+
+# VDTRatingsTL1 12 a_f_low
+All_piranhas_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 12 a_f_high
+All_piranhas_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 13 s_u1_low
+Some_maples_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 13 s_u1_high
+Some_maples_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 13 s_u2_low
+Some_maples_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 13 s_u2_high
+Some_maples_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 13 s_u3_low
+Some_maples_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 13 s_u3_high
+Some_maples_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 13 s_u4_low
+Some_maples_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 13 s_u4_high
+Some_maples_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 13 s_u5_low
+Some_maples_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 13 s_u5_high
+Some_maples_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 13 s_t_low
+Some_trees_are_maples.
+? True or False? Y
+
+# VDTRatingsTL1 13 s_t_high
+Some_trees_are_maples.
+? True or False? Y
+
+# VDTRatingsTL1 13 s_f_low
+Some_maples_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 13 s_f_high
+Some_maples_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 13 a_u_low
+All_maples_are_trees.
+? True or False? Y
+
+# VDTRatingsTL1 13 a_u_high
+All_maples_are_trees.
+? True or False? Y
+
+# VDTRatingsTL1 13 a_t_low
+All_trees_are_maples.
+? True or False? N
+
+# VDTRatingsTL1 13 a_t_high
+All_trees_are_maples.
+? True or False? N
+
+# VDTRatingsTL1 13 a_f_low
+All_maples_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 13 a_f_high
+All_maples_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 14 s_u1_low
+Some_owls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 14 s_u1_high
+Some_owls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 14 s_u2_low
+Some_owls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 14 s_u2_high
+Some_owls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 14 s_u3_low
+Some_owls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 14 s_u3_high
+Some_owls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 14 s_u4_low
+Some_owls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 14 s_u4_high
+Some_owls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 14 s_u5_low
+Some_owls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 14 s_u5_high
+Some_owls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 14 s_t_low
+Some_birds_are_owls.
+? True or False? Y
+
+# VDTRatingsTL1 14 s_t_high
+Some_birds_are_owls.
+? True or False? Y
+
+# VDTRatingsTL1 14 s_f_low
+Some_owls_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 14 s_f_high
+Some_owls_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 14 a_u_low
+All_owls_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 14 a_u_high
+All_owls_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 14 a_t_low
+All_birds_are_owls.
+? True or False? N
+
+# VDTRatingsTL1 14 a_t_high
+All_birds_are_owls.
+? True or False? N
+
+# VDTRatingsTL1 14 a_f_low
+All_owls_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 14 a_f_high
+All_owls_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 15 s_u1_low
+Some_trout_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 15 s_u1_high
+Some_trout_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 15 s_u2_low
+Some_trout_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 15 s_u2_high
+Some_trout_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 15 s_u3_low
+Some_trout_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 15 s_u3_high
+Some_trout_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 15 s_u4_low
+Some_trout_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 15 s_u4_high
+Some_trout_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 15 s_u5_low
+Some_trout_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 15 s_u5_high
+Some_trout_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 15 s_t_low
+Some_fish_are_trout.
+? True or False? Y
+
+# VDTRatingsTL1 15 s_t_high
+Some_fish_are_trout.
+? True or False? Y
+
+# VDTRatingsTL1 15 s_f_low
+Some_trout_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 15 s_f_high
+Some_trout_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 15 a_u_low
+All_trout_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 15 a_u_high
+All_trout_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 15 a_t_low
+All_fish_are_trout.
+? True or False? N
+
+# VDTRatingsTL1 15 a_t_high
+All_fish_are_trout.
+? True or False? N
+
+# VDTRatingsTL1 15 a_f_low
+All_trout_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 15 a_f_high
+All_trout_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 16 s_u1_low
+Some_carnations_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 16 s_u1_high
+Some_carnations_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 16 s_u2_low
+Some_carnations_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 16 s_u2_high
+Some_carnations_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 16 s_u3_low
+Some_carnations_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 16 s_u3_high
+Some_carnations_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 16 s_u4_low
+Some_carnations_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 16 s_u4_high
+Some_carnations_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 16 s_u5_low
+Some_carnations_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 16 s_u5_high
+Some_carnations_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 16 s_t_low
+Some_flowers_are_carnations.
+? True or False? Y
+
+# VDTRatingsTL1 16 s_t_high
+Some_flowers_are_carnations.
+? True or False? Y
+
+# VDTRatingsTL1 16 s_f_low
+Some_carnations_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 16 s_f_high
+Some_carnations_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 16 a_u_low
+All_carnations_are_flowers.
+? True or False? Y
+
+# VDTRatingsTL1 16 a_u_high
+All_carnations_are_flowers.
+? True or False? Y
+
+# VDTRatingsTL1 16 a_t_low
+All_flowers_are_carnations.
+? True or False? N
+
+# VDTRatingsTL1 16 a_t_high
+All_flowers_are_carnations.
+? True or False? N
+
+# VDTRatingsTL1 16 a_f_low
+All_carnations_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 16 a_f_high
+All_carnations_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 17 s_u1_low
+Some_apples_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 17 s_u1_high
+Some_apples_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 17 s_u2_low
+Some_apples_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 17 s_u2_high
+Some_apples_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 17 s_u3_low
+Some_apples_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 17 s_u3_high
+Some_apples_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 17 s_u4_low
+Some_apples_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 17 s_u4_high
+Some_apples_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 17 s_u5_low
+Some_apples_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 17 s_u5_high
+Some_apples_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 17 s_t_low
+Some_fruit_are_apples.
+? True or False? Y
+
+# VDTRatingsTL1 17 s_t_high
+Some_fruit_are_apples.
+? True or False? Y
+
+# VDTRatingsTL1 17 s_f_low
+Some_apples_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 17 s_f_high
+Some_apples_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 17 a_u_low
+All_apples_are_fruit.
+? True or False? Y
+
+# VDTRatingsTL1 17 a_u_high
+All_apples_are_fruit.
+? True or False? Y
+
+# VDTRatingsTL1 17 a_t_low
+All_fruit_are_apples.
+? True or False? N
+
+# VDTRatingsTL1 17 a_t_high
+All_fruit_are_apples.
+? True or False? N
+
+# VDTRatingsTL1 17 a_f_low
+All_apples_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 17 a_f_high
+All_apples_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 18 s_u1_low
+Some_bees_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 18 s_u1_high
+Some_bees_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 18 s_u2_low
+Some_bees_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 18 s_u2_high
+Some_bees_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 18 s_u3_low
+Some_bees_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 18 s_u3_high
+Some_bees_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 18 s_u4_low
+Some_bees_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 18 s_u4_high
+Some_bees_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 18 s_u5_low
+Some_bees_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 18 s_u5_high
+Some_bees_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 18 s_t_low
+Some_insects_are_bees.
+? True or False? Y
+
+# VDTRatingsTL1 18 s_t_high
+Some_insects_are_bees.
+? True or False? Y
+
+# VDTRatingsTL1 18 s_f_low
+Some_bees_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 18 s_f_high
+Some_bees_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 18 a_u_low
+All_bees_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 18 a_u_high
+All_bees_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 18 a_t_low
+All_insects_are_bees.
+? True or False? N
+
+# VDTRatingsTL1 18 a_t_high
+All_insects_are_bees.
+? True or False? N
+
+# VDTRatingsTL1 18 a_f_low
+All_bees_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 18 a_f_high
+All_bees_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 19 s_u1_low
+Some_crows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 19 s_u1_high
+Some_crows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 19 s_u2_low
+Some_crows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 19 s_u2_high
+Some_crows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 19 s_u3_low
+Some_crows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 19 s_u3_high
+Some_crows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 19 s_u4_low
+Some_crows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 19 s_u4_high
+Some_crows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 19 s_u5_low
+Some_crows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 19 s_u5_high
+Some_crows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 19 s_t_low
+Some_birds_are_crows.
+? True or False? Y
+
+# VDTRatingsTL1 19 s_t_high
+Some_birds_are_crows.
+? True or False? Y
+
+# VDTRatingsTL1 19 s_f_low
+Some_crows_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 19 s_f_high
+Some_crows_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 19 a_u_low
+All_crows_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 19 a_u_high
+All_crows_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 19 a_t_low
+All_birds_are_crows.
+? True or False? N
+
+# VDTRatingsTL1 19 a_t_high
+All_birds_are_crows.
+? True or False? N
+
+# VDTRatingsTL1 19 a_f_low
+All_crows_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 19 a_f_high
+All_crows_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 20 s_u1_low
+Some_flounders_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 20 s_u1_high
+Some_flounders_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 20 s_u2_low
+Some_flounders_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 20 s_u2_high
+Some_flounders_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 20 s_u3_low
+Some_flounders_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 20 s_u3_high
+Some_flounders_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 20 s_u4_low
+Some_flounders_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 20 s_u4_high
+Some_flounders_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 20 s_u5_low
+Some_flounders_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 20 s_u5_high
+Some_flounders_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 20 s_t_low
+Some_fish_are_flounders.
+? True or False? Y
+
+# VDTRatingsTL1 20 s_t_high
+Some_fish_are_flounders.
+? True or False? Y
+
+# VDTRatingsTL1 20 s_f_low
+Some_flounders_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 20 s_f_high
+Some_flounders_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 20 a_u_low
+All_flounders_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 20 a_u_high
+All_flounders_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 20 a_t_low
+All_fish_are_flounders.
+? True or False? N
+
+# VDTRatingsTL1 20 a_t_high
+All_fish_are_flounders.
+? True or False? N
+
+# VDTRatingsTL1 20 a_f_low
+All_flounders_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 20 a_f_high
+All_flounders_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 21 s_u1_low
+Some_wasps_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 21 s_u1_high
+Some_wasps_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 21 s_u2_low
+Some_wasps_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 21 s_u2_high
+Some_wasps_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 21 s_u3_low
+Some_wasps_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 21 s_u3_high
+Some_wasps_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 21 s_u4_low
+Some_wasps_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 21 s_u4_high
+Some_wasps_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 21 s_u5_low
+Some_wasps_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 21 s_u5_high
+Some_wasps_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 21 s_t_low
+Some_insects_are_wasps.
+? True or False? Y
+
+# VDTRatingsTL1 21 s_t_high
+Some_insects_are_wasps.
+? True or False? Y
+
+# VDTRatingsTL1 21 s_f_low
+Some_wasps_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 21 s_f_high
+Some_wasps_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 21 a_u_low
+All_wasps_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 21 a_u_high
+All_wasps_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 21 a_t_low
+All_insects_are_wasps.
+? True or False? N
+
+# VDTRatingsTL1 21 a_t_high
+All_insects_are_wasps.
+? True or False? N
+
+# VDTRatingsTL1 21 a_f_low
+All_wasps_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 21 a_f_high
+All_wasps_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 22 s_u1_low
+Some_salmon_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 22 s_u1_high
+Some_salmon_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 22 s_u2_low
+Some_salmon_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 22 s_u2_high
+Some_salmon_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 22 s_u3_low
+Some_salmon_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 22 s_u3_high
+Some_salmon_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 22 s_u4_low
+Some_salmon_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 22 s_u4_high
+Some_salmon_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 22 s_u5_low
+Some_salmon_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 22 s_u5_high
+Some_salmon_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 22 s_t_low
+Some_fish_are_salmon.
+? True or False? Y
+
+# VDTRatingsTL1 22 s_t_high
+Some_fish_are_salmon.
+? True or False? Y
+
+# VDTRatingsTL1 22 s_f_low
+Some_salmon_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 22 s_f_high
+Some_salmon_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 22 a_u_low
+All_salmon_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 22 a_u_high
+All_salmon_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 22 a_t_low
+All_fish_are_salmon.
+? True or False? N
+
+# VDTRatingsTL1 22 a_t_high
+All_fish_are_salmon.
+? True or False? N
+
+# VDTRatingsTL1 22 a_f_low
+All_salmon_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 22 a_f_high
+All_salmon_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 23 s_u1_low
+Some_wirecutters_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 23 s_u1_high
+Some_wirecutters_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 23 s_u2_low
+Some_wirecutters_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 23 s_u2_high
+Some_wirecutters_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 23 s_u3_low
+Some_wirecutters_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 23 s_u3_high
+Some_wirecutters_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 23 s_u4_low
+Some_wirecutters_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 23 s_u4_high
+Some_wirecutters_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 23 s_u5_low
+Some_wirecutters_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 23 s_u5_high
+Some_wirecutters_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 23 s_t_low
+Some_tools_are_wirecutters.
+? True or False? Y
+
+# VDTRatingsTL1 23 s_t_high
+Some_tools_are_wirecutters.
+? True or False? Y
+
+# VDTRatingsTL1 23 s_f_low
+Some_wirecutters_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 23 s_f_high
+Some_wirecutters_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 23 a_u_low
+All_wirecutters_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 23 a_u_high
+All_wirecutters_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 23 a_t_low
+All_tools_are_wirecutters.
+? True or False? N
+
+# VDTRatingsTL1 23 a_t_high
+All_tools_are_wirecutters.
+? True or False? N
+
+# VDTRatingsTL1 23 a_f_low
+All_wirecutters_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 23 a_f_high
+All_wirecutters_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 24 s_u1_low
+Some_pythons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 24 s_u1_high
+Some_pythons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 24 s_u2_low
+Some_pythons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 24 s_u2_high
+Some_pythons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 24 s_u3_low
+Some_pythons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 24 s_u3_high
+Some_pythons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 24 s_u4_low
+Some_pythons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 24 s_u4_high
+Some_pythons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 24 s_u5_low
+Some_pythons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 24 s_u5_high
+Some_pythons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 24 s_t_low
+Some_reptiles_are_pythons.
+? True or False? Y
+
+# VDTRatingsTL1 24 s_t_high
+Some_reptiles_are_pythons.
+? True or False? Y
+
+# VDTRatingsTL1 24 s_f_low
+Some_pythons_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 24 s_f_high
+Some_pythons_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 24 a_u_low
+All_pythons_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 24 a_u_high
+All_pythons_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 24 a_t_low
+All_reptiles_are_pythons.
+? True or False? N
+
+# VDTRatingsTL1 24 a_t_high
+All_reptiles_are_pythons.
+? True or False? N
+
+# VDTRatingsTL1 24 a_f_low
+All_pythons_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 24 a_f_high
+All_pythons_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 25 s_u1_low
+Some_raspberries_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 25 s_u1_high
+Some_raspberries_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 25 s_u2_low
+Some_raspberries_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 25 s_u2_high
+Some_raspberries_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 25 s_u3_low
+Some_raspberries_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 25 s_u3_high
+Some_raspberries_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 25 s_u4_low
+Some_raspberries_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 25 s_u4_high
+Some_raspberries_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 25 s_u5_low
+Some_raspberries_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 25 s_u5_high
+Some_raspberries_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 25 s_t_low
+Some_fruit_are_raspberries.
+? True or False? Y
+
+# VDTRatingsTL1 25 s_t_high
+Some_fruit_are_raspberries.
+? True or False? Y
+
+# VDTRatingsTL1 25 s_f_low
+Some_raspberries_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 25 s_f_high
+Some_raspberries_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 25 a_u_low
+All_raspberries_are_fruit.
+? True or False? Y
+
+# VDTRatingsTL1 25 a_u_high
+All_raspberries_are_fruit.
+? True or False? Y
+
+# VDTRatingsTL1 25 a_t_low
+All_fruit_are_raspberries.
+? True or False? N
+
+# VDTRatingsTL1 25 a_t_high
+All_fruit_are_raspberries.
+? True or False? N
+
+# VDTRatingsTL1 25 a_f_low
+All_raspberries_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 25 a_f_high
+All_raspberries_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 26 s_u1_low
+Some_firs_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 26 s_u1_high
+Some_firs_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 26 s_u2_low
+Some_firs_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 26 s_u2_high
+Some_firs_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 26 s_u3_low
+Some_firs_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 26 s_u3_high
+Some_firs_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 26 s_u4_low
+Some_firs_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 26 s_u4_high
+Some_firs_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 26 s_u5_low
+Some_firs_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 26 s_u5_high
+Some_firs_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 26 s_t_low
+Some_trees_are_firs.
+? True or False? Y
+
+# VDTRatingsTL1 26 s_t_high
+Some_trees_are_firs.
+? True or False? Y
+
+# VDTRatingsTL1 26 s_f_low
+Some_firs_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 26 s_f_high
+Some_firs_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 26 a_u_low
+All_firs_are_trees.
+? True or False? Y
+
+# VDTRatingsTL1 26 a_u_high
+All_firs_are_trees.
+? True or False? Y
+
+# VDTRatingsTL1 26 a_t_low
+All_trees_are_firs.
+? True or False? N
+
+# VDTRatingsTL1 26 a_t_high
+All_trees_are_firs.
+? True or False? N
+
+# VDTRatingsTL1 26 a_f_low
+All_firs_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 26 a_f_high
+All_firs_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 27 s_u1_low
+Some_zebras_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 27 s_u1_high
+Some_zebras_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 27 s_u2_low
+Some_zebras_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 27 s_u2_high
+Some_zebras_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 27 s_u3_low
+Some_zebras_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 27 s_u3_high
+Some_zebras_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 27 s_u4_low
+Some_zebras_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 27 s_u4_high
+Some_zebras_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 27 s_u5_low
+Some_zebras_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 27 s_u5_high
+Some_zebras_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 27 s_t_low
+Some_mammals_are_zebras.
+? True or False? Y
+
+# VDTRatingsTL1 27 s_t_high
+Some_mammals_are_zebras.
+? True or False? Y
+
+# VDTRatingsTL1 27 s_f_low
+Some_zebras_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 27 s_f_high
+Some_zebras_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 27 a_u_low
+All_zebras_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 27 a_u_high
+All_zebras_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 27 a_t_low
+All_mammals_are_zebras.
+? True or False? N
+
+# VDTRatingsTL1 27 a_t_high
+All_mammals_are_zebras.
+? True or False? N
+
+# VDTRatingsTL1 27 a_f_low
+All_zebras_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 27 a_f_high
+All_zebras_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 28 s_u1_low
+Some_chameleons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 28 s_u1_high
+Some_chameleons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 28 s_u2_low
+Some_chameleons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 28 s_u2_high
+Some_chameleons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 28 s_u3_low
+Some_chameleons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 28 s_u3_high
+Some_chameleons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 28 s_u4_low
+Some_chameleons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 28 s_u4_high
+Some_chameleons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 28 s_u5_low
+Some_chameleons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 28 s_u5_high
+Some_chameleons_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 28 s_t_low
+Some_reptiles_are_chameleons.
+? True or False? Y
+
+# VDTRatingsTL1 28 s_t_high
+Some_reptiles_are_chameleons.
+? True or False? Y
+
+# VDTRatingsTL1 28 s_f_low
+Some_chameleons_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 28 s_f_high
+Some_chameleons_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 28 a_u_low
+All_chameleons_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 28 a_u_high
+All_chameleons_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 28 a_t_low
+All_reptiles_are_chameleons.
+? True or False? N
+
+# VDTRatingsTL1 28 a_t_high
+All_reptiles_are_chameleons.
+? True or False? N
+
+# VDTRatingsTL1 28 a_f_low
+All_chameleons_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 28 a_f_high
+All_chameleons_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 29 s_u1_low
+Some_lilacs_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 29 s_u1_high
+Some_lilacs_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 29 s_u2_low
+Some_lilacs_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 29 s_u2_high
+Some_lilacs_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 29 s_u3_low
+Some_lilacs_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 29 s_u3_high
+Some_lilacs_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 29 s_u4_low
+Some_lilacs_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 29 s_u4_high
+Some_lilacs_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 29 s_u5_low
+Some_lilacs_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 29 s_u5_high
+Some_lilacs_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 29 s_t_low
+Some_flowers_are_lilacs.
+? True or False? Y
+
+# VDTRatingsTL1 29 s_t_high
+Some_flowers_are_lilacs.
+? True or False? Y
+
+# VDTRatingsTL1 29 s_f_low
+Some_lilacs_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 29 s_f_high
+Some_lilacs_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 29 a_u_low
+All_lilacs_are_flowers.
+? True or False? Y
+
+# VDTRatingsTL1 29 a_u_high
+All_lilacs_are_flowers.
+? True or False? Y
+
+# VDTRatingsTL1 29 a_t_low
+All_flowers_are_lilacs.
+? True or False? N
+
+# VDTRatingsTL1 29 a_t_high
+All_flowers_are_lilacs.
+? True or False? N
+
+# VDTRatingsTL1 29 a_f_low
+All_lilacs_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 29 a_f_high
+All_lilacs_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 30 s_u1_low
+Some_poinsettias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 30 s_u1_high
+Some_poinsettias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 30 s_u2_low
+Some_poinsettias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 30 s_u2_high
+Some_poinsettias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 30 s_u3_low
+Some_poinsettias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 30 s_u3_high
+Some_poinsettias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 30 s_u4_low
+Some_poinsettias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 30 s_u4_high
+Some_poinsettias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 30 s_u5_low
+Some_poinsettias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 30 s_u5_high
+Some_poinsettias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 30 s_t_low
+Some_flowers_are_poinsettias.
+? True or False? Y
+
+# VDTRatingsTL1 30 s_t_high
+Some_flowers_are_poinsettias.
+? True or False? Y
+
+# VDTRatingsTL1 30 s_f_low
+Some_poinsettias_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 30 s_f_high
+Some_poinsettias_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 30 a_u_low
+All_poinsettias_are_flowers.
+? True or False? Y
+
+# VDTRatingsTL1 30 a_u_high
+All_poinsettias_are_flowers.
+? True or False? Y
+
+# VDTRatingsTL1 30 a_t_low
+All_flowers_are_poinsettias.
+? True or False? N
+
+# VDTRatingsTL1 30 a_t_high
+All_flowers_are_poinsettias.
+? True or False? N
+
+# VDTRatingsTL1 30 a_f_low
+All_poinsettias_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 30 a_f_high
+All_poinsettias_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 31 s_u1_low
+Some_wrenches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 31 s_u1_high
+Some_wrenches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 31 s_u2_low
+Some_wrenches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 31 s_u2_high
+Some_wrenches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 31 s_u3_low
+Some_wrenches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 31 s_u3_high
+Some_wrenches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 31 s_u4_low
+Some_wrenches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 31 s_u4_high
+Some_wrenches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 31 s_u5_low
+Some_wrenches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 31 s_u5_high
+Some_wrenches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 31 s_t_low
+Some_tools_are_wrenches.
+? True or False? Y
+
+# VDTRatingsTL1 31 s_t_high
+Some_tools_are_wrenches.
+? True or False? Y
+
+# VDTRatingsTL1 31 s_f_low
+Some_wrenches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 31 s_f_high
+Some_wrenches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 31 a_u_low
+All_wrenches_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 31 a_u_high
+All_wrenches_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 31 a_t_low
+All_tools_are_wrenches.
+? True or False? N
+
+# VDTRatingsTL1 31 a_t_high
+All_tools_are_wrenches.
+? True or False? N
+
+# VDTRatingsTL1 31 a_f_low
+All_wrenches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 31 a_f_high
+All_wrenches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 32 s_u1_low
+Some_spruces_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 32 s_u1_high
+Some_spruces_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 32 s_u2_low
+Some_spruces_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 32 s_u2_high
+Some_spruces_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 32 s_u3_low
+Some_spruces_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 32 s_u3_high
+Some_spruces_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 32 s_u4_low
+Some_spruces_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 32 s_u4_high
+Some_spruces_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 32 s_u5_low
+Some_spruces_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 32 s_u5_high
+Some_spruces_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 32 s_t_low
+Some_trees_are_spruces.
+? True or False? Y
+
+# VDTRatingsTL1 32 s_t_high
+Some_trees_are_spruces.
+? True or False? Y
+
+# VDTRatingsTL1 32 s_f_low
+Some_spruces_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 32 s_f_high
+Some_spruces_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 32 a_u_low
+All_spruces_are_trees.
+? True or False? Y
+
+# VDTRatingsTL1 32 a_u_high
+All_spruces_are_trees.
+? True or False? Y
+
+# VDTRatingsTL1 32 a_t_low
+All_trees_are_spruces.
+? True or False? N
+
+# VDTRatingsTL1 32 a_t_high
+All_trees_are_spruces.
+? True or False? N
+
+# VDTRatingsTL1 32 a_f_low
+All_spruces_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 32 a_f_high
+All_spruces_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 33 s_u1_low
+Some_oaks_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 33 s_u1_high
+Some_oaks_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 33 s_u2_low
+Some_oaks_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 33 s_u2_high
+Some_oaks_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 33 s_u3_low
+Some_oaks_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 33 s_u3_high
+Some_oaks_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 33 s_u4_low
+Some_oaks_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 33 s_u4_high
+Some_oaks_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 33 s_u5_low
+Some_oaks_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 33 s_u5_high
+Some_oaks_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 33 s_t_low
+Some_trees_are_oaks.
+? True or False? Y
+
+# VDTRatingsTL1 33 s_t_high
+Some_trees_are_oaks.
+? True or False? Y
+
+# VDTRatingsTL1 33 s_f_low
+Some_oaks_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 33 s_f_high
+Some_oaks_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 33 a_u_low
+All_oaks_are_trees.
+? True or False? Y
+
+# VDTRatingsTL1 33 a_u_high
+All_oaks_are_trees.
+? True or False? Y
+
+# VDTRatingsTL1 33 a_t_low
+All_trees_are_oaks.
+? True or False? N
+
+# VDTRatingsTL1 33 a_t_high
+All_trees_are_oaks.
+? True or False? N
+
+# VDTRatingsTL1 33 a_f_low
+All_oaks_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 33 a_f_high
+All_oaks_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 34 s_u1_low
+Some_lizards_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 34 s_u1_high
+Some_lizards_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 34 s_u2_low
+Some_lizards_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 34 s_u2_high
+Some_lizards_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 34 s_u3_low
+Some_lizards_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 34 s_u3_high
+Some_lizards_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 34 s_u4_low
+Some_lizards_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 34 s_u4_high
+Some_lizards_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 34 s_u5_low
+Some_lizards_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 34 s_u5_high
+Some_lizards_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 34 s_t_low
+Some_reptiles_are_lizards.
+? True or False? Y
+
+# VDTRatingsTL1 34 s_t_high
+Some_reptiles_are_lizards.
+? True or False? Y
+
+# VDTRatingsTL1 34 s_f_low
+Some_lizards_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 34 s_f_high
+Some_lizards_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 34 a_u_low
+All_lizards_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 34 a_u_high
+All_lizards_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 34 a_t_low
+All_reptiles_are_lizards.
+? True or False? N
+
+# VDTRatingsTL1 34 a_t_high
+All_reptiles_are_lizards.
+? True or False? N
+
+# VDTRatingsTL1 34 a_f_low
+All_lizards_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 34 a_f_high
+All_lizards_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 35 s_u1_low
+Some_labradors_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 35 s_u1_high
+Some_labradors_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 35 s_u2_low
+Some_labradors_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 35 s_u2_high
+Some_labradors_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 35 s_u3_low
+Some_labradors_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 35 s_u3_high
+Some_labradors_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 35 s_u4_low
+Some_labradors_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 35 s_u4_high
+Some_labradors_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 35 s_u5_low
+Some_labradors_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 35 s_u5_high
+Some_labradors_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 35 s_t_low
+Some_dogs_are_labradors.
+? True or False? Y
+
+# VDTRatingsTL1 35 s_t_high
+Some_dogs_are_labradors.
+? True or False? Y
+
+# VDTRatingsTL1 35 s_f_low
+Some_labradors_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 35 s_f_high
+Some_labradors_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 35 a_u_low
+All_labradors_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 35 a_u_high
+All_labradors_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 35 a_t_low
+All_dogs_are_labradors.
+? True or False? N
+
+# VDTRatingsTL1 35 a_t_high
+All_dogs_are_labradors.
+? True or False? N
+
+# VDTRatingsTL1 35 a_f_low
+All_labradors_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 35 a_f_high
+All_labradors_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 36 s_u1_low
+Some_cockroaches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 36 s_u1_high
+Some_cockroaches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 36 s_u2_low
+Some_cockroaches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 36 s_u2_high
+Some_cockroaches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 36 s_u3_low
+Some_cockroaches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 36 s_u3_high
+Some_cockroaches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 36 s_u4_low
+Some_cockroaches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 36 s_u4_high
+Some_cockroaches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 36 s_u5_low
+Some_cockroaches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 36 s_u5_high
+Some_cockroaches_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 36 s_t_low
+Some_insects_are_cockroaches.
+? True or False? Y
+
+# VDTRatingsTL1 36 s_t_high
+Some_insects_are_cockroaches.
+? True or False? Y
+
+# VDTRatingsTL1 36 s_f_low
+Some_cockroaches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 36 s_f_high
+Some_cockroaches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 36 a_u_low
+All_cockroaches_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 36 a_u_high
+All_cockroaches_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 36 a_t_low
+All_insects_are_cockroaches.
+? True or False? N
+
+# VDTRatingsTL1 36 a_t_high
+All_insects_are_cockroaches.
+? True or False? N
+
+# VDTRatingsTL1 36 a_f_low
+All_cockroaches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 36 a_f_high
+All_cockroaches_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 37 s_u1_low
+Some_parrots_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 37 s_u1_high
+Some_parrots_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 37 s_u2_low
+Some_parrots_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 37 s_u2_high
+Some_parrots_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 37 s_u3_low
+Some_parrots_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 37 s_u3_high
+Some_parrots_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 37 s_u4_low
+Some_parrots_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 37 s_u4_high
+Some_parrots_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 37 s_u5_low
+Some_parrots_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 37 s_u5_high
+Some_parrots_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 37 s_t_low
+Some_birds_are_parrots.
+? True or False? Y
+
+# VDTRatingsTL1 37 s_t_high
+Some_birds_are_parrots.
+? True or False? Y
+
+# VDTRatingsTL1 37 s_f_low
+Some_parrots_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 37 s_f_high
+Some_parrots_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 37 a_u_low
+All_parrots_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 37 a_u_high
+All_parrots_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 37 a_t_low
+All_birds_are_parrots.
+? True or False? N
+
+# VDTRatingsTL1 37 a_t_high
+All_birds_are_parrots.
+? True or False? N
+
+# VDTRatingsTL1 37 a_f_low
+All_parrots_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 37 a_f_high
+All_parrots_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 38 s_u1_low
+Some_dalmatians_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 38 s_u1_high
+Some_dalmatians_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 38 s_u2_low
+Some_dalmatians_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 38 s_u2_high
+Some_dalmatians_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 38 s_u3_low
+Some_dalmatians_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 38 s_u3_high
+Some_dalmatians_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 38 s_u4_low
+Some_dalmatians_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 38 s_u4_high
+Some_dalmatians_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 38 s_u5_low
+Some_dalmatians_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 38 s_u5_high
+Some_dalmatians_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 38 s_t_low
+Some_dogs_are_dalmatians.
+? True or False? Y
+
+# VDTRatingsTL1 38 s_t_high
+Some_dogs_are_dalmatians.
+? True or False? Y
+
+# VDTRatingsTL1 38 s_f_low
+Some_dalmatians_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 38 s_f_high
+Some_dalmatians_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 38 a_u_low
+All_dalmatians_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 38 a_u_high
+All_dalmatians_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 38 a_t_low
+All_dogs_are_dalmatians.
+? True or False? N
+
+# VDTRatingsTL1 38 a_t_high
+All_dogs_are_dalmatians.
+? True or False? N
+
+# VDTRatingsTL1 38 a_f_low
+All_dalmatians_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 38 a_f_high
+All_dalmatians_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 39 s_u1_low
+Some_iguanas_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 39 s_u1_high
+Some_iguanas_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 39 s_u2_low
+Some_iguanas_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 39 s_u2_high
+Some_iguanas_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 39 s_u3_low
+Some_iguanas_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 39 s_u3_high
+Some_iguanas_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 39 s_u4_low
+Some_iguanas_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 39 s_u4_high
+Some_iguanas_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 39 s_u5_low
+Some_iguanas_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 39 s_u5_high
+Some_iguanas_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 39 s_t_low
+Some_reptiles_are_iguanas.
+? True or False? Y
+
+# VDTRatingsTL1 39 s_t_high
+Some_reptiles_are_iguanas.
+? True or False? Y
+
+# VDTRatingsTL1 39 s_f_low
+Some_iguanas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 39 s_f_high
+Some_iguanas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 39 a_u_low
+All_iguanas_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 39 a_u_high
+All_iguanas_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 39 a_t_low
+All_reptiles_are_iguanas.
+? True or False? N
+
+# VDTRatingsTL1 39 a_t_high
+All_reptiles_are_iguanas.
+? True or False? N
+
+# VDTRatingsTL1 39 a_f_low
+All_iguanas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 39 a_f_high
+All_iguanas_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 40 s_u1_low
+Some_willows_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 40 s_u1_high
+Some_willows_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 40 s_u2_low
+Some_willows_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 40 s_u2_high
+Some_willows_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 40 s_u3_low
+Some_willows_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 40 s_u3_high
+Some_willows_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 40 s_u4_low
+Some_willows_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 40 s_u4_high
+Some_willows_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 40 s_u5_low
+Some_willows_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 40 s_u5_high
+Some_willows_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 40 s_t_low
+Some_trees_are_willows.
+? True or False? Y
+
+# VDTRatingsTL1 40 s_t_high
+Some_trees_are_willows.
+? True or False? Y
+
+# VDTRatingsTL1 40 s_f_low
+Some_willows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 40 s_f_high
+Some_willows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 40 a_u_low
+All_willows_are_trees.
+? True or False? Y
+
+# VDTRatingsTL1 40 a_u_high
+All_willows_are_trees.
+? True or False? Y
+
+# VDTRatingsTL1 40 a_t_low
+All_trees_are_willows.
+? True or False? N
+
+# VDTRatingsTL1 40 a_t_high
+All_trees_are_willows.
+? True or False? N
+
+# VDTRatingsTL1 40 a_f_low
+All_willows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 40 a_f_high
+All_willows_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 41 s_u1_low
+Some_geckos_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 41 s_u1_high
+Some_geckos_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 41 s_u2_low
+Some_geckos_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 41 s_u2_high
+Some_geckos_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 41 s_u3_low
+Some_geckos_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 41 s_u3_high
+Some_geckos_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 41 s_u4_low
+Some_geckos_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 41 s_u4_high
+Some_geckos_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 41 s_u5_low
+Some_geckos_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 41 s_u5_high
+Some_geckos_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 41 s_t_low
+Some_reptiles_are_geckos.
+? True or False? Y
+
+# VDTRatingsTL1 41 s_t_high
+Some_reptiles_are_geckos.
+? True or False? Y
+
+# VDTRatingsTL1 41 s_f_low
+Some_geckos_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 41 s_f_high
+Some_geckos_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 41 a_u_low
+All_geckos_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 41 a_u_high
+All_geckos_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 41 a_t_low
+All_reptiles_are_geckos.
+? True or False? N
+
+# VDTRatingsTL1 41 a_t_high
+All_reptiles_are_geckos.
+? True or False? N
+
+# VDTRatingsTL1 41 a_f_low
+All_geckos_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 41 a_f_high
+All_geckos_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 42 s_u1_low
+Some_pigeons_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 42 s_u1_high
+Some_pigeons_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 42 s_u2_low
+Some_pigeons_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 42 s_u2_high
+Some_pigeons_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 42 s_u3_low
+Some_pigeons_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 42 s_u3_high
+Some_pigeons_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 42 s_u4_low
+Some_pigeons_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 42 s_u4_high
+Some_pigeons_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 42 s_u5_low
+Some_pigeons_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 42 s_u5_high
+Some_pigeons_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 42 s_t_low
+Some_birds_are_pigeons.
+? True or False? Y
+
+# VDTRatingsTL1 42 s_t_high
+Some_birds_are_pigeons.
+? True or False? Y
+
+# VDTRatingsTL1 42 s_f_low
+Some_pigeons_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 42 s_f_high
+Some_pigeons_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 42 a_u_low
+All_pigeons_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 42 a_u_high
+All_pigeons_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 42 a_t_low
+All_birds_are_pigeons.
+? True or False? N
+
+# VDTRatingsTL1 42 a_t_high
+All_birds_are_pigeons.
+? True or False? N
+
+# VDTRatingsTL1 42 a_f_low
+All_pigeons_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 42 a_f_high
+All_pigeons_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 43 s_u1_low
+Some_horses_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 43 s_u1_high
+Some_horses_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 43 s_u2_low
+Some_horses_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 43 s_u2_high
+Some_horses_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 43 s_u3_low
+Some_horses_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 43 s_u3_high
+Some_horses_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 43 s_u4_low
+Some_horses_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 43 s_u4_high
+Some_horses_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 43 s_u5_low
+Some_horses_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 43 s_u5_high
+Some_horses_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 43 s_t_low
+Some_mammals_are_horses.
+? True or False? Y
+
+# VDTRatingsTL1 43 s_t_high
+Some_mammals_are_horses.
+? True or False? Y
+
+# VDTRatingsTL1 43 s_f_low
+Some_horses_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 43 s_f_high
+Some_horses_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 43 a_u_low
+All_horses_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 43 a_u_high
+All_horses_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 43 a_t_low
+All_mammals_are_horses.
+? True or False? N
+
+# VDTRatingsTL1 43 a_t_high
+All_mammals_are_horses.
+? True or False? N
+
+# VDTRatingsTL1 43 a_f_low
+All_horses_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 43 a_f_high
+All_horses_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 44 s_u1_low
+Some_snakes_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 44 s_u1_high
+Some_snakes_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 44 s_u2_low
+Some_snakes_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 44 s_u2_high
+Some_snakes_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 44 s_u3_low
+Some_snakes_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 44 s_u3_high
+Some_snakes_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 44 s_u4_low
+Some_snakes_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 44 s_u4_high
+Some_snakes_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 44 s_u5_low
+Some_snakes_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 44 s_u5_high
+Some_snakes_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 44 s_t_low
+Some_reptiles_are_snakes.
+? True or False? Y
+
+# VDTRatingsTL1 44 s_t_high
+Some_reptiles_are_snakes.
+? True or False? Y
+
+# VDTRatingsTL1 44 s_f_low
+Some_snakes_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 44 s_f_high
+Some_snakes_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 44 a_u_low
+All_snakes_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 44 a_u_high
+All_snakes_are_reptiles.
+? True or False? Y
+
+# VDTRatingsTL1 44 a_t_low
+All_reptiles_are_snakes.
+? True or False? N
+
+# VDTRatingsTL1 44 a_t_high
+All_reptiles_are_snakes.
+? True or False? N
+
+# VDTRatingsTL1 44 a_f_low
+All_snakes_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 44 a_f_high
+All_snakes_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 45 s_u1_low
+Some_hammers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 45 s_u1_high
+Some_hammers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 45 s_u2_low
+Some_hammers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 45 s_u2_high
+Some_hammers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 45 s_u3_low
+Some_hammers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 45 s_u3_high
+Some_hammers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 45 s_u4_low
+Some_hammers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 45 s_u4_high
+Some_hammers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 45 s_u5_low
+Some_hammers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 45 s_u5_high
+Some_hammers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 45 s_t_low
+Some_tools_are_hammers.
+? True or False? Y
+
+# VDTRatingsTL1 45 s_t_high
+Some_tools_are_hammers.
+? True or False? Y
+
+# VDTRatingsTL1 45 s_f_low
+Some_hammers_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 45 s_f_high
+Some_hammers_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 45 a_u_low
+All_hammers_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 45 a_u_high
+All_hammers_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 45 a_t_low
+All_tools_are_hammers.
+? True or False? N
+
+# VDTRatingsTL1 45 a_t_high
+All_tools_are_hammers.
+? True or False? N
+
+# VDTRatingsTL1 45 a_f_low
+All_hammers_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 45 a_f_high
+All_hammers_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 46 s_u1_low
+Some_retrievers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 46 s_u1_high
+Some_retrievers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 46 s_u2_low
+Some_retrievers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 46 s_u2_high
+Some_retrievers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 46 s_u3_low
+Some_retrievers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 46 s_u3_high
+Some_retrievers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 46 s_u4_low
+Some_retrievers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 46 s_u4_high
+Some_retrievers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 46 s_u5_low
+Some_retrievers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 46 s_u5_high
+Some_retrievers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 46 s_t_low
+Some_dogs_are_retrievers.
+? True or False? Y
+
+# VDTRatingsTL1 46 s_t_high
+Some_dogs_are_retrievers.
+? True or False? Y
+
+# VDTRatingsTL1 46 s_f_low
+Some_retrievers_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 46 s_f_high
+Some_retrievers_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 46 a_u_low
+All_retrievers_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 46 a_u_high
+All_retrievers_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 46 a_t_low
+All_dogs_are_retrievers.
+? True or False? N
+
+# VDTRatingsTL1 46 a_t_high
+All_dogs_are_retrievers.
+? True or False? N
+
+# VDTRatingsTL1 46 a_f_low
+All_retrievers_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 46 a_f_high
+All_retrievers_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 47 s_u1_low
+Some_gardenias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 47 s_u1_high
+Some_gardenias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 47 s_u2_low
+Some_gardenias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 47 s_u2_high
+Some_gardenias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 47 s_u3_low
+Some_gardenias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 47 s_u3_high
+Some_gardenias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 47 s_u4_low
+Some_gardenias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 47 s_u4_high
+Some_gardenias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 47 s_u5_low
+Some_gardenias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 47 s_u5_high
+Some_gardenias_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 47 s_t_low
+Some_flowers_are_gardenias.
+? True or False? Y
+
+# VDTRatingsTL1 47 s_t_high
+Some_flowers_are_gardenias.
+? True or False? Y
+
+# VDTRatingsTL1 47 s_f_low
+Some_gardenias_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 47 s_f_high
+Some_gardenias_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 47 a_u_low
+All_gardenias_are_flowers.
+? True or False? Y
+
+# VDTRatingsTL1 47 a_u_high
+All_gardenias_are_flowers.
+? True or False? Y
+
+# VDTRatingsTL1 47 a_t_low
+All_flowers_are_gardenias.
+? True or False? N
+
+# VDTRatingsTL1 47 a_t_high
+All_flowers_are_gardenias.
+? True or False? N
+
+# VDTRatingsTL1 47 a_f_low
+All_gardenias_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 47 a_f_high
+All_gardenias_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 48 s_u1_low
+Some_screwdrivers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 48 s_u1_high
+Some_screwdrivers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 48 s_u2_low
+Some_screwdrivers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 48 s_u2_high
+Some_screwdrivers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 48 s_u3_low
+Some_screwdrivers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 48 s_u3_high
+Some_screwdrivers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 48 s_u4_low
+Some_screwdrivers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 48 s_u4_high
+Some_screwdrivers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 48 s_u5_low
+Some_screwdrivers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 48 s_u5_high
+Some_screwdrivers_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 48 s_t_low
+Some_tools_are_screwdrivers.
+? True or False? Y
+
+# VDTRatingsTL1 48 s_t_high
+Some_tools_are_screwdrivers.
+? True or False? Y
+
+# VDTRatingsTL1 48 s_f_low
+Some_screwdrivers_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 48 s_f_high
+Some_screwdrivers_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 48 a_u_low
+All_screwdrivers_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 48 a_u_high
+All_screwdrivers_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 48 a_t_low
+All_tools_are_screwdrivers.
+? True or False? N
+
+# VDTRatingsTL1 48 a_t_high
+All_tools_are_screwdrivers.
+? True or False? N
+
+# VDTRatingsTL1 48 a_f_low
+All_screwdrivers_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 48 a_f_high
+All_screwdrivers_are_flowers.
+? True or False? N
+
+# VDTRatingsTL1 49 s_u1_low
+Some_cod_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 49 s_u1_high
+Some_cod_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 49 s_u2_low
+Some_cod_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 49 s_u2_high
+Some_cod_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 49 s_u3_low
+Some_cod_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 49 s_u3_high
+Some_cod_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 49 s_u4_low
+Some_cod_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 49 s_u4_high
+Some_cod_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 49 s_u5_low
+Some_cod_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 49 s_u5_high
+Some_cod_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 49 s_t_low
+Some_fish_are_cod.
+? True or False? Y
+
+# VDTRatingsTL1 49 s_t_high
+Some_fish_are_cod.
+? True or False? Y
+
+# VDTRatingsTL1 49 s_f_low
+Some_cod_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 49 s_f_high
+Some_cod_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 49 a_u_low
+All_cod_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 49 a_u_high
+All_cod_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 49 a_t_low
+All_fish_are_cod.
+? True or False? N
+
+# VDTRatingsTL1 49 a_t_high
+All_fish_are_cod.
+? True or False? N
+
+# VDTRatingsTL1 49 a_f_low
+All_cod_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 49 a_f_high
+All_cod_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 50 s_u1_low
+Some_beetles_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 50 s_u1_high
+Some_beetles_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 50 s_u2_low
+Some_beetles_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 50 s_u2_high
+Some_beetles_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 50 s_u3_low
+Some_beetles_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 50 s_u3_high
+Some_beetles_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 50 s_u4_low
+Some_beetles_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 50 s_u4_high
+Some_beetles_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 50 s_u5_low
+Some_beetles_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 50 s_u5_high
+Some_beetles_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 50 s_t_low
+Some_insects_are_beetles.
+? True or False? Y
+
+# VDTRatingsTL1 50 s_t_high
+Some_insects_are_beetles.
+? True or False? Y
+
+# VDTRatingsTL1 50 s_f_low
+Some_beetles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 50 s_f_high
+Some_beetles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 50 a_u_low
+All_beetles_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 50 a_u_high
+All_beetles_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 50 a_t_low
+All_insects_are_beetles.
+? True or False? N
+
+# VDTRatingsTL1 50 a_t_high
+All_insects_are_beetles.
+? True or False? N
+
+# VDTRatingsTL1 50 a_f_low
+All_beetles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 50 a_f_high
+All_beetles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 51 s_u1_low
+Some_huskies_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 51 s_u1_high
+Some_huskies_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 51 s_u2_low
+Some_huskies_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 51 s_u2_high
+Some_huskies_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 51 s_u3_low
+Some_huskies_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 51 s_u3_high
+Some_huskies_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 51 s_u4_low
+Some_huskies_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 51 s_u4_high
+Some_huskies_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 51 s_u5_low
+Some_huskies_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 51 s_u5_high
+Some_huskies_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 51 s_t_low
+Some_dogs_are_huskies.
+? True or False? Y
+
+# VDTRatingsTL1 51 s_t_high
+Some_dogs_are_huskies.
+? True or False? Y
+
+# VDTRatingsTL1 51 s_f_low
+Some_huskies_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 51 s_f_high
+Some_huskies_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 51 a_u_low
+All_huskies_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 51 a_u_high
+All_huskies_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 51 a_t_low
+All_dogs_are_huskies.
+? True or False? N
+
+# VDTRatingsTL1 51 a_t_high
+All_dogs_are_huskies.
+? True or False? N
+
+# VDTRatingsTL1 51 a_f_low
+All_huskies_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 51 a_f_high
+All_huskies_are_trees.
+? True or False? N
+
+# VDTRatingsTL1 52 s_u1_low
+Some_sheep_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 52 s_u1_high
+Some_sheep_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 52 s_u2_low
+Some_sheep_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 52 s_u2_high
+Some_sheep_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 52 s_u3_low
+Some_sheep_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 52 s_u3_high
+Some_sheep_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 52 s_u4_low
+Some_sheep_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 52 s_u4_high
+Some_sheep_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 52 s_u5_low
+Some_sheep_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 52 s_u5_high
+Some_sheep_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 52 s_t_low
+Some_mammals_are_sheep.
+? True or False? Y
+
+# VDTRatingsTL1 52 s_t_high
+Some_mammals_are_sheep.
+? True or False? Y
+
+# VDTRatingsTL1 52 s_f_low
+Some_sheep_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 52 s_f_high
+Some_sheep_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 52 a_u_low
+All_sheep_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 52 a_u_high
+All_sheep_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 52 a_t_low
+All_mammals_are_sheep.
+? True or False? N
+
+# VDTRatingsTL1 52 a_t_high
+All_mammals_are_sheep.
+? True or False? N
+
+# VDTRatingsTL1 52 a_f_low
+All_sheep_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 52 a_f_high
+All_sheep_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 53 s_u1_low
+Some_seagulls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 53 s_u1_high
+Some_seagulls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 53 s_u2_low
+Some_seagulls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 53 s_u2_high
+Some_seagulls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 53 s_u3_low
+Some_seagulls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 53 s_u3_high
+Some_seagulls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 53 s_u4_low
+Some_seagulls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 53 s_u4_high
+Some_seagulls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 53 s_u5_low
+Some_seagulls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 53 s_u5_high
+Some_seagulls_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 53 s_t_low
+Some_birds_are_seagulls.
+? True or False? Y
+
+# VDTRatingsTL1 53 s_t_high
+Some_birds_are_seagulls.
+? True or False? Y
+
+# VDTRatingsTL1 53 s_f_low
+Some_seagulls_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 53 s_f_high
+Some_seagulls_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 53 a_u_low
+All_seagulls_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 53 a_u_high
+All_seagulls_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 53 a_t_low
+All_birds_are_seagulls.
+? True or False? N
+
+# VDTRatingsTL1 53 a_t_high
+All_birds_are_seagulls.
+? True or False? N
+
+# VDTRatingsTL1 53 a_f_low
+All_seagulls_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 53 a_f_high
+All_seagulls_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 54 s_u1_low
+Some_terriers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 54 s_u1_high
+Some_terriers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 54 s_u2_low
+Some_terriers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 54 s_u2_high
+Some_terriers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 54 s_u3_low
+Some_terriers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 54 s_u3_high
+Some_terriers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 54 s_u4_low
+Some_terriers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 54 s_u4_high
+Some_terriers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 54 s_u5_low
+Some_terriers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 54 s_u5_high
+Some_terriers_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 54 s_t_low
+Some_dogs_are_terriers.
+? True or False? Y
+
+# VDTRatingsTL1 54 s_t_high
+Some_dogs_are_terriers.
+? True or False? Y
+
+# VDTRatingsTL1 54 s_f_low
+Some_terriers_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 54 s_f_high
+Some_terriers_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 54 a_u_low
+All_terriers_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 54 a_u_high
+All_terriers_are_dogs.
+? True or False? Y
+
+# VDTRatingsTL1 54 a_t_low
+All_dogs_are_terriers.
+? True or False? N
+
+# VDTRatingsTL1 54 a_t_high
+All_dogs_are_terriers.
+? True or False? N
+
+# VDTRatingsTL1 54 a_f_low
+All_terriers_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 54 a_f_high
+All_terriers_are_fruit.
+? True or False? N
+
+# VDTRatingsTL1 55 s_u1_low
+Some_buffalo_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 55 s_u1_high
+Some_buffalo_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 55 s_u2_low
+Some_buffalo_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 55 s_u2_high
+Some_buffalo_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 55 s_u3_low
+Some_buffalo_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 55 s_u3_high
+Some_buffalo_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 55 s_u4_low
+Some_buffalo_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 55 s_u4_high
+Some_buffalo_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 55 s_u5_low
+Some_buffalo_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 55 s_u5_high
+Some_buffalo_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 55 s_t_low
+Some_mammals_are_buffalo.
+? True or False? Y
+
+# VDTRatingsTL1 55 s_t_high
+Some_mammals_are_buffalo.
+? True or False? Y
+
+# VDTRatingsTL1 55 s_f_low
+Some_buffalo_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 55 s_f_high
+Some_buffalo_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 55 a_u_low
+All_buffalo_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 55 a_u_high
+All_buffalo_are_mammals.
+? True or False? Y
+
+# VDTRatingsTL1 55 a_t_low
+All_mammals_are_buffalo.
+? True or False? N
+
+# VDTRatingsTL1 55 a_t_high
+All_mammals_are_buffalo.
+? True or False? N
+
+# VDTRatingsTL1 55 a_f_low
+All_buffalo_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 55 a_f_high
+All_buffalo_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 56 s_u1_low
+Some_termites_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 56 s_u1_high
+Some_termites_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 56 s_u2_low
+Some_termites_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 56 s_u2_high
+Some_termites_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 56 s_u3_low
+Some_termites_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 56 s_u3_high
+Some_termites_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 56 s_u4_low
+Some_termites_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 56 s_u4_high
+Some_termites_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 56 s_u5_low
+Some_termites_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 56 s_u5_high
+Some_termites_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 56 s_t_low
+Some_insects_are_termites.
+? True or False? Y
+
+# VDTRatingsTL1 56 s_t_high
+Some_insects_are_termites.
+? True or False? Y
+
+# VDTRatingsTL1 56 s_f_low
+Some_termites_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 56 s_f_high
+Some_termites_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 56 a_u_low
+All_termites_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 56 a_u_high
+All_termites_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 56 a_t_low
+All_insects_are_termites.
+? True or False? N
+
+# VDTRatingsTL1 56 a_t_high
+All_insects_are_termites.
+? True or False? N
+
+# VDTRatingsTL1 56 a_f_low
+All_termites_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 56 a_f_high
+All_termites_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 57 s_u1_low
+Some_eagles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 57 s_u1_high
+Some_eagles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 57 s_u2_low
+Some_eagles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 57 s_u2_high
+Some_eagles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 57 s_u3_low
+Some_eagles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 57 s_u3_high
+Some_eagles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 57 s_u4_low
+Some_eagles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 57 s_u4_high
+Some_eagles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 57 s_u5_low
+Some_eagles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 57 s_u5_high
+Some_eagles_are_birds.
+? True or False? N
+
+# VDTRatingsTL1 57 s_t_low
+Some_birds_are_eagles.
+? True or False? Y
+
+# VDTRatingsTL1 57 s_t_high
+Some_birds_are_eagles.
+? True or False? Y
+
+# VDTRatingsTL1 57 s_f_low
+Some_eagles_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 57 s_f_high
+Some_eagles_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 57 a_u_low
+All_eagles_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 57 a_u_high
+All_eagles_are_birds.
+? True or False? Y
+
+# VDTRatingsTL1 57 a_t_low
+All_birds_are_eagles.
+? True or False? N
+
+# VDTRatingsTL1 57 a_t_high
+All_birds_are_eagles.
+? True or False? N
+
+# VDTRatingsTL1 57 a_f_low
+All_eagles_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 57 a_f_high
+All_eagles_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 58 s_u1_low
+Some_pick-axes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 58 s_u1_high
+Some_pick-axes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 58 s_u2_low
+Some_pick-axes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 58 s_u2_high
+Some_pick-axes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 58 s_u3_low
+Some_pick-axes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 58 s_u3_high
+Some_pick-axes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 58 s_u4_low
+Some_pick-axes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 58 s_u4_high
+Some_pick-axes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 58 s_u5_low
+Some_pick-axes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 58 s_u5_high
+Some_pick-axes_are_tools.
+? True or False? N
+
+# VDTRatingsTL1 58 s_t_low
+Some_tools_are_pick-axes.
+? True or False? Y
+
+# VDTRatingsTL1 58 s_t_high
+Some_tools_are_pick-axes.
+? True or False? Y
+
+# VDTRatingsTL1 58 s_f_low
+Some_pick-axes_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 58 s_f_high
+Some_pick-axes_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 58 a_u_low
+All_pick-axes_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 58 a_u_high
+All_pick-axes_are_tools.
+? True or False? Y
+
+# VDTRatingsTL1 58 a_t_low
+All_tools_are_pick-axes.
+? True or False? N
+
+# VDTRatingsTL1 58 a_t_high
+All_tools_are_pick-axes.
+? True or False? N
+
+# VDTRatingsTL1 58 a_f_low
+All_pick-axes_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 58 a_f_high
+All_pick-axes_are_mammals.
+? True or False? N
+
+# VDTRatingsTL1 59 s_u1_low
+Some_crickets_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 59 s_u1_high
+Some_crickets_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 59 s_u2_low
+Some_crickets_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 59 s_u2_high
+Some_crickets_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 59 s_u3_low
+Some_crickets_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 59 s_u3_high
+Some_crickets_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 59 s_u4_low
+Some_crickets_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 59 s_u4_high
+Some_crickets_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 59 s_u5_low
+Some_crickets_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 59 s_u5_high
+Some_crickets_are_insects.
+? True or False? N
+
+# VDTRatingsTL1 59 s_t_low
+Some_insects_are_crickets.
+? True or False? Y
+
+# VDTRatingsTL1 59 s_t_high
+Some_insects_are_crickets.
+? True or False? Y
+
+# VDTRatingsTL1 59 s_f_low
+Some_crickets_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 59 s_f_high
+Some_crickets_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 59 a_u_low
+All_crickets_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 59 a_u_high
+All_crickets_are_insects.
+? True or False? Y
+
+# VDTRatingsTL1 59 a_t_low
+All_insects_are_crickets.
+? True or False? N
+
+# VDTRatingsTL1 59 a_t_high
+All_insects_are_crickets.
+? True or False? N
+
+# VDTRatingsTL1 59 a_f_low
+All_crickets_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 59 a_f_high
+All_crickets_are_reptiles.
+? True or False? N
+
+# VDTRatingsTL1 60 s_u1_low
+Some_tuna_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 60 s_u1_high
+Some_tuna_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 60 s_u2_low
+Some_tuna_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 60 s_u2_high
+Some_tuna_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 60 s_u3_low
+Some_tuna_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 60 s_u3_high
+Some_tuna_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 60 s_u4_low
+Some_tuna_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 60 s_u4_high
+Some_tuna_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 60 s_u5_low
+Some_tuna_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 60 s_u5_high
+Some_tuna_are_fish.
+? True or False? N
+
+# VDTRatingsTL1 60 s_t_low
+Some_fish_are_tuna.
+? True or False? Y
+
+# VDTRatingsTL1 60 s_t_high
+Some_fish_are_tuna.
+? True or False? Y
+
+# VDTRatingsTL1 60 s_f_low
+Some_tuna_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 60 s_f_high
+Some_tuna_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 60 a_u_low
+All_tuna_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 60 a_u_high
+All_tuna_are_fish.
+? True or False? Y
+
+# VDTRatingsTL1 60 a_t_low
+All_fish_are_tuna.
+? True or False? N
+
+# VDTRatingsTL1 60 a_t_high
+All_fish_are_tuna.
+? True or False? N
+
+# VDTRatingsTL1 60 a_f_low
+All_tuna_are_dogs.
+? True or False? N
+
+# VDTRatingsTL1 60 a_f_high
+All_tuna_are_dogs.
+? True or False? N

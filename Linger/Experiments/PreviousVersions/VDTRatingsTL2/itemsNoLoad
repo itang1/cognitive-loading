@@ -1,0 +1,2400 @@
+# VDTRatingsTL2 61 s_u1
+
+? Some chisels are tools. N
+
+# VDTRatingsTL2 61 s_u2
+
+? Some chisels are tools. N
+
+# VDTRatingsTL2 61 s_u3
+
+? Some chisels are tools. N
+
+# VDTRatingsTL2 61 s_u4
+
+? Some chisels are tools. N
+
+# VDTRatingsTL2 61 s_u5
+
+? Some chisels are tools. N
+
+# VDTRatingsTL2 61 s_t
+
+? Some tools are chisels. Y
+
+# VDTRatingsTL2 61 s_f
+
+? Some chisels are fish. N
+
+# VDTRatingsTL2 61 a_u
+
+? All chisels are tools. Y
+
+# VDTRatingsTL2 61 a_t
+
+? All tools are chisels. N
+
+# VDTRatingsTL2 61 a_f
+
+? All chisels are fish. N
+
+# VDTRatingsTL2 62 s_u1
+
+? Some hawks are birds. N
+
+# VDTRatingsTL2 62 s_u2
+
+? Some hawks are birds. N
+
+# VDTRatingsTL2 62 s_u3
+
+? Some hawks are birds. N
+
+# VDTRatingsTL2 62 s_u4
+
+? Some hawks are birds. N
+
+# VDTRatingsTL2 62 s_u5
+
+? Some hawks are birds. N
+
+# VDTRatingsTL2 62 s_t
+
+? Some birds are hawks. Y
+
+# VDTRatingsTL2 62 s_f
+
+? Some hawks are flowers. N
+
+# VDTRatingsTL2 62 a_u
+
+? All hawks are birds. Y
+
+# VDTRatingsTL2 62 a_t
+
+? All birds are hawks. N
+
+# VDTRatingsTL2 62 a_f
+
+? All hawks are flowers. N
+
+# VDTRatingsTL2 63 s_u1
+
+? Some melons are fruit. N
+
+# VDTRatingsTL2 63 s_u2
+
+? Some melons are fruit. N
+
+# VDTRatingsTL2 63 s_u3
+
+? Some melons are fruit. N
+
+# VDTRatingsTL2 63 s_u4
+
+? Some melons are fruit. N
+
+# VDTRatingsTL2 63 s_u5
+
+? Some melons are fruit. N
+
+# VDTRatingsTL2 63 s_t
+
+? Some fruit are melons. Y
+
+# VDTRatingsTL2 63 s_f
+
+? Some melons are insects. N
+
+# VDTRatingsTL2 63 a_u
+
+? All melons are fruit. Y
+
+# VDTRatingsTL2 63 a_t
+
+? All fruit are melons. N
+
+# VDTRatingsTL2 63 a_f
+
+? All melons are insects. N
+
+# VDTRatingsTL2 64 s_u1
+
+? Some anacondas are reptiles. N
+
+# VDTRatingsTL2 64 s_u2
+
+? Some anacondas are reptiles. N
+
+# VDTRatingsTL2 64 s_u3
+
+? Some anacondas are reptiles. N
+
+# VDTRatingsTL2 64 s_u4
+
+? Some anacondas are reptiles. N
+
+# VDTRatingsTL2 64 s_u5
+
+? Some anacondas are reptiles. N
+
+# VDTRatingsTL2 64 s_t
+
+? Some reptiles are anacondas. Y
+
+# VDTRatingsTL2 64 s_f
+
+? Some anacondas are fruit. N
+
+# VDTRatingsTL2 64 a_u
+
+? All anacondas are reptiles. Y
+
+# VDTRatingsTL2 64 a_t
+
+? All reptiles are anacondas. N
+
+# VDTRatingsTL2 64 a_f
+
+? All anacondas are fruit. N
+
+# VDTRatingsTL2 65 s_u1
+
+? Some pears are fruit. N
+
+# VDTRatingsTL2 65 s_u2
+
+? Some pears are fruit. N
+
+# VDTRatingsTL2 65 s_u3
+
+? Some pears are fruit. N
+
+# VDTRatingsTL2 65 s_u4
+
+? Some pears are fruit. N
+
+# VDTRatingsTL2 65 s_u5
+
+? Some pears are fruit. N
+
+# VDTRatingsTL2 65 s_t
+
+? Some fruit are pears. Y
+
+# VDTRatingsTL2 65 s_f
+
+? Some pears are dogs. N
+
+# VDTRatingsTL2 65 a_u
+
+? All pears are fruit. Y
+
+# VDTRatingsTL2 65 a_t
+
+? All fruit are pears. N
+
+# VDTRatingsTL2 65 a_f
+
+? All pears are dogs. N
+
+# VDTRatingsTL2 66 s_u1
+
+? Some foxes are mammals. N
+
+# VDTRatingsTL2 66 s_u2
+
+? Some foxes are mammals. N
+
+# VDTRatingsTL2 66 s_u3
+
+? Some foxes are mammals. N
+
+# VDTRatingsTL2 66 s_u4
+
+? Some foxes are mammals. N
+
+# VDTRatingsTL2 66 s_u5
+
+? Some foxes are mammals. N
+
+# VDTRatingsTL2 66 s_t
+
+? Some mammals are foxes. Y
+
+# VDTRatingsTL2 66 s_f
+
+? Some foxes are insects. N
+
+# VDTRatingsTL2 66 a_u
+
+? All foxes are mammals. Y
+
+# VDTRatingsTL2 66 a_t
+
+? All mammals are foxes. N
+
+# VDTRatingsTL2 66 a_f
+
+? All foxes are insects. N
+
+# VDTRatingsTL2 67 s_u1
+
+? Some beagles are dogs. N
+
+# VDTRatingsTL2 67 s_u2
+
+? Some beagles are dogs. N
+
+# VDTRatingsTL2 67 s_u3
+
+? Some beagles are dogs. N
+
+# VDTRatingsTL2 67 s_u4
+
+? Some beagles are dogs. N
+
+# VDTRatingsTL2 67 s_u5
+
+? Some beagles are dogs. N
+
+# VDTRatingsTL2 67 s_t
+
+? Some dogs are beagles. Y
+
+# VDTRatingsTL2 67 s_f
+
+? Some beagles are mammals. N
+
+# VDTRatingsTL2 67 a_u
+
+? All beagles are dogs. Y
+
+# VDTRatingsTL2 67 a_t
+
+? All dogs are beagles. N
+
+# VDTRatingsTL2 67 a_f
+
+? All beagles are mammals. N
+
+# VDTRatingsTL2 68 s_u1
+
+? Some flies are insects. N
+
+# VDTRatingsTL2 68 s_u2
+
+? Some flies are insects. N
+
+# VDTRatingsTL2 68 s_u3
+
+? Some flies are insects. N
+
+# VDTRatingsTL2 68 s_u4
+
+? Some flies are insects. N
+
+# VDTRatingsTL2 68 s_u5
+
+? Some flies are insects. N
+
+# VDTRatingsTL2 68 s_t
+
+? Some insects are flies. Y
+
+# VDTRatingsTL2 68 s_f
+
+? Some flies are dogs. N
+
+# VDTRatingsTL2 68 a_u
+
+? All flies are insects. Y
+
+# VDTRatingsTL2 68 a_t
+
+? All insects are flies. N
+
+# VDTRatingsTL2 68 a_f
+
+? All flies are dogs. N
+
+# VDTRatingsTL2 69 s_u1
+
+? Some stinkbugs are insects. N
+
+# VDTRatingsTL2 69 s_u2
+
+? Some stinkbugs are insects. N
+
+# VDTRatingsTL2 69 s_u3
+
+? Some stinkbugs are insects. N
+
+# VDTRatingsTL2 69 s_u4
+
+? Some stinkbugs are insects. N
+
+# VDTRatingsTL2 69 s_u5
+
+? Some stinkbugs are insects. N
+
+# VDTRatingsTL2 69 s_t
+
+? Some insects are stinkbugs. Y
+
+# VDTRatingsTL2 69 s_f
+
+? Some stinkbugs are reptiles. N
+
+# VDTRatingsTL2 69 a_u
+
+? All stinkbugs are insects. Y
+
+# VDTRatingsTL2 69 a_t
+
+? All insects are stinkbugs. N
+
+# VDTRatingsTL2 69 a_f
+
+? All stinkbugs are reptiles. N
+
+# VDTRatingsTL2 70 s_u1
+
+? Some redwoods are tools. N
+
+# VDTRatingsTL2 70 s_u2
+
+? Some redwoods are tools. N
+
+# VDTRatingsTL2 70 s_u3
+
+? Some redwoods are tools. N
+
+# VDTRatingsTL2 70 s_u4
+
+? Some redwoods are tools. N
+
+# VDTRatingsTL2 70 s_u5
+
+? Some redwoods are tools. N
+
+# VDTRatingsTL2 70 s_t
+
+? Some tools are redwoods. Y
+
+# VDTRatingsTL2 70 s_f
+
+? Some redwoods are reptiles. N
+
+# VDTRatingsTL2 70 a_u
+
+? All redwoods are tools. Y
+
+# VDTRatingsTL2 70 a_t
+
+? All tools are redwoods. N
+
+# VDTRatingsTL2 70 a_f
+
+? All redwoods are reptiles. N
+
+# VDTRatingsTL2 71 s_u1
+
+? Some tilapia are fish. N
+
+# VDTRatingsTL2 71 s_u2
+
+? Some tilapia are fish. N
+
+# VDTRatingsTL2 71 s_u3
+
+? Some tilapia are fish. N
+
+# VDTRatingsTL2 71 s_u4
+
+? Some tilapia are fish. N
+
+# VDTRatingsTL2 71 s_u5
+
+? Some tilapia are fish. N
+
+# VDTRatingsTL2 71 s_t
+
+? Some fish are tilapia. Y
+
+# VDTRatingsTL2 71 s_f
+
+? Some tilapia are mammals. N
+
+# VDTRatingsTL2 71 a_u
+
+? All tilapia are fish. Y
+
+# VDTRatingsTL2 71 a_t
+
+? All fish are tilapia. N
+
+# VDTRatingsTL2 71 a_f
+
+? All tilapia are mammals. N
+
+# VDTRatingsTL2 72 s_u1
+
+? Some alligators are reptiles. N
+
+# VDTRatingsTL2 72 s_u2
+
+? Some alligators are reptiles. N
+
+# VDTRatingsTL2 72 s_u3
+
+? Some alligators are reptiles. N
+
+# VDTRatingsTL2 72 s_u4
+
+? Some alligators are reptiles. N
+
+# VDTRatingsTL2 72 s_u5
+
+? Some alligators are reptiles. N
+
+# VDTRatingsTL2 72 s_t
+
+? Some reptiles are alligators. Y
+
+# VDTRatingsTL2 72 s_f
+
+? Some alligators are birds. N
+
+# VDTRatingsTL2 72 a_u
+
+? All alligators are reptiles. Y
+
+# VDTRatingsTL2 72 a_t
+
+? All reptiles are alligators. N
+
+# VDTRatingsTL2 72 a_f
+
+? All alligators are birds. N
+
+# VDTRatingsTL2 73 s_u1
+
+? Some apricots are fruit. N
+
+# VDTRatingsTL2 73 s_u2
+
+? Some apricots are fruit. N
+
+# VDTRatingsTL2 73 s_u3
+
+? Some apricots are fruit. N
+
+# VDTRatingsTL2 73 s_u4
+
+? Some apricots are fruit. N
+
+# VDTRatingsTL2 73 s_u5
+
+? Some apricots are fruit. N
+
+# VDTRatingsTL2 73 s_t
+
+? Some fruit are apricots. Y
+
+# VDTRatingsTL2 73 s_f
+
+? Some apricots are dogs. N
+
+# VDTRatingsTL2 73 a_u
+
+? All apricots are fruit. Y
+
+# VDTRatingsTL2 73 a_t
+
+? All fruit are apricots. N
+
+# VDTRatingsTL2 73 a_f
+
+? All apricots are dogs. N
+
+# VDTRatingsTL2 74 s_u1
+
+? Some crocodiles are reptiles. N
+
+# VDTRatingsTL2 74 s_u2
+
+? Some crocodiles are reptiles. N
+
+# VDTRatingsTL2 74 s_u3
+
+? Some crocodiles are reptiles. N
+
+# VDTRatingsTL2 74 s_u4
+
+? Some crocodiles are reptiles. N
+
+# VDTRatingsTL2 74 s_u5
+
+? Some crocodiles are reptiles. N
+
+# VDTRatingsTL2 74 s_t
+
+? Some reptiles are crocodiles. Y
+
+# VDTRatingsTL2 74 s_f
+
+? Some crocodiles are fruit. N
+
+# VDTRatingsTL2 74 a_u
+
+? All crocodiles are reptiles. Y
+
+# VDTRatingsTL2 74 a_t
+
+? All reptiles are crocodiles. N
+
+# VDTRatingsTL2 74 a_f
+
+? All crocodiles are fruit. N
+
+# VDTRatingsTL2 75 s_u1
+
+? Some sycamores are trees. N
+
+# VDTRatingsTL2 75 s_u2
+
+? Some sycamores are trees. N
+
+# VDTRatingsTL2 75 s_u3
+
+? Some sycamores are trees. N
+
+# VDTRatingsTL2 75 s_u4
+
+? Some sycamores are trees. N
+
+# VDTRatingsTL2 75 s_u5
+
+? Some sycamores are trees. N
+
+# VDTRatingsTL2 75 s_t
+
+? Some trees are sycamores. Y
+
+# VDTRatingsTL2 75 s_f
+
+? Some sycamores are mammals. N
+
+# VDTRatingsTL2 75 a_u
+
+? All sycamores are trees. Y
+
+# VDTRatingsTL2 75 a_t
+
+? All trees are sycamores. N
+
+# VDTRatingsTL2 75 a_f
+
+? All sycamores are mammals. N
+
+# VDTRatingsTL2 76 s_u1
+
+? Some elephants are mammals. N
+
+# VDTRatingsTL2 76 s_u2
+
+? Some elephants are mammals. N
+
+# VDTRatingsTL2 76 s_u3
+
+? Some elephants are mammals. N
+
+# VDTRatingsTL2 76 s_u4
+
+? Some elephants are mammals. N
+
+# VDTRatingsTL2 76 s_u5
+
+? Some elephants are mammals. N
+
+# VDTRatingsTL2 76 s_t
+
+? Some mammals are elephants. Y
+
+# VDTRatingsTL2 76 s_f
+
+? Some elephants are trees. N
+
+# VDTRatingsTL2 76 a_u
+
+? All elephants are mammals. Y
+
+# VDTRatingsTL2 76 a_t
+
+? All mammals are elephants. N
+
+# VDTRatingsTL2 76 a_f
+
+? All elephants are trees. N
+
+# VDTRatingsTL2 77 s_u1
+
+? Some kiwis are fruit. N
+
+# VDTRatingsTL2 77 s_u2
+
+? Some kiwis are fruit. N
+
+# VDTRatingsTL2 77 s_u3
+
+? Some kiwis are fruit. N
+
+# VDTRatingsTL2 77 s_u4
+
+? Some kiwis are fruit. N
+
+# VDTRatingsTL2 77 s_u5
+
+? Some kiwis are fruit. N
+
+# VDTRatingsTL2 77 s_t
+
+? Some fruit are kiwis. Y
+
+# VDTRatingsTL2 77 s_f
+
+? Some kiwis are dogs. N
+
+# VDTRatingsTL2 77 a_u
+
+? All kiwis are fruit. Y
+
+# VDTRatingsTL2 77 a_t
+
+? All fruit are kiwis. N
+
+# VDTRatingsTL2 77 a_f
+
+? All kiwis are dogs. N
+
+# VDTRatingsTL2 78 s_u1
+
+? Some mosquitos are insects. N
+
+# VDTRatingsTL2 78 s_u2
+
+? Some mosquitos are insects. N
+
+# VDTRatingsTL2 78 s_u3
+
+? Some mosquitos are insects. N
+
+# VDTRatingsTL2 78 s_u4
+
+? Some mosquitos are insects. N
+
+# VDTRatingsTL2 78 s_u5
+
+? Some mosquitos are insects. N
+
+# VDTRatingsTL2 78 s_t
+
+? Some insects are mosquitos. Y
+
+# VDTRatingsTL2 78 s_f
+
+? Some mosquitos are dogs. N
+
+# VDTRatingsTL2 78 a_u
+
+? All mosquitos are insects. Y
+
+# VDTRatingsTL2 78 a_t
+
+? All insects are mosquitos. N
+
+# VDTRatingsTL2 78 a_f
+
+? All mosquitos are dogs. N
+
+# VDTRatingsTL2 79 s_u1
+
+? Some canaries are birds. N
+
+# VDTRatingsTL2 79 s_u2
+
+? Some canaries are birds. N
+
+# VDTRatingsTL2 79 s_u3
+
+? Some canaries are birds. N
+
+# VDTRatingsTL2 79 s_u4
+
+? Some canaries are birds. N
+
+# VDTRatingsTL2 79 s_u5
+
+? Some canaries are birds. N
+
+# VDTRatingsTL2 79 s_t
+
+? Some birds are canaries. Y
+
+# VDTRatingsTL2 79 s_f
+
+? Some canaries are tools. N
+
+# VDTRatingsTL2 79 a_u
+
+? All canaries are birds. Y
+
+# VDTRatingsTL2 79 a_t
+
+? All birds are canaries. N
+
+# VDTRatingsTL2 79 a_f
+
+? All canaries are tools. N
+
+# VDTRatingsTL2 80 s_u1
+
+? Some daffodils are flowers. N
+
+# VDTRatingsTL2 80 s_u2
+
+? Some daffodils are flowers. N
+
+# VDTRatingsTL2 80 s_u3
+
+? Some daffodils are flowers. N
+
+# VDTRatingsTL2 80 s_u4
+
+? Some daffodils are flowers. N
+
+# VDTRatingsTL2 80 s_u5
+
+? Some daffodils are flowers. N
+
+# VDTRatingsTL2 80 s_t
+
+? Some flowers are daffodils. Y
+
+# VDTRatingsTL2 80 s_f
+
+? Some daffodils are birds. N
+
+# VDTRatingsTL2 80 a_u
+
+? All daffodils are flowers. Y
+
+# VDTRatingsTL2 80 a_t
+
+? All flowers are daffodils. N
+
+# VDTRatingsTL2 80 a_f
+
+? All daffodils are birds. N
+
+# VDTRatingsTL2 81 s_u1
+
+? Some bananas are fruit. N
+
+# VDTRatingsTL2 81 s_u2
+
+? Some bananas are fruit. N
+
+# VDTRatingsTL2 81 s_u3
+
+? Some bananas are fruit. N
+
+# VDTRatingsTL2 81 s_u4
+
+? Some bananas are fruit. N
+
+# VDTRatingsTL2 81 s_u5
+
+? Some bananas are fruit. N
+
+# VDTRatingsTL2 81 s_t
+
+? Some fruit are bananas. Y
+
+# VDTRatingsTL2 81 s_f
+
+? Some bananas are flowers. N
+
+# VDTRatingsTL2 81 a_u
+
+? All bananas are fruit. Y
+
+# VDTRatingsTL2 81 a_t
+
+? All fruit are bananas. N
+
+# VDTRatingsTL2 81 a_f
+
+? All bananas are flowers. N
+
+# VDTRatingsTL2 82 s_u1
+
+? Some mallets are tools. N
+
+# VDTRatingsTL2 82 s_u2
+
+? Some mallets are tools. N
+
+# VDTRatingsTL2 82 s_u3
+
+? Some mallets are tools. N
+
+# VDTRatingsTL2 82 s_u4
+
+? Some mallets are tools. N
+
+# VDTRatingsTL2 82 s_u5
+
+? Some mallets are tools. N
+
+# VDTRatingsTL2 82 s_t
+
+? Some tools are mallets. Y
+
+# VDTRatingsTL2 82 s_f
+
+? Some mallets are dogs. N
+
+# VDTRatingsTL2 82 a_u
+
+? All mallets are tools. Y
+
+# VDTRatingsTL2 82 a_t
+
+? All tools are mallets. N
+
+# VDTRatingsTL2 82 a_f
+
+? All mallets are dogs. N
+
+# VDTRatingsTL2 83 s_u1
+
+? Some cedars are trees. N
+
+# VDTRatingsTL2 83 s_u2
+
+? Some cedars are trees. N
+
+# VDTRatingsTL2 83 s_u3
+
+? Some cedars are trees. N
+
+# VDTRatingsTL2 83 s_u4
+
+? Some cedars are trees. N
+
+# VDTRatingsTL2 83 s_u5
+
+? Some cedars are trees. N
+
+# VDTRatingsTL2 83 s_t
+
+? Some trees are cedars. Y
+
+# VDTRatingsTL2 83 s_f
+
+? Some cedars are fruit. N
+
+# VDTRatingsTL2 83 a_u
+
+? All cedars are trees. Y
+
+# VDTRatingsTL2 83 a_t
+
+? All trees are cedars. N
+
+# VDTRatingsTL2 83 a_f
+
+? All cedars are fruit. N
+
+# VDTRatingsTL2 84 s_u1
+
+? Some pugs are dogs. N
+
+# VDTRatingsTL2 84 s_u2
+
+? Some pugs are dogs. N
+
+# VDTRatingsTL2 84 s_u3
+
+? Some pugs are dogs. N
+
+# VDTRatingsTL2 84 s_u4
+
+? Some pugs are dogs. N
+
+# VDTRatingsTL2 84 s_u5
+
+? Some pugs are dogs. N
+
+# VDTRatingsTL2 84 s_t
+
+? Some dogs are pugs. Y
+
+# VDTRatingsTL2 84 s_f
+
+? Some pugs are tools. N
+
+# VDTRatingsTL2 84 a_u
+
+? All pugs are dogs. Y
+
+# VDTRatingsTL2 84 a_t
+
+? All dogs are pugs. N
+
+# VDTRatingsTL2 84 a_f
+
+? All pugs are tools. N
+
+# VDTRatingsTL2 85 s_u1
+
+? Some chihuahuas are dogs. N
+
+# VDTRatingsTL2 85 s_u2
+
+? Some chihuahuas are dogs. N
+
+# VDTRatingsTL2 85 s_u3
+
+? Some chihuahuas are dogs. N
+
+# VDTRatingsTL2 85 s_u4
+
+? Some chihuahuas are dogs. N
+
+# VDTRatingsTL2 85 s_u5
+
+? Some chihuahuas are dogs. N
+
+# VDTRatingsTL2 85 s_t
+
+? Some dogs are chihuahuas. Y
+
+# VDTRatingsTL2 85 s_f
+
+? Some chihuahuas are mammals. N
+
+# VDTRatingsTL2 85 a_u
+
+? All chihuahuas are dogs. Y
+
+# VDTRatingsTL2 85 a_t
+
+? All dogs are chihuahuas. N
+
+# VDTRatingsTL2 85 a_f
+
+? All chihuahuas are mammals. N
+
+# VDTRatingsTL2 86 s_u1
+
+? Some turtles are reptiles. N
+
+# VDTRatingsTL2 86 s_u2
+
+? Some turtles are reptiles. N
+
+# VDTRatingsTL2 86 s_u3
+
+? Some turtles are reptiles. N
+
+# VDTRatingsTL2 86 s_u4
+
+? Some turtles are reptiles. N
+
+# VDTRatingsTL2 86 s_u5
+
+? Some turtles are reptiles. N
+
+# VDTRatingsTL2 86 s_t
+
+? Some reptiles are turtles. Y
+
+# VDTRatingsTL2 86 s_f
+
+? Some turtles are trees. N
+
+# VDTRatingsTL2 86 a_u
+
+? All turtles are reptiles. Y
+
+# VDTRatingsTL2 86 a_t
+
+? All reptiles are turtles. N
+
+# VDTRatingsTL2 86 a_f
+
+? All turtles are trees. N
+
+# VDTRatingsTL2 87 s_u1
+
+? Some pliers are tools. N
+
+# VDTRatingsTL2 87 s_u2
+
+? Some pliers are tools. N
+
+# VDTRatingsTL2 87 s_u3
+
+? Some pliers are tools. N
+
+# VDTRatingsTL2 87 s_u4
+
+? Some pliers are tools. N
+
+# VDTRatingsTL2 87 s_u5
+
+? Some pliers are tools. N
+
+# VDTRatingsTL2 87 s_t
+
+? Some tools are pliers. Y
+
+# VDTRatingsTL2 87 s_f
+
+? Some pliers are reptiles. N
+
+# VDTRatingsTL2 87 a_u
+
+? All pliers are tools. Y
+
+# VDTRatingsTL2 87 a_t
+
+? All tools are pliers. N
+
+# VDTRatingsTL2 87 a_f
+
+? All pliers are reptiles. N
+
+# VDTRatingsTL2 88 s_u1
+
+? Some doves are birds. N
+
+# VDTRatingsTL2 88 s_u2
+
+? Some doves are birds. N
+
+# VDTRatingsTL2 88 s_u3
+
+? Some doves are birds. N
+
+# VDTRatingsTL2 88 s_u4
+
+? Some doves are birds. N
+
+# VDTRatingsTL2 88 s_u5
+
+? Some doves are birds. N
+
+# VDTRatingsTL2 88 s_t
+
+? Some birds are doves. Y
+
+# VDTRatingsTL2 88 s_f
+
+? Some doves are fish. N
+
+# VDTRatingsTL2 88 a_u
+
+? All doves are birds. Y
+
+# VDTRatingsTL2 88 a_t
+
+? All birds are doves. N
+
+# VDTRatingsTL2 88 a_f
+
+? All doves are fish. N
+
+# VDTRatingsTL2 89 s_u1
+
+? Some pineapples are fruit. N
+
+# VDTRatingsTL2 89 s_u2
+
+? Some pineapples are fruit. N
+
+# VDTRatingsTL2 89 s_u3
+
+? Some pineapples are fruit. N
+
+# VDTRatingsTL2 89 s_u4
+
+? Some pineapples are fruit. N
+
+# VDTRatingsTL2 89 s_u5
+
+? Some pineapples are fruit. N
+
+# VDTRatingsTL2 89 s_t
+
+? Some fruit are pineapples. Y
+
+# VDTRatingsTL2 89 s_f
+
+? Some pineapples are flowers. N
+
+# VDTRatingsTL2 89 a_u
+
+? All pineapples are fruit. Y
+
+# VDTRatingsTL2 89 a_t
+
+? All fruit are pineapples. N
+
+# VDTRatingsTL2 89 a_f
+
+? All pineapples are flowers. N
+
+# VDTRatingsTL2 90 s_u1
+
+? Some ants are insects. N
+
+# VDTRatingsTL2 90 s_u2
+
+? Some ants are insects. N
+
+# VDTRatingsTL2 90 s_u3
+
+? Some ants are insects. N
+
+# VDTRatingsTL2 90 s_u4
+
+? Some ants are insects. N
+
+# VDTRatingsTL2 90 s_u5
+
+? Some ants are insects. N
+
+# VDTRatingsTL2 90 s_t
+
+? Some insects are ants. Y
+
+# VDTRatingsTL2 90 s_f
+
+? Some ants are flowers. N
+
+# VDTRatingsTL2 90 a_u
+
+? All ants are insects. Y
+
+# VDTRatingsTL2 90 a_t
+
+? All insects are ants. N
+
+# VDTRatingsTL2 90 a_f
+
+? All ants are flowers. N
+
+# VDTRatingsTL2 91 s_u1
+
+? Some herring are fish. N
+
+# VDTRatingsTL2 91 s_u2
+
+? Some herring are fish. N
+
+# VDTRatingsTL2 91 s_u3
+
+? Some herring are fish. N
+
+# VDTRatingsTL2 91 s_u4
+
+? Some herring are fish. N
+
+# VDTRatingsTL2 91 s_u5
+
+? Some herring are fish. N
+
+# VDTRatingsTL2 91 s_t
+
+? Some fish are herring. Y
+
+# VDTRatingsTL2 91 s_f
+
+? Some herring are trees. N
+
+# VDTRatingsTL2 91 a_u
+
+? All herring are fish. Y
+
+# VDTRatingsTL2 91 a_t
+
+? All fish are herring. N
+
+# VDTRatingsTL2 91 a_f
+
+? All herring are trees. N
+
+# VDTRatingsTL2 92 s_u1
+
+? Some peaches are fruit. N
+
+# VDTRatingsTL2 92 s_u2
+
+? Some peaches are fruit. N
+
+# VDTRatingsTL2 92 s_u3
+
+? Some peaches are fruit. N
+
+# VDTRatingsTL2 92 s_u4
+
+? Some peaches are fruit. N
+
+# VDTRatingsTL2 92 s_u5
+
+? Some peaches are fruit. N
+
+# VDTRatingsTL2 92 s_t
+
+? Some fruit are peaches. Y
+
+# VDTRatingsTL2 92 s_f
+
+? Some peaches are fish. N
+
+# VDTRatingsTL2 92 a_u
+
+? All peaches are fruit. Y
+
+# VDTRatingsTL2 92 a_t
+
+? All fruit are peaches. N
+
+# VDTRatingsTL2 92 a_f
+
+? All peaches are fish. N
+
+# VDTRatingsTL2 93 s_u1
+
+? Some daisies are flowers. N
+
+# VDTRatingsTL2 93 s_u2
+
+? Some daisies are flowers. N
+
+# VDTRatingsTL2 93 s_u3
+
+? Some daisies are flowers. N
+
+# VDTRatingsTL2 93 s_u4
+
+? Some daisies are flowers. N
+
+# VDTRatingsTL2 93 s_u5
+
+? Some daisies are flowers. N
+
+# VDTRatingsTL2 93 s_t
+
+? Some flowers are daisies. Y
+
+# VDTRatingsTL2 93 s_f
+
+? Some daisies are insects. N
+
+# VDTRatingsTL2 93 a_u
+
+? All daisies are flowers. Y
+
+# VDTRatingsTL2 93 a_t
+
+? All flowers are daisies. N
+
+# VDTRatingsTL2 93 a_f
+
+? All daisies are insects. N
+
+# VDTRatingsTL2 94 s_u1
+
+? Some grapes are fruit. N
+
+# VDTRatingsTL2 94 s_u2
+
+? Some grapes are fruit. N
+
+# VDTRatingsTL2 94 s_u3
+
+? Some grapes are fruit. N
+
+# VDTRatingsTL2 94 s_u4
+
+? Some grapes are fruit. N
+
+# VDTRatingsTL2 94 s_u5
+
+? Some grapes are fruit. N
+
+# VDTRatingsTL2 94 s_t
+
+? Some fruit are grapes. Y
+
+# VDTRatingsTL2 94 s_f
+
+? Some grapes are mammals. N
+
+# VDTRatingsTL2 94 a_u
+
+? All grapes are fruit. Y
+
+# VDTRatingsTL2 94 a_t
+
+? All fruit are grapes. N
+
+# VDTRatingsTL2 94 a_f
+
+? All grapes are mammals. N
+
+# VDTRatingsTL2 95 s_u1
+
+? Some fleas are insects. N
+
+# VDTRatingsTL2 95 s_u2
+
+? Some fleas are insects. N
+
+# VDTRatingsTL2 95 s_u3
+
+? Some fleas are insects. N
+
+# VDTRatingsTL2 95 s_u4
+
+? Some fleas are insects. N
+
+# VDTRatingsTL2 95 s_u5
+
+? Some fleas are insects. N
+
+# VDTRatingsTL2 95 s_t
+
+? Some insects are fleas. Y
+
+# VDTRatingsTL2 95 s_f
+
+? Some fleas are tools. N
+
+# VDTRatingsTL2 95 a_u
+
+? All fleas are insects. Y
+
+# VDTRatingsTL2 95 a_t
+
+? All insects are fleas. N
+
+# VDTRatingsTL2 95 a_f
+
+? All fleas are tools. N
+
+# VDTRatingsTL2 96 s_u1
+
+? Some tortoises are reptiles. N
+
+# VDTRatingsTL2 96 s_u2
+
+? Some tortoises are reptiles. N
+
+# VDTRatingsTL2 96 s_u3
+
+? Some tortoises are reptiles. N
+
+# VDTRatingsTL2 96 s_u4
+
+? Some tortoises are reptiles. N
+
+# VDTRatingsTL2 96 s_u5
+
+? Some tortoises are reptiles. N
+
+# VDTRatingsTL2 96 s_t
+
+? Some reptiles are tortoises. Y
+
+# VDTRatingsTL2 96 s_f
+
+? Some tortoises are dogs. N
+
+# VDTRatingsTL2 96 a_u
+
+? All tortoises are reptiles. Y
+
+# VDTRatingsTL2 96 a_t
+
+? All reptiles are tortoises. N
+
+# VDTRatingsTL2 96 a_f
+
+? All tortoises are dogs. N
+
+# VDTRatingsTL2 97 s_u1
+
+? Some roses are flowers. N
+
+# VDTRatingsTL2 97 s_u2
+
+? Some roses are flowers. N
+
+# VDTRatingsTL2 97 s_u3
+
+? Some roses are flowers. N
+
+# VDTRatingsTL2 97 s_u4
+
+? Some roses are flowers. N
+
+# VDTRatingsTL2 97 s_u5
+
+? Some roses are flowers. N
+
+# VDTRatingsTL2 97 s_t
+
+? Some flowers are roses. Y
+
+# VDTRatingsTL2 97 s_f
+
+? Some roses are reptiles. N
+
+# VDTRatingsTL2 97 a_u
+
+? All roses are flowers. Y
+
+# VDTRatingsTL2 97 a_t
+
+? All flowers are roses. N
+
+# VDTRatingsTL2 97 a_f
+
+? All roses are reptiles. N
+
+# VDTRatingsTL2 98 s_u1
+
+? Some orchids are flowers. N
+
+# VDTRatingsTL2 98 s_u2
+
+? Some orchids are flowers. N
+
+# VDTRatingsTL2 98 s_u3
+
+? Some orchids are flowers. N
+
+# VDTRatingsTL2 98 s_u4
+
+? Some orchids are flowers. N
+
+# VDTRatingsTL2 98 s_u5
+
+? Some orchids are flowers. N
+
+# VDTRatingsTL2 98 s_t
+
+? Some flowers are orchids. Y
+
+# VDTRatingsTL2 98 s_f
+
+? Some orchids are dogs. N
+
+# VDTRatingsTL2 98 a_u
+
+? All orchids are flowers. Y
+
+# VDTRatingsTL2 98 a_t
+
+? All flowers are orchids. N
+
+# VDTRatingsTL2 98 a_f
+
+? All orchids are dogs. N
+
+# VDTRatingsTL2 99 s_u1
+
+? Some pines are trees. N
+
+# VDTRatingsTL2 99 s_u2
+
+? Some pines are trees. N
+
+# VDTRatingsTL2 99 s_u3
+
+? Some pines are trees. N
+
+# VDTRatingsTL2 99 s_u4
+
+? Some pines are trees. N
+
+# VDTRatingsTL2 99 s_u5
+
+? Some pines are trees. N
+
+# VDTRatingsTL2 99 s_t
+
+? Some trees are pines. Y
+
+# VDTRatingsTL2 99 s_f
+
+? Some pines are mammals. N
+
+# VDTRatingsTL2 99 a_u
+
+? All pines are trees. Y
+
+# VDTRatingsTL2 99 a_t
+
+? All trees are pines. N
+
+# VDTRatingsTL2 99 a_f
+
+? All pines are mammals. N
+
+# VDTRatingsTL2 100 s_u1
+
+? Some birches are trees. N
+
+# VDTRatingsTL2 100 s_u2
+
+? Some birches are trees. N
+
+# VDTRatingsTL2 100 s_u3
+
+? Some birches are trees. N
+
+# VDTRatingsTL2 100 s_u4
+
+? Some birches are trees. N
+
+# VDTRatingsTL2 100 s_u5
+
+? Some birches are trees. N
+
+# VDTRatingsTL2 100 s_t
+
+? Some trees are birches. Y
+
+# VDTRatingsTL2 100 s_f
+
+? Some birches are insects. N
+
+# VDTRatingsTL2 100 a_u
+
+? All birches are trees. Y
+
+# VDTRatingsTL2 100 a_t
+
+? All trees are birches. N
+
+# VDTRatingsTL2 100 a_f
+
+? All birches are insects. N
+
+# VDTRatingsTL2 101 s_u1
+
+? Some sparrows are birds. N
+
+# VDTRatingsTL2 101 s_u2
+
+? Some sparrows are birds. N
+
+# VDTRatingsTL2 101 s_u3
+
+? Some sparrows are birds. N
+
+# VDTRatingsTL2 101 s_u4
+
+? Some sparrows are birds. N
+
+# VDTRatingsTL2 101 s_u5
+
+? Some sparrows are birds. N
+
+# VDTRatingsTL2 101 s_t
+
+? Some birds are sparrows. Y
+
+# VDTRatingsTL2 101 s_f
+
+? Some sparrows are reptiles. N
+
+# VDTRatingsTL2 101 a_u
+
+? All sparrows are birds. Y
+
+# VDTRatingsTL2 101 a_t
+
+? All birds are sparrows. N
+
+# VDTRatingsTL2 101 a_f
+
+? All sparrows are reptiles. N
+
+# VDTRatingsTL2 102 s_u1
+
+? Some mangoes are fruit. N
+
+# VDTRatingsTL2 102 s_u2
+
+? Some mangoes are fruit. N
+
+# VDTRatingsTL2 102 s_u3
+
+? Some mangoes are fruit. N
+
+# VDTRatingsTL2 102 s_u4
+
+? Some mangoes are fruit. N
+
+# VDTRatingsTL2 102 s_u5
+
+? Some mangoes are fruit. N
+
+# VDTRatingsTL2 102 s_t
+
+? Some fruit are mangoes. Y
+
+# VDTRatingsTL2 102 s_f
+
+? Some mangoes are reptiles. N
+
+# VDTRatingsTL2 102 a_u
+
+? All mangoes are fruit. Y
+
+# VDTRatingsTL2 102 a_t
+
+? All fruit are mangoes. N
+
+# VDTRatingsTL2 102 a_f
+
+? All mangoes are reptiles. N
+
+# VDTRatingsTL2 103 s_u1
+
+? Some rabbits are mammals. N
+
+# VDTRatingsTL2 103 s_u2
+
+? Some rabbits are mammals. N
+
+# VDTRatingsTL2 103 s_u3
+
+? Some rabbits are mammals. N
+
+# VDTRatingsTL2 103 s_u4
+
+? Some rabbits are mammals. N
+
+# VDTRatingsTL2 103 s_u5
+
+? Some rabbits are mammals. N
+
+# VDTRatingsTL2 103 s_t
+
+? Some mammals are rabbits. Y
+
+# VDTRatingsTL2 103 s_f
+
+? Some rabbits are tools. N
+
+# VDTRatingsTL2 103 a_u
+
+? All rabbits are mammals. Y
+
+# VDTRatingsTL2 103 a_t
+
+? All mammals are rabbits. N
+
+# VDTRatingsTL2 103 a_f
+
+? All rabbits are tools. N
+
+# VDTRatingsTL2 104 s_u1
+
+? Some carp are fish. N
+
+# VDTRatingsTL2 104 s_u2
+
+? Some carp are fish. N
+
+# VDTRatingsTL2 104 s_u3
+
+? Some carp are fish. N
+
+# VDTRatingsTL2 104 s_u4
+
+? Some carp are fish. N
+
+# VDTRatingsTL2 104 s_u5
+
+? Some carp are fish. N
+
+# VDTRatingsTL2 104 s_t
+
+? Some fish are carp. Y
+
+# VDTRatingsTL2 104 s_f
+
+? Some carp are reptiles. N
+
+# VDTRatingsTL2 104 a_u
+
+? All carp are fish. Y
+
+# VDTRatingsTL2 104 a_t
+
+? All fish are carp. N
+
+# VDTRatingsTL2 104 a_f
+
+? All carp are reptiles. N
+
+# VDTRatingsTL2 105 s_u1
+
+? Some oranges are fruit. N
+
+# VDTRatingsTL2 105 s_u2
+
+? Some oranges are fruit. N
+
+# VDTRatingsTL2 105 s_u3
+
+? Some oranges are fruit. N
+
+# VDTRatingsTL2 105 s_u4
+
+? Some oranges are fruit. N
+
+# VDTRatingsTL2 105 s_u5
+
+? Some oranges are fruit. N
+
+# VDTRatingsTL2 105 s_t
+
+? Some fruit are oranges. Y
+
+# VDTRatingsTL2 105 s_f
+
+? Some oranges are flowers. N
+
+# VDTRatingsTL2 105 a_u
+
+? All oranges are fruit. Y
+
+# VDTRatingsTL2 105 a_t
+
+? All fruit are oranges. N
+
+# VDTRatingsTL2 105 a_f
+
+? All oranges are flowers. N
+
+# VDTRatingsTL2 106 s_u1
+
+? Some elms are trees. N
+
+# VDTRatingsTL2 106 s_u2
+
+? Some elms are trees. N
+
+# VDTRatingsTL2 106 s_u3
+
+? Some elms are trees. N
+
+# VDTRatingsTL2 106 s_u4
+
+? Some elms are trees. N
+
+# VDTRatingsTL2 106 s_u5
+
+? Some elms are trees. N
+
+# VDTRatingsTL2 106 s_t
+
+? Some trees are elms. Y
+
+# VDTRatingsTL2 106 s_f
+
+? Some elms are fish. N
+
+# VDTRatingsTL2 106 a_u
+
+? All elms are trees. Y
+
+# VDTRatingsTL2 106 a_t
+
+? All trees are elms. N
+
+# VDTRatingsTL2 106 a_f
+
+? All elms are fish. N
+
+# VDTRatingsTL2 107 s_u1
+
+? Some petunias are flowers. N
+
+# VDTRatingsTL2 107 s_u2
+
+? Some petunias are flowers. N
+
+# VDTRatingsTL2 107 s_u3
+
+? Some petunias are flowers. N
+
+# VDTRatingsTL2 107 s_u4
+
+? Some petunias are flowers. N
+
+# VDTRatingsTL2 107 s_u5
+
+? Some petunias are flowers. N
+
+# VDTRatingsTL2 107 s_t
+
+? Some flowers are petunias. Y
+
+# VDTRatingsTL2 107 s_f
+
+? Some petunias are fish. N
+
+# VDTRatingsTL2 107 a_u
+
+? All petunias are flowers. Y
+
+# VDTRatingsTL2 107 a_t
+
+? All flowers are petunias. N
+
+# VDTRatingsTL2 107 a_f
+
+? All petunias are fish. N
+
+# VDTRatingsTL2 108 s_u1
+
+? Some rottweilers are dogs. N
+
+# VDTRatingsTL2 108 s_u2
+
+? Some rottweilers are dogs. N
+
+# VDTRatingsTL2 108 s_u3
+
+? Some rottweilers are dogs. N
+
+# VDTRatingsTL2 108 s_u4
+
+? Some rottweilers are dogs. N
+
+# VDTRatingsTL2 108 s_u5
+
+? Some rottweilers are dogs. N
+
+# VDTRatingsTL2 108 s_t
+
+? Some dogs are rottweilers. Y
+
+# VDTRatingsTL2 108 s_f
+
+? Some rottweilers are tools. N
+
+# VDTRatingsTL2 108 a_u
+
+? All rottweilers are dogs. Y
+
+# VDTRatingsTL2 108 a_t
+
+? All dogs are rottweilers. N
+
+# VDTRatingsTL2 108 a_f
+
+? All rottweilers are tools. N
+
+# VDTRatingsTL2 109 s_u1
+
+? Some cows are mammals. N
+
+# VDTRatingsTL2 109 s_u2
+
+? Some cows are mammals. N
+
+# VDTRatingsTL2 109 s_u3
+
+? Some cows are mammals. N
+
+# VDTRatingsTL2 109 s_u4
+
+? Some cows are mammals. N
+
+# VDTRatingsTL2 109 s_u5
+
+? Some cows are mammals. N
+
+# VDTRatingsTL2 109 s_t
+
+? Some mammals are cows. Y
+
+# VDTRatingsTL2 109 s_f
+
+? Some cows are birds. N
+
+# VDTRatingsTL2 109 a_u
+
+? All cows are mammals. Y
+
+# VDTRatingsTL2 109 a_t
+
+? All mammals are cows. N
+
+# VDTRatingsTL2 109 a_f
+
+? All cows are birds. N
+
+# VDTRatingsTL2 110 s_u1
+
+? Some saws are tools. N
+
+# VDTRatingsTL2 110 s_u2
+
+? Some saws are tools. N
+
+# VDTRatingsTL2 110 s_u3
+
+? Some saws are tools. N
+
+# VDTRatingsTL2 110 s_u4
+
+? Some saws are tools. N
+
+# VDTRatingsTL2 110 s_u5
+
+? Some saws are tools. N
+
+# VDTRatingsTL2 110 s_t
+
+? Some tools are saws. Y
+
+# VDTRatingsTL2 110 s_f
+
+? Some saws are fish. N
+
+# VDTRatingsTL2 110 a_u
+
+? All saws are tools. Y
+
+# VDTRatingsTL2 110 a_t
+
+? All tools are saws. N
+
+# VDTRatingsTL2 110 a_f
+
+? All saws are fish. N
+
+# VDTRatingsTL2 111 s_u1
+
+? Some rattlesnakes are reptiles. N
+
+# VDTRatingsTL2 111 s_u2
+
+? Some rattlesnakes are reptiles. N
+
+# VDTRatingsTL2 111 s_u3
+
+? Some rattlesnakes are reptiles. N
+
+# VDTRatingsTL2 111 s_u4
+
+? Some rattlesnakes are reptiles. N
+
+# VDTRatingsTL2 111 s_u5
+
+? Some rattlesnakes are reptiles. N
+
+# VDTRatingsTL2 111 s_t
+
+? Some reptiles are rattlesnakes. Y
+
+# VDTRatingsTL2 111 s_f
+
+? Some rattlesnakes are tools. N
+
+# VDTRatingsTL2 111 a_u
+
+? All rattlesnakes are reptiles. Y
+
+# VDTRatingsTL2 111 a_t
+
+? All reptiles are rattlesnakes. N
+
+# VDTRatingsTL2 111 a_f
+
+? All rattlesnakes are tools. N
+
+# VDTRatingsTL2 112 s_u1
+
+? Some dandelions are flowers. N
+
+# VDTRatingsTL2 112 s_u2
+
+? Some dandelions are flowers. N
+
+# VDTRatingsTL2 112 s_u3
+
+? Some dandelions are flowers. N
+
+# VDTRatingsTL2 112 s_u4
+
+? Some dandelions are flowers. N
+
+# VDTRatingsTL2 112 s_u5
+
+? Some dandelions are flowers. N
+
+# VDTRatingsTL2 112 s_t
+
+? Some flowers are dandelions. Y
+
+# VDTRatingsTL2 112 s_f
+
+? Some dandelions are trees. N
+
+# VDTRatingsTL2 112 a_u
+
+? All dandelions are flowers. Y
+
+# VDTRatingsTL2 112 a_t
+
+? All flowers are dandelions. N
+
+# VDTRatingsTL2 112 a_f
+
+? All dandelions are trees. N
+
+# VDTRatingsTL2 113 s_u1
+
+? Some beeches are trees. N
+
+# VDTRatingsTL2 113 s_u2
+
+? Some beeches are trees. N
+
+# VDTRatingsTL2 113 s_u3
+
+? Some beeches are trees. N
+
+# VDTRatingsTL2 113 s_u4
+
+? Some beeches are trees. N
+
+# VDTRatingsTL2 113 s_u5
+
+? Some beeches are trees. N
+
+# VDTRatingsTL2 113 s_t
+
+? Some trees are beeches. Y
+
+# VDTRatingsTL2 113 s_f
+
+? Some beeches are fish. N
+
+# VDTRatingsTL2 113 a_u
+
+? All beeches are trees. Y
+
+# VDTRatingsTL2 113 a_t
+
+? All trees are beeches. N
+
+# VDTRatingsTL2 113 a_f
+
+? All beeches are fish. N
+
+# VDTRatingsTL2 114 s_u1
+
+? Some poodles are dogs. N
+
+# VDTRatingsTL2 114 s_u2
+
+? Some poodles are dogs. N
+
+# VDTRatingsTL2 114 s_u3
+
+? Some poodles are dogs. N
+
+# VDTRatingsTL2 114 s_u4
+
+? Some poodles are dogs. N
+
+# VDTRatingsTL2 114 s_u5
+
+? Some poodles are dogs. N
+
+# VDTRatingsTL2 114 s_t
+
+? Some dogs are poodles. Y
+
+# VDTRatingsTL2 114 s_f
+
+? Some poodles are trees. N
+
+# VDTRatingsTL2 114 a_u
+
+? All poodles are dogs. Y
+
+# VDTRatingsTL2 114 a_t
+
+? All dogs are poodles. N
+
+# VDTRatingsTL2 114 a_f
+
+? All poodles are trees. N
+
+# VDTRatingsTL2 115 s_u1
+
+? Some lilies are flowers. N
+
+# VDTRatingsTL2 115 s_u2
+
+? Some lilies are flowers. N
+
+# VDTRatingsTL2 115 s_u3
+
+? Some lilies are flowers. N
+
+# VDTRatingsTL2 115 s_u4
+
+? Some lilies are flowers. N
+
+# VDTRatingsTL2 115 s_u5
+
+? Some lilies are flowers. N
+
+# VDTRatingsTL2 115 s_t
+
+? Some flowers are lilies. Y
+
+# VDTRatingsTL2 115 s_f
+
+? Some lilies are trees. N
+
+# VDTRatingsTL2 115 a_u
+
+? All lilies are flowers. Y
+
+# VDTRatingsTL2 115 a_t
+
+? All flowers are lilies. N
+
+# VDTRatingsTL2 115 a_f
+
+? All lilies are trees. N
+
+# VDTRatingsTL2 116 s_u1
+
+? Some goats are mammals. N
+
+# VDTRatingsTL2 116 s_u2
+
+? Some goats are mammals. N
+
+# VDTRatingsTL2 116 s_u3
+
+? Some goats are mammals. N
+
+# VDTRatingsTL2 116 s_u4
+
+? Some goats are mammals. N
+
+# VDTRatingsTL2 116 s_u5
+
+? Some goats are mammals. N
+
+# VDTRatingsTL2 116 s_t
+
+? Some mammals are goats. Y
+
+# VDTRatingsTL2 116 s_f
+
+? Some goats are tools. N
+
+# VDTRatingsTL2 116 a_u
+
+? All goats are mammals. Y
+
+# VDTRatingsTL2 116 a_t
+
+? All mammals are goats. N
+
+# VDTRatingsTL2 116 a_f
+
+? All goats are tools. N
+
+# VDTRatingsTL2 117 s_u1
+
+? Some robins are birds. N
+
+# VDTRatingsTL2 117 s_u2
+
+? Some robins are birds. N
+
+# VDTRatingsTL2 117 s_u3
+
+? Some robins are birds. N
+
+# VDTRatingsTL2 117 s_u4
+
+? Some robins are birds. N
+
+# VDTRatingsTL2 117 s_u5
+
+? Some robins are birds. N
+
+# VDTRatingsTL2 117 s_t
+
+? Some birds are robins. Y
+
+# VDTRatingsTL2 117 s_f
+
+? Some robins are dogs. N
+
+# VDTRatingsTL2 117 a_u
+
+? All robins are birds. Y
+
+# VDTRatingsTL2 117 a_t
+
+? All birds are robins. N
+
+# VDTRatingsTL2 117 a_f
+
+? All robins are dogs. N
+
+# VDTRatingsTL2 118 s_u1
+
+? Some tulips are flowers. N
+
+# VDTRatingsTL2 118 s_u2
+
+? Some tulips are flowers. N
+
+# VDTRatingsTL2 118 s_u3
+
+? Some tulips are flowers. N
+
+# VDTRatingsTL2 118 s_u4
+
+? Some tulips are flowers. N
+
+# VDTRatingsTL2 118 s_u5
+
+? Some tulips are flowers. N
+
+# VDTRatingsTL2 118 s_t
+
+? Some flowers are tulips. Y
+
+# VDTRatingsTL2 118 s_f
+
+? Some tulips are birds. N
+
+# VDTRatingsTL2 118 a_u
+
+? All tulips are flowers. Y
+
+# VDTRatingsTL2 118 a_t
+
+? All flowers are tulips. N
+
+# VDTRatingsTL2 118 a_f
+
+? All tulips are birds. N
+
+# VDTRatingsTL2 119 s_u1
+
+? Some chainsaws are tools. N
+
+# VDTRatingsTL2 119 s_u2
+
+? Some chainsaws are tools. N
+
+# VDTRatingsTL2 119 s_u3
+
+? Some chainsaws are tools. N
+
+# VDTRatingsTL2 119 s_u4
+
+? Some chainsaws are tools. N
+
+# VDTRatingsTL2 119 s_u5
+
+? Some chainsaws are tools. N
+
+# VDTRatingsTL2 119 s_t
+
+? Some tools are chainsaws. Y
+
+# VDTRatingsTL2 119 s_f
+
+? Some chainsaws are birds. N
+
+# VDTRatingsTL2 119 a_u
+
+? All chainsaws are tools. Y
+
+# VDTRatingsTL2 119 a_t
+
+? All tools are chainsaws. N
+
+# VDTRatingsTL2 119 a_f
+
+? All chainsaws are birds. N
+
+# VDTRatingsTL2 120 s_u1
+
+? Some crowbars are tools. N
+
+# VDTRatingsTL2 120 s_u2
+
+? Some crowbars are tools. N
+
+# VDTRatingsTL2 120 s_u3
+
+? Some crowbars are tools. N
+
+# VDTRatingsTL2 120 s_u4
+
+? Some crowbars are tools. N
+
+# VDTRatingsTL2 120 s_u5
+
+? Some crowbars are tools. N
+
+# VDTRatingsTL2 120 s_t
+
+? Some tools are crowbars. Y
+
+# VDTRatingsTL2 120 s_f
+
+? Some crowbars are birds. N
+
+# VDTRatingsTL2 120 a_u
+
+? All crowbars are tools. Y
+
+# VDTRatingsTL2 120 a_t
+
+? All tools are crowbars. N
+
+# VDTRatingsTL2 120 a_f
+
+? All crowbars are birds. N
+

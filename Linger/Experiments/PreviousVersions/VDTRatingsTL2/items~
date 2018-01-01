@@ -1,0 +1,2420 @@
+# practice 1 -
+All_tables_are_furniture.
+? True or False? Y
+
+# practice 2 -
+Some_toasters_are_mammals.
+? True or False? N
+
+# practice 3 - 
+ALl_vegetables_are_carrots.
+? True or False? N
+
+# practice 4 - 
+Some_jewelry_are_rings.
+? True or False? Y
+
+# practice 5 - 
+All_schools_are_books.
+? True or False? N
+
+# VDTRatingsTL2 61 s_u1
+Some chisels are tools.
+? True or False? N
+
+# VDTRatingsTL2 61 s_u2
+Some chisels are tools.
+? True or False? N
+
+# VDTRatingsTL2 61 s_u3
+Some chisels are tools.
+? True or False? N
+
+# VDTRatingsTL2 61 s_u4
+Some chisels are tools.
+? True or False? N
+
+# VDTRatingsTL2 61 s_u5
+Some chisels are tools.
+? True or False? N
+
+# VDTRatingsTL2 61 s_t
+Some tools are chisels.
+? True or False? Y
+
+# VDTRatingsTL2 61 s_f
+Some chisels are fish.
+? True or False? N
+
+# VDTRatingsTL2 61 a_u
+All chisels are tools.
+? True or False? Y
+
+# VDTRatingsTL2 61 a_t
+All tools are chisels.
+? True or False? N
+
+# VDTRatingsTL2 61 a_f
+All chisels are fish.
+? True or False? N
+
+# VDTRatingsTL2 62 s_u1
+Some hawks are birds.
+? True or False? N
+
+# VDTRatingsTL2 62 s_u2
+Some hawks are birds.
+? True or False? N
+
+# VDTRatingsTL2 62 s_u3
+Some hawks are birds.
+? True or False? N
+
+# VDTRatingsTL2 62 s_u4
+Some hawks are birds.
+? True or False? N
+
+# VDTRatingsTL2 62 s_u5
+Some hawks are birds.
+? True or False? N
+
+# VDTRatingsTL2 62 s_t
+Some birds are hawks.
+? True or False? Y
+
+# VDTRatingsTL2 62 s_f
+Some hawks are flowers.
+? True or False? N
+
+# VDTRatingsTL2 62 a_u
+All hawks are birds.
+? True or False? Y
+
+# VDTRatingsTL2 62 a_t
+All birds are hawks.
+? True or False? N
+
+# VDTRatingsTL2 62 a_f
+All hawks are flowers.
+? True or False? N
+
+# VDTRatingsTL2 63 s_u1
+Some melons are fruit.
+? True or False? N
+
+# VDTRatingsTL2 63 s_u2
+Some melons are fruit.
+? True or False? N
+
+# VDTRatingsTL2 63 s_u3
+Some melons are fruit.
+? True or False? N
+
+# VDTRatingsTL2 63 s_u4
+Some melons are fruit.
+? True or False? N
+
+# VDTRatingsTL2 63 s_u5
+Some melons are fruit.
+? True or False? N
+
+# VDTRatingsTL2 63 s_t
+Some fruit are melons.
+? True or False? Y
+
+# VDTRatingsTL2 63 s_f
+Some melons are insects.
+? True or False? N
+
+# VDTRatingsTL2 63 a_u
+All melons are fruit.
+? True or False? Y
+
+# VDTRatingsTL2 63 a_t
+All fruit are melons.
+? True or False? N
+
+# VDTRatingsTL2 63 a_f
+All melons are insects.
+? True or False? N
+
+# VDTRatingsTL2 64 s_u1
+Some anacondas are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 64 s_u2
+Some anacondas are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 64 s_u3
+Some anacondas are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 64 s_u4
+Some anacondas are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 64 s_u5
+Some anacondas are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 64 s_t
+Some reptiles are anacondas.
+? True or False? Y
+
+# VDTRatingsTL2 64 s_f
+Some anacondas are fruit.
+? True or False? N
+
+# VDTRatingsTL2 64 a_u
+All anacondas are reptiles.
+? True or False? Y
+
+# VDTRatingsTL2 64 a_t
+All reptiles are anacondas.
+? True or False? N
+
+# VDTRatingsTL2 64 a_f
+All anacondas are fruit.
+? True or False? N
+
+# VDTRatingsTL2 65 s_u1
+Some pears are fruit.
+? True or False? N
+
+# VDTRatingsTL2 65 s_u2
+Some pears are fruit.
+? True or False? N
+
+# VDTRatingsTL2 65 s_u3
+Some pears are fruit.
+? True or False? N
+
+# VDTRatingsTL2 65 s_u4
+Some pears are fruit.
+? True or False? N
+
+# VDTRatingsTL2 65 s_u5
+Some pears are fruit.
+? True or False? N
+
+# VDTRatingsTL2 65 s_t
+Some fruit are pears.
+? True or False? Y
+
+# VDTRatingsTL2 65 s_f
+Some pears are dogs.
+? True or False? N
+
+# VDTRatingsTL2 65 a_u
+All pears are fruit.
+? True or False? Y
+
+# VDTRatingsTL2 65 a_t
+All fruit are pears.
+? True or False? N
+
+# VDTRatingsTL2 65 a_f
+All pears are dogs.
+? True or False? N
+
+# VDTRatingsTL2 66 s_u1
+Some foxes are mammals.
+? True or False? N
+
+# VDTRatingsTL2 66 s_u2
+Some foxes are mammals.
+? True or False? N
+
+# VDTRatingsTL2 66 s_u3
+Some foxes are mammals.
+? True or False? N
+
+# VDTRatingsTL2 66 s_u4
+Some foxes are mammals.
+? True or False? N
+
+# VDTRatingsTL2 66 s_u5
+Some foxes are mammals.
+? True or False? N
+
+# VDTRatingsTL2 66 s_t
+Some mammals are foxes.
+? True or False? Y
+
+# VDTRatingsTL2 66 s_f
+Some foxes are insects.
+? True or False? N
+
+# VDTRatingsTL2 66 a_u
+All foxes are mammals.
+? True or False? Y
+
+# VDTRatingsTL2 66 a_t
+All mammals are foxes.
+? True or False? N
+
+# VDTRatingsTL2 66 a_f
+All foxes are insects.
+? True or False? N
+
+# VDTRatingsTL2 67 s_u1
+Some beagles are dogs.
+? True or False? N
+
+# VDTRatingsTL2 67 s_u2
+Some beagles are dogs.
+? True or False? N
+
+# VDTRatingsTL2 67 s_u3
+Some beagles are dogs.
+? True or False? N
+
+# VDTRatingsTL2 67 s_u4
+Some beagles are dogs.
+? True or False? N
+
+# VDTRatingsTL2 67 s_u5
+Some beagles are dogs.
+? True or False? N
+
+# VDTRatingsTL2 67 s_t
+Some dogs are beagles.
+? True or False? Y
+
+# VDTRatingsTL2 67 s_f
+Some beagles are mammals.
+? True or False? N
+
+# VDTRatingsTL2 67 a_u
+All beagles are dogs.
+? True or False? Y
+
+# VDTRatingsTL2 67 a_t
+All dogs are beagles.
+? True or False? N
+
+# VDTRatingsTL2 67 a_f
+All beagles are mammals.
+? True or False? N
+
+# VDTRatingsTL2 68 s_u1
+Some flies are insects.
+? True or False? N
+
+# VDTRatingsTL2 68 s_u2
+Some flies are insects.
+? True or False? N
+
+# VDTRatingsTL2 68 s_u3
+Some flies are insects.
+? True or False? N
+
+# VDTRatingsTL2 68 s_u4
+Some flies are insects.
+? True or False? N
+
+# VDTRatingsTL2 68 s_u5
+Some flies are insects.
+? True or False? N
+
+# VDTRatingsTL2 68 s_t
+Some insects are flies.
+? True or False? Y
+
+# VDTRatingsTL2 68 s_f
+Some flies are dogs.
+? True or False? N
+
+# VDTRatingsTL2 68 a_u
+All flies are insects.
+? True or False? Y
+
+# VDTRatingsTL2 68 a_t
+All insects are flies.
+? True or False? N
+
+# VDTRatingsTL2 68 a_f
+All flies are dogs.
+? True or False? N
+
+# VDTRatingsTL2 69 s_u1
+Some stinkbugs are insects.
+? True or False? N
+
+# VDTRatingsTL2 69 s_u2
+Some stinkbugs are insects.
+? True or False? N
+
+# VDTRatingsTL2 69 s_u3
+Some stinkbugs are insects.
+? True or False? N
+
+# VDTRatingsTL2 69 s_u4
+Some stinkbugs are insects.
+? True or False? N
+
+# VDTRatingsTL2 69 s_u5
+Some stinkbugs are insects.
+? True or False? N
+
+# VDTRatingsTL2 69 s_t
+Some insects are stinkbugs.
+? True or False? Y
+
+# VDTRatingsTL2 69 s_f
+Some stinkbugs are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 69 a_u
+All stinkbugs are insects.
+? True or False? Y
+
+# VDTRatingsTL2 69 a_t
+All insects are stinkbugs.
+? True or False? N
+
+# VDTRatingsTL2 69 a_f
+All stinkbugs are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 70 s_u1
+Some redwoods are tools.
+? True or False? N
+
+# VDTRatingsTL2 70 s_u2
+Some redwoods are tools.
+? True or False? N
+
+# VDTRatingsTL2 70 s_u3
+Some redwoods are tools.
+? True or False? N
+
+# VDTRatingsTL2 70 s_u4
+Some redwoods are tools.
+? True or False? N
+
+# VDTRatingsTL2 70 s_u5
+Some redwoods are tools.
+? True or False? N
+
+# VDTRatingsTL2 70 s_t
+Some tools are redwoods.
+? True or False? Y
+
+# VDTRatingsTL2 70 s_f
+Some redwoods are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 70 a_u
+All redwoods are tools.
+? True or False? Y
+
+# VDTRatingsTL2 70 a_t
+All tools are redwoods.
+? True or False? N
+
+# VDTRatingsTL2 70 a_f
+All redwoods are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 71 s_u1
+Some tilapia are fish.
+? True or False? N
+
+# VDTRatingsTL2 71 s_u2
+Some tilapia are fish.
+? True or False? N
+
+# VDTRatingsTL2 71 s_u3
+Some tilapia are fish.
+? True or False? N
+
+# VDTRatingsTL2 71 s_u4
+Some tilapia are fish.
+? True or False? N
+
+# VDTRatingsTL2 71 s_u5
+Some tilapia are fish.
+? True or False? N
+
+# VDTRatingsTL2 71 s_t
+Some fish are tilapia.
+? True or False? Y
+
+# VDTRatingsTL2 71 s_f
+Some tilapia are mammals.
+? True or False? N
+
+# VDTRatingsTL2 71 a_u
+All tilapia are fish.
+? True or False? Y
+
+# VDTRatingsTL2 71 a_t
+All fish are tilapia.
+? True or False? N
+
+# VDTRatingsTL2 71 a_f
+All tilapia are mammals.
+? True or False? N
+
+# VDTRatingsTL2 72 s_u1
+Some alligators are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 72 s_u2
+Some alligators are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 72 s_u3
+Some alligators are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 72 s_u4
+Some alligators are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 72 s_u5
+Some alligators are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 72 s_t
+Some reptiles are alligators.
+? True or False? Y
+
+# VDTRatingsTL2 72 s_f
+Some alligators are birds.
+? True or False? N
+
+# VDTRatingsTL2 72 a_u
+All alligators are reptiles.
+? True or False? Y
+
+# VDTRatingsTL2 72 a_t
+All reptiles are alligators.
+? True or False? N
+
+# VDTRatingsTL2 72 a_f
+All alligators are birds.
+? True or False? N
+
+# VDTRatingsTL2 73 s_u1
+Some apricots are fruit.
+? True or False? N
+
+# VDTRatingsTL2 73 s_u2
+Some apricots are fruit.
+? True or False? N
+
+# VDTRatingsTL2 73 s_u3
+Some apricots are fruit.
+? True or False? N
+
+# VDTRatingsTL2 73 s_u4
+Some apricots are fruit.
+? True or False? N
+
+# VDTRatingsTL2 73 s_u5
+Some apricots are fruit.
+? True or False? N
+
+# VDTRatingsTL2 73 s_t
+Some fruit are apricots.
+? True or False? Y
+
+# VDTRatingsTL2 73 s_f
+Some apricots are dogs.
+? True or False? N
+
+# VDTRatingsTL2 73 a_u
+All apricots are fruit.
+? True or False? Y
+
+# VDTRatingsTL2 73 a_t
+All fruit are apricots.
+? True or False? N
+
+# VDTRatingsTL2 73 a_f
+All apricots are dogs.
+? True or False? N
+
+# VDTRatingsTL2 74 s_u1
+Some crocodiles are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 74 s_u2
+Some crocodiles are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 74 s_u3
+Some crocodiles are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 74 s_u4
+Some crocodiles are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 74 s_u5
+Some crocodiles are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 74 s_t
+Some reptiles are crocodiles.
+? True or False? Y
+
+# VDTRatingsTL2 74 s_f
+Some crocodiles are fruit.
+? True or False? N
+
+# VDTRatingsTL2 74 a_u
+All crocodiles are reptiles.
+? True or False? Y
+
+# VDTRatingsTL2 74 a_t
+All reptiles are crocodiles.
+? True or False? N
+
+# VDTRatingsTL2 74 a_f
+All crocodiles are fruit.
+? True or False? N
+
+# VDTRatingsTL2 75 s_u1
+Some sycamores are trees.
+? True or False? N
+
+# VDTRatingsTL2 75 s_u2
+Some sycamores are trees.
+? True or False? N
+
+# VDTRatingsTL2 75 s_u3
+Some sycamores are trees.
+? True or False? N
+
+# VDTRatingsTL2 75 s_u4
+Some sycamores are trees.
+? True or False? N
+
+# VDTRatingsTL2 75 s_u5
+Some sycamores are trees.
+? True or False? N
+
+# VDTRatingsTL2 75 s_t
+Some trees are sycamores.
+? True or False? Y
+
+# VDTRatingsTL2 75 s_f
+Some sycamores are mammals.
+? True or False? N
+
+# VDTRatingsTL2 75 a_u
+All sycamores are trees.
+? True or False? Y
+
+# VDTRatingsTL2 75 a_t
+All trees are sycamores.
+? True or False? N
+
+# VDTRatingsTL2 75 a_f
+All sycamores are mammals.
+? True or False? N
+
+# VDTRatingsTL2 76 s_u1
+Some elephants are mammals.
+? True or False? N
+
+# VDTRatingsTL2 76 s_u2
+Some elephants are mammals.
+? True or False? N
+
+# VDTRatingsTL2 76 s_u3
+Some elephants are mammals.
+? True or False? N
+
+# VDTRatingsTL2 76 s_u4
+Some elephants are mammals.
+? True or False? N
+
+# VDTRatingsTL2 76 s_u5
+Some elephants are mammals.
+? True or False? N
+
+# VDTRatingsTL2 76 s_t
+Some mammals are elephants.
+? True or False? Y
+
+# VDTRatingsTL2 76 s_f
+Some elephants are trees.
+? True or False? N
+
+# VDTRatingsTL2 76 a_u
+All elephants are mammals.
+? True or False? Y
+
+# VDTRatingsTL2 76 a_t
+All mammals are elephants.
+? True or False? N
+
+# VDTRatingsTL2 76 a_f
+All elephants are trees.
+? True or False? N
+
+# VDTRatingsTL2 77 s_u1
+Some kiwis are fruit.
+? True or False? N
+
+# VDTRatingsTL2 77 s_u2
+Some kiwis are fruit.
+? True or False? N
+
+# VDTRatingsTL2 77 s_u3
+Some kiwis are fruit.
+? True or False? N
+
+# VDTRatingsTL2 77 s_u4
+Some kiwis are fruit.
+? True or False? N
+
+# VDTRatingsTL2 77 s_u5
+Some kiwis are fruit.
+? True or False? N
+
+# VDTRatingsTL2 77 s_t
+Some fruit are kiwis.
+? True or False? Y
+
+# VDTRatingsTL2 77 s_f
+Some kiwis are dogs.
+? True or False? N
+
+# VDTRatingsTL2 77 a_u
+All kiwis are fruit.
+? True or False? Y
+
+# VDTRatingsTL2 77 a_t
+All fruit are kiwis.
+? True or False? N
+
+# VDTRatingsTL2 77 a_f
+All kiwis are dogs.
+? True or False? N
+
+# VDTRatingsTL2 78 s_u1
+Some mosquitos are insects.
+? True or False? N
+
+# VDTRatingsTL2 78 s_u2
+Some mosquitos are insects.
+? True or False? N
+
+# VDTRatingsTL2 78 s_u3
+Some mosquitos are insects.
+? True or False? N
+
+# VDTRatingsTL2 78 s_u4
+Some mosquitos are insects.
+? True or False? N
+
+# VDTRatingsTL2 78 s_u5
+Some mosquitos are insects.
+? True or False? N
+
+# VDTRatingsTL2 78 s_t
+Some insects are mosquitos.
+? True or False? Y
+
+# VDTRatingsTL2 78 s_f
+Some mosquitos are dogs.
+? True or False? N
+
+# VDTRatingsTL2 78 a_u
+All mosquitos are insects.
+? True or False? Y
+
+# VDTRatingsTL2 78 a_t
+All insects are mosquitos.
+? True or False? N
+
+# VDTRatingsTL2 78 a_f
+All mosquitos are dogs.
+? True or False? N
+
+# VDTRatingsTL2 79 s_u1
+Some canaries are birds.
+? True or False? N
+
+# VDTRatingsTL2 79 s_u2
+Some canaries are birds.
+? True or False? N
+
+# VDTRatingsTL2 79 s_u3
+Some canaries are birds.
+? True or False? N
+
+# VDTRatingsTL2 79 s_u4
+Some canaries are birds.
+? True or False? N
+
+# VDTRatingsTL2 79 s_u5
+Some canaries are birds.
+? True or False? N
+
+# VDTRatingsTL2 79 s_t
+Some birds are canaries.
+? True or False? Y
+
+# VDTRatingsTL2 79 s_f
+Some canaries are tools.
+? True or False? N
+
+# VDTRatingsTL2 79 a_u
+All canaries are birds.
+? True or False? Y
+
+# VDTRatingsTL2 79 a_t
+All birds are canaries.
+? True or False? N
+
+# VDTRatingsTL2 79 a_f
+All canaries are tools.
+? True or False? N
+
+# VDTRatingsTL2 80 s_u1
+Some daffodils are flowers.
+? True or False? N
+
+# VDTRatingsTL2 80 s_u2
+Some daffodils are flowers.
+? True or False? N
+
+# VDTRatingsTL2 80 s_u3
+Some daffodils are flowers.
+? True or False? N
+
+# VDTRatingsTL2 80 s_u4
+Some daffodils are flowers.
+? True or False? N
+
+# VDTRatingsTL2 80 s_u5
+Some daffodils are flowers.
+? True or False? N
+
+# VDTRatingsTL2 80 s_t
+Some flowers are daffodils.
+? True or False? Y
+
+# VDTRatingsTL2 80 s_f
+Some daffodils are birds.
+? True or False? N
+
+# VDTRatingsTL2 80 a_u
+All daffodils are flowers.
+? True or False? Y
+
+# VDTRatingsTL2 80 a_t
+All flowers are daffodils.
+? True or False? N
+
+# VDTRatingsTL2 80 a_f
+All daffodils are birds.
+? True or False? N
+
+# VDTRatingsTL2 81 s_u1
+Some bananas are fruit.
+? True or False? N
+
+# VDTRatingsTL2 81 s_u2
+Some bananas are fruit.
+? True or False? N
+
+# VDTRatingsTL2 81 s_u3
+Some bananas are fruit.
+? True or False? N
+
+# VDTRatingsTL2 81 s_u4
+Some bananas are fruit.
+? True or False? N
+
+# VDTRatingsTL2 81 s_u5
+Some bananas are fruit.
+? True or False? N
+
+# VDTRatingsTL2 81 s_t
+Some fruit are bananas.
+? True or False? Y
+
+# VDTRatingsTL2 81 s_f
+Some bananas are flowers.
+? True or False? N
+
+# VDTRatingsTL2 81 a_u
+All bananas are fruit.
+? True or False? Y
+
+# VDTRatingsTL2 81 a_t
+All fruit are bananas.
+? True or False? N
+
+# VDTRatingsTL2 81 a_f
+All bananas are flowers.
+? True or False? N
+
+# VDTRatingsTL2 82 s_u1
+Some mallets are tools.
+? True or False? N
+
+# VDTRatingsTL2 82 s_u2
+Some mallets are tools.
+? True or False? N
+
+# VDTRatingsTL2 82 s_u3
+Some mallets are tools.
+? True or False? N
+
+# VDTRatingsTL2 82 s_u4
+Some mallets are tools.
+? True or False? N
+
+# VDTRatingsTL2 82 s_u5
+Some mallets are tools.
+? True or False? N
+
+# VDTRatingsTL2 82 s_t
+Some tools are mallets.
+? True or False? Y
+
+# VDTRatingsTL2 82 s_f
+Some mallets are dogs.
+? True or False? N
+
+# VDTRatingsTL2 82 a_u
+All mallets are tools.
+? True or False? Y
+
+# VDTRatingsTL2 82 a_t
+All tools are mallets.
+? True or False? N
+
+# VDTRatingsTL2 82 a_f
+All mallets are dogs.
+? True or False? N
+
+# VDTRatingsTL2 83 s_u1
+Some cedars are trees.
+? True or False? N
+
+# VDTRatingsTL2 83 s_u2
+Some cedars are trees.
+? True or False? N
+
+# VDTRatingsTL2 83 s_u3
+Some cedars are trees.
+? True or False? N
+
+# VDTRatingsTL2 83 s_u4
+Some cedars are trees.
+? True or False? N
+
+# VDTRatingsTL2 83 s_u5
+Some cedars are trees.
+? True or False? N
+
+# VDTRatingsTL2 83 s_t
+Some trees are cedars.
+? True or False? Y
+
+# VDTRatingsTL2 83 s_f
+Some cedars are fruit.
+? True or False? N
+
+# VDTRatingsTL2 83 a_u
+All cedars are trees.
+? True or False? Y
+
+# VDTRatingsTL2 83 a_t
+All trees are cedars.
+? True or False? N
+
+# VDTRatingsTL2 83 a_f
+All cedars are fruit.
+? True or False? N
+
+# VDTRatingsTL2 84 s_u1
+Some pugs are dogs.
+? True or False? N
+
+# VDTRatingsTL2 84 s_u2
+Some pugs are dogs.
+? True or False? N
+
+# VDTRatingsTL2 84 s_u3
+Some pugs are dogs.
+? True or False? N
+
+# VDTRatingsTL2 84 s_u4
+Some pugs are dogs.
+? True or False? N
+
+# VDTRatingsTL2 84 s_u5
+Some pugs are dogs.
+? True or False? N
+
+# VDTRatingsTL2 84 s_t
+Some dogs are pugs.
+? True or False? Y
+
+# VDTRatingsTL2 84 s_f
+Some pugs are tools.
+? True or False? N
+
+# VDTRatingsTL2 84 a_u
+All pugs are dogs.
+? True or False? Y
+
+# VDTRatingsTL2 84 a_t
+All dogs are pugs.
+? True or False? N
+
+# VDTRatingsTL2 84 a_f
+All pugs are tools.
+? True or False? N
+
+# VDTRatingsTL2 85 s_u1
+Some chihuahuas are dogs.
+? True or False? N
+
+# VDTRatingsTL2 85 s_u2
+Some chihuahuas are dogs.
+? True or False? N
+
+# VDTRatingsTL2 85 s_u3
+Some chihuahuas are dogs.
+? True or False? N
+
+# VDTRatingsTL2 85 s_u4
+Some chihuahuas are dogs.
+? True or False? N
+
+# VDTRatingsTL2 85 s_u5
+Some chihuahuas are dogs.
+? True or False? N
+
+# VDTRatingsTL2 85 s_t
+Some dogs are chihuahuas.
+? True or False? Y
+
+# VDTRatingsTL2 85 s_f
+Some chihuahuas are mammals.
+? True or False? N
+
+# VDTRatingsTL2 85 a_u
+All chihuahuas are dogs.
+? True or False? Y
+
+# VDTRatingsTL2 85 a_t
+All dogs are chihuahuas.
+? True or False? N
+
+# VDTRatingsTL2 85 a_f
+All chihuahuas are mammals.
+? True or False? N
+
+# VDTRatingsTL2 86 s_u1
+Some turtles are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 86 s_u2
+Some turtles are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 86 s_u3
+Some turtles are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 86 s_u4
+Some turtles are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 86 s_u5
+Some turtles are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 86 s_t
+Some reptiles are turtles.
+? True or False? Y
+
+# VDTRatingsTL2 86 s_f
+Some turtles are trees.
+? True or False? N
+
+# VDTRatingsTL2 86 a_u
+All turtles are reptiles.
+? True or False? Y
+
+# VDTRatingsTL2 86 a_t
+All reptiles are turtles.
+? True or False? N
+
+# VDTRatingsTL2 86 a_f
+All turtles are trees.
+? True or False? N
+
+# VDTRatingsTL2 87 s_u1
+Some pliers are tools.
+? True or False? N
+
+# VDTRatingsTL2 87 s_u2
+Some pliers are tools.
+? True or False? N
+
+# VDTRatingsTL2 87 s_u3
+Some pliers are tools.
+? True or False? N
+
+# VDTRatingsTL2 87 s_u4
+Some pliers are tools.
+? True or False? N
+
+# VDTRatingsTL2 87 s_u5
+Some pliers are tools.
+? True or False? N
+
+# VDTRatingsTL2 87 s_t
+Some tools are pliers.
+? True or False? Y
+
+# VDTRatingsTL2 87 s_f
+Some pliers are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 87 a_u
+All pliers are tools.
+? True or False? Y
+
+# VDTRatingsTL2 87 a_t
+All tools are pliers.
+? True or False? N
+
+# VDTRatingsTL2 87 a_f
+All pliers are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 88 s_u1
+Some doves are birds.
+? True or False? N
+
+# VDTRatingsTL2 88 s_u2
+Some doves are birds.
+? True or False? N
+
+# VDTRatingsTL2 88 s_u3
+Some doves are birds.
+? True or False? N
+
+# VDTRatingsTL2 88 s_u4
+Some doves are birds.
+? True or False? N
+
+# VDTRatingsTL2 88 s_u5
+Some doves are birds.
+? True or False? N
+
+# VDTRatingsTL2 88 s_t
+Some birds are doves.
+? True or False? Y
+
+# VDTRatingsTL2 88 s_f
+Some doves are fish.
+? True or False? N
+
+# VDTRatingsTL2 88 a_u
+All doves are birds.
+? True or False? Y
+
+# VDTRatingsTL2 88 a_t
+All birds are doves.
+? True or False? N
+
+# VDTRatingsTL2 88 a_f
+All doves are fish.
+? True or False? N
+
+# VDTRatingsTL2 89 s_u1
+Some pineapples are fruit.
+? True or False? N
+
+# VDTRatingsTL2 89 s_u2
+Some pineapples are fruit.
+? True or False? N
+
+# VDTRatingsTL2 89 s_u3
+Some pineapples are fruit.
+? True or False? N
+
+# VDTRatingsTL2 89 s_u4
+Some pineapples are fruit.
+? True or False? N
+
+# VDTRatingsTL2 89 s_u5
+Some pineapples are fruit.
+? True or False? N
+
+# VDTRatingsTL2 89 s_t
+Some fruit are pineapples.
+? True or False? Y
+
+# VDTRatingsTL2 89 s_f
+Some pineapples are flowers.
+? True or False? N
+
+# VDTRatingsTL2 89 a_u
+All pineapples are fruit.
+? True or False? Y
+
+# VDTRatingsTL2 89 a_t
+All fruit are pineapples.
+? True or False? N
+
+# VDTRatingsTL2 89 a_f
+All pineapples are flowers.
+? True or False? N
+
+# VDTRatingsTL2 90 s_u1
+Some ants are insects.
+? True or False? N
+
+# VDTRatingsTL2 90 s_u2
+Some ants are insects.
+? True or False? N
+
+# VDTRatingsTL2 90 s_u3
+Some ants are insects.
+? True or False? N
+
+# VDTRatingsTL2 90 s_u4
+Some ants are insects.
+? True or False? N
+
+# VDTRatingsTL2 90 s_u5
+Some ants are insects.
+? True or False? N
+
+# VDTRatingsTL2 90 s_t
+Some insects are ants.
+? True or False? Y
+
+# VDTRatingsTL2 90 s_f
+Some ants are flowers.
+? True or False? N
+
+# VDTRatingsTL2 90 a_u
+All ants are insects.
+? True or False? Y
+
+# VDTRatingsTL2 90 a_t
+All insects are ants.
+? True or False? N
+
+# VDTRatingsTL2 90 a_f
+All ants are flowers.
+? True or False? N
+
+# VDTRatingsTL2 91 s_u1
+Some herring are fish.
+? True or False? N
+
+# VDTRatingsTL2 91 s_u2
+Some herring are fish.
+? True or False? N
+
+# VDTRatingsTL2 91 s_u3
+Some herring are fish.
+? True or False? N
+
+# VDTRatingsTL2 91 s_u4
+Some herring are fish.
+? True or False? N
+
+# VDTRatingsTL2 91 s_u5
+Some herring are fish.
+? True or False? N
+
+# VDTRatingsTL2 91 s_t
+Some fish are herring.
+? True or False? Y
+
+# VDTRatingsTL2 91 s_f
+Some herring are trees.
+? True or False? N
+
+# VDTRatingsTL2 91 a_u
+All herring are fish.
+? True or False? Y
+
+# VDTRatingsTL2 91 a_t
+All fish are herring.
+? True or False? N
+
+# VDTRatingsTL2 91 a_f
+All herring are trees.
+? True or False? N
+
+# VDTRatingsTL2 92 s_u1
+Some peaches are fruit.
+? True or False? N
+
+# VDTRatingsTL2 92 s_u2
+Some peaches are fruit.
+? True or False? N
+
+# VDTRatingsTL2 92 s_u3
+Some peaches are fruit.
+? True or False? N
+
+# VDTRatingsTL2 92 s_u4
+Some peaches are fruit.
+? True or False? N
+
+# VDTRatingsTL2 92 s_u5
+Some peaches are fruit.
+? True or False? N
+
+# VDTRatingsTL2 92 s_t
+Some fruit are peaches.
+? True or False? Y
+
+# VDTRatingsTL2 92 s_f
+Some peaches are fish.
+? True or False? N
+
+# VDTRatingsTL2 92 a_u
+All peaches are fruit.
+? True or False? Y
+
+# VDTRatingsTL2 92 a_t
+All fruit are peaches.
+? True or False? N
+
+# VDTRatingsTL2 92 a_f
+All peaches are fish.
+? True or False? N
+
+# VDTRatingsTL2 93 s_u1
+Some daisies are flowers.
+? True or False? N
+
+# VDTRatingsTL2 93 s_u2
+Some daisies are flowers.
+? True or False? N
+
+# VDTRatingsTL2 93 s_u3
+Some daisies are flowers.
+? True or False? N
+
+# VDTRatingsTL2 93 s_u4
+Some daisies are flowers.
+? True or False? N
+
+# VDTRatingsTL2 93 s_u5
+Some daisies are flowers.
+? True or False? N
+
+# VDTRatingsTL2 93 s_t
+Some flowers are daisies.
+? True or False? Y
+
+# VDTRatingsTL2 93 s_f
+Some daisies are insects.
+? True or False? N
+
+# VDTRatingsTL2 93 a_u
+All daisies are flowers.
+? True or False? Y
+
+# VDTRatingsTL2 93 a_t
+All flowers are daisies.
+? True or False? N
+
+# VDTRatingsTL2 93 a_f
+All daisies are insects.
+? True or False? N
+
+# VDTRatingsTL2 94 s_u1
+Some grapes are fruit.
+? True or False? N
+
+# VDTRatingsTL2 94 s_u2
+Some grapes are fruit.
+? True or False? N
+
+# VDTRatingsTL2 94 s_u3
+Some grapes are fruit.
+? True or False? N
+
+# VDTRatingsTL2 94 s_u4
+Some grapes are fruit.
+? True or False? N
+
+# VDTRatingsTL2 94 s_u5
+Some grapes are fruit.
+? True or False? N
+
+# VDTRatingsTL2 94 s_t
+Some fruit are grapes.
+? True or False? Y
+
+# VDTRatingsTL2 94 s_f
+Some grapes are mammals.
+? True or False? N
+
+# VDTRatingsTL2 94 a_u
+All grapes are fruit.
+? True or False? Y
+
+# VDTRatingsTL2 94 a_t
+All fruit are grapes.
+? True or False? N
+
+# VDTRatingsTL2 94 a_f
+All grapes are mammals.
+? True or False? N
+
+# VDTRatingsTL2 95 s_u1
+Some fleas are insects.
+? True or False? N
+
+# VDTRatingsTL2 95 s_u2
+Some fleas are insects.
+? True or False? N
+
+# VDTRatingsTL2 95 s_u3
+Some fleas are insects.
+? True or False? N
+
+# VDTRatingsTL2 95 s_u4
+Some fleas are insects.
+? True or False? N
+
+# VDTRatingsTL2 95 s_u5
+Some fleas are insects.
+? True or False? N
+
+# VDTRatingsTL2 95 s_t
+Some insects are fleas.
+? True or False? Y
+
+# VDTRatingsTL2 95 s_f
+Some fleas are tools.
+? True or False? N
+
+# VDTRatingsTL2 95 a_u
+All fleas are insects.
+? True or False? Y
+
+# VDTRatingsTL2 95 a_t
+All insects are fleas.
+? True or False? N
+
+# VDTRatingsTL2 95 a_f
+All fleas are tools.
+? True or False? N
+
+# VDTRatingsTL2 96 s_u1
+Some tortoises are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 96 s_u2
+Some tortoises are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 96 s_u3
+Some tortoises are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 96 s_u4
+Some tortoises are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 96 s_u5
+Some tortoises are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 96 s_t
+Some reptiles are tortoises.
+? True or False? Y
+
+# VDTRatingsTL2 96 s_f
+Some tortoises are dogs.
+? True or False? N
+
+# VDTRatingsTL2 96 a_u
+All tortoises are reptiles.
+? True or False? Y
+
+# VDTRatingsTL2 96 a_t
+All reptiles are tortoises.
+? True or False? N
+
+# VDTRatingsTL2 96 a_f
+All tortoises are dogs.
+? True or False? N
+
+# VDTRatingsTL2 97 s_u1
+Some roses are flowers.
+? True or False? N
+
+# VDTRatingsTL2 97 s_u2
+Some roses are flowers.
+? True or False? N
+
+# VDTRatingsTL2 97 s_u3
+Some roses are flowers.
+? True or False? N
+
+# VDTRatingsTL2 97 s_u4
+Some roses are flowers.
+? True or False? N
+
+# VDTRatingsTL2 97 s_u5
+Some roses are flowers.
+? True or False? N
+
+# VDTRatingsTL2 97 s_t
+Some flowers are roses.
+? True or False? Y
+
+# VDTRatingsTL2 97 s_f
+Some roses are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 97 a_u
+All roses are flowers.
+? True or False? Y
+
+# VDTRatingsTL2 97 a_t
+All flowers are roses.
+? True or False? N
+
+# VDTRatingsTL2 97 a_f
+All roses are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 98 s_u1
+Some orchids are flowers.
+? True or False? N
+
+# VDTRatingsTL2 98 s_u2
+Some orchids are flowers.
+? True or False? N
+
+# VDTRatingsTL2 98 s_u3
+Some orchids are flowers.
+? True or False? N
+
+# VDTRatingsTL2 98 s_u4
+Some orchids are flowers.
+? True or False? N
+
+# VDTRatingsTL2 98 s_u5
+Some orchids are flowers.
+? True or False? N
+
+# VDTRatingsTL2 98 s_t
+Some flowers are orchids.
+? True or False? Y
+
+# VDTRatingsTL2 98 s_f
+Some orchids are dogs.
+? True or False? N
+
+# VDTRatingsTL2 98 a_u
+All orchids are flowers.
+? True or False? Y
+
+# VDTRatingsTL2 98 a_t
+All flowers are orchids.
+? True or False? N
+
+# VDTRatingsTL2 98 a_f
+All orchids are dogs.
+? True or False? N
+
+# VDTRatingsTL2 99 s_u1
+Some pines are trees.
+? True or False? N
+
+# VDTRatingsTL2 99 s_u2
+Some pines are trees.
+? True or False? N
+
+# VDTRatingsTL2 99 s_u3
+Some pines are trees.
+? True or False? N
+
+# VDTRatingsTL2 99 s_u4
+Some pines are trees.
+? True or False? N
+
+# VDTRatingsTL2 99 s_u5
+Some pines are trees.
+? True or False? N
+
+# VDTRatingsTL2 99 s_t
+Some trees are pines.
+? True or False? Y
+
+# VDTRatingsTL2 99 s_f
+Some pines are mammals.
+? True or False? N
+
+# VDTRatingsTL2 99 a_u
+All pines are trees.
+? True or False? Y
+
+# VDTRatingsTL2 99 a_t
+All trees are pines.
+? True or False? N
+
+# VDTRatingsTL2 99 a_f
+All pines are mammals.
+? True or False? N
+
+# VDTRatingsTL2 100 s_u1
+Some birches are trees.
+? True or False? N
+
+# VDTRatingsTL2 100 s_u2
+Some birches are trees.
+? True or False? N
+
+# VDTRatingsTL2 100 s_u3
+Some birches are trees.
+? True or False? N
+
+# VDTRatingsTL2 100 s_u4
+Some birches are trees.
+? True or False? N
+
+# VDTRatingsTL2 100 s_u5
+Some birches are trees.
+? True or False? N
+
+# VDTRatingsTL2 100 s_t
+Some trees are birches.
+? True or False? Y
+
+# VDTRatingsTL2 100 s_f
+Some birches are insects.
+? True or False? N
+
+# VDTRatingsTL2 100 a_u
+All birches are trees.
+? True or False? Y
+
+# VDTRatingsTL2 100 a_t
+All trees are birches.
+? True or False? N
+
+# VDTRatingsTL2 100 a_f
+All birches are insects.
+? True or False? N
+
+# VDTRatingsTL2 101 s_u1
+Some sparrows are birds.
+? True or False? N
+
+# VDTRatingsTL2 101 s_u2
+Some sparrows are birds.
+? True or False? N
+
+# VDTRatingsTL2 101 s_u3
+Some sparrows are birds.
+? True or False? N
+
+# VDTRatingsTL2 101 s_u4
+Some sparrows are birds.
+? True or False? N
+
+# VDTRatingsTL2 101 s_u5
+Some sparrows are birds.
+? True or False? N
+
+# VDTRatingsTL2 101 s_t
+Some birds are sparrows.
+? True or False? Y
+
+# VDTRatingsTL2 101 s_f
+Some sparrows are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 101 a_u
+All sparrows are birds.
+? True or False? Y
+
+# VDTRatingsTL2 101 a_t
+All birds are sparrows.
+? True or False? N
+
+# VDTRatingsTL2 101 a_f
+All sparrows are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 102 s_u1
+Some mangoes are fruit.
+? True or False? N
+
+# VDTRatingsTL2 102 s_u2
+Some mangoes are fruit.
+? True or False? N
+
+# VDTRatingsTL2 102 s_u3
+Some mangoes are fruit.
+? True or False? N
+
+# VDTRatingsTL2 102 s_u4
+Some mangoes are fruit.
+? True or False? N
+
+# VDTRatingsTL2 102 s_u5
+Some mangoes are fruit.
+? True or False? N
+
+# VDTRatingsTL2 102 s_t
+Some fruit are mangoes.
+? True or False? Y
+
+# VDTRatingsTL2 102 s_f
+Some mangoes are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 102 a_u
+All mangoes are fruit.
+? True or False? Y
+
+# VDTRatingsTL2 102 a_t
+All fruit are mangoes.
+? True or False? N
+
+# VDTRatingsTL2 102 a_f
+All mangoes are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 103 s_u1
+Some rabbits are mammals.
+? True or False? N
+
+# VDTRatingsTL2 103 s_u2
+Some rabbits are mammals.
+? True or False? N
+
+# VDTRatingsTL2 103 s_u3
+Some rabbits are mammals.
+? True or False? N
+
+# VDTRatingsTL2 103 s_u4
+Some rabbits are mammals.
+? True or False? N
+
+# VDTRatingsTL2 103 s_u5
+Some rabbits are mammals.
+? True or False? N
+
+# VDTRatingsTL2 103 s_t
+Some mammals are rabbits.
+? True or False? Y
+
+# VDTRatingsTL2 103 s_f
+Some rabbits are tools.
+? True or False? N
+
+# VDTRatingsTL2 103 a_u
+All rabbits are mammals.
+? True or False? Y
+
+# VDTRatingsTL2 103 a_t
+All mammals are rabbits.
+? True or False? N
+
+# VDTRatingsTL2 103 a_f
+All rabbits are tools.
+? True or False? N
+
+# VDTRatingsTL2 104 s_u1
+Some carp are fish.
+? True or False? N
+
+# VDTRatingsTL2 104 s_u2
+Some carp are fish.
+? True or False? N
+
+# VDTRatingsTL2 104 s_u3
+Some carp are fish.
+? True or False? N
+
+# VDTRatingsTL2 104 s_u4
+Some carp are fish.
+? True or False? N
+
+# VDTRatingsTL2 104 s_u5
+Some carp are fish.
+? True or False? N
+
+# VDTRatingsTL2 104 s_t
+Some fish are carp.
+? True or False? Y
+
+# VDTRatingsTL2 104 s_f
+Some carp are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 104 a_u
+All carp are fish.
+? True or False? Y
+
+# VDTRatingsTL2 104 a_t
+All fish are carp.
+? True or False? N
+
+# VDTRatingsTL2 104 a_f
+All carp are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 105 s_u1
+Some oranges are fruit.
+? True or False? N
+
+# VDTRatingsTL2 105 s_u2
+Some oranges are fruit.
+? True or False? N
+
+# VDTRatingsTL2 105 s_u3
+Some oranges are fruit.
+? True or False? N
+
+# VDTRatingsTL2 105 s_u4
+Some oranges are fruit.
+? True or False? N
+
+# VDTRatingsTL2 105 s_u5
+Some oranges are fruit.
+? True or False? N
+
+# VDTRatingsTL2 105 s_t
+Some fruit are oranges.
+? True or False? Y
+
+# VDTRatingsTL2 105 s_f
+Some oranges are flowers.
+? True or False? N
+
+# VDTRatingsTL2 105 a_u
+All oranges are fruit.
+? True or False? Y
+
+# VDTRatingsTL2 105 a_t
+All fruit are oranges.
+? True or False? N
+
+# VDTRatingsTL2 105 a_f
+All oranges are flowers.
+? True or False? N
+
+# VDTRatingsTL2 106 s_u1
+Some elms are trees.
+? True or False? N
+
+# VDTRatingsTL2 106 s_u2
+Some elms are trees.
+? True or False? N
+
+# VDTRatingsTL2 106 s_u3
+Some elms are trees.
+? True or False? N
+
+# VDTRatingsTL2 106 s_u4
+Some elms are trees.
+? True or False? N
+
+# VDTRatingsTL2 106 s_u5
+Some elms are trees.
+? True or False? N
+
+# VDTRatingsTL2 106 s_t
+Some trees are elms.
+? True or False? Y
+
+# VDTRatingsTL2 106 s_f
+Some elms are fish.
+? True or False? N
+
+# VDTRatingsTL2 106 a_u
+All elms are trees.
+? True or False? Y
+
+# VDTRatingsTL2 106 a_t
+All trees are elms.
+? True or False? N
+
+# VDTRatingsTL2 106 a_f
+All elms are fish.
+? True or False? N
+
+# VDTRatingsTL2 107 s_u1
+Some petunias are flowers.
+? True or False? N
+
+# VDTRatingsTL2 107 s_u2
+Some petunias are flowers.
+? True or False? N
+
+# VDTRatingsTL2 107 s_u3
+Some petunias are flowers.
+? True or False? N
+
+# VDTRatingsTL2 107 s_u4
+Some petunias are flowers.
+? True or False? N
+
+# VDTRatingsTL2 107 s_u5
+Some petunias are flowers.
+? True or False? N
+
+# VDTRatingsTL2 107 s_t
+Some flowers are petunias.
+? True or False? Y
+
+# VDTRatingsTL2 107 s_f
+Some petunias are fish.
+? True or False? N
+
+# VDTRatingsTL2 107 a_u
+All petunias are flowers.
+? True or False? Y
+
+# VDTRatingsTL2 107 a_t
+All flowers are petunias.
+? True or False? N
+
+# VDTRatingsTL2 107 a_f
+All petunias are fish.
+? True or False? N
+
+# VDTRatingsTL2 108 s_u1
+Some rottweilers are dogs.
+? True or False? N
+
+# VDTRatingsTL2 108 s_u2
+Some rottweilers are dogs.
+? True or False? N
+
+# VDTRatingsTL2 108 s_u3
+Some rottweilers are dogs.
+? True or False? N
+
+# VDTRatingsTL2 108 s_u4
+Some rottweilers are dogs.
+? True or False? N
+
+# VDTRatingsTL2 108 s_u5
+Some rottweilers are dogs.
+? True or False? N
+
+# VDTRatingsTL2 108 s_t
+Some dogs are rottweilers.
+? True or False? Y
+
+# VDTRatingsTL2 108 s_f
+Some rottweilers are tools.
+? True or False? N
+
+# VDTRatingsTL2 108 a_u
+All rottweilers are dogs.
+? True or False? Y
+
+# VDTRatingsTL2 108 a_t
+All dogs are rottweilers.
+? True or False? N
+
+# VDTRatingsTL2 108 a_f
+All rottweilers are tools.
+? True or False? N
+
+# VDTRatingsTL2 109 s_u1
+Some cows are mammals.
+? True or False? N
+
+# VDTRatingsTL2 109 s_u2
+Some cows are mammals.
+? True or False? N
+
+# VDTRatingsTL2 109 s_u3
+Some cows are mammals.
+? True or False? N
+
+# VDTRatingsTL2 109 s_u4
+Some cows are mammals.
+? True or False? N
+
+# VDTRatingsTL2 109 s_u5
+Some cows are mammals.
+? True or False? N
+
+# VDTRatingsTL2 109 s_t
+Some mammals are cows.
+? True or False? Y
+
+# VDTRatingsTL2 109 s_f
+Some cows are birds.
+? True or False? N
+
+# VDTRatingsTL2 109 a_u
+All cows are mammals.
+? True or False? Y
+
+# VDTRatingsTL2 109 a_t
+All mammals are cows.
+? True or False? N
+
+# VDTRatingsTL2 109 a_f
+All cows are birds.
+? True or False? N
+
+# VDTRatingsTL2 110 s_u1
+Some saws are tools.
+? True or False? N
+
+# VDTRatingsTL2 110 s_u2
+Some saws are tools.
+? True or False? N
+
+# VDTRatingsTL2 110 s_u3
+Some saws are tools.
+? True or False? N
+
+# VDTRatingsTL2 110 s_u4
+Some saws are tools.
+? True or False? N
+
+# VDTRatingsTL2 110 s_u5
+Some saws are tools.
+? True or False? N
+
+# VDTRatingsTL2 110 s_t
+Some tools are saws.
+? True or False? Y
+
+# VDTRatingsTL2 110 s_f
+Some saws are fish.
+? True or False? N
+
+# VDTRatingsTL2 110 a_u
+All saws are tools.
+? True or False? Y
+
+# VDTRatingsTL2 110 a_t
+All tools are saws.
+? True or False? N
+
+# VDTRatingsTL2 110 a_f
+All saws are fish.
+? True or False? N
+
+# VDTRatingsTL2 111 s_u1
+Some rattlesnakes are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 111 s_u2
+Some rattlesnakes are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 111 s_u3
+Some rattlesnakes are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 111 s_u4
+Some rattlesnakes are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 111 s_u5
+Some rattlesnakes are reptiles.
+? True or False? N
+
+# VDTRatingsTL2 111 s_t
+Some reptiles are rattlesnakes.
+? True or False? Y
+
+# VDTRatingsTL2 111 s_f
+Some rattlesnakes are tools.
+? True or False? N
+
+# VDTRatingsTL2 111 a_u
+All rattlesnakes are reptiles.
+? True or False? Y
+
+# VDTRatingsTL2 111 a_t
+All reptiles are rattlesnakes.
+? True or False? N
+
+# VDTRatingsTL2 111 a_f
+All rattlesnakes are tools.
+? True or False? N
+
+# VDTRatingsTL2 112 s_u1
+Some dandelions are flowers.
+? True or False? N
+
+# VDTRatingsTL2 112 s_u2
+Some dandelions are flowers.
+? True or False? N
+
+# VDTRatingsTL2 112 s_u3
+Some dandelions are flowers.
+? True or False? N
+
+# VDTRatingsTL2 112 s_u4
+Some dandelions are flowers.
+? True or False? N
+
+# VDTRatingsTL2 112 s_u5
+Some dandelions are flowers.
+? True or False? N
+
+# VDTRatingsTL2 112 s_t
+Some flowers are dandelions.
+? True or False? Y
+
+# VDTRatingsTL2 112 s_f
+Some dandelions are trees.
+? True or False? N
+
+# VDTRatingsTL2 112 a_u
+All dandelions are flowers.
+? True or False? Y
+
+# VDTRatingsTL2 112 a_t
+All flowers are dandelions.
+? True or False? N
+
+# VDTRatingsTL2 112 a_f
+All dandelions are trees.
+? True or False? N
+
+# VDTRatingsTL2 113 s_u1
+Some beeches are trees.
+? True or False? N
+
+# VDTRatingsTL2 113 s_u2
+Some beeches are trees.
+? True or False? N
+
+# VDTRatingsTL2 113 s_u3
+Some beeches are trees.
+? True or False? N
+
+# VDTRatingsTL2 113 s_u4
+Some beeches are trees.
+? True or False? N
+
+# VDTRatingsTL2 113 s_u5
+Some beeches are trees.
+? True or False? N
+
+# VDTRatingsTL2 113 s_t
+Some trees are beeches.
+? True or False? Y
+
+# VDTRatingsTL2 113 s_f
+Some beeches are fish.
+? True or False? N
+
+# VDTRatingsTL2 113 a_u
+All beeches are trees.
+? True or False? Y
+
+# VDTRatingsTL2 113 a_t
+All trees are beeches.
+? True or False? N
+
+# VDTRatingsTL2 113 a_f
+All beeches are fish.
+? True or False? N
+
+# VDTRatingsTL2 114 s_u1
+Some poodles are dogs.
+? True or False? N
+
+# VDTRatingsTL2 114 s_u2
+Some poodles are dogs.
+? True or False? N
+
+# VDTRatingsTL2 114 s_u3
+Some poodles are dogs.
+? True or False? N
+
+# VDTRatingsTL2 114 s_u4
+Some poodles are dogs.
+? True or False? N
+
+# VDTRatingsTL2 114 s_u5
+Some poodles are dogs.
+? True or False? N
+
+# VDTRatingsTL2 114 s_t
+Some dogs are poodles.
+? True or False? Y
+
+# VDTRatingsTL2 114 s_f
+Some poodles are trees.
+? True or False? N
+
+# VDTRatingsTL2 114 a_u
+All poodles are dogs.
+? True or False? Y
+
+# VDTRatingsTL2 114 a_t
+All dogs are poodles.
+? True or False? N
+
+# VDTRatingsTL2 114 a_f
+All poodles are trees.
+? True or False? N
+
+# VDTRatingsTL2 115 s_u1
+Some lilies are flowers.
+? True or False? N
+
+# VDTRatingsTL2 115 s_u2
+Some lilies are flowers.
+? True or False? N
+
+# VDTRatingsTL2 115 s_u3
+Some lilies are flowers.
+? True or False? N
+
+# VDTRatingsTL2 115 s_u4
+Some lilies are flowers.
+? True or False? N
+
+# VDTRatingsTL2 115 s_u5
+Some lilies are flowers.
+? True or False? N
+
+# VDTRatingsTL2 115 s_t
+Some flowers are lilies.
+? True or False? Y
+
+# VDTRatingsTL2 115 s_f
+Some lilies are trees.
+? True or False? N
+
+# VDTRatingsTL2 115 a_u
+All lilies are flowers.
+? True or False? Y
+
+# VDTRatingsTL2 115 a_t
+All flowers are lilies.
+? True or False? N
+
+# VDTRatingsTL2 115 a_f
+All lilies are trees.
+? True or False? N
+
+# VDTRatingsTL2 116 s_u1
+Some goats are mammals.
+? True or False? N
+
+# VDTRatingsTL2 116 s_u2
+Some goats are mammals.
+? True or False? N
+
+# VDTRatingsTL2 116 s_u3
+Some goats are mammals.
+? True or False? N
+
+# VDTRatingsTL2 116 s_u4
+Some goats are mammals.
+? True or False? N
+
+# VDTRatingsTL2 116 s_u5
+Some goats are mammals.
+? True or False? N
+
+# VDTRatingsTL2 116 s_t
+Some mammals are goats.
+? True or False? Y
+
+# VDTRatingsTL2 116 s_f
+Some goats are tools.
+? True or False? N
+
+# VDTRatingsTL2 116 a_u
+All goats are mammals.
+? True or False? Y
+
+# VDTRatingsTL2 116 a_t
+All mammals are goats.
+? True or False? N
+
+# VDTRatingsTL2 116 a_f
+All goats are tools.
+? True or False? N
+
+# VDTRatingsTL2 117 s_u1
+Some robins are birds.
+? True or False? N
+
+# VDTRatingsTL2 117 s_u2
+Some robins are birds.
+? True or False? N
+
+# VDTRatingsTL2 117 s_u3
+Some robins are birds.
+? True or False? N
+
+# VDTRatingsTL2 117 s_u4
+Some robins are birds.
+? True or False? N
+
+# VDTRatingsTL2 117 s_u5
+Some robins are birds.
+? True or False? N
+
+# VDTRatingsTL2 117 s_t
+Some birds are robins.
+? True or False? Y
+
+# VDTRatingsTL2 117 s_f
+Some robins are dogs.
+? True or False? N
+
+# VDTRatingsTL2 117 a_u
+All robins are birds.
+? True or False? Y
+
+# VDTRatingsTL2 117 a_t
+All birds are robins.
+? True or False? N
+
+# VDTRatingsTL2 117 a_f
+All robins are dogs.
+? True or False? N
+
+# VDTRatingsTL2 118 s_u1
+Some tulips are flowers.
+? True or False? N
+
+# VDTRatingsTL2 118 s_u2
+Some tulips are flowers.
+? True or False? N
+
+# VDTRatingsTL2 118 s_u3
+Some tulips are flowers.
+? True or False? N
+
+# VDTRatingsTL2 118 s_u4
+Some tulips are flowers.
+? True or False? N
+
+# VDTRatingsTL2 118 s_u5
+Some tulips are flowers.
+? True or False? N
+
+# VDTRatingsTL2 118 s_t
+Some flowers are tulips.
+? True or False? Y
+
+# VDTRatingsTL2 118 s_f
+Some tulips are birds.
+? True or False? N
+
+# VDTRatingsTL2 118 a_u
+All tulips are flowers.
+? True or False? Y
+
+# VDTRatingsTL2 118 a_t
+All flowers are tulips.
+? True or False? N
+
+# VDTRatingsTL2 118 a_f
+All tulips are birds.
+? True or False? N
+
+# VDTRatingsTL2 119 s_u1
+Some chainsaws are tools.
+? True or False? N
+
+# VDTRatingsTL2 119 s_u2
+Some chainsaws are tools.
+? True or False? N
+
+# VDTRatingsTL2 119 s_u3
+Some chainsaws are tools.
+? True or False? N
+
+# VDTRatingsTL2 119 s_u4
+Some chainsaws are tools.
+? True or False? N
+
+# VDTRatingsTL2 119 s_u5
+Some chainsaws are tools.
+? True or False? N
+
+# VDTRatingsTL2 119 s_t
+Some tools are chainsaws.
+? True or False? Y
+
+# VDTRatingsTL2 119 s_f
+Some chainsaws are birds.
+? True or False? N
+
+# VDTRatingsTL2 119 a_u
+All chainsaws are tools.
+? True or False? Y
+
+# VDTRatingsTL2 119 a_t
+All tools are chainsaws.
+? True or False? N
+
+# VDTRatingsTL2 119 a_f
+All chainsaws are birds.
+? True or False? N
+
+# VDTRatingsTL2 120 s_u1
+Some crowbars are tools.
+? True or False? N
+
+# VDTRatingsTL2 120 s_u2
+Some crowbars are tools.
+? True or False? N
+
+# VDTRatingsTL2 120 s_u3
+Some crowbars are tools.
+? True or False? N
+
+# VDTRatingsTL2 120 s_u4
+Some crowbars are tools.
+? True or False? N
+
+# VDTRatingsTL2 120 s_u5
+Some crowbars are tools.
+? True or False? N
+
+# VDTRatingsTL2 120 s_t
+Some tools are crowbars.
+? True or False? Y
+
+# VDTRatingsTL2 120 s_f
+Some crowbars are birds.
+? True or False? N
+
+# VDTRatingsTL2 120 a_u
+All crowbars are tools.
+? True or False? Y
+
+# VDTRatingsTL2 120 a_t
+All tools are crowbars.
+? True or False? N
+
+# VDTRatingsTL2 120 a_f
+All crowbars are birds.
+? True or False? N
+

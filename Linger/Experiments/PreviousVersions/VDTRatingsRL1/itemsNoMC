@@ -1,0 +1,1799 @@
+# VDTRatingsRL1 1 s_u1
+Some drills are tools.
+
+# VDTRatingsRL1 1 s_u2
+Some drills are tools.
+
+# VDTRatingsRL1 1 s_u3
+Some drills are tools.
+
+# VDTRatingsRL1 1 s_u4
+Some drills are tools.
+
+# VDTRatingsRL1 1 s_u5
+Some drills are tools.
+
+# VDTRatingsRL1 1 s_t
+Some tools are drills.
+
+# VDTRatingsRL1 1 s_f
+Some drills are trees.
+
+# VDTRatingsRL1 1 a_u
+All drills are tools.
+
+# VDTRatingsRL1 1 a_t
+All tools are drills.
+
+# VDTRatingsRL1 1 a_f
+All drills are trees.
+
+# VDTRatingsRL1 2 s_u1
+Some halibut are fish.
+
+# VDTRatingsRL1 2 s_u2
+Some halibut are fish.
+
+# VDTRatingsRL1 2 s_u3
+Some halibut are fish.
+
+# VDTRatingsRL1 2 s_u4
+Some halibut are fish.
+
+# VDTRatingsRL1 2 s_u5
+Some halibut are fish.
+
+# VDTRatingsRL1 2 s_t
+Some fish are halibut.
+
+# VDTRatingsRL1 2 s_f
+Some halibut are fruit.
+
+# VDTRatingsRL1 2 a_u
+All halibut are fish.
+
+# VDTRatingsRL1 2 a_t
+All fish are halibut.
+
+# VDTRatingsRL1 2 a_f
+All halibut are fruit.
+
+# VDTRatingsRL1 3 s_u1
+Some moths are insects.
+
+# VDTRatingsRL1 3 s_u2
+Some moths are insects.
+
+# VDTRatingsRL1 3 s_u3
+Some moths are insects.
+
+# VDTRatingsRL1 3 s_u4
+Some moths are insects.
+
+# VDTRatingsRL1 3 s_u5
+Some moths are insects.
+
+# VDTRatingsRL1 3 s_t
+Some insects are moths.
+
+# VDTRatingsRL1 3 s_f
+Some moths are trees.
+
+# VDTRatingsRL1 3 a_u
+All moths are insects.
+
+# VDTRatingsRL1 3 a_t
+All insects are moths.
+
+# VDTRatingsRL1 3 a_f
+All moths are trees.
+
+# VDTRatingsRL1 4 s_u1
+Some pigs are mammals.
+
+# VDTRatingsRL1 4 s_u2
+Some pigs are mammals.
+
+# VDTRatingsRL1 4 s_u3
+Some pigs are mammals.
+
+# VDTRatingsRL1 4 s_u4
+Some pigs are mammals.
+
+# VDTRatingsRL1 4 s_u5
+Some pigs are mammals.
+
+# VDTRatingsRL1 4 s_t
+Some mammals are pigs.
+
+# VDTRatingsRL1 4 s_f
+Some pigs are fruit.
+
+# VDTRatingsRL1 4 a_u
+All pigs are mammals.
+
+# VDTRatingsRL1 4 a_t
+All mammals are pigs.
+
+# VDTRatingsRL1 4 a_f
+All pigs are fruit.
+
+# VDTRatingsRL1 5 s_u1
+Some haddock are fish.
+
+# VDTRatingsRL1 5 s_u2
+Some haddock are fish.
+
+# VDTRatingsRL1 5 s_u3
+Some haddock are fish.
+
+# VDTRatingsRL1 5 s_u4
+Some haddock are fish.
+
+# VDTRatingsRL1 5 s_u5
+Some haddock are fish.
+
+# VDTRatingsRL1 5 s_t
+Some fish are haddock.
+
+# VDTRatingsRL1 5 s_f
+Some haddock are tools.
+
+# VDTRatingsRL1 5 a_u
+All haddock are fish.
+
+# VDTRatingsRL1 5 a_t
+All fish are haddock.
+
+# VDTRatingsRL1 5 a_f
+All haddock are tools.
+
+# VDTRatingsRL1 6 s_u1
+Some deer are mammals.
+
+# VDTRatingsRL1 6 s_u2
+Some deer are mammals.
+
+# VDTRatingsRL1 6 s_u3
+Some deer are mammals.
+
+# VDTRatingsRL1 6 s_u4
+Some deer are mammals.
+
+# VDTRatingsRL1 6 s_u5
+Some deer are mammals.
+
+# VDTRatingsRL1 6 s_t
+Some mammals are deer.
+
+# VDTRatingsRL1 6 s_f
+Some deer are reptiles.
+
+# VDTRatingsRL1 6 a_u
+All deer are mammals.
+
+# VDTRatingsRL1 6 a_t
+All mammals are deer.
+
+# VDTRatingsRL1 6 a_f
+All deer are reptiles.
+
+# VDTRatingsRL1 7 s_u1
+Some hounds are dogs.
+
+# VDTRatingsRL1 7 s_u2
+Some hounds are dogs.
+
+# VDTRatingsRL1 7 s_u3
+Some hounds are dogs.
+
+# VDTRatingsRL1 7 s_u4
+Some hounds are dogs.
+
+# VDTRatingsRL1 7 s_u5
+Some hounds are dogs.
+
+# VDTRatingsRL1 7 s_t
+Some dogs are hounds.
+
+# VDTRatingsRL1 7 s_f
+Some hounds are flowers.
+
+# VDTRatingsRL1 7 a_u
+All hounds are dogs.
+
+# VDTRatingsRL1 7 a_t
+All dogs are hounds.
+
+# VDTRatingsRL1 7 a_f
+All hounds are flowers.
+
+# VDTRatingsRL1 8 s_u1
+Some mackerel are fish.
+
+# VDTRatingsRL1 8 s_u2
+Some mackerel are fish.
+
+# VDTRatingsRL1 8 s_u3
+Some mackerel are fish.
+
+# VDTRatingsRL1 8 s_u4
+Some mackerel are fish.
+
+# VDTRatingsRL1 8 s_u5
+Some mackerel are fish.
+
+# VDTRatingsRL1 8 s_t
+Some fish are mackerel.
+
+# VDTRatingsRL1 8 s_f
+Some mackerel are fruit.
+
+# VDTRatingsRL1 8 a_u
+All mackerel are fish.
+
+# VDTRatingsRL1 8 a_t
+All fish are mackerel.
+
+# VDTRatingsRL1 8 a_f
+All mackerel are fruit.
+
+# VDTRatingsRL1 9 s_u1
+Some flamingoes are birds.
+
+# VDTRatingsRL1 9 s_u2
+Some flamingoes are birds.
+
+# VDTRatingsRL1 9 s_u3
+Some flamingoes are birds.
+
+# VDTRatingsRL1 9 s_u4
+Some flamingoes are birds.
+
+# VDTRatingsRL1 9 s_u5
+Some flamingoes are birds.
+
+# VDTRatingsRL1 9 s_t
+Some birds are flamingoes.
+
+# VDTRatingsRL1 9 s_f
+Some flamingoes are tools.
+
+# VDTRatingsRL1 9 a_u
+All flamingoes are birds.
+
+# VDTRatingsRL1 9 a_t
+All birds are flamingoes.
+
+# VDTRatingsRL1 9 a_f
+All flamingoes are tools.
+
+# VDTRatingsRL1 10 s_u1
+Some spaniels are dogs.
+
+# VDTRatingsRL1 10 s_u2
+Some spaniels are dogs.
+
+# VDTRatingsRL1 10 s_u3
+Some spaniels are dogs.
+
+# VDTRatingsRL1 10 s_u4
+Some spaniels are dogs.
+
+# VDTRatingsRL1 10 s_u5
+Some spaniels are dogs.
+
+# VDTRatingsRL1 10 s_t
+Some dogs are spaniels.
+
+# VDTRatingsRL1 10 s_f
+Some spaniels are flowers.
+
+# VDTRatingsRL1 10 a_u
+All spaniels are dogs.
+
+# VDTRatingsRL1 10 a_t
+All dogs are spaniels.
+
+# VDTRatingsRL1 10 a_f
+All spaniels are flowers.
+
+# VDTRatingsRL1 11 s_u1
+Some bears are mammals.
+
+# VDTRatingsRL1 11 s_u2
+Some bears are mammals.
+
+# VDTRatingsRL1 11 s_u3
+Some bears are mammals.
+
+# VDTRatingsRL1 11 s_u4
+Some bears are mammals.
+
+# VDTRatingsRL1 11 s_u5
+Some bears are mammals.
+
+# VDTRatingsRL1 11 s_t
+Some mammals are bears.
+
+# VDTRatingsRL1 11 s_f
+Some bears are trees.
+
+# VDTRatingsRL1 11 a_u
+All bears are mammals.
+
+# VDTRatingsRL1 11 a_t
+All mammals are bears.
+
+# VDTRatingsRL1 11 a_f
+All bears are trees.
+
+# VDTRatingsRL1 12 s_u1
+Some piranhas are fish.
+
+# VDTRatingsRL1 12 s_u2
+Some piranhas are fish.
+
+# VDTRatingsRL1 12 s_u3
+Some piranhas are fish.
+
+# VDTRatingsRL1 12 s_u4
+Some piranhas are fish.
+
+# VDTRatingsRL1 12 s_u5
+Some piranhas are fish.
+
+# VDTRatingsRL1 12 s_t
+Some fish are piranhas.
+
+# VDTRatingsRL1 12 s_f
+Some piranhas are insects.
+
+# VDTRatingsRL1 12 a_u
+All piranhas are fish.
+
+# VDTRatingsRL1 12 a_t
+All fish are piranhas.
+
+# VDTRatingsRL1 12 a_f
+All piranhas are insects.
+
+# VDTRatingsRL1 13 s_u1
+Some maples are trees.
+
+# VDTRatingsRL1 13 s_u2
+Some maples are trees.
+
+# VDTRatingsRL1 13 s_u3
+Some maples are trees.
+
+# VDTRatingsRL1 13 s_u4
+Some maples are trees.
+
+# VDTRatingsRL1 13 s_u5
+Some maples are trees.
+
+# VDTRatingsRL1 13 s_t
+Some trees are maples.
+
+# VDTRatingsRL1 13 s_f
+Some maples are birds.
+
+# VDTRatingsRL1 13 a_u
+All maples are trees.
+
+# VDTRatingsRL1 13 a_t
+All trees are maples.
+
+# VDTRatingsRL1 13 a_f
+All maples are birds.
+
+# VDTRatingsRL1 14 s_u1
+Some owls are birds.
+
+# VDTRatingsRL1 14 s_u2
+Some owls are birds.
+
+# VDTRatingsRL1 14 s_u3
+Some owls are birds.
+
+# VDTRatingsRL1 14 s_u4
+Some owls are birds.
+
+# VDTRatingsRL1 14 s_u5
+Some owls are birds.
+
+# VDTRatingsRL1 14 s_t
+Some birds are owls.
+
+# VDTRatingsRL1 14 s_f
+Some owls are flowers.
+
+# VDTRatingsRL1 14 a_u
+All owls are birds.
+
+# VDTRatingsRL1 14 a_t
+All birds are owls.
+
+# VDTRatingsRL1 14 a_f
+All owls are flowers.
+
+# VDTRatingsRL1 15 s_u1
+Some trout are fish.
+
+# VDTRatingsRL1 15 s_u2
+Some trout are fish.
+
+# VDTRatingsRL1 15 s_u3
+Some trout are fish.
+
+# VDTRatingsRL1 15 s_u4
+Some trout are fish.
+
+# VDTRatingsRL1 15 s_u5
+Some trout are fish.
+
+# VDTRatingsRL1 15 s_t
+Some fish are trout.
+
+# VDTRatingsRL1 15 s_f
+Some trout are flowers.
+
+# VDTRatingsRL1 15 a_u
+All trout are fish.
+
+# VDTRatingsRL1 15 a_t
+All fish are trout.
+
+# VDTRatingsRL1 15 a_f
+All trout are flowers.
+
+# VDTRatingsRL1 16 s_u1
+Some carnations are flowers.
+
+# VDTRatingsRL1 16 s_u2
+Some carnations are flowers.
+
+# VDTRatingsRL1 16 s_u3
+Some carnations are flowers.
+
+# VDTRatingsRL1 16 s_u4
+Some carnations are flowers.
+
+# VDTRatingsRL1 16 s_u5
+Some carnations are flowers.
+
+# VDTRatingsRL1 16 s_t
+Some flowers are carnations.
+
+# VDTRatingsRL1 16 s_f
+Some carnations are fruit.
+
+# VDTRatingsRL1 16 a_u
+All carnations are flowers.
+
+# VDTRatingsRL1 16 a_t
+All flowers are carnations.
+
+# VDTRatingsRL1 16 a_f
+All carnations are fruit.
+
+# VDTRatingsRL1 17 s_u1
+Some apples are fruit.
+
+# VDTRatingsRL1 17 s_u2
+Some apples are fruit.
+
+# VDTRatingsRL1 17 s_u3
+Some apples are fruit.
+
+# VDTRatingsRL1 17 s_u4
+Some apples are fruit.
+
+# VDTRatingsRL1 17 s_u5
+Some apples are fruit.
+
+# VDTRatingsRL1 17 s_t
+Some fruit are apples.
+
+# VDTRatingsRL1 17 s_f
+Some apples are birds.
+
+# VDTRatingsRL1 17 a_u
+All apples are fruit.
+
+# VDTRatingsRL1 17 a_t
+All fruit are apples.
+
+# VDTRatingsRL1 17 a_f
+All apples are birds.
+
+# VDTRatingsRL1 18 s_u1
+Some bees are insects.
+
+# VDTRatingsRL1 18 s_u2
+Some bees are insects.
+
+# VDTRatingsRL1 18 s_u3
+Some bees are insects.
+
+# VDTRatingsRL1 18 s_u4
+Some bees are insects.
+
+# VDTRatingsRL1 18 s_u5
+Some bees are insects.
+
+# VDTRatingsRL1 18 s_t
+Some insects are bees.
+
+# VDTRatingsRL1 18 s_f
+Some bees are mammals.
+
+# VDTRatingsRL1 18 a_u
+All bees are insects.
+
+# VDTRatingsRL1 18 a_t
+All insects are bees.
+
+# VDTRatingsRL1 18 a_f
+All bees are mammals.
+
+# VDTRatingsRL1 19 s_u1
+Some crows are birds.
+
+# VDTRatingsRL1 19 s_u2
+Some crows are birds.
+
+# VDTRatingsRL1 19 s_u3
+Some crows are birds.
+
+# VDTRatingsRL1 19 s_u4
+Some crows are birds.
+
+# VDTRatingsRL1 19 s_u5
+Some crows are birds.
+
+# VDTRatingsRL1 19 s_t
+Some birds are crows.
+
+# VDTRatingsRL1 19 s_f
+Some crows are mammals.
+
+# VDTRatingsRL1 19 a_u
+All crows are birds.
+
+# VDTRatingsRL1 19 a_t
+All birds are crows.
+
+# VDTRatingsRL1 19 a_f
+All crows are mammals.
+
+# VDTRatingsRL1 20 s_u1
+Some flounders are fish.
+
+# VDTRatingsRL1 20 s_u2
+Some flounders are fish.
+
+# VDTRatingsRL1 20 s_u3
+Some flounders are fish.
+
+# VDTRatingsRL1 20 s_u4
+Some flounders are fish.
+
+# VDTRatingsRL1 20 s_u5
+Some flounders are fish.
+
+# VDTRatingsRL1 20 s_t
+Some fish are flounders.
+
+# VDTRatingsRL1 20 s_f
+Some flounders are insects.
+
+# VDTRatingsRL1 20 a_u
+All flounders are fish.
+
+# VDTRatingsRL1 20 a_t
+All fish are flounders.
+
+# VDTRatingsRL1 20 a_f
+All flounders are insects.
+
+# VDTRatingsRL1 21 s_u1
+Some wasps are insects.
+
+# VDTRatingsRL1 21 s_u2
+Some wasps are insects.
+
+# VDTRatingsRL1 21 s_u3
+Some wasps are insects.
+
+# VDTRatingsRL1 21 s_u4
+Some wasps are insects.
+
+# VDTRatingsRL1 21 s_u5
+Some wasps are insects.
+
+# VDTRatingsRL1 21 s_t
+Some insects are wasps.
+
+# VDTRatingsRL1 21 s_f
+Some wasps are reptiles.
+
+# VDTRatingsRL1 21 a_u
+All wasps are insects.
+
+# VDTRatingsRL1 21 a_t
+All insects are wasps.
+
+# VDTRatingsRL1 21 a_f
+All wasps are reptiles.
+
+# VDTRatingsRL1 22 s_u1
+Some salmon are fish.
+
+# VDTRatingsRL1 22 s_u2
+Some salmon are fish.
+
+# VDTRatingsRL1 22 s_u3
+Some salmon are fish.
+
+# VDTRatingsRL1 22 s_u4
+Some salmon are fish.
+
+# VDTRatingsRL1 22 s_u5
+Some salmon are fish.
+
+# VDTRatingsRL1 22 s_t
+Some fish are salmon.
+
+# VDTRatingsRL1 22 s_f
+Some salmon are dogs.
+
+# VDTRatingsRL1 22 a_u
+All salmon are fish.
+
+# VDTRatingsRL1 22 a_t
+All fish are salmon.
+
+# VDTRatingsRL1 22 a_f
+All salmon are dogs.
+
+# VDTRatingsRL1 23 s_u1
+Some wirecutters are tools.
+
+# VDTRatingsRL1 23 s_u2
+Some wirecutters are tools.
+
+# VDTRatingsRL1 23 s_u3
+Some wirecutters are tools.
+
+# VDTRatingsRL1 23 s_u4
+Some wirecutters are tools.
+
+# VDTRatingsRL1 23 s_u5
+Some wirecutters are tools.
+
+# VDTRatingsRL1 23 s_t
+Some tools are wirecutters.
+
+# VDTRatingsRL1 23 s_f
+Some wirecutters are insects.
+
+# VDTRatingsRL1 23 a_u
+All wirecutters are tools.
+
+# VDTRatingsRL1 23 a_t
+All tools are wirecutters.
+
+# VDTRatingsRL1 23 a_f
+All wirecutters are insects.
+
+# VDTRatingsRL1 24 s_u1
+Some pythons are reptiles.
+
+# VDTRatingsRL1 24 s_u2
+Some pythons are reptiles.
+
+# VDTRatingsRL1 24 s_u3
+Some pythons are reptiles.
+
+# VDTRatingsRL1 24 s_u4
+Some pythons are reptiles.
+
+# VDTRatingsRL1 24 s_u5
+Some pythons are reptiles.
+
+# VDTRatingsRL1 24 s_t
+Some reptiles are pythons.
+
+# VDTRatingsRL1 24 s_f
+Some pythons are flowers.
+
+# VDTRatingsRL1 24 a_u
+All pythons are reptiles.
+
+# VDTRatingsRL1 24 a_t
+All reptiles are pythons.
+
+# VDTRatingsRL1 24 a_f
+All pythons are flowers.
+
+# VDTRatingsRL1 25 s_u1
+Some raspberries are fruit.
+
+# VDTRatingsRL1 25 s_u2
+Some raspberries are fruit.
+
+# VDTRatingsRL1 25 s_u3
+Some raspberries are fruit.
+
+# VDTRatingsRL1 25 s_u4
+Some raspberries are fruit.
+
+# VDTRatingsRL1 25 s_u5
+Some raspberries are fruit.
+
+# VDTRatingsRL1 25 s_t
+Some fruit are raspberries.
+
+# VDTRatingsRL1 25 s_f
+Some raspberries are reptiles.
+
+# VDTRatingsRL1 25 a_u
+All raspberries are fruit.
+
+# VDTRatingsRL1 25 a_t
+All fruit are raspberries.
+
+# VDTRatingsRL1 25 a_f
+All raspberries are reptiles.
+
+# VDTRatingsRL1 26 s_u1
+Some firs are trees.
+
+# VDTRatingsRL1 26 s_u2
+Some firs are trees.
+
+# VDTRatingsRL1 26 s_u3
+Some firs are trees.
+
+# VDTRatingsRL1 26 s_u4
+Some firs are trees.
+
+# VDTRatingsRL1 26 s_u5
+Some firs are trees.
+
+# VDTRatingsRL1 26 s_t
+Some trees are firs.
+
+# VDTRatingsRL1 26 s_f
+Some firs are fish.
+
+# VDTRatingsRL1 26 a_u
+All firs are trees.
+
+# VDTRatingsRL1 26 a_t
+All trees are firs.
+
+# VDTRatingsRL1 26 a_f
+All firs are fish.
+
+# VDTRatingsRL1 27 s_u1
+Some zebras are mammals.
+
+# VDTRatingsRL1 27 s_u2
+Some zebras are mammals.
+
+# VDTRatingsRL1 27 s_u3
+Some zebras are mammals.
+
+# VDTRatingsRL1 27 s_u4
+Some zebras are mammals.
+
+# VDTRatingsRL1 27 s_u5
+Some zebras are mammals.
+
+# VDTRatingsRL1 27 s_t
+Some mammals are zebras.
+
+# VDTRatingsRL1 27 s_f
+Some zebras are birds.
+
+# VDTRatingsRL1 27 a_u
+All zebras are mammals.
+
+# VDTRatingsRL1 27 a_t
+All mammals are zebras.
+
+# VDTRatingsRL1 27 a_f
+All zebras are birds.
+
+# VDTRatingsRL1 28 s_u1
+Some chameleons are reptiles.
+
+# VDTRatingsRL1 28 s_u2
+Some chameleons are reptiles.
+
+# VDTRatingsRL1 28 s_u3
+Some chameleons are reptiles.
+
+# VDTRatingsRL1 28 s_u4
+Some chameleons are reptiles.
+
+# VDTRatingsRL1 28 s_u5
+Some chameleons are reptiles.
+
+# VDTRatingsRL1 28 s_t
+Some reptiles are chameleons.
+
+# VDTRatingsRL1 28 s_f
+Some chameleons are mammals.
+
+# VDTRatingsRL1 28 a_u
+All chameleons are reptiles.
+
+# VDTRatingsRL1 28 a_t
+All reptiles are chameleons.
+
+# VDTRatingsRL1 28 a_f
+All chameleons are mammals.
+
+# VDTRatingsRL1 29 s_u1
+Some lilacs are flowers.
+
+# VDTRatingsRL1 29 s_u2
+Some lilacs are flowers.
+
+# VDTRatingsRL1 29 s_u3
+Some lilacs are flowers.
+
+# VDTRatingsRL1 29 s_u4
+Some lilacs are flowers.
+
+# VDTRatingsRL1 29 s_u5
+Some lilacs are flowers.
+
+# VDTRatingsRL1 29 s_t
+Some flowers are lilacs.
+
+# VDTRatingsRL1 29 s_f
+Some lilacs are birds.
+
+# VDTRatingsRL1 29 a_u
+All lilacs are flowers.
+
+# VDTRatingsRL1 29 a_t
+All flowers are lilacs.
+
+# VDTRatingsRL1 29 a_f
+All lilacs are birds.
+
+# VDTRatingsRL1 30 s_u1
+Some poinsettias are flowers.
+
+# VDTRatingsRL1 30 s_u2
+Some poinsettias are flowers.
+
+# VDTRatingsRL1 30 s_u3
+Some poinsettias are flowers.
+
+# VDTRatingsRL1 30 s_u4
+Some poinsettias are flowers.
+
+# VDTRatingsRL1 30 s_u5
+Some poinsettias are flowers.
+
+# VDTRatingsRL1 30 s_t
+Some flowers are poinsettias.
+
+# VDTRatingsRL1 30 s_f
+Some poinsettias are insects.
+
+# VDTRatingsRL1 30 a_u
+All poinsettias are flowers.
+
+# VDTRatingsRL1 30 a_t
+All flowers are poinsettias.
+
+# VDTRatingsRL1 30 a_f
+All poinsettias are insects.
+
+# VDTRatingsRL1 31 s_u1
+Some wrenches are tools.
+
+# VDTRatingsRL1 31 s_u2
+Some wrenches are tools.
+
+# VDTRatingsRL1 31 s_u3
+Some wrenches are tools.
+
+# VDTRatingsRL1 31 s_u4
+Some wrenches are tools.
+
+# VDTRatingsRL1 31 s_u5
+Some wrenches are tools.
+
+# VDTRatingsRL1 31 s_t
+Some tools are wrenches.
+
+# VDTRatingsRL1 31 s_f
+Some wrenches are insects.
+
+# VDTRatingsRL1 31 a_u
+All wrenches are tools.
+
+# VDTRatingsRL1 31 a_t
+All tools are wrenches.
+
+# VDTRatingsRL1 31 a_f
+All wrenches are insects.
+
+# VDTRatingsRL1 32 s_u1
+Some spruces are trees.
+
+# VDTRatingsRL1 32 s_u2
+Some spruces are trees.
+
+# VDTRatingsRL1 32 s_u3
+Some spruces are trees.
+
+# VDTRatingsRL1 32 s_u4
+Some spruces are trees.
+
+# VDTRatingsRL1 32 s_u5
+Some spruces are trees.
+
+# VDTRatingsRL1 32 s_t
+Some trees are spruces.
+
+# VDTRatingsRL1 32 s_f
+Some spruces are insects.
+
+# VDTRatingsRL1 32 a_u
+All spruces are trees.
+
+# VDTRatingsRL1 32 a_t
+All trees are spruces.
+
+# VDTRatingsRL1 32 a_f
+All spruces are insects.
+
+# VDTRatingsRL1 33 s_u1
+Some oaks are trees.
+
+# VDTRatingsRL1 33 s_u2
+Some oaks are trees.
+
+# VDTRatingsRL1 33 s_u3
+Some oaks are trees.
+
+# VDTRatingsRL1 33 s_u4
+Some oaks are trees.
+
+# VDTRatingsRL1 33 s_u5
+Some oaks are trees.
+
+# VDTRatingsRL1 33 s_t
+Some trees are oaks.
+
+# VDTRatingsRL1 33 s_f
+Some oaks are fruit.
+
+# VDTRatingsRL1 33 a_u
+All oaks are trees.
+
+# VDTRatingsRL1 33 a_t
+All trees are oaks.
+
+# VDTRatingsRL1 33 a_f
+All oaks are fruit.
+
+# VDTRatingsRL1 34 s_u1
+Some lizards are reptiles.
+
+# VDTRatingsRL1 34 s_u2
+Some lizards are reptiles.
+
+# VDTRatingsRL1 34 s_u3
+Some lizards are reptiles.
+
+# VDTRatingsRL1 34 s_u4
+Some lizards are reptiles.
+
+# VDTRatingsRL1 34 s_u5
+Some lizards are reptiles.
+
+# VDTRatingsRL1 34 s_t
+Some reptiles are lizards.
+
+# VDTRatingsRL1 34 s_f
+Some lizards are fish.
+
+# VDTRatingsRL1 34 a_u
+All lizards are reptiles.
+
+# VDTRatingsRL1 34 a_t
+All reptiles are lizards.
+
+# VDTRatingsRL1 34 a_f
+All lizards are fish.
+
+# VDTRatingsRL1 35 s_u1
+Some labradors are dogs.
+
+# VDTRatingsRL1 35 s_u2
+Some labradors are dogs.
+
+# VDTRatingsRL1 35 s_u3
+Some labradors are dogs.
+
+# VDTRatingsRL1 35 s_u4
+Some labradors are dogs.
+
+# VDTRatingsRL1 35 s_u5
+Some labradors are dogs.
+
+# VDTRatingsRL1 35 s_t
+Some dogs are labradors.
+
+# VDTRatingsRL1 35 s_f
+Some labradors are trees.
+
+# VDTRatingsRL1 35 a_u
+All labradors are dogs.
+
+# VDTRatingsRL1 35 a_t
+All dogs are labradors.
+
+# VDTRatingsRL1 35 a_f
+All labradors are trees.
+
+# VDTRatingsRL1 36 s_u1
+Some cockroaches are insects.
+
+# VDTRatingsRL1 36 s_u2
+Some cockroaches are insects.
+
+# VDTRatingsRL1 36 s_u3
+Some cockroaches are insects.
+
+# VDTRatingsRL1 36 s_u4
+Some cockroaches are insects.
+
+# VDTRatingsRL1 36 s_u5
+Some cockroaches are insects.
+
+# VDTRatingsRL1 36 s_t
+Some insects are cockroaches.
+
+# VDTRatingsRL1 36 s_f
+Some cockroaches are tools.
+
+# VDTRatingsRL1 36 a_u
+All cockroaches are insects.
+
+# VDTRatingsRL1 36 a_t
+All insects are cockroaches.
+
+# VDTRatingsRL1 36 a_f
+All cockroaches are tools.
+
+# VDTRatingsRL1 37 s_u1
+Some parrots are birds.
+
+# VDTRatingsRL1 37 s_u2
+Some parrots are birds.
+
+# VDTRatingsRL1 37 s_u3
+Some parrots are birds.
+
+# VDTRatingsRL1 37 s_u4
+Some parrots are birds.
+
+# VDTRatingsRL1 37 s_u5
+Some parrots are birds.
+
+# VDTRatingsRL1 37 s_t
+Some birds are parrots.
+
+# VDTRatingsRL1 37 s_f
+Some parrots are dogs.
+
+# VDTRatingsRL1 37 a_u
+All parrots are birds.
+
+# VDTRatingsRL1 37 a_t
+All birds are parrots.
+
+# VDTRatingsRL1 37 a_f
+All parrots are dogs.
+
+# VDTRatingsRL1 38 s_u1
+Some dalmatians are dogs.
+
+# VDTRatingsRL1 38 s_u2
+Some dalmatians are dogs.
+
+# VDTRatingsRL1 38 s_u3
+Some dalmatians are dogs.
+
+# VDTRatingsRL1 38 s_u4
+Some dalmatians are dogs.
+
+# VDTRatingsRL1 38 s_u5
+Some dalmatians are dogs.
+
+# VDTRatingsRL1 38 s_t
+Some dogs are dalmatians.
+
+# VDTRatingsRL1 38 s_f
+Some dalmatians are tools.
+
+# VDTRatingsRL1 38 a_u
+All dalmatians are dogs.
+
+# VDTRatingsRL1 38 a_t
+All dogs are dalmatians.
+
+# VDTRatingsRL1 38 a_f
+All dalmatians are tools.
+
+# VDTRatingsRL1 39 s_u1
+Some iguanas are reptiles.
+
+# VDTRatingsRL1 39 s_u2
+Some iguanas are reptiles.
+
+# VDTRatingsRL1 39 s_u3
+Some iguanas are reptiles.
+
+# VDTRatingsRL1 39 s_u4
+Some iguanas are reptiles.
+
+# VDTRatingsRL1 39 s_u5
+Some iguanas are reptiles.
+
+# VDTRatingsRL1 39 s_t
+Some reptiles are iguanas.
+
+# VDTRatingsRL1 39 s_f
+Some iguanas are fish.
+
+# VDTRatingsRL1 39 a_u
+All iguanas are reptiles.
+
+# VDTRatingsRL1 39 a_t
+All reptiles are iguanas.
+
+# VDTRatingsRL1 39 a_f
+All iguanas are fish.
+
+# VDTRatingsRL1 40 s_u1
+Some willows are trees.
+
+# VDTRatingsRL1 40 s_u2
+Some willows are trees.
+
+# VDTRatingsRL1 40 s_u3
+Some willows are trees.
+
+# VDTRatingsRL1 40 s_u4
+Some willows are trees.
+
+# VDTRatingsRL1 40 s_u5
+Some willows are trees.
+
+# VDTRatingsRL1 40 s_t
+Some trees are willows.
+
+# VDTRatingsRL1 40 s_f
+Some willows are birds.
+
+# VDTRatingsRL1 40 a_u
+All willows are trees.
+
+# VDTRatingsRL1 40 a_t
+All trees are willows.
+
+# VDTRatingsRL1 40 a_f
+All willows are birds.
+
+# VDTRatingsRL1 41 s_u1
+Some geckos are reptiles.
+
+# VDTRatingsRL1 41 s_u2
+Some geckos are reptiles.
+
+# VDTRatingsRL1 41 s_u3
+Some geckos are reptiles.
+
+# VDTRatingsRL1 41 s_u4
+Some geckos are reptiles.
+
+# VDTRatingsRL1 41 s_u5
+Some geckos are reptiles.
+
+# VDTRatingsRL1 41 s_t
+Some reptiles are geckos.
+
+# VDTRatingsRL1 41 s_f
+Some geckos are insects.
+
+# VDTRatingsRL1 41 a_u
+All geckos are reptiles.
+
+# VDTRatingsRL1 41 a_t
+All reptiles are geckos.
+
+# VDTRatingsRL1 41 a_f
+All geckos are insects.
+
+# VDTRatingsRL1 42 s_u1
+Some pigeons are birds.
+
+# VDTRatingsRL1 42 s_u2
+Some pigeons are birds.
+
+# VDTRatingsRL1 42 s_u3
+Some pigeons are birds.
+
+# VDTRatingsRL1 42 s_u4
+Some pigeons are birds.
+
+# VDTRatingsRL1 42 s_u5
+Some pigeons are birds.
+
+# VDTRatingsRL1 42 s_t
+Some birds are pigeons.
+
+# VDTRatingsRL1 42 s_f
+Some pigeons are flowers.
+
+# VDTRatingsRL1 42 a_u
+All pigeons are birds.
+
+# VDTRatingsRL1 42 a_t
+All birds are pigeons.
+
+# VDTRatingsRL1 42 a_f
+All pigeons are flowers.
+
+# VDTRatingsRL1 43 s_u1
+Some horses are mammals.
+
+# VDTRatingsRL1 43 s_u2
+Some horses are mammals.
+
+# VDTRatingsRL1 43 s_u3
+Some horses are mammals.
+
+# VDTRatingsRL1 43 s_u4
+Some horses are mammals.
+
+# VDTRatingsRL1 43 s_u5
+Some horses are mammals.
+
+# VDTRatingsRL1 43 s_t
+Some mammals are horses.
+
+# VDTRatingsRL1 43 s_f
+Some horses are fruit.
+
+# VDTRatingsRL1 43 a_u
+All horses are mammals.
+
+# VDTRatingsRL1 43 a_t
+All mammals are horses.
+
+# VDTRatingsRL1 43 a_f
+All horses are fruit.
+
+# VDTRatingsRL1 44 s_u1
+Some snakes are reptiles.
+
+# VDTRatingsRL1 44 s_u2
+Some snakes are reptiles.
+
+# VDTRatingsRL1 44 s_u3
+Some snakes are reptiles.
+
+# VDTRatingsRL1 44 s_u4
+Some snakes are reptiles.
+
+# VDTRatingsRL1 44 s_u5
+Some snakes are reptiles.
+
+# VDTRatingsRL1 44 s_t
+Some reptiles are snakes.
+
+# VDTRatingsRL1 44 s_f
+Some snakes are trees.
+
+# VDTRatingsRL1 44 a_u
+All snakes are reptiles.
+
+# VDTRatingsRL1 44 a_t
+All reptiles are snakes.
+
+# VDTRatingsRL1 44 a_f
+All snakes are trees.
+
+# VDTRatingsRL1 45 s_u1
+Some hammers are tools.
+
+# VDTRatingsRL1 45 s_u2
+Some hammers are tools.
+
+# VDTRatingsRL1 45 s_u3
+Some hammers are tools.
+
+# VDTRatingsRL1 45 s_u4
+Some hammers are tools.
+
+# VDTRatingsRL1 45 s_u5
+Some hammers are tools.
+
+# VDTRatingsRL1 45 s_t
+Some tools are hammers.
+
+# VDTRatingsRL1 45 s_f
+Some hammers are reptiles.
+
+# VDTRatingsRL1 45 a_u
+All hammers are tools.
+
+# VDTRatingsRL1 45 a_t
+All tools are hammers.
+
+# VDTRatingsRL1 45 a_f
+All hammers are reptiles.
+
+# VDTRatingsRL1 46 s_u1
+Some retrievers are dogs.
+
+# VDTRatingsRL1 46 s_u2
+Some retrievers are dogs.
+
+# VDTRatingsRL1 46 s_u3
+Some retrievers are dogs.
+
+# VDTRatingsRL1 46 s_u4
+Some retrievers are dogs.
+
+# VDTRatingsRL1 46 s_u5
+Some retrievers are dogs.
+
+# VDTRatingsRL1 46 s_t
+Some dogs are retrievers.
+
+# VDTRatingsRL1 46 s_f
+Some retrievers are fruit.
+
+# VDTRatingsRL1 46 a_u
+All retrievers are dogs.
+
+# VDTRatingsRL1 46 a_t
+All dogs are retrievers.
+
+# VDTRatingsRL1 46 a_f
+All retrievers are fruit.
+
+# VDTRatingsRL1 47 s_u1
+Some gardenias are flowers.
+
+# VDTRatingsRL1 47 s_u2
+Some gardenias are flowers.
+
+# VDTRatingsRL1 47 s_u3
+Some gardenias are flowers.
+
+# VDTRatingsRL1 47 s_u4
+Some gardenias are flowers.
+
+# VDTRatingsRL1 47 s_u5
+Some gardenias are flowers.
+
+# VDTRatingsRL1 47 s_t
+Some flowers are gardenias.
+
+# VDTRatingsRL1 47 s_f
+Some gardenias are fruit.
+
+# VDTRatingsRL1 47 a_u
+All gardenias are flowers.
+
+# VDTRatingsRL1 47 a_t
+All flowers are gardenias.
+
+# VDTRatingsRL1 47 a_f
+All gardenias are fruit.
+
+# VDTRatingsRL1 48 s_u1
+Some screwdrivers are tools.
+
+# VDTRatingsRL1 48 s_u2
+Some screwdrivers are tools.
+
+# VDTRatingsRL1 48 s_u3
+Some screwdrivers are tools.
+
+# VDTRatingsRL1 48 s_u4
+Some screwdrivers are tools.
+
+# VDTRatingsRL1 48 s_u5
+Some screwdrivers are tools.
+
+# VDTRatingsRL1 48 s_t
+Some tools are screwdrivers.
+
+# VDTRatingsRL1 48 s_f
+Some screwdrivers are flowers.
+
+# VDTRatingsRL1 48 a_u
+All screwdrivers are tools.
+
+# VDTRatingsRL1 48 a_t
+All tools are screwdrivers.
+
+# VDTRatingsRL1 48 a_f
+All screwdrivers are flowers.
+
+# VDTRatingsRL1 49 s_u1
+Some cod are fish.
+
+# VDTRatingsRL1 49 s_u2
+Some cod are fish.
+
+# VDTRatingsRL1 49 s_u3
+Some cod are fish.
+
+# VDTRatingsRL1 49 s_u4
+Some cod are fish.
+
+# VDTRatingsRL1 49 s_u5
+Some cod are fish.
+
+# VDTRatingsRL1 49 s_t
+Some fish are cod.
+
+# VDTRatingsRL1 49 s_f
+Some cod are insects.
+
+# VDTRatingsRL1 49 a_u
+All cod are fish.
+
+# VDTRatingsRL1 49 a_t
+All fish are cod.
+
+# VDTRatingsRL1 49 a_f
+All cod are insects.
+
+# VDTRatingsRL1 50 s_u1
+Some beetles are insects.
+
+# VDTRatingsRL1 50 s_u2
+Some beetles are insects.
+
+# VDTRatingsRL1 50 s_u3
+Some beetles are insects.
+
+# VDTRatingsRL1 50 s_u4
+Some beetles are insects.
+
+# VDTRatingsRL1 50 s_u5
+Some beetles are insects.
+
+# VDTRatingsRL1 50 s_t
+Some insects are beetles.
+
+# VDTRatingsRL1 50 s_f
+Some beetles are birds.
+
+# VDTRatingsRL1 50 a_u
+All beetles are insects.
+
+# VDTRatingsRL1 50 a_t
+All insects are beetles.
+
+# VDTRatingsRL1 50 a_f
+All beetles are birds.
+
+# VDTRatingsRL1 51 s_u1
+Some huskies are dogs.
+
+# VDTRatingsRL1 51 s_u2
+Some huskies are dogs.
+
+# VDTRatingsRL1 51 s_u3
+Some huskies are dogs.
+
+# VDTRatingsRL1 51 s_u4
+Some huskies are dogs.
+
+# VDTRatingsRL1 51 s_u5
+Some huskies are dogs.
+
+# VDTRatingsRL1 51 s_t
+Some dogs are huskies.
+
+# VDTRatingsRL1 51 s_f
+Some huskies are trees.
+
+# VDTRatingsRL1 51 a_u
+All huskies are dogs.
+
+# VDTRatingsRL1 51 a_t
+All dogs are huskies.
+
+# VDTRatingsRL1 51 a_f
+All huskies are trees.
+
+# VDTRatingsRL1 52 s_u1
+Some sheep are mammals.
+
+# VDTRatingsRL1 52 s_u2
+Some sheep are mammals.
+
+# VDTRatingsRL1 52 s_u3
+Some sheep are mammals.
+
+# VDTRatingsRL1 52 s_u4
+Some sheep are mammals.
+
+# VDTRatingsRL1 52 s_u5
+Some sheep are mammals.
+
+# VDTRatingsRL1 52 s_t
+Some mammals are sheep.
+
+# VDTRatingsRL1 52 s_f
+Some sheep are fish.
+
+# VDTRatingsRL1 52 a_u
+All sheep are mammals.
+
+# VDTRatingsRL1 52 a_t
+All mammals are sheep.
+
+# VDTRatingsRL1 52 a_f
+All sheep are fish.
+
+# VDTRatingsRL1 53 s_u1
+Some seagulls are birds.
+
+# VDTRatingsRL1 53 s_u2
+Some seagulls are birds.
+
+# VDTRatingsRL1 53 s_u3
+Some seagulls are birds.
+
+# VDTRatingsRL1 53 s_u4
+Some seagulls are birds.
+
+# VDTRatingsRL1 53 s_u5
+Some seagulls are birds.
+
+# VDTRatingsRL1 53 s_t
+Some birds are seagulls.
+
+# VDTRatingsRL1 53 s_f
+Some seagulls are fish.
+
+# VDTRatingsRL1 53 a_u
+All seagulls are birds.
+
+# VDTRatingsRL1 53 a_t
+All birds are seagulls.
+
+# VDTRatingsRL1 53 a_f
+All seagulls are fish.
+
+# VDTRatingsRL1 54 s_u1
+Some terriers are dogs.
+
+# VDTRatingsRL1 54 s_u2
+Some terriers are dogs.
+
+# VDTRatingsRL1 54 s_u3
+Some terriers are dogs.
+
+# VDTRatingsRL1 54 s_u4
+Some terriers are dogs.
+
+# VDTRatingsRL1 54 s_u5
+Some terriers are dogs.
+
+# VDTRatingsRL1 54 s_t
+Some dogs are terriers.
+
+# VDTRatingsRL1 54 s_f
+Some terriers are fruit.
+
+# VDTRatingsRL1 54 a_u
+All terriers are dogs.
+
+# VDTRatingsRL1 54 a_t
+All dogs are terriers.
+
+# VDTRatingsRL1 54 a_f
+All terriers are fruit.
+
+# VDTRatingsRL1 55 s_u1
+Some buffalo are mammals.
+
+# VDTRatingsRL1 55 s_u2
+Some buffalo are mammals.
+
+# VDTRatingsRL1 55 s_u3
+Some buffalo are mammals.
+
+# VDTRatingsRL1 55 s_u4
+Some buffalo are mammals.
+
+# VDTRatingsRL1 55 s_u5
+Some buffalo are mammals.
+
+# VDTRatingsRL1 55 s_t
+Some mammals are buffalo.
+
+# VDTRatingsRL1 55 s_f
+Some buffalo are tools.
+
+# VDTRatingsRL1 55 a_u
+All buffalo are mammals.
+
+# VDTRatingsRL1 55 a_t
+All mammals are buffalo.
+
+# VDTRatingsRL1 55 a_f
+All buffalo are tools.
+
+# VDTRatingsRL1 56 s_u1
+Some termites are insects.
+
+# VDTRatingsRL1 56 s_u2
+Some termites are insects.
+
+# VDTRatingsRL1 56 s_u3
+Some termites are insects.
+
+# VDTRatingsRL1 56 s_u4
+Some termites are insects.
+
+# VDTRatingsRL1 56 s_u5
+Some termites are insects.
+
+# VDTRatingsRL1 56 s_t
+Some insects are termites.
+
+# VDTRatingsRL1 56 s_f
+Some termites are mammals.
+
+# VDTRatingsRL1 56 a_u
+All termites are insects.
+
+# VDTRatingsRL1 56 a_t
+All insects are termites.
+
+# VDTRatingsRL1 56 a_f
+All termites are mammals.
+
+# VDTRatingsRL1 57 s_u1
+Some eagles are birds.
+
+# VDTRatingsRL1 57 s_u2
+Some eagles are birds.
+
+# VDTRatingsRL1 57 s_u3
+Some eagles are birds.
+
+# VDTRatingsRL1 57 s_u4
+Some eagles are birds.
+
+# VDTRatingsRL1 57 s_u5
+Some eagles are birds.
+
+# VDTRatingsRL1 57 s_t
+Some birds are eagles.
+
+# VDTRatingsRL1 57 s_f
+Some eagles are mammals.
+
+# VDTRatingsRL1 57 a_u
+All eagles are birds.
+
+# VDTRatingsRL1 57 a_t
+All birds are eagles.
+
+# VDTRatingsRL1 57 a_f
+All eagles are mammals.
+
+# VDTRatingsRL1 58 s_u1
+Some pick-axes are tools.
+
+# VDTRatingsRL1 58 s_u2
+Some pick-axes are tools.
+
+# VDTRatingsRL1 58 s_u3
+Some pick-axes are tools.
+
+# VDTRatingsRL1 58 s_u4
+Some pick-axes are tools.
+
+# VDTRatingsRL1 58 s_u5
+Some pick-axes are tools.
+
+# VDTRatingsRL1 58 s_t
+Some tools are pick-axes.
+
+# VDTRatingsRL1 58 s_f
+Some pick-axes are mammals.
+
+# VDTRatingsRL1 58 a_u
+All pick-axes are tools.
+
+# VDTRatingsRL1 58 a_t
+All tools are pick-axes.
+
+# VDTRatingsRL1 58 a_f
+All pick-axes are mammals.
+
+# VDTRatingsRL1 59 s_u1
+Some crickets are insects.
+
+# VDTRatingsRL1 59 s_u2
+Some crickets are insects.
+
+# VDTRatingsRL1 59 s_u3
+Some crickets are insects.
+
+# VDTRatingsRL1 59 s_u4
+Some crickets are insects.
+
+# VDTRatingsRL1 59 s_u5
+Some crickets are insects.
+
+# VDTRatingsRL1 59 s_t
+Some insects are crickets.
+
+# VDTRatingsRL1 59 s_f
+Some crickets are reptiles.
+
+# VDTRatingsRL1 59 a_u
+All crickets are insects.
+
+# VDTRatingsRL1 59 a_t
+All insects are crickets.
+
+# VDTRatingsRL1 59 a_f
+All crickets are reptiles.
+
+# VDTRatingsRL1 60 s_u1
+Some tuna are fish.
+
+# VDTRatingsRL1 60 s_u2
+Some tuna are fish.
+
+# VDTRatingsRL1 60 s_u3
+Some tuna are fish.
+
+# VDTRatingsRL1 60 s_u4
+Some tuna are fish.
+
+# VDTRatingsRL1 60 s_u5
+Some tuna are fish.
+
+# VDTRatingsRL1 60 s_t
+Some fish are tuna.
+
+# VDTRatingsRL1 60 s_f
+Some tuna are dogs.
+
+# VDTRatingsRL1 60 a_u
+All tuna are fish.
+
+# VDTRatingsRL1 60 a_t
+All fish are tuna.
+
+# VDTRatingsRL1 60 a_f
+All tuna are dogs.

@@ -1,0 +1,915 @@
+# practice 1 -
+Some_schools_are_books.
+
+# practice 2 -
+All_tables_are_furniture.
+
+# practice 3 - 
+Some_toasters_are_mammals. 
+
+# practice 4 - 
+All_vegetables_are_carrots.
+
+# practice 5 - 
+Some_jewelry_are_rings.
+
+# VDTRatingsRL2 91 s_u1_low
+Some_herring_are_fish.
+
+# VDTRatingsRL2 91 s_u2_low
+Some_herring_are_fish.
+
+# VDTRatingsRL2 91 s_u3_low
+Some_herring_are_fish.
+
+# VDTRatingsRL2 91 s_u4_low
+Some_herring_are_fish.
+
+# VDTRatingsRL2 91 s_u5_low
+Some_herring_are_fish.
+
+# VDTRatingsRL2 91 s_t_low
+Some_fish_are_herring.
+
+# VDTRatingsRL2 91 s_f_low
+Some_herring_are_trees.
+
+# VDTRatingsRL2 91 a_u_low
+All_herring_are_fish.
+
+# VDTRatingsRL2 91 a_t_low
+All_fish_are_herring.
+
+# VDTRatingsRL2 91 a_f_low
+All_herring_are_trees.
+
+# VDTRatingsRL2 92 s_u1_low
+Some_peaches_are_fruit.
+
+# VDTRatingsRL2 92 s_u2_low
+Some_peaches_are_fruit.
+
+# VDTRatingsRL2 92 s_u3_low
+Some_peaches_are_fruit.
+
+# VDTRatingsRL2 92 s_u4_low
+Some_peaches_are_fruit.
+
+# VDTRatingsRL2 92 s_u5_low
+Some_peaches_are_fruit.
+
+# VDTRatingsRL2 92 s_t_low
+Some_fruit_are_peaches.
+
+# VDTRatingsRL2 92 s_f_low
+Some_peaches_are_fish.
+
+# VDTRatingsRL2 92 a_u_low
+All_peaches_are_fruit.
+
+# VDTRatingsRL2 92 a_t_low
+All_fruit_are_peaches.
+
+# VDTRatingsRL2 92 a_f_low
+All_peaches_are_fish.
+
+# VDTRatingsRL2 93 s_u1_low
+Some_daisies_are_flowers.
+
+# VDTRatingsRL2 93 s_u2_low
+Some_daisies_are_flowers.
+
+# VDTRatingsRL2 93 s_u3_low
+Some_daisies_are_flowers.
+
+# VDTRatingsRL2 93 s_u4_low
+Some_daisies_are_flowers.
+
+# VDTRatingsRL2 93 s_u5_low
+Some_daisies_are_flowers.
+
+# VDTRatingsRL2 93 s_t_low
+Some_flowers_are_daisies.
+
+# VDTRatingsRL2 93 s_f_low
+Some_daisies_are_insects.
+
+# VDTRatingsRL2 93 a_u_low
+All_daisies_are_flowers.
+
+# VDTRatingsRL2 93 a_t_low
+All_flowers_are_daisies.
+
+# VDTRatingsRL2 93 a_f_low
+All_daisies_are_insects.
+
+# VDTRatingsRL2 94 s_u1_low
+Some_grapes_are_fruit.
+
+# VDTRatingsRL2 94 s_u2_low
+Some_grapes_are_fruit.
+
+# VDTRatingsRL2 94 s_u3_low
+Some_grapes_are_fruit.
+
+# VDTRatingsRL2 94 s_u4_low
+Some_grapes_are_fruit.
+
+# VDTRatingsRL2 94 s_u5_low
+Some_grapes_are_fruit.
+
+# VDTRatingsRL2 94 s_t_low
+Some_fruit_are_grapes.
+
+# VDTRatingsRL2 94 s_f_low
+Some_grapes_are_mammals.
+
+# VDTRatingsRL2 94 a_u_low
+All_grapes_are_fruit.
+
+# VDTRatingsRL2 94 a_t_low
+All_fruit_are_grapes.
+
+# VDTRatingsRL2 94 a_f_low
+All_grapes_are_mammals.
+
+# VDTRatingsRL2 95 s_u1_low
+Some_fleas_are_insects.
+
+# VDTRatingsRL2 95 s_u2_low
+Some_fleas_are_insects.
+
+# VDTRatingsRL2 95 s_u3_low
+Some_fleas_are_insects.
+
+# VDTRatingsRL2 95 s_u4_low
+Some_fleas_are_insects.
+
+# VDTRatingsRL2 95 s_u5_low
+Some_fleas_are_insects.
+
+# VDTRatingsRL2 95 s_t_low
+Some_insects_are_fleas.
+
+# VDTRatingsRL2 95 s_f_low
+Some_fleas_are_tools.
+
+# VDTRatingsRL2 95 a_u_low
+All_fleas_are_insects.
+
+# VDTRatingsRL2 95 a_t_low
+All_insects_are_fleas.
+
+# VDTRatingsRL2 95 a_f_low
+All_fleas_are_tools.
+
+# VDTRatingsRL2 96 s_u1_low
+Some_tortoises_are_reptiles.
+
+# VDTRatingsRL2 96 s_u2_low
+Some_tortoises_are_reptiles.
+
+# VDTRatingsRL2 96 s_u3_low
+Some_tortoises_are_reptiles.
+
+# VDTRatingsRL2 96 s_u4_low
+Some_tortoises_are_reptiles.
+
+# VDTRatingsRL2 96 s_u5_low
+Some_tortoises_are_reptiles.
+
+# VDTRatingsRL2 96 s_t_low
+Some_reptiles_are_tortoises.
+
+# VDTRatingsRL2 96 s_f_low
+Some_tortoises_are_dogs.
+
+# VDTRatingsRL2 96 a_u_low
+All_tortoises_are_reptiles.
+
+# VDTRatingsRL2 96 a_t_low
+All_reptiles_are_tortoises.
+
+# VDTRatingsRL2 96 a_f_low
+All_tortoises_are_dogs.
+
+# VDTRatingsRL2 97 s_u1_low
+Some_roses_are_flowers.
+
+# VDTRatingsRL2 97 s_u2_low
+Some_roses_are_flowers.
+
+# VDTRatingsRL2 97 s_u3_low
+Some_roses_are_flowers.
+
+# VDTRatingsRL2 97 s_u4_low
+Some_roses_are_flowers.
+
+# VDTRatingsRL2 97 s_u5_low
+Some_roses_are_flowers.
+
+# VDTRatingsRL2 97 s_t_low
+Some_flowers_are_roses.
+
+# VDTRatingsRL2 97 s_f_low
+Some_roses_are_reptiles.
+
+# VDTRatingsRL2 97 a_u_low
+All_roses_are_flowers.
+
+# VDTRatingsRL2 97 a_t_low
+All_flowers_are_roses.
+
+# VDTRatingsRL2 97 a_f_low
+All_roses_are_reptiles.
+
+# VDTRatingsRL2 98 s_u1_low
+Some_orchids_are_flowers.
+
+# VDTRatingsRL2 98 s_u2_low
+Some_orchids_are_flowers.
+
+# VDTRatingsRL2 98 s_u3_low
+Some_orchids_are_flowers.
+
+# VDTRatingsRL2 98 s_u4_low
+Some_orchids_are_flowers.
+
+# VDTRatingsRL2 98 s_u5_low
+Some_orchids_are_flowers.
+
+# VDTRatingsRL2 98 s_t_low
+Some_flowers_are_orchids.
+
+# VDTRatingsRL2 98 s_f_low
+Some_orchids_are_dogs.
+
+# VDTRatingsRL2 98 a_u_low
+All_orchids_are_flowers.
+
+# VDTRatingsRL2 98 a_t_low
+All_flowers_are_orchids.
+
+# VDTRatingsRL2 98 a_f_low
+All_orchids_are_dogs.
+
+# VDTRatingsRL2 99 s_u1_low
+Some_pines_are_trees.
+
+# VDTRatingsRL2 99 s_u2_low
+Some_pines_are_trees.
+
+# VDTRatingsRL2 99 s_u3_low
+Some_pines_are_trees.
+
+# VDTRatingsRL2 99 s_u4_low
+Some_pines_are_trees.
+
+# VDTRatingsRL2 99 s_u5_low
+Some_pines_are_trees.
+
+# VDTRatingsRL2 99 s_t_low
+Some_trees_are_pines.
+
+# VDTRatingsRL2 99 s_f_low
+Some_pines_are_mammals.
+
+# VDTRatingsRL2 99 a_u_low
+All_pines_are_trees.
+
+# VDTRatingsRL2 99 a_t_low
+All_trees_are_pines.
+
+# VDTRatingsRL2 99 a_f_low
+All_pines_are_mammals.
+
+# VDTRatingsRL2 100 s_u1_low
+Some_birches_are_trees.
+
+# VDTRatingsRL2 100 s_u2_low
+Some_birches_are_trees.
+
+# VDTRatingsRL2 100 s_u3_low
+Some_birches_are_trees.
+
+# VDTRatingsRL2 100 s_u4_low
+Some_birches_are_trees.
+
+# VDTRatingsRL2 100 s_u5_low
+Some_birches_are_trees.
+
+# VDTRatingsRL2 100 s_t_low
+Some_trees_are_birches.
+
+# VDTRatingsRL2 100 s_f_low
+Some_birches_are_insects.
+
+# VDTRatingsRL2 100 a_u_low
+All_birches_are_trees.
+
+# VDTRatingsRL2 100 a_t_low
+All_trees_are_birches.
+
+# VDTRatingsRL2 100 a_f_low
+All_birches_are_insects.
+
+# VDTRatingsRL2 101 s_u1_low
+Some_sparrows_are_birds.
+
+# VDTRatingsRL2 101 s_u2_low
+Some_sparrows_are_birds.
+
+# VDTRatingsRL2 101 s_u3_low
+Some_sparrows_are_birds.
+
+# VDTRatingsRL2 101 s_u4_low
+Some_sparrows_are_birds.
+
+# VDTRatingsRL2 101 s_u5_low
+Some_sparrows_are_birds.
+
+# VDTRatingsRL2 101 s_t_low
+Some_birds_are_sparrows.
+
+# VDTRatingsRL2 101 s_f_low
+Some_sparrows_are_reptiles.
+
+# VDTRatingsRL2 101 a_u_low
+All_sparrows_are_birds.
+
+# VDTRatingsRL2 101 a_t_low
+All_birds_are_sparrows.
+
+# VDTRatingsRL2 101 a_f_low
+All_sparrows_are_reptiles.
+
+# VDTRatingsRL2 102 s_u1_low
+Some_mangoes_are_fruit.
+
+# VDTRatingsRL2 102 s_u2_low
+Some_mangoes_are_fruit.
+
+# VDTRatingsRL2 102 s_u3_low
+Some_mangoes_are_fruit.
+
+# VDTRatingsRL2 102 s_u4_low
+Some_mangoes_are_fruit.
+
+# VDTRatingsRL2 102 s_u5_low
+Some_mangoes_are_fruit.
+
+# VDTRatingsRL2 102 s_t_low
+Some_fruit_are_mangoes.
+
+# VDTRatingsRL2 102 s_f_low
+Some_mangoes_are_reptiles.
+
+# VDTRatingsRL2 102 a_u_low
+All_mangoes_are_fruit.
+
+# VDTRatingsRL2 102 a_t_low
+All_fruit_are_mangoes.
+
+# VDTRatingsRL2 102 a_f_low
+All_mangoes_are_reptiles.
+
+# VDTRatingsRL2 103 s_u1_low
+Some_rabbits_are_mammals.
+
+# VDTRatingsRL2 103 s_u2_low
+Some_rabbits_are_mammals.
+
+# VDTRatingsRL2 103 s_u3_low
+Some_rabbits_are_mammals.
+
+# VDTRatingsRL2 103 s_u4_low
+Some_rabbits_are_mammals.
+
+# VDTRatingsRL2 103 s_u5_low
+Some_rabbits_are_mammals.
+
+# VDTRatingsRL2 103 s_t_low
+Some_mammals_are_rabbits.
+
+# VDTRatingsRL2 103 s_f_low
+Some_rabbits_are_tools.
+
+# VDTRatingsRL2 103 a_u_low
+All_rabbits_are_mammals.
+
+# VDTRatingsRL2 103 a_t_low
+All_mammals_are_rabbits.
+
+# VDTRatingsRL2 103 a_f_low
+All_rabbits_are_tools.
+
+# VDTRatingsRL2 104 s_u1_low
+Some_carp_are_fish.
+
+# VDTRatingsRL2 104 s_u2_low
+Some_carp_are_fish.
+
+# VDTRatingsRL2 104 s_u3_low
+Some_carp_are_fish.
+
+# VDTRatingsRL2 104 s_u4_low
+Some_carp_are_fish.
+
+# VDTRatingsRL2 104 s_u5_low
+Some_carp_are_fish.
+
+# VDTRatingsRL2 104 s_t_low
+Some_fish_are_carp.
+
+# VDTRatingsRL2 104 s_f_low
+Some_carp_are_reptiles.
+
+# VDTRatingsRL2 104 a_u_low
+All_carp_are_fish.
+
+# VDTRatingsRL2 104 a_t_low
+All_fish_are_carp.
+
+# VDTRatingsRL2 104 a_f_low
+All_carp_are_reptiles.
+
+# VDTRatingsRL2 105 s_u1_low
+Some_oranges_are_fruit.
+
+# VDTRatingsRL2 105 s_u2_low
+Some_oranges_are_fruit.
+
+# VDTRatingsRL2 105 s_u3_low
+Some_oranges_are_fruit.
+
+# VDTRatingsRL2 105 s_u4_low
+Some_oranges_are_fruit.
+
+# VDTRatingsRL2 105 s_u5_low
+Some_oranges_are_fruit.
+
+# VDTRatingsRL2 105 s_t_low
+Some_fruit_are_oranges.
+
+# VDTRatingsRL2 105 s_f_low
+Some_oranges_are_flowers.
+
+# VDTRatingsRL2 105 a_u_low
+All_oranges_are_fruit.
+
+# VDTRatingsRL2 105 a_t_low
+All_fruit_are_oranges.
+
+# VDTRatingsRL2 105 a_f_low
+All_oranges_are_flowers.
+
+# VDTRatingsRL2 106 s_u1_low
+Some_elms_are_trees.
+
+# VDTRatingsRL2 106 s_u2_low
+Some_elms_are_trees.
+
+# VDTRatingsRL2 106 s_u3_low
+Some_elms_are_trees.
+
+# VDTRatingsRL2 106 s_u4_low
+Some_elms_are_trees.
+
+# VDTRatingsRL2 106 s_u5_low
+Some_elms_are_trees.
+
+# VDTRatingsRL2 106 s_t_low
+Some_trees_are_elms.
+
+# VDTRatingsRL2 106 s_f_low
+Some_elms_are_fish.
+
+# VDTRatingsRL2 106 a_u_low
+All_elms_are_trees.
+
+# VDTRatingsRL2 106 a_t_low
+All_trees_are_elms.
+
+# VDTRatingsRL2 106 a_f_low
+All_elms_are_fish.
+
+# VDTRatingsRL2 107 s_u1_low
+Some_petunias_are_flowers.
+
+# VDTRatingsRL2 107 s_u2_low
+Some_petunias_are_flowers.
+
+# VDTRatingsRL2 107 s_u3_low
+Some_petunias_are_flowers.
+
+# VDTRatingsRL2 107 s_u4_low
+Some_petunias_are_flowers.
+
+# VDTRatingsRL2 107 s_u5_low
+Some_petunias_are_flowers.
+
+# VDTRatingsRL2 107 s_t_low
+Some_flowers_are_petunias.
+
+# VDTRatingsRL2 107 s_f_low
+Some_petunias_are_fish.
+
+# VDTRatingsRL2 107 a_u_low
+All_petunias_are_flowers.
+
+# VDTRatingsRL2 107 a_t_low
+All_flowers_are_petunias.
+
+# VDTRatingsRL2 107 a_f_low
+All_petunias_are_fish.
+
+# VDTRatingsRL2 108 s_u1_low
+Some_rottweilers_are_dogs.
+
+# VDTRatingsRL2 108 s_u2_low
+Some_rottweilers_are_dogs.
+
+# VDTRatingsRL2 108 s_u3_low
+Some_rottweilers_are_dogs.
+
+# VDTRatingsRL2 108 s_u4_low
+Some_rottweilers_are_dogs.
+
+# VDTRatingsRL2 108 s_u5_low
+Some_rottweilers_are_dogs.
+
+# VDTRatingsRL2 108 s_t_low
+Some_dogs_are_rottweilers.
+
+# VDTRatingsRL2 108 s_f_low
+Some_rottweilers_are_tools.
+
+# VDTRatingsRL2 108 a_u_low
+All_rottweilers_are_dogs.
+
+# VDTRatingsRL2 108 a_t_low
+All_dogs_are_rottweilers.
+
+# VDTRatingsRL2 108 a_f_low
+All_rottweilers_are_tools.
+
+# VDTRatingsRL2 109 s_u1_low
+Some_cows_are_mammals.
+
+# VDTRatingsRL2 109 s_u2_low
+Some_cows_are_mammals.
+
+# VDTRatingsRL2 109 s_u3_low
+Some_cows_are_mammals.
+
+# VDTRatingsRL2 109 s_u4_low
+Some_cows_are_mammals.
+
+# VDTRatingsRL2 109 s_u5_low
+Some_cows_are_mammals.
+
+# VDTRatingsRL2 109 s_t_low
+Some_mammals_are_cows.
+
+# VDTRatingsRL2 109 s_f_low
+Some_cows_are_birds.
+
+# VDTRatingsRL2 109 a_u_low
+All_cows_are_mammals.
+
+# VDTRatingsRL2 109 a_t_low
+All_mammals_are_cows.
+
+# VDTRatingsRL2 109 a_f_low
+All_cows_are_birds.
+
+# VDTRatingsRL2 110 s_u1_low
+Some_saws_are_tools.
+
+# VDTRatingsRL2 110 s_u2_low
+Some_saws_are_tools.
+
+# VDTRatingsRL2 110 s_u3_low
+Some_saws_are_tools.
+
+# VDTRatingsRL2 110 s_u4_low
+Some_saws_are_tools.
+
+# VDTRatingsRL2 110 s_u5_low
+Some_saws_are_tools.
+
+# VDTRatingsRL2 110 s_t_low
+Some_tools_are_saws.
+
+# VDTRatingsRL2 110 s_f_low
+Some_saws_are_fish.
+
+# VDTRatingsRL2 110 a_u_low
+All_saws_are_tools.
+
+# VDTRatingsRL2 110 a_t_low
+All_tools_are_saws.
+
+# VDTRatingsRL2 110 a_f_low
+All_saws_are_fish.
+
+# VDTRatingsRL2 111 s_u1_low
+Some_rattlesnakes_are_reptiles.
+
+# VDTRatingsRL2 111 s_u2_low
+Some_rattlesnakes_are_reptiles.
+
+# VDTRatingsRL2 111 s_u3_low
+Some_rattlesnakes_are_reptiles.
+
+# VDTRatingsRL2 111 s_u4_low
+Some_rattlesnakes_are_reptiles.
+
+# VDTRatingsRL2 111 s_u5_low
+Some_rattlesnakes_are_reptiles.
+
+# VDTRatingsRL2 111 s_t_low
+Some_reptiles_are_rattlesnakes.
+
+# VDTRatingsRL2 111 s_f_low
+Some_rattlesnakes_are_tools.
+
+# VDTRatingsRL2 111 a_u_low
+All_rattlesnakes_are_reptiles.
+
+# VDTRatingsRL2 111 a_t_low
+All_reptiles_are_rattlesnakes.
+
+# VDTRatingsRL2 111 a_f_low
+All_rattlesnakes_are_tools.
+
+# VDTRatingsRL2 112 s_u1_low
+Some_dandelions_are_flowers.
+
+# VDTRatingsRL2 112 s_u2_low
+Some_dandelions_are_flowers.
+
+# VDTRatingsRL2 112 s_u3_low
+Some_dandelions_are_flowers.
+
+# VDTRatingsRL2 112 s_u4_low
+Some_dandelions_are_flowers.
+
+# VDTRatingsRL2 112 s_u5_low
+Some_dandelions_are_flowers.
+
+# VDTRatingsRL2 112 s_t_low
+Some_flowers_are_dandelions.
+
+# VDTRatingsRL2 112 s_f_low
+Some_dandelions_are_trees.
+
+# VDTRatingsRL2 112 a_u_low
+All_dandelions_are_flowers.
+
+# VDTRatingsRL2 112 a_t_low
+All_flowers_are_dandelions.
+
+# VDTRatingsRL2 112 a_f_low
+All_dandelions_are_trees.
+
+# VDTRatingsRL2 113 s_u1_low
+Some_beeches_are_trees.
+
+# VDTRatingsRL2 113 s_u2_low
+Some_beeches_are_trees.
+
+# VDTRatingsRL2 113 s_u3_low
+Some_beeches_are_trees.
+
+# VDTRatingsRL2 113 s_u4_low
+Some_beeches_are_trees.
+
+# VDTRatingsRL2 113 s_u5_low
+Some_beeches_are_trees.
+
+# VDTRatingsRL2 113 s_t_low
+Some_trees_are_beeches.
+
+# VDTRatingsRL2 113 s_f_low
+Some_beeches_are_fish.
+
+# VDTRatingsRL2 113 a_u_low
+All_beeches_are_trees.
+
+# VDTRatingsRL2 113 a_t_low
+All_trees_are_beeches.
+
+# VDTRatingsRL2 113 a_f_low
+All_beeches_are_fish.
+
+# VDTRatingsRL2 114 s_u1_low
+Some_poodles_are_dogs.
+
+# VDTRatingsRL2 114 s_u2_low
+Some_poodles_are_dogs.
+
+# VDTRatingsRL2 114 s_u3_low
+Some_poodles_are_dogs.
+
+# VDTRatingsRL2 114 s_u4_low
+Some_poodles_are_dogs.
+
+# VDTRatingsRL2 114 s_u5_low
+Some_poodles_are_dogs.
+
+# VDTRatingsRL2 114 s_t_low
+Some_dogs_are_poodles.
+
+# VDTRatingsRL2 114 s_f_low
+Some_poodles_are_trees.
+
+# VDTRatingsRL2 114 a_u_low
+All_poodles_are_dogs.
+
+# VDTRatingsRL2 114 a_t_low
+All_dogs_are_poodles.
+
+# VDTRatingsRL2 114 a_f_low
+All_poodles_are_trees.
+
+# VDTRatingsRL2 115 s_u1_low
+Some_lilies_are_flowers.
+
+# VDTRatingsRL2 115 s_u2_low
+Some_lilies_are_flowers.
+
+# VDTRatingsRL2 115 s_u3_low
+Some_lilies_are_flowers.
+
+# VDTRatingsRL2 115 s_u4_low
+Some_lilies_are_flowers.
+
+# VDTRatingsRL2 115 s_u5_low
+Some_lilies_are_flowers.
+
+# VDTRatingsRL2 115 s_t_low
+Some_flowers_are_lilies.
+
+# VDTRatingsRL2 115 s_f_low
+Some_lilies_are_trees.
+
+# VDTRatingsRL2 115 a_u_low
+All_lilies_are_flowers.
+
+# VDTRatingsRL2 115 a_t_low
+All_flowers_are_lilies.
+
+# VDTRatingsRL2 115 a_f_low
+All_lilies_are_trees.
+
+# VDTRatingsRL2 116 s_u1_low
+Some_goats_are_mammals.
+
+# VDTRatingsRL2 116 s_u2_low
+Some_goats_are_mammals.
+
+# VDTRatingsRL2 116 s_u3_low
+Some_goats_are_mammals.
+
+# VDTRatingsRL2 116 s_u4_low
+Some_goats_are_mammals.
+
+# VDTRatingsRL2 116 s_u5_low
+Some_goats_are_mammals.
+
+# VDTRatingsRL2 116 s_t_low
+Some_mammals_are_goats.
+
+# VDTRatingsRL2 116 s_f_low
+Some_goats_are_tools.
+
+# VDTRatingsRL2 116 a_u_low
+All_goats_are_mammals.
+
+# VDTRatingsRL2 116 a_t_low
+All_mammals_are_goats.
+
+# VDTRatingsRL2 116 a_f_low
+All_goats_are_tools.
+
+# VDTRatingsRL2 117 s_u1_low
+Some_robins_are_birds.
+
+# VDTRatingsRL2 117 s_u2_low
+Some_robins_are_birds.
+
+# VDTRatingsRL2 117 s_u3_low
+Some_robins_are_birds.
+
+# VDTRatingsRL2 117 s_u4_low
+Some_robins_are_birds.
+
+# VDTRatingsRL2 117 s_u5_low
+Some_robins_are_birds.
+
+# VDTRatingsRL2 117 s_t_low
+Some_birds_are_robins.
+
+# VDTRatingsRL2 117 s_f_low
+Some_robins_are_dogs.
+
+# VDTRatingsRL2 117 a_u_low
+All_robins_are_birds.
+
+# VDTRatingsRL2 117 a_t_low
+All_birds_are_robins.
+
+# VDTRatingsRL2 117 a_f_low
+All_robins_are_dogs.
+
+# VDTRatingsRL2 118 s_u1_low
+Some_tulips_are_flowers.
+
+# VDTRatingsRL2 118 s_u2_low
+Some_tulips_are_flowers.
+
+# VDTRatingsRL2 118 s_u3_low
+Some_tulips_are_flowers.
+
+# VDTRatingsRL2 118 s_u4_low
+Some_tulips_are_flowers.
+
+# VDTRatingsRL2 118 s_u5_low
+Some_tulips_are_flowers.
+
+# VDTRatingsRL2 118 s_t_low
+Some_flowers_are_tulips.
+
+# VDTRatingsRL2 118 s_f_low
+Some_tulips_are_birds.
+
+# VDTRatingsRL2 118 a_u_low
+All_tulips_are_flowers.
+
+# VDTRatingsRL2 118 a_t_low
+All_flowers_are_tulips.
+
+# VDTRatingsRL2 118 a_f_low
+All_tulips_are_birds.
+
+# VDTRatingsRL2 119 s_u1_low
+Some_chainsaws_are_tools.
+
+# VDTRatingsRL2 119 s_u2_low
+Some_chainsaws_are_tools.
+
+# VDTRatingsRL2 119 s_u3_low
+Some_chainsaws_are_tools.
+
+# VDTRatingsRL2 119 s_u4_low
+Some_chainsaws_are_tools.
+
+# VDTRatingsRL2 119 s_u5_low
+Some_chainsaws_are_tools.
+
+# VDTRatingsRL2 119 s_t_low
+Some_tools_are_chainsaws.
+
+# VDTRatingsRL2 119 s_f_low
+Some_chainsaws_are_birds.
+
+# VDTRatingsRL2 119 a_u_low
+All_chainsaws_are_tools.
+
+# VDTRatingsRL2 119 a_t_low
+All_tools_are_chainsaws.
+
+# VDTRatingsRL2 119 a_f_low
+All_chainsaws_are_birds.
+
+# VDTRatingsRL2 120 s_u1_low
+Some_crowbars_are_tools.
+
+# VDTRatingsRL2 120 s_u2_low
+Some_crowbars_are_tools.
+
+# VDTRatingsRL2 120 s_u3_low
+Some_crowbars_are_tools.
+
+# VDTRatingsRL2 120 s_u4_low
+Some_crowbars_are_tools.
+
+# VDTRatingsRL2 120 s_u5_low
+Some_crowbars_are_tools.
+
+# VDTRatingsRL2 120 s_t_low
+Some_tools_are_crowbars.
+
+# VDTRatingsRL2 120 s_f_low
+Some_crowbars_are_birds.
+
+# VDTRatingsRL2 120 a_u_low
+All_crowbars_are_tools.
+
+# VDTRatingsRL2 120 a_t_low
+All_tools_are_crowbars.
+
+# VDTRatingsRL2 120 a_f_low
+All_crowbars_are_birds.
+
