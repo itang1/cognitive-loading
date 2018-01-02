@@ -5,9 +5,9 @@ var user_input_tile_ids=[];
 var grid_size=25;
 var grid_fill='blue';
 
-var right_answer='Passed';
+var right_answer='Right';
 var almost_answer='Almost';
-var wrong_answer='Not quite';
+var wrong_answer='Wrong';
 var num_correct=0;
 var num_total=0;
 
@@ -99,39 +99,55 @@ function reset_memory_board(){
 
 /*
 Checks if user input is right, almost, or wrong
-Increments num_correct appropriately
+Increments num_correct and num_total appropriately
 */
 function verify_result() {
-	var index, valuex, result=1;
+	var index, tile_value, num_wrong=0;
 
+	// count how many of user_input are incorrect
 	for (var i = 0; i < 6; i++) {
-		valuex = user_input_tile_ids[i];
-
-		//	index = -1;
-		index = generated_tile_ids.indexOf(valuex);
+		tile_value = user_input_tile_ids[i];
+		index = generated_tile_ids.indexOf(tile_value);
 		if (index < 0) {
-			result = 0;
-			break;
+			num_wrong += 1
 		}
 	}
-	if (result > 0) {
+
+	// update scores according to num_wrong
+	// 1 point for correct, 0.5 point for almost, 0 point for wrong
+	if (num_wrong == 0) {
 		alert(right_answer);
+		change_score(1)
+	} else if (num_wrong == 1) {
+		alert(almost_answer);
+		change_score(0.5)
 	} else {
 		alert(wrong_answer);
+		change_score(0);
 	}
+
+	// reset the board
 	setTimeout(reset_memory_board, 200);
+}
+
+/*
+Increment the num_correct and num_total according to round score
+1 point for correct, 0.5 point for almost, 0 point for wrong
+*/
+function change_score(round_score) {
+	num_correct += round_score
+	num_total += 1
 }
 
 /*
 Toggles the tile
 */
-function flip(tile){
+function flip(tile) {
 	var tile_background = tile.style.background;
 	if (tile_background == grid_fill) {
-
 		var index = user_input_tile_ids.indexOf(tile.id);
 
-		if (index >=0 ) {
+		if (index >= 0 ) {
 			user_input_tile_ids.splice(index, 1);
 			tile_flipped -=1;
 			tile.style.background = 'url(tile_bg.jpg) no-repeat';
