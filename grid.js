@@ -8,7 +8,7 @@ var grid_fill='blue';
 var right_answer='Right';
 var almost_answer='Almost';
 var wrong_answer='Wrong';
-var num_correct=0;
+var num_correct=0; //score
 var num_total=0;
 
 var high_loading=6;
@@ -19,6 +19,8 @@ var reset_delay=2000;
 
 /*
 Randomly generates the to-be-remembered pattern
+TODO: Only choose cells that haven't been chosen before and are neighbors of
+ ones that have been chosen. The first cell is chosen randomly.
 */
 function generate_random_pattern() {
 	var i = grid_size,j;
@@ -104,27 +106,39 @@ Increments num_correct and num_total appropriately
 function verify_result() {
 	var index, tile_value, num_wrong=0;
 
-	// count how many of user_input are incorrect
-	for (var i = 0; i < 6; i++) {
+	// count how many of user_input are hits, misses, false alarms
+	var hits=0, false_alarms=0, misses=0;
+	for (var i = 0; i < user_input_tile_ids.length; i++) {
 		tile_value = user_input_tile_ids[i];
+		// alert(tile_value);
 		index = generated_tile_ids.indexOf(tile_value);
+
 		if (index < 0) {
-			num_wrong += 1
+			// alert("false_alarms");
+			false_alarms += 1;
+		} else {
+			// alert("hit");
+			hits += 1;
 		}
 	}
+	misses = generated_tile_ids.length - hits
 
 	// update scores according to num_wrong
 	// 1 point for correct, 0.5 point for almost, 0 point for wrong
+	// num_wrong = misses + false_alarms; //FIXME which scoring scheme--?
+	num_wrong = Math.max(misses, false_alarms);
 	if (num_wrong == 0) {
-		alert(right_answer);
-		change_score(1)
+		verdict = right_answer;
+		change_score(1);
 	} else if (num_wrong == 1) {
-		alert(almost_answer);
-		change_score(0.5)
+		verdict = almost_answer;
+		change_score(0.5);
 	} else {
-		alert(wrong_answer);
+		verdict = wrong_answer;
 		change_score(0);
 	}
+	alert(verdict + "\nscore: " + num_correct + "\nnum_total: " + num_total);
+
 
 	// reset the board
 	setTimeout(reset_memory_board, 200);
@@ -157,7 +171,7 @@ function flip(tile) {
 		user_input_tile_ids.push(tile.id);
 		tile.style.background = grid_fill;
 	}
-	if (tile_flipped > 5) {
-		// verify_result();
-	}
+	// if (tile_flipped > 5) {
+	// 	verify_result();
+	// }
 }
