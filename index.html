@@ -5,11 +5,18 @@
 
   <title>Grid Task</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 
 <body>
+
+  <input type="button" id="Start_Test"  value="Start Test" onclick ="start_test()">
+  <input type="button" id="Verify_Test"  value="Submit" onclick ="verify_result()">
+  <br><br>
+  <input type="button" id="Exit" value="Exit"  onclick ="test_done()">
+  <input type="button" id="debug" value="debug"  onclick ="radio_checkbox_debug()">
+
+  <script type="text/javascript" src="grid.js"></script>
 
   <div id="board"></div>
   <script> newBoard(); </script>
@@ -17,7 +24,6 @@
   <input type="button" class="button" value="Submit" onclick ="verify_result()">
 
   <!-- <script type="text/javascript" src="jquery.js"></script> -->
-  <script type="text/javascript" src="grid.js"></script>
 
 </body>
 </html>
