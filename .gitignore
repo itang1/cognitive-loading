@@ -10,8 +10,12 @@ JackieLane_Thesis_final.pdf
 Linger/
 
 # Sample testing files
+grid/
 testgrid2.html
 testimg1.gif
 memory-game.js
 testgrid2 click tile only.html
-
+db_first.php
+db_first_client.html
+debug.log
+testgrid4_and_db.html
