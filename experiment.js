@@ -1,10 +1,20 @@
 /*
-experiment parameters
+Preferences
 */
-//TODO: slider response?
+// The maximum value of the rating scale:   TODO: slider response?
 var number_scale = ['1', '2', '3', '4', '5', '6', '7'];
+// The message presented along with ratings:
+var rating_message = 'How likely is it for a knowledgeable speaker to utter this sentence?';
+// The label at the low end of the rating scale:
+var rating_easy = 'Very unlikely';
+// The label at the high end of the rating scale:
+var rating_hard = 'Very likely';
+// The time allowed to respond a rating
 var trial_duration = 2000;
+
+
 var timeline = [];
+
 var here_we_go = {
   type: 'html-keyboard-response',
   stimulus: 'Here we go...',
@@ -13,7 +23,7 @@ var here_we_go = {
 };
 
 /*
-introduction and instructions
+Instructions
 */
 var introduction = {
   type: 'instructions',
@@ -29,7 +39,7 @@ var introduction = {
 timeline.push(introduction);
 
 /*
-practice trials
+Practice trials
 */
 var practice_stimuli = [
   'Some schools are books.',
@@ -76,7 +86,11 @@ timeline.push(end_practice);
 timeline.push(here_we_go);
 
 /*
-conclusion
+Real trials
+*/
+
+/*
+Conclusion
 */
 var conclusion = {
   type: 'html-keyboard-response',
