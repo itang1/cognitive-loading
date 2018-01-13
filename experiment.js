@@ -1,4 +1,7 @@
-// experiment parameters
+/*
+experiment parameters
+*/
+//TODO: slider response?
 var number_scale = ['1', '2', '3', '4', '5', '6', '7'];
 var trial_duration = 2000;
 var timeline = [];
@@ -9,7 +12,9 @@ var here_we_go = {
   trial_duration: 1000,
 };
 
-// introduction and instructions
+/*
+introduction and instructions
+*/
 var introduction = {
   type: 'instructions',
   pages: [
@@ -23,7 +28,9 @@ var introduction = {
 };
 timeline.push(introduction);
 
-// practice trials
+/*
+practice trials
+*/
 var practice_stimuli = [
   'Some schools are books.',
   'All tables are furniture.',
@@ -59,7 +66,6 @@ for (i = 0; i < practice_stimuli.length; i++) {
   })
 };
 
-
 var end_practice = {
   type: 'instructions',
   pages: [
@@ -69,7 +75,20 @@ var end_practice = {
 timeline.push(end_practice);
 timeline.push(here_we_go);
 
-// run the experiment
+/*
+conclusion
+*/
+var conclusion = {
+  type: 'html-keyboard-response',
+  stimulus: 'All done!<br/><br/>Thanks for participating.<br/><br/>Click any key to exit the program.',
+  choices: jsPsych.ALL_KEYS,
+};
+timeline.push(conclusion);
+
+
+/*
+run the experiment
+*/
 jsPsych.init({
   timeline: timeline,
   // experiment_structure: timeline,
