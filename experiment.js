@@ -54,10 +54,12 @@ var practice_stimuli_debrief = [
   'This is a reasonable thing for a knowledgable speaker to say, so you should give this statement a rating toward the high end of the scale.',
   'You would probably give this statement a rating toward the low end of the scale.',
   'You would probably give this statement a rating toward the low end of the scale.',
-  'You would probably give this statement a rating toward the high end of the scale.'
+  'You would probably give this statement a rating toward the high end of the scale.',
 ];
 
-//TODO: test that practice_stimuli and practice_1_debrief are of the same length
+if (practice_stimuli.length != practice_stimuli_debrief.length) {
+  console.error('Inconsistent number of practice_stimuli and practice_stimuli_debrief.');
+}
 
 for (i = 0; i < practice_stimuli.length; i++) {
   timeline.push({
@@ -91,6 +93,7 @@ Real trials
 
 /*
 Conclusion
+TODO: core.endExperiment()
 */
 var conclusion = {
   type: 'html-keyboard-response',
