@@ -22,6 +22,13 @@ var here_we_go = {
   trial_duration: 1000,
 };
 
+var testing_filler = {
+  type: 'html-keyboard-response',
+  stimulus: 'Testing filler...',
+  choices: jsPsych.NO_KEYS,
+  trial_duration: 500,
+};
+
 /*
 Instructions
 */
@@ -36,60 +43,77 @@ var introduction = {
   ],
   show_clickable_nav: false
 };
-timeline.push(introduction);
+// timeline.push(introduction);
 
 /*
 Practice trials
 */
-var practice_stimuli = [
-  'Some schools are books.',
-  'All tables are furniture.',
-  'Some toasters are mammals.',
-  'All vegetables are carrots.',
-  'Some jewelry are rings.',
-];
-
-var practice_stimuli_debrief = [
-  'It is unlikely that a knowledgeable speaker would say this, so you should give this statement a rating toward the low end of the scale.',
-  'This is a reasonable thing for a knowledgable speaker to say, so you should give this statement a rating toward the high end of the scale.',
-  'You would probably give this statement a rating toward the low end of the scale.',
-  'You would probably give this statement a rating toward the low end of the scale.',
-  'You would probably give this statement a rating toward the high end of the scale.',
-];
-
-if (practice_stimuli.length != practice_stimuli_debrief.length) {
-  console.error('Inconsistent number of practice_stimuli and practice_stimuli_debrief.');
-}
-
-for (i = 0; i < practice_stimuli.length; i++) {
-  timeline.push({
-    type: 'html-keyboard-response',
-    stimulus: practice_stimuli[i],
-    choices: number_scale,
-    prompt: 'On a scale of 1-7, how natural it would be for a knowledgeable person to utter that statement?',
-    trial_duration: trial_duration, //TODO: set trial duration?
-  })
-  //TODO: practices 3, 4, 5 have the grid task
-  // instruct {For the remaining items, you will see a grid pattern, then you judge the sentence, and then you will be asked to recall the grid pattern you saw.}
-  // command { Here we go...}
-  timeline.push({
-    type: 'instructions',
-    pages: [practice_stimuli_debrief[i]],
-  })
-};
-
-var end_practice = {
-  type: 'instructions',
-  pages: [
-    'That\'s it for practice.<br/><br/>If you have any questions, ask the experimenter now.<br/><br/>When you are ready to continue, let the experimenter know.',
-  ]
-};
-timeline.push(end_practice);
+// var practice_stimuli = [
+//   'Some schools are books.',
+//   'All tables are furniture.',
+//   'Some toasters are mammals.',
+//   'All vegetables are carrots.',
+//   'Some jewelry are rings.',
+// ];
+//
+// var practice_stimuli_debrief = [
+//   'It is unlikely that a knowledgeable speaker would say this, so you should give this statement a rating toward the low end of the scale.',
+//   'This is a reasonable thing for a knowledgable speaker to say, so you should give this statement a rating toward the high end of the scale.',
+//   'You would probably give this statement a rating toward the low end of the scale.',
+//   'You would probably give this statement a rating toward the low end of the scale.',
+//   'You would probably give this statement a rating toward the high end of the scale.',
+// ];
+//
+// if (practice_stimuli.length != practice_stimuli_debrief.length) {
+//   console.error('Inconsistent number of practice_stimuli and practice_stimuli_debrief.');
+// }
+//
+// for (i = 0; i < practice_stimuli.length; i++) {
+//   timeline.push({
+//     type: 'html-keyboard-response',
+//     stimulus: practice_stimuli[i],
+//     choices: number_scale,
+//     prompt: '\nOn a scale of 1-7, how natural it would be for a knowledgeable person to utter that statement?',
+//     trial_duration: trial_duration, //TODO: set trial duration?
+//   })
+//   //TODO: practices 3, 4, 5 have the grid task
+//   // instruct {For the remaining items, you will see a grid pattern, then you judge the sentence, and then you will be asked to recall the grid pattern you saw.}
+//   // command { Here we go...}
+//   timeline.push({
+//     type: 'instructions',
+//     pages: [practice_stimuli_debrief[i]],
+//   })
+// };
+//
+// var end_practice = {
+//   type: 'instructions',
+//   pages: [
+//     'That\'s it for practice.<br/><br/>If you have any questions, ask the experimenter now.<br/><br/>When you are ready to continue, let the experimenter know.',
+//   ]
+// };
+// timeline.push(end_practice);
 timeline.push(here_we_go);
 
 /*
 Real trials
 */
+/*
+generate and flash a pattern
+sentence judgement
+user input pattern
+test the user input
+
+calculate and print score
+*/
+timeline.push(testing_filler);
+
+var trial2 = {
+    type: 'grid-task',
+    stimulus: 'slidie2...',
+    choices: jsPsych.NO_KEYS,
+    trial_duration: 10000,
+};
+timeline.push(trial2);
 
 /*
 Conclusion
@@ -113,4 +137,3 @@ jsPsych.init({
     jsPsych.data.displayData();
   }
 });
-
