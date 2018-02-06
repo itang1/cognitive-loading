@@ -6,7 +6,10 @@ div#board {
   padding:24px;
   margin:20px auto;
 }
+
+/* the tiles */
 div#board > div {
+  /* background-color: ; */
   background: ;
   border:#000 1px solid;
   width:31px;

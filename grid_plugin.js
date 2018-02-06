@@ -184,10 +184,9 @@ jsPsych.plugins['grid-task'] = (function() {
     */
     function flip(tile) {
       console.log("in flip");
-      var tile_background = tile.style.background;
       var ids = tile.id.slice(5);
       // to unclick
-      if (tile_background == grid_fill) {
+      if (tile.style.background == grid_fill) {
         var index = user_input_tile_ids.indexOf(ids);
 
         if (index >= 0 ) {
@@ -220,7 +219,7 @@ jsPsych.plugins['grid-task'] = (function() {
 
     	for(var i=0; i<25; i++) {
         // NOTE: do not flip here
-        	output += '<div id="tile_'+i+'" ></div>';
+        	output += '<div id="tile_'+i+'" class="tile"></div>';
     	}
     	document.getElementById('board').innerHTML = output;
       // document.getElementById ("tile_1").addEventListener("click", flip(this), false);
@@ -242,19 +241,29 @@ jsPsych.plugins['grid-task'] = (function() {
 
       console.log("generated random pattern");
 
+      // console.log("setting bg of all tiles to gray");
+      // for(var i=0; i<grid_size; i++) {
+      //   var tid = 'tile_' + i;
+      //   document.getElementById(tid).style.background;
+      // }
+
     	for(var i=0; i<6; i++) {
     		var ids = 'tile_'+ generated_tile_ids[i];
     		// var ids = generated_tile_ids[i];
-    		var tile_1 = document.getElementById(ids);
-    		tile_1.style.background = grid_fill;
+    		var tile = document.getElementById(ids);
+    //     Array.prototype.slice.call(document.getElementById(tile).attributes).forEach(function(item) {
+    // console.log(item.name + ': '+ item.value);})
+        // console.log("bg1: " + tile.style.background);
+    		tile.style.background = grid_fill;
+        // console.log("bg2: " + tile.style.background);
     	}
 
       console.log("colored in selected random tiles");
     	setTimeout(prepare_board_for_user_input, reset_delay);
     }
 
-    function test_done() {
     //	exit the html page
+    function test_done() {
     	document.getElementById("Start_Test").disabled = false;
      	document.getElementById("Verify_Test").disabled = false;
     	// document.getElementById("submit_db").disabled = false;
@@ -277,20 +286,27 @@ jsPsych.plugins['grid-task'] = (function() {
 
     	for (var i=0; i<grid_size; i++) {
     		// output += '<div id="tile_'+i+'" onclick="flip(this)"></div>';
-        output += '<div id="tile_'+i+'"></div>';
+        var result = 'tile_' + i;
+        // output += '<div id="tile_'+i+'"></div>';
+        output += '<div id="'+ result +'" class="tile"></div>';
     	}
 
+      // FIXME flip on click not working
     	document.getElementById('board').innerHTML = output;
-
-// FIXME flip on click not working
       for (var i=0; i<grid_size; i++) {
-        // output += '<div id="tile_'+i+'" onclick="flip(this)"></div>';
-        // output += '<div id="tile_'+i+'"></div>';
-        document.getElementById('tile_'+i+'').addEventListener("click", flip);
+        var result = 'tile_' + i;
+        // document.getElementById(result).style.background = 'red';
+        if (document.getElementById(result) == null) {
+          alert("tile getElement null: " + result);
+        } else if (document.getElementById(result) == 'undefined') {
+            alert("tile getElement undefined: " + result);
+          } else {
+              alert("tile getElement found?: " + result);
+            }
+        Array.prototype.slice.call(document.getElementById(result).attributes).forEach(function(item) {
+	console.log(item.name + ': '+ item.value);});
+        document.getElementById(result).addEventListener("click", flip(this));
       }
-      // document.getElementById('board').innerHTML = output;
-
-      // "div"+this.id
     }
 
     /*

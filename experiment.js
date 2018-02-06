@@ -48,26 +48,26 @@ var introduction = {
 /*
 Practice trials
 */
-// var practice_stimuli = [
-//   'Some schools are books.',
-//   'All tables are furniture.',
-//   'Some toasters are mammals.',
-//   'All vegetables are carrots.',
-//   'Some jewelry are rings.',
-// ];
-//
-// var practice_stimuli_debrief = [
-//   'It is unlikely that a knowledgeable speaker would say this, so you should give this statement a rating toward the low end of the scale.',
-//   'This is a reasonable thing for a knowledgable speaker to say, so you should give this statement a rating toward the high end of the scale.',
-//   'You would probably give this statement a rating toward the low end of the scale.',
-//   'You would probably give this statement a rating toward the low end of the scale.',
-//   'You would probably give this statement a rating toward the high end of the scale.',
-// ];
-//
-// if (practice_stimuli.length != practice_stimuli_debrief.length) {
-//   console.error('Inconsistent number of practice_stimuli and practice_stimuli_debrief.');
-// }
-//
+var practice_stimuli = [
+  'Some schools are books.',
+  'All tables are furniture.',
+  'Some toasters are mammals.',
+  'All vegetables are carrots.',
+  'Some jewelry are rings.',
+];
+
+var practice_stimuli_debrief = [
+  'It is unlikely that a knowledgeable speaker would say this, so you should give this statement a rating toward the low end of the scale.',
+  'This is a reasonable thing for a knowledgable speaker to say, so you should give this statement a rating toward the high end of the scale.',
+  'You would probably give this statement a rating toward the low end of the scale.',
+  'You would probably give this statement a rating toward the low end of the scale.',
+  'You would probably give this statement a rating toward the high end of the scale.',
+];
+
+if (practice_stimuli.length != practice_stimuli_debrief.length) {
+  console.error('Inconsistent number of practice_stimuli and practice_stimuli_debrief.');
+}
+
 // for (i = 0; i < practice_stimuli.length; i++) {
 //   timeline.push({
 //     type: 'html-keyboard-response',
@@ -84,13 +84,13 @@ Practice trials
 //     pages: [practice_stimuli_debrief[i]],
 //   })
 // };
-//
-// var end_practice = {
-//   type: 'instructions',
-//   pages: [
-//     'That\'s it for practice.<br/><br/>If you have any questions, ask the experimenter now.<br/><br/>When you are ready to continue, let the experimenter know.',
-//   ]
-// };
+
+var end_practice = {
+  type: 'instructions',
+  pages: [
+    'That\'s it for practice.<br/><br/>If you have any questions, ask the experimenter now.<br/><br/>When you are ready to continue, let the experimenter know.',
+  ]
+};
 // timeline.push(end_practice);
 timeline.push(here_we_go);
 
