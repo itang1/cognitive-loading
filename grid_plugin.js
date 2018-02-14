@@ -163,6 +163,11 @@ jsPsych.plugins['grid-task'] = (function() {
     Randomly generates the to-be-remembered pattern
     TODO: Only choose cells that haven't been chosen before and are neighbors of
      ones that have been chosen. The first cell is chosen randomly.
+     - we don't have to do that
+     - easy pattern- 3x3 grid,  make the pattern a straight line
+     - option: hard-code the original patterns, mirrors, and rotations (24 loads total)
+          see: xhp paper
+          we want to hard code / replicate the original patterns
     */
     function generate_random_pattern() {
     	var i = grid_size, j;
@@ -184,6 +189,8 @@ jsPsych.plugins['grid-task'] = (function() {
     */
     function flip(tile) {
       console.log("in flip");
+      // console.log(tile);
+      // console.log(tile.id);
       var ids = tile.id.slice(5);
       // to unclick
       if (tile.style.background == grid_fill) {
@@ -217,7 +224,7 @@ jsPsych.plugins['grid-task'] = (function() {
     	document.getElementById("Verify_Test").disabled = true;
     	// document.getElementById("submit_db").disabled = true;
 
-    	for(var i=0; i<25; i++) {
+    	for(var i=0; i<grid_size; i++) {
         // NOTE: do not flip here
         	output += '<div id="tile_'+i+'" class="tile"></div>';
     	}
@@ -296,16 +303,17 @@ jsPsych.plugins['grid-task'] = (function() {
       for (var i=0; i<grid_size; i++) {
         var result = 'tile_' + i;
         // document.getElementById(result).style.background = 'red';
-        if (document.getElementById(result) == null) {
-          alert("tile getElement null: " + result);
-        } else if (document.getElementById(result) == 'undefined') {
-            alert("tile getElement undefined: " + result);
-          } else {
-              alert("tile getElement found?: " + result);
-            }
-        Array.prototype.slice.call(document.getElementById(result).attributes).forEach(function(item) {
-	console.log(item.name + ': '+ item.value);});
-        document.getElementById(result).addEventListener("click", flip(this));
+  //       if (document.getElementById(result) == null) {
+  //         alert("tile getElement null: " + result);
+  //       } else if (document.getElementById(result) == 'undefined') {
+  //           alert("tile getElement undefined: " + result);
+  //         } else {
+  //             alert("tile getElement found?: " + result);
+  //           }
+  //       Array.prototype.slice.call(document.getElementById(result).attributes).forEach(function(item) {
+	// console.log(item.name + ': '+ item.value);});
+        var t = document.getElementById(result);
+        t.addEventListener("click", flip(t));
       }
     }
 
@@ -350,9 +358,12 @@ jsPsych.plugins['grid-task'] = (function() {
     	}
     	misses = generated_tile_ids.length - hits
 
+      // TODO: keep track of hits/misses/falsealarms which is different
+
     	// update scores according to num_wrong
     	// 1 point for correct, 0.5 point for almost, 0 point for wrong
     	// num_wrong = misses + false_alarms; //FIXME scoring scheme--?
+      // no need to keep track of response
     	num_wrong = Math.max(misses, false_alarms);
     	if (num_wrong == 0) {
     		verdict = right_answer;

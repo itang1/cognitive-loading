@@ -1,7 +1,7 @@
 /*
 Preferences
 */
-// The maximum value of the rating scale:   TODO: slider response?
+// The maximum value of the rating scale:
 var number_scale = ['1', '2', '3', '4', '5', '6', '7'];
 // The message presented along with ratings:
 var rating_message = 'How likely is it for a knowledgeable speaker to utter this sentence?';
@@ -68,13 +68,19 @@ if (practice_stimuli.length != practice_stimuli_debrief.length) {
   console.error('Inconsistent number of practice_stimuli and practice_stimuli_debrief.');
 }
 
+// NOTE rating: no time limit
+
+// NOTE external-HTML
+// NOTE free-sort
+
 // for (i = 0; i < practice_stimuli.length; i++) {
 //   timeline.push({
 //     type: 'html-keyboard-response',
 //     stimulus: practice_stimuli[i],
+//     stimulus_duration: 1100,
 //     choices: number_scale,
 //     prompt: '\nOn a scale of 1-7, how natural it would be for a knowledgeable person to utter that statement?',
-//     trial_duration: trial_duration, //TODO: set trial duration?
+//     // trial_duration: trial_duration, //TODO: set trial duration? -> no
 //   })
 //   //TODO: practices 3, 4, 5 have the grid task
 //   // instruct {For the remaining items, you will see a grid pattern, then you judge the sentence, and then you will be asked to recall the grid pattern you saw.}
@@ -83,7 +89,11 @@ if (practice_stimuli.length != practice_stimuli_debrief.length) {
 //     type: 'instructions',
 //     pages: [practice_stimuli_debrief[i]],
 //   })
-// };
+// }
+
+// TODO: flash prompt, remove during rating. see: Linger
+  // timer (1100ms) for the sentence prompt
+  // 100 ms before you show it, 100ms after
 
 var end_practice = {
   type: 'instructions',
@@ -91,8 +101,8 @@ var end_practice = {
     'That\'s it for practice.<br/><br/>If you have any questions, ask the experimenter now.<br/><br/>When you are ready to continue, let the experimenter know.',
   ]
 };
-// timeline.push(end_practice);
-timeline.push(here_we_go);
+timeline.push(end_practice);
+// timeline.push(here_we_go);
 
 /*
 Real trials
@@ -111,7 +121,7 @@ var trial2 = {
     type: 'grid-task',
     stimulus: 'slidie2...',
     choices: jsPsych.NO_KEYS,
-    trial_duration: 10000,
+    // trial_duration: 10000,
 };
 timeline.push(trial2);
 
