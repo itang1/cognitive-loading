@@ -184,29 +184,48 @@ jsPsych.plugins['grid-task'] = (function() {
     }
 
 
+    // /*
+    // Toggles the tile
+    // */
+    // function flip(tile) {
+    //   // t.stopPropagation(); //?
+    //   console.log("in flip()");
+    //   var ids = tile.id.slice(5);
+    //
+    //   if (tile.style.background == grid_fill) { // to unclick
+    //     var index = user_input_tile_ids.indexOf(ids);
+    //     if (index >= 0 ) {
+    //       user_input_tile_ids.splice(index, 1);
+    //       tile_flipped -= 1;
+    //       tile.style.background = '';
+    //     }
+    //   } else { // to click
+    //     tile_flipped += 1;
+    //     user_input_tile_ids.push(ids);
+    //     tile.style.background = grid_fill;
+    //   }
+    // }
+
+
     /*
     Toggles the tile
     */
-    function flip(tile) {
-      console.log("in flip");
-      // console.log(tile);
-      // console.log(tile.id);
-      var ids = tile.id.slice(5);
-      // to unclick
-      if (tile.style.background == grid_fill) {
-        var index = user_input_tile_ids.indexOf(ids);
+    function flip() {
+      // t.stopPropagation(); //?
+      console.log("in flip()");
+      var ids = this.id.slice(5);
 
+      if (this.style.background == grid_fill) { // to unclick
+        var index = user_input_tile_ids.indexOf(ids);
         if (index >= 0 ) {
           user_input_tile_ids.splice(index, 1);
-          tile_flipped -=1;
-          tile.style.background = '';
+          tile_flipped -= 1;
+          this.style.background = '';
         }
-      }
-      // to click
-      else {
+      } else { // to click
         tile_flipped += 1;
         user_input_tile_ids.push(ids);
-        tile.style.background = grid_fill;
+        this.style.background = grid_fill;
       }
     }
 
@@ -289,7 +308,6 @@ jsPsych.plugins['grid-task'] = (function() {
     	user_input_tile_ids = [];
     	document.getElementById('board').innerHTML = "";
 
-      console.log("waiting for clicks");
 
     	for (var i=0; i<grid_size; i++) {
     		// output += '<div id="tile_'+i+'" onclick="flip(this)"></div>';
@@ -297,23 +315,17 @@ jsPsych.plugins['grid-task'] = (function() {
         // output += '<div id="tile_'+i+'"></div>';
         output += '<div id="'+ result +'" class="tile"></div>';
     	}
+      document.getElementById('board').innerHTML = output;
 
       // FIXME flip on click not working
-    	document.getElementById('board').innerHTML = output;
+      console.log("waiting for clicks");
+      // document.getElementById('tile_0').addEventListener('dblclick', console.log("dblclick registered"));
       for (var i=0; i<grid_size; i++) {
         var result = 'tile_' + i;
-        // document.getElementById(result).style.background = 'red';
-  //       if (document.getElementById(result) == null) {
-  //         alert("tile getElement null: " + result);
-  //       } else if (document.getElementById(result) == 'undefined') {
-  //           alert("tile getElement undefined: " + result);
-  //         } else {
-  //             alert("tile getElement found?: " + result);
-  //           }
   //       Array.prototype.slice.call(document.getElementById(result).attributes).forEach(function(item) {
 	// console.log(item.name + ': '+ item.value);});
-        var t = document.getElementById(result);
-        t.addEventListener("click", flip(t));
+        var tile = document.getElementById(result);
+        tile.addEventListener('click', flip);
       }
     }
 
