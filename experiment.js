@@ -1,6 +1,11 @@
-/*
-Preferences
-*/
+// NOTE look ito external-HTML, free-sort packages
+// NOTE some script features are not supported in IE8 or earlier versions
+
+/***************************************************
+****************************************************
+**** PREFERENCES ***********************************
+****************************************************
+****************************************************/
 // The maximum value of the rating scale:
 var number_scale = ['1', '2', '3', '4', '5', '6', '7'];
 // The message presented along with ratings:
@@ -9,9 +14,9 @@ var rating_message = 'How likely is it for a knowledgeable speaker to utter this
 var rating_easy = 'Very unlikely';
 // The label at the high end of the rating scale:
 var rating_hard = 'Very likely';
-// The time allowed to respond a rating
-var trial_duration = 2000;
-
+var stimulus_duration = 1100;
+var post_trial_gap = 100;
+var prompt_on_a_scale = 'On a scale of 1-7, how natural it would be for a knowledgeable person to utter that statement?';
 
 var timeline = [];
 
@@ -22,16 +27,17 @@ var here_we_go = {
   trial_duration: 1000,
 };
 
-var testing_filler = {
+var any_key_continue = {
   type: 'html-keyboard-response',
-  stimulus: 'Testing filler...',
-  choices: jsPsych.NO_KEYS,
-  trial_duration: 500,
+  stimulus: 'Press any key to continue',
 };
 
-/*
-Instructions
-*/
+
+/***************************************************
+****************************************************
+**** INSTRUCTIONS **********************************
+****************************************************
+****************************************************/
 var introduction = {
   type: 'instructions',
   pages: [
@@ -41,59 +47,84 @@ var introduction = {
 
     'Let\'s try some practice...',
   ],
-  show_clickable_nav: false
+  show_clickable_nav: true
 };
 // timeline.push(introduction);
 
-/*
-Practice trials
-*/
-var practice_stimuli = [
-  'Some schools are books.',
-  'All tables are furniture.',
-  'Some toasters are mammals.',
-  'All vegetables are carrots.',
-  'Some jewelry are rings.',
-];
+// TODO: enter fullscreen
 
-var practice_stimuli_debrief = [
-  'It is unlikely that a knowledgeable speaker would say this, so you should give this statement a rating toward the low end of the scale.',
-  'This is a reasonable thing for a knowledgable speaker to say, so you should give this statement a rating toward the high end of the scale.',
-  'You would probably give this statement a rating toward the low end of the scale.',
-  'You would probably give this statement a rating toward the low end of the scale.',
-  'You would probably give this statement a rating toward the high end of the scale.',
-];
+/***************************************************
+****************************************************
+**** PRACTICE TRIALS *******************************
+****************************************************
+****************************************************/
+// TODO: prompt on same line as stimulus
+var practice_1 = {
+  type: 'html-button-response',
+  stimulus: 'Some schools are books.',
+  choices: number_scale,
+  prompt: prompt_on_a_scale,
+  stimulus_duration: stimulus_duration,
+  stimulus_debrief: 'It is unlikely that a knowledgeable speaker would say this, so you should give this statement a rating toward the low end of the scale.',
+  lower_caption: rating_easy,
+  upper_caption: rating_hard,
+  post_trial_gap: post_trial_gap,
+};
+// timeline.push(practice_1);
+// timeline.push(any_key_continue);
 
-if (practice_stimuli.length != practice_stimuli_debrief.length) {
-  console.error('Inconsistent number of practice_stimuli and practice_stimuli_debrief.');
-}
+var practice_2 = {
+  type: 'html-button-response',
+  stimulus: 'All tables are furniture.',
+  choices: number_scale,
+  prompt: prompt_on_a_scale,
+  stimulus_duration: stimulus_duration,
+  stimulus_debrief: 'This is a reasonable thing for a knowledgable speaker to say, so you should give this statement a rating toward the high end of the scale.',
+  lower_caption: rating_easy,
+  upper_caption: rating_hard,
+};
+// timeline.push(practice_2);
+// timeline.push(any_key_continue);
 
-// NOTE rating: no time limit
+//TODO instruct {For the remaining items, you will see a grid pattern, then you judge the sentence, and then you will be asked to recall the grid pattern you saw.}
+var practice_3 = {
+  type: 'html-button-response',
+  stimulus: 'Some toasters are mammals.',
+  choices: number_scale,
+  prompt: prompt_on_a_scale,
+  stimulus_duration: stimulus_duration,
+  stimulus_debrief: 'You would probably give this statement a rating toward the low end of the scale.',
+  lower_caption: rating_easy,
+  upper_caption: rating_hard,
+};
+// timeline.push(practice_3);
+// timeline.push(any_key_continue);
 
-// NOTE external-HTML
-// NOTE free-sort
+var practice_4 = {
+  type: 'html-button-response',
+  stimulus: 'All vegetables are carrots.',
+  choices: number_scale,
+  prompt: prompt_on_a_scale,
+  stimulus_duration: stimulus_duration,
+  stimulus_debrief: 'You would probably give this statement a rating toward the low end of the scale.',
+  lower_caption: rating_easy,
+  upper_caption: rating_hard,
+};
+// timeline.push(practice_4);
+// timeline.push(any_key_continue);
 
-// for (i = 0; i < practice_stimuli.length; i++) {
-//   timeline.push({
-//     type: 'html-keyboard-response',
-//     stimulus: practice_stimuli[i],
-//     stimulus_duration: 1100,
-//     choices: number_scale,
-//     prompt: '\nOn a scale of 1-7, how natural it would be for a knowledgeable person to utter that statement?',
-//     // trial_duration: trial_duration, //TODO: set trial duration? -> no
-//   })
-//   //TODO: practices 3, 4, 5 have the grid task
-//   // instruct {For the remaining items, you will see a grid pattern, then you judge the sentence, and then you will be asked to recall the grid pattern you saw.}
-//   // command { Here we go...}
-//   timeline.push({
-//     type: 'instructions',
-//     pages: [practice_stimuli_debrief[i]],
-//   })
-// }
-
-// TODO: flash prompt, remove during rating. see: Linger
-  // timer (1100ms) for the sentence prompt
-  // 100 ms before you show it, 100ms after
+var practice_5 = {
+  type: 'html-button-response',
+  stimulus: 'Some jewelry are rings.',
+  choices: number_scale,
+  prompt: prompt_on_a_scale,
+  stimulus_duration: stimulus_duration,
+  stimulus_debrief: 'You would probably give this statement a rating toward the high end of the scale.',
+  lower_caption: rating_easy,
+  upper_caption: rating_hard,
+};
+// timeline.push(practice_5);
+// timeline.push(any_key_continue);
 
 var end_practice = {
   type: 'instructions',
@@ -102,11 +133,12 @@ var end_practice = {
   ]
 };
 timeline.push(end_practice);
-// timeline.push(here_we_go);
 
-/*
-Real trials
-*/
+/***************************************************
+****************************************************
+**** REAL TRIALS ***********************************
+****************************************************
+****************************************************/
 /*
 generate and flash a pattern
 sentence judgement
@@ -115,7 +147,6 @@ test the user input
 
 calculate and print score
 */
-timeline.push(testing_filler);
 
 var trial2 = {
     type: 'grid-task',
@@ -125,10 +156,13 @@ var trial2 = {
 };
 timeline.push(trial2);
 
-/*
-Conclusion
+
+/***************************************************
+****************************************************
+**** CONCLUSION ************************************
 TODO: core.endExperiment()
-*/
+****************************************************
+***************************************************/
 var conclusion = {
   type: 'html-keyboard-response',
   stimulus: 'All done!<br/><br/>Thanks for participating.<br/><br/>Click any key to exit the program.',
@@ -137,12 +171,17 @@ var conclusion = {
 timeline.push(conclusion);
 
 
-/*
-run the experiment
-*/
+/***************************************************
+****************************************************
+**** (MAIN) RUN THE EXPERIMENT *********************
+****************************************************
+****************************************************/
 jsPsych.init({
   timeline: timeline,
-  // experiment_structure: timeline,
+  // exclusions: {
+  //   min_width: 800,
+  //   min_height: 600
+  // },
   on_finish: function() {
     jsPsych.data.displayData();
   }

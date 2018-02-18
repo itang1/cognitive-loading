@@ -11,20 +11,6 @@ jsPsych.plugins['grid-task'] = (function() {
     name: 'grid-task',
     description: '',
     parameters: {
-      // random_pattern: {
-      //   type: jsPsych.plugins.parameterType.COMPLEX, // BOOL, STRING, INT, FLOAT, FUNCTION, KEYCODE, SELECT, HTML_STRING, IMAGE, AUDIO, VIDEO, OBJECT, COMPLEX
-      //   pretty_name: 'generated_tile_ids',
-      //   array: true,
-      //   default: undefined,
-      //   description: 'The to-be-remembered pattern',
-      // },
-      // user_pattern: {
-      //   type: jsPsych.plugins.parameterType.COMPLEX, // BOOL, STRING, INT, FLOAT, FUNCTION, KEYCODE, SELECT, HTML_STRING, IMAGE, AUDIO, VIDEO, OBJECT, COMPLEX
-      //   pretty_name: 'user_input_tile_ids',
-      //   array: true,
-      //   default: undefined,
-      //   description: 'What user thinks the to-be-remembered pattern',
-      // },
       grid_size: {
         type: jsPsych.plugins.parameterType.INT,
         pretty_name: 'Grid size',
@@ -38,42 +24,11 @@ jsPsych.plugins['grid-task'] = (function() {
         default: 2000,
         description: 'How long to show the to-be-remembered pattern',
       },
-      stimulus: {
+      generated_random_pattern: {
         type: jsPsych.plugins.parameterType.HTML_STRING,
         pretty_name: 'Stimulus',
         default: undefined,
-        description: 'The HTML string to be displayed'
-      },
-      min: {
-        type: jsPsych.plugins.parameterType.INT,
-        pretty_name: 'Min slider',
-        default: 0,
-        description: 'Sets the minimum value of the slider.'
-      },
-      max: {
-        type: jsPsych.plugins.parameterType.INT,
-        pretty_name: 'Max slider',
-        default: 100,
-        description: 'Sets the maximum value of the slider',
-      },
-      start: {
-        type: jsPsych.plugins.parameterType.INT,
-        pretty_name: 'Slider starting value',
-        default: 50,
-        description: 'Sets the starting value of the slider',
-      },
-      step: {
-        type: jsPsych.plugins.parameterType.INT,
-        pretty_name: 'Step',
-        default: 1,
-        description: 'Sets the step of the slider'
-      },
-      labels: {
-        type: jsPsych.plugins.parameterType.KEYCODE,
-        pretty_name:'Labels',
-        default: [],
-        array: true,
-        description: 'Labels of the slider.',
+        description: 'The generated pattern'
       },
       submit_button: {
         type: jsPsych.plugins.parameterType.STRING,
@@ -95,12 +50,6 @@ jsPsych.plugins['grid-task'] = (function() {
         default:  'Exit',
         array: false,
         description: 'Label of the button to exit.'
-      },
-      prompt: {
-        type: jsPsych.plugins.parameterType.STRING,
-        pretty_name: 'Prompt',
-        default: null,
-        description: 'Any content here will be displayed below the slider.'
       },
       stimulus_duration: {
         type: jsPsych.plugins.parameterType.INT,
@@ -183,30 +132,6 @@ jsPsych.plugins['grid-task'] = (function() {
     	}
     }
 
-
-    // /*
-    // Toggles the tile
-    // */
-    // function flip(tile) {
-    //   // t.stopPropagation(); //?
-    //   console.log("in flip()");
-    //   var ids = tile.id.slice(5);
-    //
-    //   if (tile.style.background == grid_fill) { // to unclick
-    //     var index = user_input_tile_ids.indexOf(ids);
-    //     if (index >= 0 ) {
-    //       user_input_tile_ids.splice(index, 1);
-    //       tile_flipped -= 1;
-    //       tile.style.background = '';
-    //     }
-    //   } else { // to click
-    //     tile_flipped += 1;
-    //     user_input_tile_ids.push(ids);
-    //     tile.style.background = grid_fill;
-    //   }
-    // }
-
-
     /*
     Toggles the tile
     */
@@ -249,11 +174,8 @@ jsPsych.plugins['grid-task'] = (function() {
     	}
     	document.getElementById('board').innerHTML = output;
       // document.getElementById ("tile_1").addEventListener("click", flip(this), false);
-
-
     }
 
-// NOTE: if using IE, not supported in IE8 or earlier versions
 
     function start_test() {
 
