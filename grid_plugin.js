@@ -24,11 +24,11 @@ jsPsych.plugins['grid-task'] = (function() {
         default: 2000,
         description: 'How long to show the to-be-remembered pattern',
       },
-      generated_random_pattern: {
+      stimulus: {
         type: jsPsych.plugins.parameterType.HTML_STRING,
         pretty_name: 'Stimulus',
         default: undefined,
-        description: 'The generated pattern'
+        description: 'The HTML string to be displayed'
       },
       submit_button: {
         type: jsPsych.plugins.parameterType.STRING,
@@ -77,7 +77,7 @@ jsPsych.plugins['grid-task'] = (function() {
     var html = '<div style="margin: 100px 0px;">';
     html += '<div>' + trial.stimulus + '</div>';
 
-    html += '<div id="board"> 1 2 3 </div>';
+    html += '<div id="board"></div>';
 
 
     if (trial.prompt !== null){
@@ -347,6 +347,7 @@ jsPsych.plugins['grid-task'] = (function() {
     newBoard();
     // start_test();
     // prepare_board_for_user_input();
+    start_test();
     document.getElementById ("Start_Test").addEventListener("click", start_test, false);
     document.getElementById ("Verify_Test").addEventListener("click", verify_result, false);
     document.getElementById ("Exit").addEventListener("click", test_done, false);

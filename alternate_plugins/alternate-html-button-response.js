@@ -100,6 +100,20 @@ jsPsych.plugins["html-button-response"] = (function() {
   }
 
   plugin.trial = function(display_element, trial) {
+    var html = '<div style="margin: 100px 0px;">';
+    // html += '<div>' + trial.stimulus + '</div>';
+    // html += '<div id="board"></div>';
+    //
+    // var output = '';
+    //
+    // for(var i=0; i<6; i++) {
+    //     output += '<div id="tile_'+i+'" class="tile"></div>';
+    // }
+    // document.getElementById('board').innerHTML = output;
+
+
+
+
 
     // display stimulus
     var html = '<div id="jspsych-html-button-response-stimulus">'+trial.stimulus+'</div>';

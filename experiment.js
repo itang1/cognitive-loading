@@ -49,7 +49,6 @@ var introduction = {
   ],
   show_clickable_nav: true
 };
-// timeline.push(introduction);
 
 // TODO: enter fullscreen
 
@@ -70,8 +69,6 @@ var practice_1 = {
   upper_caption: rating_hard,
   post_trial_gap: post_trial_gap,
 };
-// timeline.push(practice_1);
-// timeline.push(any_key_continue);
 
 var practice_2 = {
   type: 'html-button-response',
@@ -83,8 +80,6 @@ var practice_2 = {
   lower_caption: rating_easy,
   upper_caption: rating_hard,
 };
-// timeline.push(practice_2);
-// timeline.push(any_key_continue);
 
 //TODO instruct {For the remaining items, you will see a grid pattern, then you judge the sentence, and then you will be asked to recall the grid pattern you saw.}
 var practice_3 = {
@@ -97,8 +92,6 @@ var practice_3 = {
   lower_caption: rating_easy,
   upper_caption: rating_hard,
 };
-// timeline.push(practice_3);
-// timeline.push(any_key_continue);
 
 var practice_4 = {
   type: 'html-button-response',
@@ -110,8 +103,6 @@ var practice_4 = {
   lower_caption: rating_easy,
   upper_caption: rating_hard,
 };
-// timeline.push(practice_4);
-// timeline.push(any_key_continue);
 
 var practice_5 = {
   type: 'html-button-response',
@@ -123,8 +114,6 @@ var practice_5 = {
   lower_caption: rating_easy,
   upper_caption: rating_hard,
 };
-// timeline.push(practice_5);
-// timeline.push(any_key_continue);
 
 var end_practice = {
   type: 'instructions',
@@ -132,7 +121,6 @@ var end_practice = {
     'That\'s it for practice.<br/><br/>If you have any questions, ask the experimenter now.<br/><br/>When you are ready to continue, let the experimenter know.',
   ]
 };
-timeline.push(end_practice);
 
 /***************************************************
 ****************************************************
@@ -148,14 +136,11 @@ test the user input
 calculate and print score
 */
 
-var trial2 = {
+var test_trial = {
     type: 'grid-task',
     stimulus: 'slidie2...',
     choices: jsPsych.NO_KEYS,
-    // trial_duration: 10000,
 };
-timeline.push(trial2);
-
 
 /***************************************************
 ****************************************************
@@ -168,14 +153,27 @@ var conclusion = {
   stimulus: 'All done!<br/><br/>Thanks for participating.<br/><br/>Click any key to exit the program.',
   choices: jsPsych.ALL_KEYS,
 };
-timeline.push(conclusion);
 
 
 /***************************************************
 ****************************************************
-**** (MAIN) RUN THE EXPERIMENT *********************
+**** RUN THE EXPERIMENT ****************************
 ****************************************************
 ****************************************************/
+// timeline.push(introduction);
+
+// timeline.push(practice_1);
+// timeline.push(practice_2);
+// timeline.push(practice_3);
+// timeline.push(practice_4);
+// timeline.push(practice_5);
+
+timeline.push(test_trial);
+
+timeline.push(conclusion);
+
+
+
 jsPsych.init({
   timeline: timeline,
   // exclusions: {
