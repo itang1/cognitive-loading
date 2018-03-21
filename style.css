@@ -3,21 +3,20 @@ div#board {
   border:#999 1px solid;
   width:320px;
   height:320px;
-  padding:24px;
+  padding:20px;
   margin:20px auto;
 }
 
 /* the tiles */
 div#board > div {
-  /* background-color: ; */
   background: ;
   border:#000 1px solid;
-  width:31px;
-  height:31px;
+  width:45px;
+  height:45px;
   float:left;
-  margin:5px;
-  padding:10px;
-  font-size:14px;
+  margin:1px;
+  padding:15px;
+  font-size:10px;
   cursor:pointer;
   text-align:center;
 }

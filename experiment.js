@@ -98,6 +98,7 @@ var practice_3 = {
   lower_caption: rating_easy,
   upper_caption: rating_hard,
   cognitive_loading: true,
+  loading_magnitude: 3,
 };
 
 var practice_4 = {
@@ -110,6 +111,7 @@ var practice_4 = {
   lower_caption: rating_easy,
   upper_caption: rating_hard,
   cognitive_loading: true,
+  loading_magnitude: 3,
 };
 
 var practice_5 = {
@@ -122,6 +124,7 @@ var practice_5 = {
   lower_caption: rating_easy,
   upper_caption: rating_hard,
   cognitive_loading: true,
+  loading_magnitude: 3,
 };
 
 var instruct_end_practice = {
@@ -173,9 +176,9 @@ var timeline = [];
 
 // timeline.push(introduction);
 
-// timeline.push(practice_1);
-// timeline.push(practice_2);
-// timeline.push(instruct_practices_with_grid);
+timeline.push(practice_1);
+timeline.push(practice_2);
+timeline.push(instruct_practices_with_grid);
 timeline.push(practice_3);
 timeline.push(practice_4);
 timeline.push(practice_5);

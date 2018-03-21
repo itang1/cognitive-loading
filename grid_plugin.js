@@ -90,7 +90,6 @@ jsPsych.plugins['grid-task'] = (function() {
 
 
     var tile_flipped=0;
-    var which_set=0;
     var generated_tile_ids=[];
     var user_input_tile_ids=[];
     var grid_size=25;
@@ -164,7 +163,6 @@ jsPsych.plugins['grid-task'] = (function() {
     	var output = '', j;
     	tile_flipped = 0;
 
-    	document.getElementById("Start_Test").disabled = false;
     	document.getElementById("Verify_Test").disabled = true;
     	// document.getElementById("submit_db").disabled = true;
 
@@ -181,7 +179,6 @@ jsPsych.plugins['grid-task'] = (function() {
 
       console.log("starting test");
 
-    	document.getElementById("Start_Test").disabled = true;
     	document.getElementById("Verify_Test").disabled = false;
     	// document.getElementById("submit_db").disabled = true;
 
@@ -212,7 +209,6 @@ jsPsych.plugins['grid-task'] = (function() {
 
     //	exit the html page
     function test_done() {
-    	document.getElementById("Start_Test").disabled = false;
      	document.getElementById("Verify_Test").disabled = false;
     	// document.getElementById("submit_db").disabled = false;
     	// history.go(-1);
@@ -269,7 +265,6 @@ jsPsych.plugins['grid-task'] = (function() {
     */
     function verify_result() {
 
-    	document.getElementById("Start_Test").disabled = true;
       document.getElementById("Verify_Test").disabled = true;
       // document.getElementById("submit_db").disabled = false;
 
