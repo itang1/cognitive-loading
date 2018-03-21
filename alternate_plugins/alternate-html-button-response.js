@@ -8,7 +8,7 @@
  *
  **/
 
-jsPsych.plugins["html-button-response"] = (function() {
+jsPsych.plugins["alternate-html-button-response"] = (function() {
 
   var plugin = {};
 
@@ -96,11 +96,21 @@ jsPsych.plugins["html-button-response"] = (function() {
         default: null,
         description: 'Any content here will be displayed to the right of the buttons.'
       },
+      //TODO: post_trial_gap
+      cognitive_loading: {
+        type: jsPsych.plugins.parameterType.BOOL,
+        pretty_name: 'Grid task',
+        default: false,
+        description: 'The cognitive loading task'
+      },
     }
   }
 
   plugin.trial = function(display_element, trial) {
-    var html = '<div style="margin: 100px 0px;">';
+    if (trial.cognitive_loading) {
+      console.log("hello");
+      var html = '<div style="margin: 100px 0px;">';
+    }
     // html += '<div>' + trial.stimulus + '</div>';
     // html += '<div id="board"></div>';
     //

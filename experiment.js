@@ -18,7 +18,7 @@ var stimulus_duration = 1100;
 var post_trial_gap = 100;
 var prompt_on_a_scale = 'On a scale of 1-7, how natural it would be for a knowledgeable person to utter that statement?';
 
-var timeline = [];
+
 
 var here_we_go = {
   type: 'html-keyboard-response',
@@ -59,7 +59,7 @@ var introduction = {
 ****************************************************/
 // TODO: prompt on same line as stimulus
 var practice_1 = {
-  type: 'html-button-response',
+  type: 'alternate-html-button-response',
   stimulus: 'Some schools are books.',
   choices: number_scale,
   prompt: prompt_on_a_scale,
@@ -71,7 +71,7 @@ var practice_1 = {
 };
 
 var practice_2 = {
-  type: 'html-button-response',
+  type: 'alternate-html-button-response',
   stimulus: 'All tables are furniture.',
   choices: number_scale,
   prompt: prompt_on_a_scale,
@@ -81,9 +81,15 @@ var practice_2 = {
   upper_caption: rating_hard,
 };
 
-//TODO instruct {For the remaining items, you will see a grid pattern, then you judge the sentence, and then you will be asked to recall the grid pattern you saw.}
+var instruct_practices_with_grid = {
+  type: 'instructions',
+  pages: [
+    'For the remaining items, you will see a grid pattern, then you judge the sentence, and then you will be asked to recall the grid pattern you saw.',
+  ]
+};
+
 var practice_3 = {
-  type: 'html-button-response',
+  type: 'alternate-html-button-response',
   stimulus: 'Some toasters are mammals.',
   choices: number_scale,
   prompt: prompt_on_a_scale,
@@ -91,10 +97,11 @@ var practice_3 = {
   stimulus_debrief: 'You would probably give this statement a rating toward the low end of the scale.',
   lower_caption: rating_easy,
   upper_caption: rating_hard,
+  cognitive_loading: true,
 };
 
 var practice_4 = {
-  type: 'html-button-response',
+  type: 'alternate-html-button-response',
   stimulus: 'All vegetables are carrots.',
   choices: number_scale,
   prompt: prompt_on_a_scale,
@@ -102,10 +109,11 @@ var practice_4 = {
   stimulus_debrief: 'You would probably give this statement a rating toward the low end of the scale.',
   lower_caption: rating_easy,
   upper_caption: rating_hard,
+  cognitive_loading: true,
 };
 
 var practice_5 = {
-  type: 'html-button-response',
+  type: 'alternate-html-button-response',
   stimulus: 'Some jewelry are rings.',
   choices: number_scale,
   prompt: prompt_on_a_scale,
@@ -113,9 +121,10 @@ var practice_5 = {
   stimulus_debrief: 'You would probably give this statement a rating toward the high end of the scale.',
   lower_caption: rating_easy,
   upper_caption: rating_hard,
+  cognitive_loading: true,
 };
 
-var end_practice = {
+var instruct_end_practice = {
   type: 'instructions',
   pages: [
     'That\'s it for practice.<br/><br/>If you have any questions, ask the experimenter now.<br/><br/>When you are ready to continue, let the experimenter know.',
@@ -160,15 +169,23 @@ var conclusion = {
 **** RUN THE EXPERIMENT ****************************
 ****************************************************
 ****************************************************/
+var timeline = [];
+
 // timeline.push(introduction);
 
 // timeline.push(practice_1);
 // timeline.push(practice_2);
-// timeline.push(practice_3);
-// timeline.push(practice_4);
-// timeline.push(practice_5);
+// timeline.push(instruct_practices_with_grid);
+timeline.push(practice_3);
+timeline.push(practice_4);
+timeline.push(practice_5);
+timeline.push(instruct_end_practice);
 
-timeline.push(test_trial);
+// timeline.push(test_trial);
+
+
+
+// TODO: randomize the order of the real trials in the timeline
 
 timeline.push(conclusion);
 
