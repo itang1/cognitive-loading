@@ -176,7 +176,7 @@ var timeline = [];
 
 // timeline.push(introduction);
 
-timeline.push(practice_1);
+//timeline.push(practice_1);
 timeline.push(practice_2);
 timeline.push(instruct_practices_with_grid);
 timeline.push(practice_3);
