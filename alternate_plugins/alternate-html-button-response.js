@@ -108,8 +108,9 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
 
   plugin.trial = function(display_element, trial) {
     if (trial.cognitive_loading) {
-      console.log("hello");
-      var html = '<div style="margin: 100px 0px;">';
+      console.log("hello inside trial.cognitive_loading");
+      var html = '<div style="margin: 100px 0px;">hello</div>';
+      display_element.innerHTML = html;
     }
     // html += '<div>' + trial.stimulus + '</div>';
     // html += '<div id="board"></div>';
@@ -178,10 +179,10 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
 
     // buttons and prompt are hidden at start
     jsPsych.pluginAPI.setTimeout(function() {
-      display_element.querySelector('#jspsych-html-button-response-prompt').style.visibility = 'hidden';
+      display_element.querySelector('#jspsych-html-button-response-prompt').style.display = 'none';
     }, 0);
     jsPsych.pluginAPI.setTimeout(function() {
-      display_element.querySelector('#jspsych-html-button-response-btngroup').style.visibility = 'hidden';
+      display_element.querySelector('#jspsych-html-button-response-btngroup').style.display = 'none';
     }, 0);
 
     // store response
@@ -246,10 +247,10 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
         display_element.querySelector('#jspsych-html-button-response-stimulus').style.visibility = 'hidden';
       }, trial.stimulus_duration);
       jsPsych.pluginAPI.setTimeout(function() {
-        display_element.querySelector('#jspsych-html-button-response-btngroup').style.visibility = 'visible';
+        display_element.querySelector('#jspsych-html-button-response-btngroup').style.display = 'block';
       }, trial.stimulus_duration);
       jsPsych.pluginAPI.setTimeout(function() {
-        display_element.querySelector('#jspsych-html-button-response-prompt').style.visibility = 'visible';
+        display_element.querySelector('#jspsych-html-button-response-prompt').style.display = 'block';
       }, trial.stimulus_duration);
     }
 
