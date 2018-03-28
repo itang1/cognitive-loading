@@ -8,6 +8,10 @@
  *
  **/
 
+
+//FIXME the random flashes of junk 
+//FIXME 'let the experimenter know' -> no experimenter in online version
+
 jsPsych.plugins["alternate-html-button-response"] = (function() {
 
   var plugin = {};
@@ -108,6 +112,12 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
         pretty_name: 'Loading magnitude',
         default: null,
         description: '3 for low loading, 4 for high loading.' //TODO ?
+      },
+	  grid_display_time: {
+        type: jsPsych.plugins.parameterType.INT,
+        pretty_name: 'Grid display time',
+        default: 1800,
+        description: 'How many ms to display the initial grid flash.'
       },
     }
   }
@@ -292,7 +302,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
 
       console.log("colored in selected random tiles");
 
-      setTimeout(do_stimulus_judgement, 1000);
+      setTimeout(do_stimulus_judgement, trial.grid_display_time); //NOTE here is where to set grid display time
     }
 
     /*
