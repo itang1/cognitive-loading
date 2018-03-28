@@ -173,9 +173,11 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
           }, 0);
           console.log("here inline 406");
           setTimeout(prepare_board_for_user_input, trial.debrief_duration);
-		 
+		  // document.addEventListener("keydown", prepare_board_for_user_input);
         } else {
           setTimeout(end_trial, trial.debrief_duration);
+		  // document.addEventListener("keydown", end_trial);
+			//FIXME why does eventlistener break everything
         }
         // end_trial();
         // jsPsych.pluginAPI.setTimeout(end_trial, trial.debrief_duration);
