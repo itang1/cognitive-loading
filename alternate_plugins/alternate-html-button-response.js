@@ -118,7 +118,8 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     var tile_flipped=0;
     var generated_tile_ids=[];
     var user_input_tile_ids=[];
-    var grid_size=16;
+    var grid_size= Math.pow(trial.loading_magnitude, 2);
+
     var grid_fill='blue';
 
     var num_correct=0; //score
@@ -260,6 +261,9 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     */
     function newBoard() {
       // console.log("here");
+		
+
+		
       var output = '';
       tile_flipped = 0;
 
@@ -295,6 +299,11 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     Initializes a new grid, resets vars, gets user clicks
     */
     function prepare_board_for_user_input() {
+		
+	  if (grid_size < 10) {
+      	document.getElementById("board").style.width='245px';
+		document.getElementById("board").style.height='245px';
+	  }
       console.log("preparing board for user input");
 
 
@@ -366,7 +375,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
           hits += 1;
         }
       }
-      misses = generated_tile_ids.length - hits
+      misses = generated_tile_ids.length - hits;
 
       // TODO: keep track of hits/misses/falsealarms which is different
 
@@ -423,8 +432,8 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     1 point for correct, 0.5 point for almost, 0 point for wrong
     */
     function change_score(round_score) {
-      num_correct += round_score
-      num_total += 1
+      num_correct += round_score;
+      num_total += 1;
     }
 
 
@@ -577,6 +586,11 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
 		
 		
       display_element.innerHTML = html;
+		
+	  if (grid_size < 10) {
+      	document.getElementById("board").style.width='245px';
+		document.getElementById("board").style.height='245px';
+	  }
 
       newBoard();
       start_test();
