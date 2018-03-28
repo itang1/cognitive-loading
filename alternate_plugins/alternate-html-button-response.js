@@ -49,8 +49,8 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       stimulus_duration: {
         type: jsPsych.plugins.parameterType.INT,
         pretty_name: 'Stimulus duration',
-        default: null,
-        description: 'How long to hide the stimulus.'
+        default: 1100,
+        description: 'How long to show the stimulus.'
       },
       trial_duration: {
         type: jsPsych.plugins.parameterType.INT,
@@ -432,7 +432,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
 		
 		//////////////
 		
-	  jsPsych.pluginAPI.setTimeout(end_trial, 2000);
+	  jsPsych.pluginAPI.setTimeout(end_trial, 1000); //verdict_feedback_time
 
 
     }
@@ -550,7 +550,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
 
 
       // hide image if timing is set
-      if (trial.stimulus_duration !== null) { //TODO replace with button keypress
+      if (trial.stimulus_duration !== null) { 
         jsPsych.pluginAPI.setTimeout(function() {
           display_element.querySelector('#jspsych-html-button-response-stimulus').style.display = 'none';
         }, trial.stimulus_duration);

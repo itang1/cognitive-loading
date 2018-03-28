@@ -8,16 +8,18 @@
 ****************************************************/
 // The maximum value of the rating scale:
 var number_scale = ['1', '2', '3', '4', '5', '6', '7'];
+var tf_scale = ['True', 'False'];
 // The message presented along with ratings:
-var rating_message = 'How likely is it for a knowledgeable speaker to utter this sentence?';
+var prompt_on_a_scale = 'On a scale of 1-7, how natural it would be for a knowledgeable person to utter that statement?';
+var prompt_likely = 'True or False: It is likely that a knolwedgeabol speaker would utter this sentence.';
+//var rating_message = 'How likely is it for a knowledgeable speaker to utter this sentence?';
 // The label at the low end of the rating scale:
 var rating_easy = 'Very unlikely';
 // The label at the high end of the rating scale:
 var rating_hard = 'Very likely';
+
 var stimulus_duration = 1100;
 var post_trial_gap = 100;
-var prompt_on_a_scale = 'On a scale of 1-7, how natural it would be for a knowledgeable person to utter that statement?';
-
 
 
 var here_we_go = {
@@ -30,6 +32,13 @@ var here_we_go = {
 var any_key_continue = {
   type: 'html-keyboard-response',
   stimulus: 'Press any key to continue',
+};
+
+var fixation = {
+  type: 'html-keyboard-response',
+  stimulus: '+',
+  choices: jsPsych.NO_KEYS,
+  trial_duration: 500,
 };
 
 
@@ -80,6 +89,15 @@ var practice_2 = {
   upper_caption: rating_hard,
 };
 
+var practice_tf1 = {
+  type: 'alternate-html-button-response',
+  stimulus: '(tf test sentence)',
+  choices: tf_scale,
+  prompt: prompt_likely,
+  stimulus_duration: stimulus_duration,
+  stimulus_debrief: '(some debrief)',
+};
+
 var instruct_practices_with_grid = {
   type: 'instructions',
   pages: [
@@ -123,8 +141,20 @@ var practice_5 = {
   lower_caption: rating_easy,
   upper_caption: rating_hard,
   cognitive_loading: true,
-  loading_magnitude: 3,
+  loading_magnitude: 4,
 };
+
+var practice_tf2 = {
+  type: 'alternate-html-button-response',
+  stimulus: '(tf test sentence)',
+  choices: tf_scale,
+  prompt: prompt_likely,
+  stimulus_duration: stimulus_duration,
+  stimulus_debrief: '(some debrief)',
+  cognitive_loading: true,
+  loading_magnitude: 4,
+};
+
 
 var instruct_end_practice = {
   type: 'instructions',
@@ -147,11 +177,6 @@ test the user input
 calculate and print score
 */
 
-var test_trial = {
-    type: 'grid-task',
-    stimulus: 'slidie2...',
-    choices: jsPsych.NO_KEYS,
-};
 
 /***************************************************
 ****************************************************
@@ -173,21 +198,30 @@ var conclusion = {
 ****************************************************/
 var timeline = [];
 
- timeline.push(introduction);
+timeline.push(introduction);
 
+timeline.push(fixation);
 timeline.push(practice_1);
+timeline.push(fixation);
 timeline.push(practice_2);
+timeline.push(fixation);
+timeline.push(practice_tf1);
 timeline.push(instruct_practices_with_grid);
+timeline.push(fixation);
 timeline.push(practice_3);
+timeline.push(fixation);
 timeline.push(practice_4);
+timeline.push(fixation);
 timeline.push(practice_5);
+timeline.push(fixation);
+timeline.push(practice_tf2);
 timeline.push(instruct_end_practice);
 
-// timeline.push(test_trial);
+//TODO probs more efficient way to put fixations
 
 
 
-// TODO: randomize the order of the real trials in the timeline
+// TODO: latin square
 
 timeline.push(conclusion);
 
