@@ -173,6 +173,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
           }, 0);
           console.log("here inline 406");
           setTimeout(prepare_board_for_user_input, trial.debrief_duration);
+		 
         } else {
           setTimeout(end_trial, trial.debrief_duration);
         }
@@ -538,6 +539,9 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
 
 
       html += '<input type="button" id="Verify_Test" value="Submit"/>';
+	  jsPsych.pluginAPI.setTimeout(function() {
+        display_element.querySelector('#Verify_Test').style.display = 'none';
+      }, 0);
 
       display_element.innerHTML = html;
 

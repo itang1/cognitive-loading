@@ -41,13 +41,12 @@ var any_key_continue = {
 var introduction = {
   type: 'instructions',
   pages: [
-    'Welcome. In this experiment, you\'ll be reading individual statements on the computer screen and making judgments on them. You will first see a cross in the center of the screen. The cross will disappear and the statement will appear in the center of the screen. Your task is to judge how natural it would be for a knowledgeable person to utter that statement, on a scale of 1 to 7. A rating of 1 means that it is very unlikely for a knowledgeable person to say that sentence, and a rating of 7 means it is very likely.<br/><br/>You will hit a number key between 1 and 7 to record your judgment. If you are unsure, try to pick the best possible answer - we are interested in your honest judgments.<br/><br/>To be able to answer quickly and accurately, you should keep your fingers resting on the number keys. This way you won\'t have to look down at the keys to answer.',
+    'Welcome. In this experiment, you\'ll be reading individual statements on the computer screen and making judgments on them. You will first see a cross in the center of the screen. The cross will disappear and the statement will appear in the center of the screen. Your task is to judge how natural it would be for a knowledgeable person to utter that statement, on a scale of 1 to 7. A rating of 1 means that it is very unlikely for a knowledgeable person to say that sentence, and a rating of 7 means it is very likely.<br/><br/>You will hit a number key between 1 and 7 to record your judgment. If you are unsure, try to pick the best possible answer - we are interested in your honest judgments.<br/><br/>To be able to answer quickly and accurately, you should keep your fingers resting on the number keys. This way you won\'t have to look down at the keys to answer.<br/><br/>Press right arrow to continue.',
 
-    'There is one more wrinkle.  While you judge each sentence, you will be asked to remember a visual pattern in a grid of squares.  First, you will see the grid with some of the squares turned blue.  You should make an effort to remember which squares are blue.  Next you will see the sentence that you are to judge true or false.  Finally, you will be shown a blank grid and asked to click on the squares that were blue in the pattern. You will be given feedback on how well you did on the grid.<br/><br/>You can take breaks as you need them, but please try to do so after you\'ve entered a grid pattern, before you go on to the next item, when the screen is blank.<br/><br/>If you have any questions about the procedure, ask the experimenter now.',
+    'There is one more wrinkle.  While you judge each sentence, you will be asked to remember a visual pattern in a grid of squares.  First, you will see the grid with some of the squares turned blue.  You should make an effort to remember which squares are blue.  Next you will see the sentence that you are to judge true or false.  Finally, you will be shown a blank grid and asked to click on the squares that were blue in the pattern. You will be given feedback on how well you did on the grid.<br/><br/>You can take breaks as you need them, but please try to do so after you\'ve entered a grid pattern, before you go on to the next item, when the screen is blank.<br/><br/>If you have any questions about the procedure, ask the experimenter now.<br/><br/>Press right arrow to continue, left arrow to go back.',
 
-    'Let\'s try some practice...',
+    'Let\'s try some practice...<br/><br/>Press right arrow to continue, left arrow to go back.',
   ],
-  show_clickable_nav: true
 };
 
 // TODO: enter fullscreen
@@ -84,7 +83,7 @@ var practice_2 = {
 var instruct_practices_with_grid = {
   type: 'instructions',
   pages: [
-    'For the remaining items, you will see a grid pattern, then you judge the sentence, and then you will be asked to recall the grid pattern you saw.',
+    'For the remaining items, you will see a grid pattern, then you judge the sentence, and then you will be asked to recall the grid pattern you saw.<br/><br/>Press right arrow to continue.',
   ]
 };
 
@@ -174,9 +173,9 @@ var conclusion = {
 ****************************************************/
 var timeline = [];
 
-// timeline.push(introduction);
+ timeline.push(introduction);
 
-//timeline.push(practice_1);
+timeline.push(practice_1);
 timeline.push(practice_2);
 timeline.push(instruct_practices_with_grid);
 timeline.push(practice_3);
