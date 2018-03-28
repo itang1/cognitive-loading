@@ -177,7 +177,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
         } else {
           setTimeout(end_trial, trial.debrief_duration);
 		  // document.addEventListener("keydown", end_trial);
-			//FIXME why does eventlistener break everything
+			//FIXME why does eventlistener break everythingd
         }
         // end_trial();
         // jsPsych.pluginAPI.setTimeout(end_trial, trial.debrief_duration);
@@ -385,9 +385,35 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
         verdict = 'Wrong';
         change_score(0);
       }
-      alert(verdict + "\nscore: " + num_correct + "\nnum_total: " + num_total);
-
-      end_trial();
+      
+////////// display Right Almost or Wrong
+		      // purge everything except input_verdict
+//      if (trial.cognitive_loading) {
+//        jsPsych.pluginAPI.setTimeout(function() {
+//          display_element.querySelector('#debriefing').style.display = 'none';
+//        }, 0);
+        jsPsych.pluginAPI.setTimeout(function() {
+          display_element.querySelector('#board').style.display = 'none';
+        }, 0);
+        jsPsych.pluginAPI.setTimeout(function() {
+          display_element.querySelector('#Verify_Test').style.display = 'none';
+        }, 0);
+//        jsPsych.pluginAPI.setTimeout(function() {
+//          display_element.querySelector('#jspsych-html-button-response-prompt').style.display = 'none';
+//        }, 0);
+//        jsPsych.pluginAPI.setTimeout(function() {
+//          display_element.querySelector('#jspsych-html-button-response-rating').style.display = 'none';
+//        }, 0);
+//        jsPsych.pluginAPI.setTimeout(function() {
+//          display_element.querySelector('#verdict').style.display = 'block';
+//        }, 0);
+//      }
+//		
+		 document.getElementById('input_verdict').innerHTML = verdict + "<br/>score: " + num_correct + "<br/>num_total: " + num_total;
+		
+		//////////////
+		
+	  jsPsych.pluginAPI.setTimeout(end_trial, 2000);
 
 
     }
@@ -505,7 +531,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
 
 
       // hide image if timing is set
-      if (trial.stimulus_duration !== null) { //TODO stumulus_duration?
+      if (trial.stimulus_duration !== null) { //TODO replace with button keypress
         jsPsych.pluginAPI.setTimeout(function() {
           display_element.querySelector('#jspsych-html-button-response-stimulus').style.display = 'none';
         }, trial.stimulus_duration);
@@ -537,14 +563,19 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     if (trial.cognitive_loading) {
       console.log("hello inside trial.cognitive_loading");
       html += '<div id="board"> </div>';
-      // display_element.innerHTML = html;
 
 
       html += '<input type="button" id="Verify_Test" value="Submit"/>';
 	  jsPsych.pluginAPI.setTimeout(function() {
         display_element.querySelector('#Verify_Test').style.display = 'none';
       }, 0);
-
+		
+	  html += '<div id="input_verdict"> </div>'; //right, wrong, onlmost
+	  jsPsych.pluginAPI.setTimeout(function() {
+        display_element.querySelector('#input_verdict').style.display = 'none';
+      }, 0);
+		
+		
       display_element.innerHTML = html;
 
       newBoard();
