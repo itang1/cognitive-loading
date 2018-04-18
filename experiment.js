@@ -10,7 +10,7 @@
 var number_scale = ['1', '2', '3', '4', '5', '6', '7'];
 var tf_scale = ['True', 'False'];
 // The message presented along with ratings:
-var prompt_on_a_scale = 'On a scale of 1-7, how natural it would be for a knowledgeable person to utter that statement?';
+var prompt_on_a_scale = 'How natural it would be for a knowledgeable person to utter that statement?';
 var prompt_likely = 'True or False: It is likely that a knolwedgeabol speaker would utter this sentence.';
 //var rating_message = 'How likely is it for a knowledgeable speaker to utter this sentence?';
 // The label at the low end of the rating scale:
@@ -27,6 +27,11 @@ var here_we_go = {
   stimulus: 'Here we go...',
   choices: jsPsych.NO_KEYS,
   trial_duration: 1000,
+};
+
+var here_we_go_continue = {
+  type: 'html-keyboard-response',
+  stimulus: 'Here we go... </br></br></br> Press any key to continue',
 };
 
 var any_key_continue = {
@@ -59,13 +64,13 @@ var introduction = {
 };
 
 // TODO: enter fullscreen
+// Safari does not support keyboard input when the browser is in fullscreen mode. Therefore, the function will not launch fullscreen mode on Safari. The experiment will ignore any trials using the fullscreen plugin in Safari.
 
 /***************************************************
 ****************************************************
 **** PRACTICE TRIALS *******************************
 ****************************************************
 ****************************************************/
-// TODO: prompt on same line as stimulus
 var practice_1 = {
   type: 'alternate-html-button-response',
   stimulus: 'Some schools are books.',
@@ -89,13 +94,13 @@ var practice_2 = {
   upper_caption: rating_hard,
 };
 
-var practice_tf1 = {
+var practice_3 = {
   type: 'alternate-html-button-response',
-  stimulus: '(tf test sentence)',
+  stimulus: 'All tables are furniture.',
   choices: tf_scale,
   prompt: prompt_likely,
   stimulus_duration: stimulus_duration,
-  stimulus_debrief: '(some debrief)',
+  stimulus_debrief: 'The answer to this question was \'True\', because every tabl is a kind of furniture.',
 };
 
 var instruct_practices_with_grid = {
@@ -105,26 +110,13 @@ var instruct_practices_with_grid = {
   ]
 };
 
-var practice_3 = {
+var practice_4 = {
   type: 'alternate-html-button-response',
   stimulus: 'Some toasters are mammals.',
   choices: number_scale,
   prompt: prompt_on_a_scale,
   stimulus_duration: stimulus_duration,
-  stimulus_debrief: 'You would probably give this statement a rating toward the low end of the scale.',
-  lower_caption: rating_easy,
-  upper_caption: rating_hard,
-  cognitive_loading: true,
-  loading_magnitude: 3,
-};
-
-var practice_4 = {
-  type: 'alternate-html-button-response',
-  stimulus: 'All vegetables are carrots.',
-  choices: number_scale,
-  prompt: prompt_on_a_scale,
-  stimulus_duration: stimulus_duration,
-  stimulus_debrief: 'You would probably give this statement a rating toward the low end of the scale.',
+  // stimulus_debrief: 'You would probably give this statement a rating toward the low end of the scale.',
   lower_caption: rating_easy,
   upper_caption: rating_hard,
   cognitive_loading: true,
@@ -133,24 +125,24 @@ var practice_4 = {
 
 var practice_5 = {
   type: 'alternate-html-button-response',
-  stimulus: 'Some jewelry are rings.',
+  stimulus: 'All vegetables are carrots.',
   choices: number_scale,
   prompt: prompt_on_a_scale,
   stimulus_duration: stimulus_duration,
-  stimulus_debrief: 'You would probably give this statement a rating toward the high end of the scale.',
+  // stimulus_debrief: 'You would probably give this statement a rating toward the low end of the scale.',
   lower_caption: rating_easy,
   upper_caption: rating_hard,
   cognitive_loading: true,
-  loading_magnitude: 4,
+  loading_magnitude: 3,
 };
 
-var practice_tf2 = {
+var practice_6 = {
   type: 'alternate-html-button-response',
-  stimulus: '(tf test sentence)',
+  stimulus: 'Some jewelry are rings.',
   choices: tf_scale,
   prompt: prompt_likely,
   stimulus_duration: stimulus_duration,
-  stimulus_debrief: '(some debrief)',
+  // stimulus_debrief: 'You would probably give this statement a rating toward the high end of the scale.',
   cognitive_loading: true,
   loading_magnitude: 4,
 };
@@ -159,7 +151,7 @@ var practice_tf2 = {
 var instruct_end_practice = {
   type: 'instructions',
   pages: [
-    'That\'s it for practice.<br/><br/>If you have any questions, ask the experimenter now.<br/><br/>When you are ready to continue, let the experimenter know.',
+    'That\'s it for practice.<br/><br/>If you have any questions, ask the experimenter now.<br/><br/>When you are ready to continue, press the right arrow.',
   ]
 };
 
@@ -197,31 +189,36 @@ var conclusion = {
 ****************************************************
 ****************************************************/
 var timeline = [];
-
-timeline.push(introduction);
-
-timeline.push(fixation);
-timeline.push(practice_1);
-timeline.push(fixation);
-timeline.push(practice_2);
-timeline.push(fixation);
-timeline.push(practice_tf1);
-timeline.push(instruct_practices_with_grid);
-timeline.push(fixation);
-timeline.push(practice_3);
-timeline.push(fixation);
-timeline.push(practice_4);
-timeline.push(fixation);
-timeline.push(practice_5);
-timeline.push(fixation);
-timeline.push(practice_tf2);
-timeline.push(instruct_end_practice);
-
+// TODO: latin square
 //TODO probs more efficient way to put fixations
 
+// timeline.push(introduction);
+//
+// timeline.push(fixation);
+// timeline.push(practice_1);
+// timeline.push(any_key_continue);
+// timeline.push(fixation);
+// timeline.push(practice_2);
+// timeline.push(any_key_continue);
+// timeline.push(fixation);
+// timeline.push(practice_3);
+timeline.push(instruct_practices_with_grid);
+timeline.push(here_we_go_continue);
+timeline.push(fixation);
+timeline.push(practice_4);
+timeline.push(any_key_continue);
+timeline.push(fixation);
+timeline.push(practice_5);
+timeline.push(any_key_continue);
+timeline.push(fixation);
+timeline.push(practice_6);
+timeline.push(instruct_end_practice);
 
 
-// TODO: latin square
+
+
+
+
 
 timeline.push(conclusion);
 
