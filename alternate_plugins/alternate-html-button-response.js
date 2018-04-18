@@ -1,12 +1,12 @@
 /**
- * jspsych-html-button-response
- * Josh de Leeuw
- *
- * plugin for displaying a stimulus and getting a keyboard response
- *
- * documentation: docs.jspsych.org
- *
- **/
+* alternate-jspsych-html-button-response
+* Based on Josh de Leeuw
+*
+* plugin for displaying a stimulus and getting a keyboard response-- with cognitive loading grid
+*
+* documentation: n/a
+*
+**/
 
 
 //FIXME the random flashes of junk
@@ -109,10 +109,16 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       loading_magnitude: {
         type: jsPsych.plugins.parameterType.INT,
         pretty_name: 'Loading magnitude',
-        default: null,
-        description: '3 for low loading, 4 for high loading.'
+        default: 5,
+        description: '1, 2, 3 for low loading, 4, 5 for high loading.'
       },
-	    grid_display_time: {
+      grid_size: {
+        type: jsPsych.plugins.parameterType.INT,
+        pretty_name: 'Grid size',
+        default: 16,
+        description: 'Size of the grid. Must be a squared number.'
+      },
+      grid_display_time: {
         type: jsPsych.plugins.parameterType.INT,
         pretty_name: 'Grid display time',
         default: 1800,
@@ -121,8 +127,14 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       grid_text: {
         type: jsPsych.plugins.parameterType.STRING,
         pretty_name: 'Grid display text',
-        default: "Select the cells that were highlighted in the original grid. Click the Submit button when you are done.",
+        default: 'Select the cells that were highlighted in the original grid. Click the Submit button when you are done.',
         description: 'Text to display along with the grid during user input clicks.'
+      },
+      condition: {
+        type: jsPsych.plugins.parameterType.STRING,
+        pretty_name: 'Trial condition',
+        default: null,
+        description: 's_u5_high etc.',
       },
     }
   }
@@ -133,7 +145,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     var tile_flipped=0;
     var generated_tile_ids=[];
     var user_input_tile_ids=[];
-    var grid_size= Math.pow(trial.loading_magnitude, 2);
+    // var grid_size= Math.pow(trial.grid_size, 2);
 
     var grid_fill='blue';
 
@@ -184,7 +196,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
         console.log("in debrief");
         setTimeout(end_trial, trial.debrief_duration);
       }
-//FIXME this part is mushy with the no dual-debrief-loading bill
+      //FIXME this part is mushy with the no dual-debrief-loading bill
       else if (trial.cognitive_loading) {
         console.log("here in line 194");
         // jsPsych.pluginAPI.setTimeout(function() {
@@ -210,6 +222,8 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
         // "rt": response.rt,
         // "stimulus": trial.stimulus,
         // "button_pressed": response.button
+        "cat a": "a",
+        "cat b": "b",
       };
 
       // clear the display
@@ -221,18 +235,19 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
 
     /*
     Randomly generates the to-be-remembered pattern
+    TODO FIXME loading sizes?
     TODO: Only choose cells that haven't been chosen before and are neighbors of
-     ones that have been chosen. The first cell is chosen randomly.
-     - we don't have to do that
-     - easy pattern- 3x3 grid,  make the pattern a straight line
-     - option: hard-code the original patterns, mirrors, and rotations (24 loads total)
-          see: xhp paper
-          we want to hard code / replicate the original patterns
+    ones that have been chosen. The first cell is chosen randomly.
+    - we don't have to do that
+    - easy pattern- 3x3 grid,  make the pattern a straight line
+    - option: hard-code the original patterns, mirrors, and rotations (24 loads total)
+    see: xhp paper
+    we want to hard code / replicate the original patterns
     */
     function generate_random_pattern() {
       var j;
       while(generated_tile_ids.length < trial.loading_magnitude) {
-        j = Math.floor(Math.random() * grid_size);
+        j = Math.floor(Math.random() * trial.grid_size);
         // valuex = 'tile_' + j;
         var index = generated_tile_ids.indexOf(j);
         if (index == -1) {
@@ -245,10 +260,8 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     Toggles the tile
     */
     function flip() {
-      // t.stopPropagation(); //?
       console.log("in flip()");
       var ids = this.id.slice(5);
-
       if (this.style.background == grid_fill) { // to unclick
         var index = user_input_tile_ids.indexOf(ids);
         if (index >= 0 ) {
@@ -268,18 +281,11 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     Initializes a new grid, generates new pattern, displays the pattern
     */
     function newBoard() {
-      // console.log("here");
-
-
-
       var output = '';
       tile_flipped = 0;
-
       document.getElementById("Verify_Test").disabled = true;
-
-      for(var i=0; i<grid_size; i++) {
-        // NOTE: do not ever flip here
-          output += '<div id="tile_'+i+'" class="tile"></div>';
+      for(var i=0; i<trial.grid_size; i++) {  // do not ever flip here
+        output += '<div id="tile_'+i+'" class="tile"></div>';
       }
       document.getElementById('board').innerHTML = output;
     }
@@ -290,18 +296,16 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       document.getElementById("Verify_Test").disabled = false;
       generate_random_pattern();
       console.log("generated random pattern");
-
       for(var i=0; i<trial.loading_magnitude; i++) {
         var ids = 'tile_'+ generated_tile_ids[i];
         var tile = document.getElementById(ids);
         tile.style.background = grid_fill;
         console.log("grid filled the single random tile");
       }
-
       console.log("colored in selected random tiles");
-
       setTimeout(do_stimulus_judgement, trial.grid_display_time); //NOTE here is where to set grid display time
     }
+
 
     /*
     Initializes a new grid, resets vars, gets user clicks
@@ -310,33 +314,29 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       console.log("preparing board for user input");
 
       console.log("line328");
-      if (grid_size < 10) {
+      // i believe the default is set for grid size = 16
+      if (trial.grid_size == 9) {
         document.getElementById("board").style.width='245px';
-        console.log("line331");
         document.getElementById("board").style.height='245px';
       }
 
-
-      // UNPURGE GRID REMNANTS
-      //PURGE PROMPT AND STIM
-        console.log("here in line 322");
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#board').style.display = 'block';
-        }, 0);
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#board-grid-text').style.display = 'block';
-        }, 0);
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#Verify_Test').style.display = 'block';
-        }, 0);
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#jspsych-html-button-response-prompt').style.display = 'none';
-        }, 0);
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#jspsych-html-button-response-rating').style.display = 'none';
-        }, 0);
-
-
+      // UNPURGE GRID REMNANTS, PURGE PROMPT AND STIM
+      console.log("here in line 322");
+      jsPsych.pluginAPI.setTimeout(function() {
+        display_element.querySelector('#board').style.display = 'block';
+      }, 0);
+      jsPsych.pluginAPI.setTimeout(function() {
+        display_element.querySelector('#board-grid-text').style.display = 'block';
+      }, 0);
+      jsPsych.pluginAPI.setTimeout(function() {
+        display_element.querySelector('#Verify_Test').style.display = 'block';
+      }, 0);
+      jsPsych.pluginAPI.setTimeout(function() {
+        display_element.querySelector('#jspsych-html-button-response-prompt').style.display = 'none';
+      }, 0);
+      jsPsych.pluginAPI.setTimeout(function() {
+        display_element.querySelector('#jspsych-html-button-response-rating').style.display = 'none';
+      }, 0);
 
 
       var output = '', j;
@@ -345,7 +345,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       user_input_tile_ids = [];
       // document.getElementById('board').innerHTML = "";
 
-      for (var i=0; i<grid_size; i++) {
+      for (var i=0; i<trial.grid_size; i++) {
         var result = 'tile_' + i;
         output += '<div id="'+ result +'" class="tile"></div>';
       }
@@ -353,7 +353,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       document.getElementById('board').innerHTML = output;
 
       console.log("waiting for clicks line 341");
-      for (var i=0; i<grid_size; i++) {
+      for (var i=0; i<trial.grid_size; i++) {
         var result = 'tile_' + i;
         var tile = document.getElementById(result);
         tile.addEventListener('click', flip);
@@ -404,39 +404,35 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
         change_score(0);
       }
 
-////////// display Right Almost or Wrong
-		      // purge everything except input_verdict
-//      if (trial.cognitive_loading) {
-//        jsPsych.pluginAPI.setTimeout(function() {
-//          display_element.querySelector('#debriefing').style.display = 'none';
-//        }, 0);
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#board').style.display = 'none';
-        }, 0);
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#board-grid-text').style.display = 'none';
-        }, 0);
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#Verify_Test').style.display = 'none';
-        }, 0);
-//        jsPsych.pluginAPI.setTimeout(function() {
-//          display_element.querySelector('#jspsych-html-button-response-prompt').style.display = 'none';
-//        }, 0);
-//        jsPsych.pluginAPI.setTimeout(function() {
-//          display_element.querySelector('#jspsych-html-button-response-rating').style.display = 'none';
-//        }, 0);
-//        jsPsych.pluginAPI.setTimeout(function() {
-//          display_element.querySelector('#verdict').style.display = 'block';
-//        }, 0);
-//      }
-//
-		 document.getElementById('input_verdict').innerHTML = verdict ;//+ "<br/>score: " + num_correct + "<br/>num_total: " + num_total;
+      ////////// display Right Almost or Wrong
+      // purge everything except input_verdict
+      //      if (trial.cognitive_loading) {
+      //        jsPsych.pluginAPI.setTimeout(function() {
+      //          display_element.querySelector('#debriefing').style.display = 'none';
+      //        }, 0);
+      jsPsych.pluginAPI.setTimeout(function() {
+        display_element.querySelector('#board').style.display = 'none';
+      }, 0);
+      jsPsych.pluginAPI.setTimeout(function() {
+        display_element.querySelector('#board-grid-text').style.display = 'none';
+      }, 0);
+      jsPsych.pluginAPI.setTimeout(function() {
+        display_element.querySelector('#Verify_Test').style.display = 'none';
+      }, 0);
+      //        jsPsych.pluginAPI.setTimeout(function() {
+      //          display_element.querySelector('#jspsych-html-button-response-prompt').style.display = 'none';
+      //        }, 0);
+      //        jsPsych.pluginAPI.setTimeout(function() {
+      //          display_element.querySelector('#jspsych-html-button-response-rating').style.display = 'none';
+      //        }, 0);
+      //        jsPsych.pluginAPI.setTimeout(function() {
+      //          display_element.querySelector('#verdict').style.display = 'block';
+      //        }, 0);
+      //      }
+      //
+      document.getElementById('input_verdict').innerHTML = verdict ;//+ "<br/>score: " + num_correct + "<br/>num_total: " + num_total;
 
-		//////////////
-
-	  jsPsych.pluginAPI.setTimeout(end_trial, 1000); //verdict_feedback_time
-
-
+      jsPsych.pluginAPI.setTimeout(end_trial, 1000); //verdict_feedback_time
     }
 
     /*
@@ -449,18 +445,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     }
 
 
-// DEBRIEF STUFF POSSIBLY LOST:
-// // the debrief
-// html += '<div class="debrief-stimulus">'+trial.stimulus_debrief+'</div>';
-// jsPsych.pluginAPI.setTimeout(function() {
-//   display_element.querySelector('#debrief-stimulus').style.display = 'none';
-// }, 0);
-
-
-
-
     function do_stimulus_judgement() {
-
       // PURGE GRID REMNANTS
       if (trial.cognitive_loading) {
         if (trial.stimulus_debrief != null) {
@@ -552,8 +537,6 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       };
 
 
-
-
       // hide image if timing is set
       if (trial.stimulus_duration !== null) {
         jsPsych.pluginAPI.setTimeout(function() {
@@ -589,39 +572,34 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       html += '<div id="board"> </div>';
       html += '<div id="board-grid-text">'+ trial.grid_text +'</div>';
       jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#board-grid-text').style.display = 'none';
-        }, 0);
+        display_element.querySelector('#board-grid-text').style.display = 'none';
+      }, 0);
 
       html += '<input type="button" id="Verify_Test" value="Submit"/>';
-	  jsPsych.pluginAPI.setTimeout(function() {
+      jsPsych.pluginAPI.setTimeout(function() {
         display_element.querySelector('#Verify_Test').style.display = 'none';
       }, 0);
 
-	  html += '<div id="input_verdict"> </div>'; //right, wrong, onlmost
-	  jsPsych.pluginAPI.setTimeout(function() {
+      html += '<div id="input_verdict"> </div>'; //right, wrong, almost
+      jsPsych.pluginAPI.setTimeout(function() {
         display_element.querySelector('#input_verdict').style.display = 'none';
       }, 0);
 
-
       display_element.innerHTML = html;
 
-	  if (grid_size < 10) {
-      	document.getElementById("board").style.width='245px';
-		document.getElementById("board").style.height='245px';
-	  }
+      if (trial.grid_size == 9) {
+        document.getElementById("board").style.width='245px';
+        document.getElementById("board").style.height='245px';
+      }
 
       newBoard();
       start_test();
-      // document.getElementById ("Verify_Test").addEventListener("click", verify_result, false);
     }
 
     else {
       console.log("hello no loading this trial");
       do_stimulus_judgement();
-
     }
-
-
   };
 
   return plugin;

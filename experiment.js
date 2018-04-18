@@ -120,7 +120,6 @@ var practice_4 = {
   lower_caption: rating_easy,
   upper_caption: rating_hard,
   cognitive_loading: true,
-  loading_magnitude: 3,
 };
 
 var practice_5 = {
@@ -133,7 +132,6 @@ var practice_5 = {
   lower_caption: rating_easy,
   upper_caption: rating_hard,
   cognitive_loading: true,
-  loading_magnitude: 3,
 };
 
 var practice_6 = {
@@ -144,9 +142,7 @@ var practice_6 = {
   stimulus_duration: stimulus_duration,
   // stimulus_debrief: 'You would probably give this statement a rating toward the high end of the scale.',
   cognitive_loading: true,
-  loading_magnitude: 4,
 };
-
 
 var instruct_end_practice = {
   type: 'instructions',
@@ -168,6 +164,45 @@ test the user input
 
 calculate and print score
 */
+
+// NOTE: based on VDTRatings4_R_1BH
+
+var trial_1 = {
+  type: 'alternate-html-button-response',
+  stimulus: 'Some dalmations are dogs.',
+  choices: number_scale,
+  prompt: prompt_on_a_scale,
+  stimulus_duration: stimulus_duration,
+  lower_caption: rating_easy,
+  upper_caption: rating_hard,
+  cognitive_loading: true,
+};
+
+var trial_2 = {
+  type: 'alternate-html-button-response',
+  stimulus: 'Some insects are beetles.',
+  choices: number_scale,
+  prompt: prompt_on_a_scale,
+  stimulus_duration: stimulus_duration,
+  lower_caption: rating_easy,
+  upper_caption: rating_hard,
+  cognitive_loading: true,
+  loading_magnitude: 3,
+  grid_size: 9,
+};
+
+var trial_3 = {
+  type: 'alternate-html-button-response',
+  stimulus: 'Some hammers are tools.',
+  choices: number_scale,
+  prompt: prompt_on_a_scale,
+  stimulus_duration: stimulus_duration,
+  lower_caption: rating_easy,
+  upper_caption: rating_hard,
+  cognitive_loading: true,
+  loading_magnitude: 3,
+  grid_size: 9,
+};
 
 
 /***************************************************
@@ -202,18 +237,27 @@ var timeline = [];
 // timeline.push(any_key_continue);
 // timeline.push(fixation);
 // timeline.push(practice_3);
-timeline.push(instruct_practices_with_grid);
-timeline.push(here_we_go_continue);
-timeline.push(fixation);
-timeline.push(practice_4);
-timeline.push(any_key_continue);
-timeline.push(fixation);
-timeline.push(practice_5);
-timeline.push(any_key_continue);
-timeline.push(fixation);
-timeline.push(practice_6);
-timeline.push(instruct_end_practice);
+// timeline.push(instruct_practices_with_grid);
+// timeline.push(here_we_go_continue);
+// timeline.push(fixation);
+// timeline.push(practice_4);
+// timeline.push(any_key_continue);
+// timeline.push(fixation);
+// timeline.push(practice_5);
+// timeline.push(any_key_continue);
+// timeline.push(fixation);
+// timeline.push(practice_6);
+// timeline.push(instruct_end_practice);
 
+timeline.push(here_we_go_continue);
+
+/* real trials */
+var trials = [trial_1, trial_2, trial_3];
+for (var i = 0; i < trials.length; i++) {
+    timeline.push(fixation);
+    timeline.push(trials[i]);
+    timeline.push(any_key_continue);
+}
 
 
 
