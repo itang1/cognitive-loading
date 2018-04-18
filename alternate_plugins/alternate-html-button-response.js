@@ -26,12 +26,24 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
         default: undefined,
         description: 'The HTML string to be displayed'
       },
+      is_practice: {
+        type: jsPsych.plugins.parameterType.BOOL,
+        pretty_name: 'Is practice trial?',
+        default: false,
+        description: 'Whether or not the trial is for practice.'
+      },
       choices: {
         type: jsPsych.plugins.parameterType.STRING,
         pretty_name: 'Choices',
         default: undefined,
         array: true,
         description: 'The labels for the buttons.'
+      },
+      scale_type: {
+        type: jsPsych.plugins.parameterType.STRING,
+        pretty_name: 'Scale type',
+        default: null,
+        description: 'Number or boolean',
       },
       button_html: {
         type: jsPsych.plugins.parameterType.STRING,
@@ -136,10 +148,61 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
         default: null,
         description: 's_u5_high etc.',
       },
+      hits: {
+        type: jsPsych.plugins.parameterType.INT,
+        pretty_name: 'Hits on grid',
+        default: 0,
+        description: 'Hits on grid',
+      },
+      misses: {
+        type: jsPsych.plugins.parameterType.INT,
+        pretty_name: 'Misses on grid',
+        default: 0,
+        description: 'Misses on grid',
+      },
+      false_alarms: {
+        type: jsPsych.plugins.parameterType.INT,
+        pretty_name: 'False alarms on grid',
+        default: 0,
+        description: 'False alarms on grid',
+      },
+      rating: {
+        type: jsPsych.plugins.parameterType.STRING,
+        pretty_name: 'Rating',
+        default: null,
+        description: 'Which button was pressed, e.g. 7 or True ',
+      },
+      correct_answer: {
+        type: jsPsych.plugins.parameterType.STRING,
+        pretty_name: 'Correct answer for rating',
+        default: null,
+        description: 'Correct answer for rating',
+      },
+      rating_rt: {
+        type: jsPsych.plugins.parameterType.INT,
+        pretty_name: 'Rating RT',
+        default: null,
+        description: 'Rating response time',
+      },
+      grid_rt: {
+        type: jsPsych.plugins.parameterType.INT,
+        pretty_name: 'Grid RT',
+        default: null,
+        description: 'Grid task response time',
+      },
+      subject_id: {
+        type: jsPsych.plugins.parameterType.STRING,
+        pretty_name: 'Subject ID',
+        default: null,
+        description: 'Random subject ID, to be generated',
+      },
     }
   }
 
   plugin.trial = function(display_element, trial) {
+    //generates a random subject ID with 15 characters
+    trial.subject_id = jsPsych.randomization.randomID(15);
+
     var html = '';
 
     var tile_flipped=0;
@@ -152,18 +215,21 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     var num_correct=0; //score
     var num_total=0;
 
-    var rt;
-    var end_time;
-    var start_time;
+    // var rating_rt; //response time for rating = end - start
+    var rating_end_time;
+    var rating_start_time;
+    // var grid_rt;
+    var grid_end_time;
+    var grid_start_time;
 
     // function to handle responses by the subject
     function after_response(choice) {
 
       // measure rt
-      end_time = Date.now();
-      rt = end_time - start_time;
-      // response.button = choice;
-      // response.rt = rt;
+      rating_end_time = Date.now();
+      trial.rating_rt = rating_end_time - rating_start_time;
+
+      trial.rating = choice;
 
 
       // after a valid response, the stimulus will have the CSS class 'responded'
@@ -198,6 +264,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       }
       //FIXME this part is mushy with the no dual-debrief-loading bill
       else if (trial.cognitive_loading) {
+        grid_start_time = Date.now()
         console.log("here in line 194");
         // jsPsych.pluginAPI.setTimeout(function() {
         //   display_element.querySelector('#board').style.display = 'none';
@@ -219,11 +286,17 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
 
       // gather the data to store for the trial
       var trial_data = {
-        // "rt": response.rt,
-        // "stimulus": trial.stimulus,
-        // "button_pressed": response.button
-        "cat a": "a",
-        "cat b": "b",
+        "stimulus": trial.stimulus,
+        "rating": trial.rating,
+        "condition": trial.condition,
+        "with loading": trial.cognitive_loading,
+        "rating_rt": trial.rating_rt,
+        "grid_rt": trial.grid_rt,
+        "scale type": trial.scale_type,
+        "correct anser": trial.correct_answer,
+        "hits": trial.hits,
+        "misses": trial.misses,
+        "false alarms": trial.false_alarms,
       };
 
       // clear the display
@@ -368,31 +441,27 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     Increments num_correct and num_total appropriately
     */
     function verify_result() {
+      grid_end_time = Date.now();
+      trial.grid_rt = grid_end_time - grid_start_time;
 
       document.getElementById("Verify_Test").disabled = true;
       var index, tile_value, num_wrong=0;
 
       // count how many of user_input are hits, misses, false alarms
-      var hits=0, false_alarms=0, misses=0;
+      // var hits=0, false_alarms=0, misses=0;
       for (var i = 0; i < user_input_tile_ids.length; i++) {
         tile_value = Number(user_input_tile_ids[i]);
         index = generated_tile_ids.indexOf(tile_value);
 
         if (index < 0) {
-          false_alarms += 1;
+          trial.false_alarms += 1;
         } else {
-          hits += 1;
+          trial.hits += 1;
         }
       }
-      misses = generated_tile_ids.length - hits;
+      trial.misses = generated_tile_ids.length - trial.hits;
 
-      // TODO: keep track of hits/misses/falsealarms which is different
-
-      // update scores according to num_wrong
-      // 1 point for correct, 0.5 point for almost, 0 point for wrong
-      // num_wrong = misses + false_alarms; //FIXME scoring scheme--?
-      // no need to keep track of response
-      num_wrong = Math.max(misses, false_alarms);
+      num_wrong = Math.max(trial.misses, trial.false_alarms);
       if (num_wrong == 0) {
         verdict = 'Right';
         change_score(1);
@@ -400,7 +469,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
         verdict = 'Almost';
         change_score(0.5);
       } else {
-        verdict = 'Wrong';
+        verdict = 'Not Quite';
         change_score(0);
       }
 
@@ -506,7 +575,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       display_element.innerHTML = html;
 
       // start time
-      start_time = Date.now();
+      rating_start_time = Date.now();
 
       // add event listeners to buttons
       for (var i = 0; i < trial.choices.length; i++) {
@@ -529,13 +598,6 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       jsPsych.pluginAPI.setTimeout(function() {
         display_element.querySelector('#jspsych-html-button-response-rating').style.display = 'none';
       }, 0);
-
-      // store response
-      var response = {
-        rt: null,
-        button: null
-      };
-
 
       // hide image if timing is set
       if (trial.stimulus_duration !== null) {
@@ -570,6 +632,7 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     if (trial.cognitive_loading) {
       console.log("hello inside trial.cognitive_loading");
       html += '<div id="board"> </div>';
+
       html += '<div id="board-grid-text">'+ trial.grid_text +'</div>';
       jsPsych.pluginAPI.setTimeout(function() {
         display_element.querySelector('#board-grid-text').style.display = 'none';
