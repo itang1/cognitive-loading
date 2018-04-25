@@ -20,3 +20,8 @@ div#board > div {
   cursor:pointer;
   text-align:center;
 }
+
+div#debriefing{
+  display:none;
+}
+

@@ -1,6 +1,10 @@
 // NOTE look ito external-HTML, free-sort packages
 // NOTE some script features are not supported in IE8 or earlier versions
-
+var input_data = null;
+var loading_data = {
+  type: 'call-function',
+  func: function(){ getInput()}
+}
 /***************************************************
 ****************************************************
 **** PREFERENCES ***********************************
@@ -257,6 +261,7 @@ timeline.push({
 // TODO: latin square
 //TODO probs more efficient way to put fixations
 
+timeline.push(loading_data);
 timeline.push(introduction);
 
 timeline.push(fixation);
@@ -316,7 +321,24 @@ function saveData(name, data){
   xhr.send(JSON.stringify({filename: name, filedata: data}));
 }
 
+function getInput(){
+  console.log("hello");
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'inputs/test_ratings.csv', true);
+  xhr.responseType = 'text';
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4){
+      if(xhr.status == 200) {
+	input_data = xhr.responseText;
+	console.log(input_data);
+      }
+    }
+  };
+  xhr.send(null);
+}
+
 jsPsych.init({
+
   timeline: timeline,
   // exclusions: {
   //   min_width: 800,

@@ -1,0 +1,5 @@
+TF or R, Load (H, L)
+Practice 1, Practice 2, Practice 3, Practice 4, Practice 5
+Trial 1
+Trial 2
+Trial 3
