@@ -75,7 +75,6 @@ var practice_1 = {
   choices: number_scale,
   prompt: prompt_on_a_scale,
   stimulus_duration: stimulus_duration,
-  stimulus_debrief: 'It is unlikely that a knowledgeable speaker would say this, so you should give this statement a rating toward the low end of the scale.',
   lower_caption: rating_easy,
   upper_caption: rating_hard,
   post_trial_gap: post_trial_gap,
@@ -83,7 +82,7 @@ var practice_1 = {
 
 var practice_1_debrief = {
   type: 'html-keyboard-response',
-  stimulus: 'Some schools are books.</br></br>It is unlikely that a knowledgeable speaker would say this, so you should give this statement a rating toward the low end of the scale. </br></br></br> Press any key to continue',
+  stimulus: 'Some schools are books.</br></br>It is unlikely that a knowledgeable speaker would say this, so you should give this statement a rating toward the low end of the scale.</br></br></br>Press any key to continue',
 };
 
 var practice_2 = {
@@ -93,14 +92,13 @@ var practice_2 = {
   choices: number_scale,
   prompt: prompt_on_a_scale,
   stimulus_duration: stimulus_duration,
-  stimulus_debrief: 'This is a reasonable thing for a knowledgable speaker to say, so you should give this statement a rating toward the high end of the scale.',
   lower_caption: rating_easy,
   upper_caption: rating_hard,
 };
 
 var practice_2_debrief = {
   type: 'html-keyboard-response',
-  stimulus: 'All tables are furniture.</br></br>This is a reasonable thing for a knowledgable speaker to say, so you should give this statement a rating toward the high end of the scale.',
+  stimulus: 'All tables are furniture.</br></br>This is a reasonable thing for a knowledgable speaker to say, so you should give this statement a rating toward the high end of the scale.</br></br></br>Press any key to continue',
 };
 
 var practice_3 = {
@@ -110,12 +108,11 @@ var practice_3 = {
   choices: tf_scale,
   prompt: prompt_likely,
   stimulus_duration: stimulus_duration,
-  stimulus_debrief: 'The answer to this question was \'True\', because every tabl is a kind of furniture.',
 };
 
 var practice_3_debrief = {
   type: 'html-keyboard-response',
-  stimulus: 'All tables are furniture.</br></br>The answer to this question was \'True\', because every tabl is a kind of furniture.',
+  stimulus: 'All tables are furniture.</br></br>The answer to this question was \'True\', because every tabl is a kind of furniture.</br></br></br>Press any key to continue',
 };
 
 var instruct_practices_with_grid = {
@@ -139,7 +136,7 @@ var practice_4 = {
 
 var practice_4_debrief = {
   type: 'html-keyboard-response',
-  stimulus: 'Some toasters are mammals.</br></br>You would probably give this statement a rating toward the low end of the scale',
+  stimulus: 'Some toasters are mammals.</br></br>You would probably give this statement a rating toward the low end of the scale.</br></br></br>Press any key to continue',
 };
 
 var practice_5 = {
@@ -149,7 +146,6 @@ var practice_5 = {
   choices: number_scale,
   prompt: prompt_on_a_scale,
   stimulus_duration: stimulus_duration,
-  // stimulus_debrief: 'You would probably give this statement a rating toward the low end of the scale.',
   lower_caption: rating_easy,
   upper_caption: rating_hard,
   cognitive_loading: true,
@@ -162,7 +158,6 @@ var practice_6 = {
   choices: tf_scale,
   prompt: prompt_likely,
   stimulus_duration: stimulus_duration,
-  // stimulus_debrief: 'You would probably give this statement a rating toward the high end of the scale.',
   cognitive_loading: true,
 };
 

@@ -70,18 +70,6 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
         default: null,
         description: 'How long to show the trial.'
       },
-      stimulus_debrief: {
-        type: jsPsych.plugins.parameterType.STRING,
-        pretty_name: 'Stimulus debrief',
-        default: null,
-        description: 'Explain how the stimulus should be rated.'
-      },
-      debrief_duration: { //TODO this shoud be replaced with Next button...
-        type: jsPsych.plugins.parameterType.INT,
-        pretty_name: 'Debrief duration',
-        default: 6000, //FIXME
-        description: 'How long to show the debrief.'
-      },
       margin_vertical: {
         type: jsPsych.plugins.parameterType.STRING,
         pretty_name: 'Margin vertical',
@@ -244,26 +232,27 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       }
 
       // end trial
-      if (trial.stimulus_debrief) {
-
-        if (trial.cognitive_loading) {
-          // ERROR please please no debrief with loading please
-          alert("error please no debrief with loading please no please");
-        }
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#debriefing').style.display = 'block';
-        }, 0);
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#jspsych-html-button-response-prompt').style.display = 'none';
-        }, 0);
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#jspsych-html-button-response-rating').style.display = 'none';
-        }, 0);
-        console.log("in debrief");
-        setTimeout(end_trial, trial.debrief_duration);
-      }
+      // if (trial.stimulus_debrief) {
+      //
+      //   if (trial.cognitive_loading) {
+      //     // ERROR please please no debrief with loading please
+      //     alert("error please no debrief with loading please no please");
+      //   }
+      //   jsPsych.pluginAPI.setTimeout(function() {
+      //     display_element.querySelector('#debriefing').style.display = 'block';
+      //   }, 0);
+      //   jsPsych.pluginAPI.setTimeout(function() {
+      //     display_element.querySelector('#jspsych-html-button-response-prompt').style.display = 'none';
+      //   }, 0);
+      //   jsPsych.pluginAPI.setTimeout(function() {
+      //     display_element.querySelector('#jspsych-html-button-response-rating').style.display = 'none';
+      //   }, 0);
+      //   console.log("in debrief");
+      //   setTimeout(end_trial, trial.debrief_duration);
+      // }
       //FIXME this part is mushy with the no dual-debrief-loading bill
-      else if (trial.cognitive_loading) {
+      // else if (trial.cognitive_loading) {
+      if (trial.cognitive_loading) {
         grid_start_time = Date.now()
         console.log("here in line 194");
         // jsPsych.pluginAPI.setTimeout(function() {
@@ -517,11 +506,11 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
     function do_stimulus_judgement() {
       // PURGE GRID REMNANTS
       if (trial.cognitive_loading) {
-        if (trial.stimulus_debrief != null) {
-          jsPsych.pluginAPI.setTimeout(function() {
-            display_element.querySelector('#debriefing').style.display = 'none';
-          }, 0);
-        }
+        // if (trial.stimulus_debrief != null) {
+        //   jsPsych.pluginAPI.setTimeout(function() {
+        //     display_element.querySelector('#debriefing').style.display = 'none';
+        //   }, 0);
+        // }
         jsPsych.pluginAPI.setTimeout(function() {
           display_element.querySelector('#board').style.display = 'none';
         }, 0);
@@ -587,11 +576,11 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       }
 
       // buttons, prompt, and debrief are hidden at start
-      if (trial.stimulus_debrief != null) {
-        jsPsych.pluginAPI.setTimeout(function() {
-          display_element.querySelector('#debriefing').style.display = 'none';
-        }, 0);
-      }
+      // if (trial.stimulus_debrief != null) {
+      //   jsPsych.pluginAPI.setTimeout(function() {
+      //     display_element.querySelector('#debriefing').style.display = 'none';
+      //   }, 0);
+      // }
       jsPsych.pluginAPI.setTimeout(function() {
         display_element.querySelector('#jspsych-html-button-response-prompt').style.display = 'none';
       }, 0);
@@ -623,12 +612,12 @@ jsPsych.plugins["alternate-html-button-response"] = (function() {
       // }
     }
 
-    if (trial.stimulus_debrief != null){
-      html += '<div id="debriefing">'+trial.stimulus + '</br></br>' + trial.stimulus_debrief+'</div>';
-      jsPsych.pluginAPI.setTimeout(function() {
-        display_element.querySelector('#debriefing').style.display = 'none';
-      }, 0);
-    }
+    // if (trial.stimulus_debrief != null){
+    //   html += '<div id="debriefing">'+trial.stimulus + '</br></br>' + trial.stimulus_debrief+'</div>';
+    //   jsPsych.pluginAPI.setTimeout(function() {
+    //     display_element.querySelector('#debriefing').style.display = 'none';
+    //   }, 0);
+    // }
     if (trial.cognitive_loading) {
       console.log("hello inside trial.cognitive_loading");
       html += '<div id="board"> </div>';
