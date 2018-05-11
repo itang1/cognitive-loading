@@ -1,10 +1,17 @@
-// NOTE look ito external-HTML, free-sort packages
 // NOTE some script features are not supported in IE8 or earlier versions
 var input_data = null;
+var input_obj = null;
+var url = new URL(window.location.href);
+var input_list = url.searchParams.get("thing");
 var loading_data = {
-  type: 'call-function',
-  func: function(){ getInput()}
-}
+    type: 'call-function',
+    func: function(){ getInput()}
+};
+var turk_id = {
+    type: 'survey-text',
+    questions:[{prompt: "Please enter your Mechanical Turk ID:"}],
+};
+
 /***************************************************
 ****************************************************
 **** PREFERENCES ***********************************
@@ -15,7 +22,7 @@ var number_scale = ['1', '2', '3', '4', '5', '6', '7'];
 var tf_scale = ['True', 'False'];
 // The message presented along with ratings:
 var prompt_on_a_scale = 'How natural it would be for a knowledgeable person to utter that statement?';
-var prompt_likely = 'True or False: It is likely that a knolwedgeabol speaker would utter this sentence.';
+var prompt_likely = 'True or False: It is likely that a knolwedgeable speaker would utter this sentence.';
 //var rating_message = 'How likely is it for a knowledgeable speaker to utter this sentence?';
 // The label at the low end of the rating scale:
 var rating_easy = 'Very unlikely';
@@ -258,16 +265,15 @@ timeline.push({
   fullscreen_mode: true
 });
 
-// TODO: latin square
-//TODO probs more efficient way to put fixations
-
 timeline.push(loading_data);
+//timeline.push(turk_id);
 timeline.push(introduction);
 
 timeline.push(fixation);
 timeline.push(practice_1);
 timeline.push(practice_1_debrief);
 timeline.push(any_key_continue);
+
 timeline.push(fixation);
 timeline.push(practice_2);
 timeline.push(practice_2_debrief);
@@ -291,12 +297,12 @@ timeline.push(instruct_end_practice);
 timeline.push(here_we_go_continue);
 
 /* real trials */
-var trials = [trial_1, trial_2, trial_3];
+/*var trials = [trial_1, trial_2, trial_3];
 for (var i = 0; i < trials.length; i++) {
     timeline.push(fixation);
     timeline.push(trials[i]);
     timeline.push(any_key_continue);
-}
+}*/
 
 
 
@@ -316,29 +322,38 @@ timeline.push({
 
 function saveData(name, data){
   var xhr = new XMLHttpRequest();
-  xhr.open('POST', 'write_data.php'); // 'write_data.php' is the path to the php file described above.
+  xhr.open('POST', 'write_data.py'); 
   xhr.setRequestHeader('Content-Type', 'application/json');
-  xhr.send(JSON.stringify({filename: name, filedata: data}));
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4){
+      console.log("everything is a ok!!");
+	  console.log(xhr.responseText);
+      //console.log(JSON.stringify({filename: name, filedata: data}));
+    }
+  };
+  xhr.send(data);
+
 }
 
 function getInput(){
-  console.log("hello");
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'inputs/test_ratings.csv', true);
-  xhr.responseType = 'text';
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState == 4){
-      if(xhr.status == 200) {
-	input_data = xhr.responseText;
-	console.log(input_data);
-      }
-    }
-  };
-  xhr.send(null);
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'inputs/test_ratings.json', true);
+    xhr.responseType = 'text';
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4){
+            if(xhr.status == 200) {
+	        input_data = xhr.responseText;
+                input_obj = JSON.parse(input_data);
+	        //console.log(input_data);
+            }
+        }
+    };
+    xhr.send(null);
+    // console.log(input_data);
 }
 
-jsPsych.init({
 
+jsPsych.init({
   timeline: timeline,
   // exclusions: {
   //   min_width: 800,
@@ -346,6 +361,10 @@ jsPsych.init({
   // },
   on_finish: function() {
     jsPsych.data.displayData();
-    saveData("experiment_data.csv", jsPsych.data.get().csv()); //TODO should probs use a unique filename each time or else overwritten
+    console.log(input_list);
+    console.log(input_data);
+    console.log(input_obj[0].sent);
+    console.log(input_obj[1].sent);
+    saveData("experiment_data.csv", jsPsych.data.get().json()); //TODO should probs use a unique filename each time or else overwritten
   }
 });
